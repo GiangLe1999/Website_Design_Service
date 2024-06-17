@@ -2,32 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+    --gradient: #010a44;
+    --background: 246 99.85% 98.28%;
+    --foreground: 246 9.7% 0.56%;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+    --muted: 246 9.7% 91.4%;
+    --muted-foreground: 246 4.85% 41.4%;
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+    --popover: 246 12.400000000000006% 91.4%;
+    --popover-foreground: 246 9.7% 0.7000000000000001%;
+
+    --card: 246 12.400000000000006% 91.4%;
+    --card-foreground: 246 9.7% 0.7000000000000001%;
+
+    --border: 246 14.7% 89.56%;
+    --input: 246 14.7% 89.56%;
+
+    --primary: 246 97% 14%;
+    --primary-foreground: 246 1.94% 91.4%;
+
+    --secondary: 16 94% 48%;
+    --secondary-foreground: 16 9.399999999999999% 4.8%;
+
+    --accent: 16 94% 48%;
+    --accent-foreground: 16 9.399999999999999% 4.8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --ring: 246 97% 14%;
+
+    --radius: 0.5rem;
   }
 }

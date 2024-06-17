@@ -1,0 +1,12 @@
+{
+  "common": {
+    "incoming": "Sắp diễn ra",
+    "ongoing": "Đang diễn ra",
+    "finished": "Hoàn thành",
+    "canceled": "Hủy bỏ",
+    "day": "ngày",
+    "year": "năm",
+    "years": "năm",
+    "vnd": "VNĐ"
+  }
+}

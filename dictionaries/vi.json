@@ -1,0 +1,12 @@
+{
+  "common": {
+    "incoming": "Incoming",
+    "ongoing": "Ongoing",
+    "finished": "Finished",
+    "canceled": "Canceled",
+    "day": "day",
+    "year": "year",
+    "years": "years",
+    "vnd": "VND"
+  }
+}
