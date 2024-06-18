@@ -58,6 +58,26 @@ const LanguageSwitcher: FC<Props> = (props): JSX.Element => {
     });
   };
 
+  const changeToVietnameseLocale = () => {
+    if (locale === "vi") return;
+
+    router.replace(
+      // @ts-ignore
+      { pathname, params },
+      { locale: "vi" }
+    );
+  };
+
+  const changeToEnglishLocale = () => {
+    if (locale === "en") return;
+
+    router.replace(
+      // @ts-ignore
+      { pathname, params },
+      { locale: "en" }
+    );
+  };
+
   return (
     // <button
     //   className="uppercase font-bold text-primary opacity-70 hover:opacity-100 transition-opacity text-sm"
@@ -84,7 +104,7 @@ const LanguageSwitcher: FC<Props> = (props): JSX.Element => {
         <ul>
           <li
             className="flex items-center gap-3 p-3 border-b cursor-pointer bg-white hover:bg-gray-100 transition"
-            onClick={changeLocaleHandler}
+            onClick={changeToVietnameseLocale}
           >
             <Image
               src={VNFlag}
@@ -98,7 +118,7 @@ const LanguageSwitcher: FC<Props> = (props): JSX.Element => {
           </li>
           <li
             className="flex items-center gap-3 p-3 cursor-pointer bg-white hover:bg-gray-100 transition"
-            onClick={changeLocaleHandler}
+            onClick={changeToEnglishLocale}
           >
             <Image
               src={ENFlag}
