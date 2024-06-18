@@ -11,8 +11,8 @@
     --muted: 246 9.7% 91.4%;
     --muted-foreground: 246 4.85% 41.4%;
 
-    --popover: 246 12.400000000000006% 91.4%;
-    --popover-foreground: 246 9.7% 0.7000000000000001%;
+    --popover: #fff;
+    --popover-foreground: #fff;
 
     --card: 246 12.400000000000006% 91.4%;
     --card-foreground: 246 9.7% 0.7000000000000001%;

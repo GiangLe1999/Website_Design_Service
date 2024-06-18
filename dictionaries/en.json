@@ -1,12 +1,14 @@
 {
-  "common": {
-    "incoming": "Sắp diễn ra",
-    "ongoing": "Đang diễn ra",
-    "finished": "Hoàn thành",
-    "canceled": "Hủy bỏ",
-    "day": "ngày",
-    "year": "năm",
-    "years": "năm",
-    "vnd": "VNĐ"
+  "header": {
+    "website_design": "Website Design",
+    "property_website": "Property Website",
+    "furniture_website": "Interior Website",
+    "ecommerce_website": "E-commerce",
+    "travel_website": "Travel Website",
+    "business_website": "Business Website",
+    "blog": "Blog",
+    "contact": "Contact",
+    "vietnamese": "Vietnamese",
+    "english": "English"
   }
 }

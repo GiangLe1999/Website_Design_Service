@@ -1,3 +1,4 @@
+import Header from "@/components/header";
 import { FC, ReactNode } from "react";
 
 interface Props {
@@ -5,7 +6,12 @@ interface Props {
 }
 
 const PublicPagesLayout: FC<Props> = ({ children }): JSX.Element => {
-  return <div>{children}</div>;
+  return (
+    <>
+      <Header />
+      {children}
+    </>
+  );
 };
 
 export default PublicPagesLayout;

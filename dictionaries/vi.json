@@ -1,12 +1,14 @@
 {
-  "common": {
-    "incoming": "Incoming",
-    "ongoing": "Ongoing",
-    "finished": "Finished",
-    "canceled": "Canceled",
-    "day": "day",
-    "year": "year",
-    "years": "years",
-    "vnd": "VND"
+  "header": {
+    "website_design": "Thiết kế website",
+    "property_website": "Website BĐS",
+    "furniture_website": "Website nội thất",
+    "ecommerce_website": "Website bán hàng",
+    "travel_website": "Website du lịch",
+    "business_website": "Website doanh nghiệp",
+    "blog": "Blog",
+    "contact": "Contact",
+    "vietnamese": "Tiếng Việt",
+    "english": "Tiếng Anh"
   }
 }
