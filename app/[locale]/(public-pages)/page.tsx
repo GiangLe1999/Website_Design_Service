@@ -1,5 +1,9 @@
-import Image from "next/image";
+import Section1 from "@/components/home-page/section-1";
 
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <Section1 />
+    </>
+  );
 }

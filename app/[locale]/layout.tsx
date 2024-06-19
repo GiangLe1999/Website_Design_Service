@@ -1,17 +1,10 @@
 import type { Metadata } from "next";
-import { Philosopher, Raleway } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "../globals.css";
 import { cn } from "@/lib/utils";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { locales } from "../config";
 import { unstable_setRequestLocale } from "next-intl/server";
-
-const philosopher = Philosopher({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  display: "block",
-  variable: "--font-philosopher",
-});
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -57,9 +50,7 @@ export default function RootLayout({
         sizes="16x16"
         href="/static/favicons/favicon-16x16.png"
       />
-      <body
-        className={cn(raleway.className, philosopher.variable, "antialiased")}
-      >
+      <body className={cn(raleway.className, "antialiased")}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="flex h-screen flex-col justify-between">
             <div className="mb-auto">{children}</div>

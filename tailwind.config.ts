@@ -10,9 +10,6 @@ const config = {
   ],
   prefix: "",
   theme: {
-    fontFamily: {
-      philosopher: ["var(--font-philosopher)", "sans-serif"],
-    },
     container: {
       center: true,
       padding: {

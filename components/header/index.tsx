@@ -1,14 +1,33 @@
-import { FC, useMemo } from "react";
-import SectionContainer from "../section-container";
+"use client";
+
+import { FC, useEffect, useMemo, useState } from "react";
 import Logo from "../logo";
 import { Link } from "@/app/navigation";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "./language-switcher";
+import { cn } from "@/lib/utils";
 
 interface Props {}
 
 const Header: FC<Props> = (props): JSX.Element => {
   const t = useTranslations("header");
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const headerItems = useMemo(
     () => [
@@ -49,8 +68,14 @@ const Header: FC<Props> = (props): JSX.Element => {
   );
 
   return (
-    <header className="container">
-      <SectionContainer>
+    <header
+      itemType="https://schema.org/WPHeader"
+      className={cn(
+        "fixed inset-x-0 top-0 z-50 transition",
+        scrolled ? "bg-white shadow border-b" : "bg-transparent"
+      )}
+    >
+      <div className="container">
         <div className="flex justify-between py-[10px] h-[100px]">
           <div className="flex items-center gap-[30px]">
             <Link className="w-[107px]" href="/">
@@ -77,7 +102,7 @@ const Header: FC<Props> = (props): JSX.Element => {
             <LanguageSwitcher />
           </div>
         </div>
-      </SectionContainer>
+      </div>
     </header>
   );
 };

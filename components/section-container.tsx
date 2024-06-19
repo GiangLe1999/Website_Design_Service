@@ -5,14 +5,20 @@ interface Props {
   children: ReactNode;
   maxWidth?: string;
   padding?: string;
+  customClassName?: string;
 }
 
 const SectionContainer: FC<Props> = ({
   children,
   maxWidth = "max-w-[1200px]",
   padding = "px-5",
+  customClassName = "",
 }): JSX.Element => {
-  return <div className={cn("mx-auto", maxWidth, padding)}>{children}</div>;
+  return (
+    <div className={cn("mx-auto", maxWidth, padding, customClassName)}>
+      {children}
+    </div>
+  );
 };
 
 export default SectionContainer;
