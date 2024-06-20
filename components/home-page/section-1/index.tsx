@@ -1,6 +1,5 @@
 import SectionContainer from "@/components/section-container";
 import { useLocale, useTranslations } from "next-intl";
-import { unstable_setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { FC } from "react";
 import computer from "@/public/home-page/thiet-ke-website-tpbmt.png";
@@ -9,7 +8,6 @@ interface Props {}
 
 const Section1: FC<Props> = (props): JSX.Element => {
   const locale = useLocale();
-  unstable_setRequestLocale(locale);
   const t = useTranslations("home_page.section_1");
 
   return (
