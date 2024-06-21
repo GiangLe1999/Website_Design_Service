@@ -12,14 +12,44 @@
     "english": "English"
   },
   "home_page": {
+    "section_ids": {
+      "design_service": "professional_website_design_service",
+      "why_needed": "why_should_you_design_a_website"
+    },
     "section_1": {
-      "id": "#professional_website_design_service",
       "heading_1_part_1": "RiverLee Web Agency provides",
       "heading_1_part_2": "professional website design services",
       "heading_1_part_3": "with credibility",
       "paragraph_1": "Over 90% of customers at <bold>RiverLee Agency</bold> expect to have a <bold>professional website design</bold> that operates efficiently, supports increased revenue, meets the best SEO standards, and features impressive and attractive designs suitable for their industry characteristics at the most economical cost. We, <bold>RiverLee, a reputable web design company</bold> in Buon Ma Thuot city, are continuously working on the most optimal solutions for these expectations, ready to be a reliable companion for our customers.",
       "paragraph_2": "<italic>“Thuy Thu Agency always focuses on the user experience when using the website. 100% of the websites 'launched' at Thuy Thu ensure good display on multiple devices (PC, Mobile, Tablet…), fast page loading speed, and keep up with the latest design trends in the world,”</italic> shared Mr. Giang – Account Director.",
-      "paragraph_3": "Mr. Le Thanh Giang is currently the Business Director at RiverLee Agency. With over 2 years of experience in the field of website design, he has had the opportunity to become a strategic consultant on building and developing websites for hundreds of clients, from businesses, shop owners, to individuals. He believes that every website is the most impressive introduction of its owner to their customers and partners."
+      "paragraph_3": "Mr. Le Thanh Giang is currently the Business Director at RiverLee Agency. With over 2 years of experience in the field of website design, he has had the opportunity to become a strategic consultant on building and developing websites for hundreds of clients, from businesses, shop owners, to individuals. He believes that every website is the most impressive introduction of its owner to their customers and partners.",
+      "image_1": "Website design for Buon Ma Thuot city",
+      "image_2": "SEO standard website design",
+      "image_3": "Affordable website design",
+      "image_4": "High-performance website design",
+      "image_5": "User-friendly website design"
+    },
+    "section_2": {
+      "heading_part_1": "Web Design - Essential Tool in",
+      "heading_part_2": "the “Digital Transformation Race” of Businesses.",
+      "paragraph_1": "In Vietnam, there are over 45,200 searches for keywords like “website design” or <bold>“website design services”</bold> every month, with thousands of <bold>web designs</bold> being created across various fields. But what percentage of these can truly satisfy owners, operate smoothly, and deliver optimal results?",
+      "paragraph_2": "With just a few simple steps, the keyword “professional web design” leads you to hundreds of different <bold>web development services</bold>. The diversity in costs and service packages, implemented through various programming technologies, differing strategies, and execution processes... each provider has enriched this field of website construction with a broader spectrum.",
+      "paragraph_3": "Moreover, <bold>business entities</bold> that emerged earlier have also begun expanding into the online business market to increase market share and better reach the many customers they once missed out on. Hence, the competition among businesses in the same industry is fiercer than ever.",
+      "paragraph_4": "According to a recent study by the Australian Government's Trade and Investment Agency, Vietnam ranks third in Southeast Asia in terms of the number of startups. Also, according to data from the Business Registration Management Agency (Ministry of Planning and Investment), from 2016 to 2019, Vietnam saw over 126,000 new business establishments annually, a 1.6-fold increase compared to the period from 2011 to 2015.",
+      "paragraph_5": "Furthermore, the trend of searching for information and shopping online has been booming recently and promises to continue leading in upcoming trends. A new battle has begun, the race for digital business transformation."
+    },
+    "section_4": {
+      "paragraph_1": "<bold>RiverLee Web Design Agency</bold> was founded with the mission to ELEVATE BRANDS IN THE ONLINE MARKET, MAXIMIZE REVENUE GROWTH, focusing on <bold>reputable and professional website design</bold> as the core product and strategy. Simultaneously playing both roles, as a companion and collaborator who listens to the desires and requirements of all clients.",
+      "paragraph_2": "One of the first representatives in this race is: <bold>WEBSITES</bold>. You have never had a meticulous, formal website or you already have one but it operates poorly, inefficiently...",
+      "paragraph_3": "Your company, your business is being 'invisible' among countless other brands in Google searches, your brand's mark is limited to a specific area. Did you know! You have missed countless new cooperation opportunities, thousands of visits, millions of orders that should have been sold, PR opportunities, brand advertising in the most economical way. What you really need right now is <bold>“a professional and reputable website design agency”</bold>.",
+      "paragraph_4": "RiverLee Agency also plays the role of an expert with many years of practical experience in web design, with 500+ websites created and operating steadily. We do not create an overall strategy for your website that is too distant or too large. We are your companion in creating a <bold>beautiful website design</bold> that is SUITABLE – EFFECTIVE – CAPABLE OF QUICKLY INCREASING REVENUE."
+    },
+    "section_5": {
+      "heading": "Reasons Why You Should Design a Website?",
+      "paragraph_1": "We understand that the costs, needs, and industries of each customer segment vary greatly. The ambition of <bold>RiverLee Web Design Services</bold> is to fully meet the website design requirements for a diverse range of customers across various segments, from low to high.",
+      "paragraph_2": "According to the Vietnam 2020 White Paper, up to 84% of Internet users (aged 16-64) search online for products and services and make purchasing decisions; 35% make online purchases via computers and 59% through smartphones.",
+      "paragraph_3": "All of this shows that <bold>YOUR CUSTOMERS ARE ONLINE</bold> and <bold>DO NOT LET PRODUCTS REMAIN OFFLINE ONLY</bold>.",
+      "paragraph_4": "“With experience in consulting, building, and developing over 2000 multi-industry websites at RiverLee Agency, we believe that an effective website combines: aesthetic appeal in design style, operation based on modern programming technology, and alignment with the specific characteristics of each industry”, Mr. Giang further shared."
     }
   }
 }

@@ -12,14 +12,44 @@
     "english": "Tiếng Anh"
   },
   "home_page": {
+    "section_ids": {
+      "design_service": "dich_vu_thiet_ke_website_chuyen_nghiep",
+      "why_needed": "tai_sao_nen_thiet-ke_website"
+    },
     "section_1": {
-      "id": "#dich_vu_thiet_ke_website_chuyen_nghiep",
       "heading_1_part_1": "RiverLee Web Agency mang đến dịch vụ",
       "heading_1_part_2": "thiết kế website chuyên nghiệp",
       "heading_1_part_3": "uy tín",
       "paragraph_1": "Hơn 90% khách hàng tại <bold>RiverLee Agency</bold> đều kỳ vọng có thể sở hữu <bold>thiết kế website chuyên nghiệp</bold> hoạt động hiệu quả, hỗ trợ đẩy mạnh doanh thu, đáp ứng tốt nhất về SEO, giao diện thiết kế ấn tượng – bắt mắt, phù hợp với đặc điểm ngành nghề của họ với mức chi phí kinh tế nhất. Chúng tôi, <bold>công ty thiết kế web uy tín</bold> RiverLee, tại thành phố Buôn Ma Thuột vẫn miệt mài những giải pháp tối ưu nhất cho những kỳ vọng này, sẵn sàng là người đồng hành đáng tin cậy cho quý khách hàng.",
       "paragraph_2": "<italic>“Thủy Thủ Agency luôn chú trọng đến sự trải nghiệm của người dùng khi sử dụng website. 100% các website được “xuất xưởng” tại Thuỷ Thủ điều đảm bảo đáp ứng tốt việc hiển thị trên đa thiết bị (Pc, Mobile, Tablet…), tốc độ load trang nhanh, bắt kịp xu hướng thiết kế mới nhất của thế giới.”</italic>, Mr. Giang – Account Director chia sẻ.",
-      "paragraph_3": "Mr. Lê Thanh Giang, hiện là giám đốc kinh doanh tại RiverLee Agency. Với hơn 2 năm kinh nghiệm chinh chiến trong lĩnh vực thiết kế website, anh đã có cơ hội trở thành nhà tư vấn chiến lược về xây dựng, phát triển website của hàng trăm khách hàng từ doanh nghiệp, chủ cửa hàng, cá nhân… Anh tâm niệm rằng mỗi website chính là “lời giới thiệu” ấn tượng nhất của chủ sở hữu dành cho khách hàng và đối tác của mình."
+      "paragraph_3": "Mr. Lê Thanh Giang, hiện là giám đốc kinh doanh tại RiverLee Agency. Với hơn 2 năm kinh nghiệm chinh chiến trong lĩnh vực thiết kế website, anh đã có cơ hội trở thành nhà tư vấn chiến lược về xây dựng, phát triển website của hàng trăm khách hàng từ doanh nghiệp, chủ cửa hàng, cá nhân… Anh tâm niệm rằng mỗi website chính là “lời giới thiệu” ấn tượng nhất của chủ sở hữu dành cho khách hàng và đối tác của mình.",
+      "image_1": "Thiết kế website TP.Buôn Ma Thuột",
+      "image_2": "Thiết kế website chuẩn SEO",
+      "image_3": "Thiết kế website giá rẻ",
+      "image_4": "Thiết kế website hiệu suất cao",
+      "image_5": "Thiết kế website hiệu thân thiện với người dùng"
+    },
+    "section_2": {
+      "heading_part_1": "Thiết kế web - công cụ đắc lực không thể thiếu trong",
+      "heading_part_2": "“cuộc đua kinh doanh chuyển đổi số”.",
+      "paragraph_1": "Tại Việt Nam, có hơn 45.200 lượt tìm kiếm từ khóa “thiết kế website” hay <bold>“dịch vụ thiết kế website”</bold>mỗi tháng, hàng nghìn <bold>thiết kế web</bold> được ra đời ở rất nhiều các lĩnh vực khác nhau. Nhưng có bao nhiêu phần trăm trong tổng số có thể khiến cho chủ sở hữu hài lòng, vận hành ổn định và mang lại những hiệu quả tối ưu?",
+      "paragraph_2": "Chỉ với một vài thao tác đơn giản, từ khóa “thiết kế web chuyên nghiệp” sẽ dẫn lối cho bạn đến hàng trăm cái tên khác nhau của các <bold>dịch vụ làm web</bold>. Sự đa dạng chi phí và gói dịch vụ, thực hiện bằng nhiều công nghệ lập trình khác nhau, khác biệt về chiến lược và quy trình thực hiện,… mỗi đơn vị đã làm phong phú thêm mảng màu xây dựng website này.",
+      "paragraph_3": "Bên cạnh đó, các cá nhân <bold>doanh nghiệp</bold> ra đời trước đó cũng đã bắt đầu lấn sân sang thị trường kinh doanh Online với mục đích tăng thị phần, và tiếp cận tốt hơn với số đông khách hàng họ từng bỏ lỡ. Vì thế, “cuộc đua” cạnh tranh giữa các doanh nghiệp trong cùng ngành nghề đang trở nên khốc liệt hơn bao giờ hết.",
+      "paragraph_4": "Theo nghiên cứu mới của Cơ quan Thương mại và Đầu tư của Chính phủ Australia, Việt Nam đang đứng thứ 3 Đông Nam Á về số lượng các DN khởi nghiệp. Cũng theo số liệu của Cục Quản lý đăng ký kinh doanh (Bộ Kế hoạch và Đầu tư), trong giai đoạn 2016 – 2019, mỗi năm Việt Nam có trên 126.000 DN thành lập mới, tăng gấp 1.6 lần so với giai đoạn 2011- 2015.",
+      "paragraph_5": "Thêm vào đó, xu hướng tìm kiếm thông tin, mua hàng qua mạng Internet đang bùng nổ trong suốt thời gian qua và hứa hẹn tiếp tục dẫn đầu trong xu hướng sắp tới. Một cuộc chiến mới được mở ra, cuộc đua kinh doanh chuyển đổi số."
+    },
+    "section_4": {
+      "paragraph_1": "<bold>Dịch vụ thiết kế web RiverLee</bold> ra đời với sứ mệnh NÂNG TẦM THƯƠNG HIỆU TRÊN THỊ TRƯỜNG ONLINE, TỐI ĐA KHẢ NĂNG TĂNG DOANH THU, lấy <bold>thiết kế website uy tín</bold> chuyên nghiệp là sản phẩm phát triển cốt lõi và chiến lược. Thực hiện cùng lúc song song cả 2 vai trò, là người bạn đồng hành - cộng sự lắng nghe mong muốn, yêu cầu của tất cả khách hàng.",
+      "paragraph_2": "Một trong những đại diện có mặt đầu tiên có mặt trong cuộc đua này chính là: <bold>WEBSITE</bold>. Bạn chưa từng có cho mình website chỉnh chu – bài bản hoặc bạn đã có nhưng vận hành yếu kém, không hiệu quả…",
+      "paragraph_3": "Công ty, doanh nghiệp của bạn đang bị “tàng hình” giữa vô số các thương hiệu khác trong các lượt tìm kiếm của cỗ máy Google, dấu ấn thương hiệu của bạn đang bị hạn chế ở khu vực nhất định. Bạn có biết! Mình đã bỏ lỡ vô vàn những cơ hội hợp tác mới, hàng vạn lượt truy cập, hàng triệu đơn hàng đáng lẽ đã được bán đi, cơ hội PR, quảng cáo thương hiệu một cách kinh tế nhất. Điều bạn đang thật sự cần lúc này chính là <bold>“đơn vị thiết kế website chuyên nghiệp – uy tín”</bold>.",
+      "paragraph_4": "RiverLee Agency còn đứng ở vai trò là một chuyên gia với nhiều năm kinh nghiệm thực chiến trong lĩnh vực thiết kế trang web, 500+ website đã ra đời và vận hành ổn định. Chúng tôi không vẽ ra cho bạn chiến lược tổng thể về website xa vời hay quá to lớn. Chúng tôi là người đồng hành cùng bạn tạo ra một <bold>thiết kế website đẹp</bold> PHÙ HỢP – HIỆU QUẢ – CÓ KHẢ NĂNG TĂNG DOANH THU NHANH CHÓNG."
+    },
+    "section_5": {
+      "heading": "Những lý do bạn nên thiết kế website?",
+      "paragraph_1": "Chúng tôi hiểu rằng mức chi phí, nhu cầu, ngành nghề của từng đối tượng khách hàng sẽ rất khác nhau. Tham vọng của <bold>Dịch vụ thiết kế web RiverLee</bold> là đáp ứng đầy đủ yêu cầu thiết kế website cho đông đảo khách hàng ở nhiều phân khúc từ thấp đến cao.",
+      "paragraph_2": "Theo Sách trắng Việt Nam 2020 nhận định rằng có đến 84% người dùng Internet (độ tuổi từ 16-64) tìm kiếm trực tuyến các sản phẩm dịch vụ và đưa ra quyết định mua hàng; 35% mua trực tuyến thông qua máy tính và 59% thực hiện hành vi mua hàng thông qua smartphone.",
+      "paragraph_3": "Tất cả điều này đã cho thấy rằng <bold>KHÁCH HÀNG CỦA BẠN ĐANG ONLINE</bold> và <bold>ĐỪNG ĐỂ HÀNG HÓA CHỈ MÃI OFFLINE</bold>.",
+      "paragraph_4": "“Với kinh nghiệm tư vấn, xây dựng và phát triển hơn 2000 website đa ngành tại RiverLee Agency. Chúng tôi nhận thấy rằng website hiệu quả là sự kết hợp của: tính thẩm mỹ trong phong cách thiết kế, vận hành dựa trên công nghệ lập trình hiện đại và sự phù hợp với đặc điểm riêng của từng ngành nghề.”, Mr. Giang chia sẻ thêm."
     }
   }
 }

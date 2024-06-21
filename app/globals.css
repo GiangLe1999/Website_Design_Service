@@ -37,3 +37,8 @@
     --radius: 0.5rem;
   }
 }
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
