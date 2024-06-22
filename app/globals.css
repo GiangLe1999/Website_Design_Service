@@ -42,3 +42,13 @@ body {
   max-width: 100%;
   overflow-x: hidden;
 }
+
+/* Home swiper section */
+.home-swiper {
+  @apply relative h-[320px] !p-[10px] w-1/2;
+}
+
+.home-swiper-heading {
+  padding-right: calc((100vw - 1400px) / 2);
+  @apply text-2xl flex-1 leading-10;
+}

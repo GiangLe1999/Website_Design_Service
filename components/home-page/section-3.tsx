@@ -10,7 +10,7 @@ interface Props {}
 
 const Section3: FC<Props> = (props): JSX.Element => {
   return (
-    <div className="flex bg-[#fef6e2]">
+    <div className="flex">
       <div className="w-1/3 aspect-square mr-3">
         <Image
           src={image1}

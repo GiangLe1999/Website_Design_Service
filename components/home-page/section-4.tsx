@@ -36,7 +36,7 @@ const Section4: FC<Props> = (props): JSX.Element => {
           />
         </p>
 
-        <div className="space-y-[18.5px] pb-[870px]">
+        <div className="space-y-[18.5px] pb-[800px]">
           <p className="text-sm leading-6">
             {t.rich("paragraph_2", {
               bold: (chunks) => (
