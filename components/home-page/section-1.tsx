@@ -20,12 +20,12 @@ const Section1: FC<Props> = (props): JSX.Element => {
       <div className="bg-[#fef6e2] pt-[200px] pb-[110px]">
         <div className="container">
           <div className="text-center z-[1] relative">
-            <h1 className="text-6xl font-bold leading-[1.2] mb-5">
-              <span className="text-primary">{t("heading_1_part_1")}</span>{" "}
-              <strong className="text-secondary">
-                {t("heading_1_part_2")}
-              </strong>{" "}
-              - <span className="text-primary">{t("heading_1_part_3")}</span>
+            <h1 className="text-6xl font-bold text-primary leading-[1.2] mb-5">
+              {t.rich("heading", {
+                orange: (chunks) => (
+                  <span className="text-secondary">{chunks}</span>
+                ),
+              })}
             </h1>
 
             <ContentContainer

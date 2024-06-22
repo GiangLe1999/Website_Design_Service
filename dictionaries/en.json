@@ -1,4 +1,10 @@
 {
+  "common": {
+    "button": {
+      "consult": "Request a quote",
+      "call": "Call us"
+    }
+  },
   "header": {
     "website_design": "Website Design",
     "property_website": "Property Website",
@@ -17,9 +23,7 @@
       "why_needed": "why_should_you_design_a_website"
     },
     "section_1": {
-      "heading_1_part_1": "RiverLee Web Agency provides",
-      "heading_1_part_2": "professional website design services",
-      "heading_1_part_3": "with credibility",
+      "heading": "RiverLee Web Agency provides <orange>professional website design services</orange> - with credibility",
       "paragraph_1": "Over 90% of customers at <bold>RiverLee Agency</bold> expect to have a <bold>professional website design</bold> that operates efficiently, supports increased revenue, meets the best SEO standards, and features impressive and attractive designs suitable for their industry characteristics at the most economical cost. We, <bold>RiverLee, a reputable web design company</bold> in Buon Ma Thuot city, are continuously working on the most optimal solutions for these expectations, ready to be a reliable companion for our customers.",
       "paragraph_2": "<italic>“Thuy Thu Agency always focuses on the user experience when using the website. 100% of the websites 'launched' at Thuy Thu ensure good display on multiple devices (PC, Mobile, Tablet…), fast page loading speed, and keep up with the latest design trends in the world,”</italic> shared Mr. Giang – Account Director.",
       "paragraph_3": "Mr. Le Thanh Giang is currently the Business Director at RiverLee Agency. With over 2 years of experience in the field of website design, he has had the opportunity to become a strategic consultant on building and developing websites for hundreds of clients, from businesses, shop owners, to individuals. He believes that every website is the most impressive introduction of its owner to their customers and partners.",
@@ -52,6 +56,7 @@
       "paragraph_4": "“With experience in consulting, building, and developing over 2000 multi-industry websites at RiverLee Agency, we believe that an effective website combines: aesthetic appeal in design style, operation based on modern programming technology, and alignment with the specific characteristics of each industry”, Mr. Giang further shared."
     },
     "section_6": {
+      "heading": "What benefits will you gain from owning a <bold>professional website</bold>?",
       "slide_1": "Customers will always find you with a few search operations, being cared for attentively 24/7.",
       "slide_2": "Maximize reach to all customers regardless of time and space.",
       "slide_3": "Create a fair competitive opportunity among business competitors in the same industry.",
@@ -61,6 +66,43 @@
       "slide_7": "Your online home makes it easier to interact with customers, listen, advise, quote, finalize orders...",
       "slide_8": "No restrictions on product promotion, running ads, keyword SEO...",
       "slide_9": "Contribute to building professional credibility for your brand in the online realm."
+    },
+    "section_7": {
+      "heading": "<orange>What criteria</orange> are needed for effective website design?",
+      "paragraph_1": "To answer the question 'Is it difficult to design a SEO-standard, effective website?', you will certainly receive the answer: it's not difficult at all, it's quite simple, within a week or even a few days you will have a functioning website.",
+      "paragraph_2": "However, professional <bold>web design services</bold> that deliver value in terms of interaction, reach, and product sales are not merely about creating a beautiful and content-rich website. So what criteria truly make your website achieve the expected effectiveness?",
+      "criteria_1": {
+        "heading": "Eye-catching and appealing interface",
+        "description": "The website is designed with a professional, aesthetically pleasing interface, carefully crafted images, creatively designed fonts, all crucial factors in keeping customers engaged longer and providing a richer experience. The <bold>RiverLee web design team</bold> considers not only the visual appeal but also the suitability for each specific industry."
+      },
+      "criteria_2": {
+        "heading": "Emphasis on Content",
+        "description": "Content is king in the realm of <bold>premium web design</bold>. Each type of website has its unique way of expressing content, whether formal, humorous, classic, or experience-driven. For specialized websites like introductions or sales, website content not only needs to be polished but also swiftly communicates who you are, what you do, and what products you offer."
+      },
+      "criteria_3": {
+        "heading": "Responsive, cross-platform web design",
+        "description": "Limiting your website to just a few devices restricts its reach. With the rise of mobile devices like smartphones and tablets, user demand for accessing websites on these devices surpasses traditional computers. Therefore, <bold>responsive web design</bold> enhances accessibility to current users regardless of the interface they use, ensuring a seamless experience across all platforms."
+      },
+      "criteria_4": {
+        "heading": "Modern web design technologies",
+        "description": "Programming languages play a crucial role in the effectiveness of a website. Currently, various programming languages like Wordpress, PHP, JavaScript, C++, each come with their own advantages and disadvantages. Among them, <bold>WordPress-based web design</bold> is highly favored for its multitasking capabilities, scalability, and strong support for SEO."
+      },
+      "criteria_5": {
+        "heading": "SEO optimization capabilities",
+        "description": "Creating a SEO-friendly website involves technical optimization such as web coding, interface design, fast page loading speed, etc. This ensures your website can rank well on SERPs."
+      },
+      "criteria_6": {
+        "heading": "Accessibility and page loading speed",
+        "description": "A slow-loading website frustrates users and discourages return visits. Many factors contribute to this issue, so ensuring <bold>page speed</bold> is crucial for a professional and effective website."
+      },
+      "criteria_7": {
+        "heading": "Simple administration",
+        "description": "Unrestricted management capabilities for clients is a priority for RiverLee. The internal administration software ensures a minimalist and user-friendly design to facilitate data entry, additions, deletions, and changes."
+      },
+      "criteria_8": {
+        "heading": "Smooth functionality",
+        "description": "Depending on the specific nature of each website, additional necessary tools and support systems may arise. Therefore, ensuring an effective website design also means balancing all factors to maintain overall operational quality."
+      }
     }
   }
 }

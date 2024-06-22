@@ -1,4 +1,10 @@
 {
+  "common": {
+    "button": {
+      "consult": "Tư vấn báo giá",
+      "call": "Gọi cho chúng tôi"
+    }
+  },
   "header": {
     "website_design": "Thiết kế website",
     "property_website": "Website BĐS",
@@ -17,9 +23,7 @@
       "why_needed": "tai_sao_nen_thiet-ke_website"
     },
     "section_1": {
-      "heading_1_part_1": "RiverLee Web Agency mang đến dịch vụ",
-      "heading_1_part_2": "thiết kế website chuyên nghiệp",
-      "heading_1_part_3": "uy tín",
+      "heading": "RiverLee Web Agency mang đến dịch vụ <orange>thiết kế website chuyên nghiệp</orange> - uy tín",
       "paragraph_1": "Hơn 90% khách hàng tại <bold>RiverLee Agency</bold> đều kỳ vọng có thể sở hữu <bold>thiết kế website chuyên nghiệp</bold> hoạt động hiệu quả, hỗ trợ đẩy mạnh doanh thu, đáp ứng tốt nhất về SEO, giao diện thiết kế ấn tượng – bắt mắt, phù hợp với đặc điểm ngành nghề của họ với mức chi phí kinh tế nhất. Chúng tôi, <bold>công ty thiết kế web uy tín</bold> RiverLee, tại thành phố Buôn Ma Thuột vẫn miệt mài những giải pháp tối ưu nhất cho những kỳ vọng này, sẵn sàng là người đồng hành đáng tin cậy cho quý khách hàng.",
       "paragraph_2": "<italic>“Thủy Thủ Agency luôn chú trọng đến sự trải nghiệm của người dùng khi sử dụng website. 100% các website được “xuất xưởng” tại Thuỷ Thủ điều đảm bảo đáp ứng tốt việc hiển thị trên đa thiết bị (Pc, Mobile, Tablet…), tốc độ load trang nhanh, bắt kịp xu hướng thiết kế mới nhất của thế giới.”</italic>, Mr. Giang – Account Director chia sẻ.",
       "paragraph_3": "Mr. Lê Thanh Giang, hiện là giám đốc kinh doanh tại RiverLee Agency. Với hơn 2 năm kinh nghiệm chinh chiến trong lĩnh vực thiết kế website, anh đã có cơ hội trở thành nhà tư vấn chiến lược về xây dựng, phát triển website của hàng trăm khách hàng từ doanh nghiệp, chủ cửa hàng, cá nhân… Anh tâm niệm rằng mỗi website chính là “lời giới thiệu” ấn tượng nhất của chủ sở hữu dành cho khách hàng và đối tác của mình.",
@@ -62,6 +66,43 @@
       "slide_7": "Ngôi nhà online giúp cho việc tương tác với khách hàng dễ dàng hơn, lắng nghe, tư vấn, báo giá, chốt đơn…",
       "slide_8": "Không hạn chế quảng bá sản phẩm, chạy quảng cáo, SEO từ khoá…",
       "slide_9": "Góp phần xây dựng sự uy tín chuyên nghiệp về thương hiệu của bạn trong lãnh thổ Online."
+    },
+    "section_7": {
+      "heading": "Thiết kế website hiệu quả cần những <orange>tiêu chí nào?</orange>",
+      "paragraph_1": "Để trả lời cho câu hỏi “Thiết kế website chuẩn SEO, hiệu quả có khó không?”, chắc chắn bạn sẽ nhận được câu trả lời: không hề khó, thực hiện rất đơn giản, 1 tuần hay thậm chí vài ngày sẽ có ngay website vận hành.",
+      "paragraph_2": "Nhưng <bold>dịch vụ thiết kế web</bold> chuyên nghiệp, mang lại giá trị về tương tác, tiếp cận, bán được hàng hoá sẽ không đơn thuần là tạo ra một website đẹp và đầy đủ nội dung là đủ. Vậy những tiêu chí nào thật sự khiến thiết kế website của bạn đạt được hiệu quả như mong đợi.",
+      "criteria_1": {
+        "heading": "Giao diện website bắt mắt - hấp dẫn",
+        "description": "Website được thiết kế với giao diện nhìn chuyên nghiệp, đẹp và thẩm mỹ, hình ảnh chăm chút, font chữ sáng tạo là những yếu tố quan trọng giúp giữ chân khách hàng lâu hơn và trải nghiệm nhiều hơn. Đội ngũ nhân viên <bold>thiết kế web RiverLee</bold> sẽ không dừng lại ở khía cạnh bắt mắt, mà còn cân nhắc các yếu tố về sự phù hợp với từng ngành nghề riêng biệt."
+      },
+      "criteria_2": {
+        "heading": "Chú trọng Nội dung",
+        "description": "Nội dung là vị vua trong “lãnh thổ” <bold>thiết kế web cao cấp</bold>. Mỗi loại website sẽ có cách diễn đạt nội dung rất riêng, có thể là chính thống; hài hước; cổ điển; kích thích trải nghiệm... Với các website đặc thù như giới thiệu hay bán hàng. Nội dung website không chỉ trau chuốt mà phải giúp khách hàng nắm bắt được bạn là ai? và bạn đang làm gì? bạn kinh doanh món hàng gì? trong thời gian ngắn nhất."
+      },
+      "criteria_3": {
+        "heading": "Website Responsive đa nền tảng",
+        "description": "Địa chỉ website của bạn sẽ hạn chế nếu chỉ có thể truy cập ở 1 một vài thiết bị nào đó. Sự lên ngôi của các thiết bị di động như Smartphone, Tablet.. kéo theo nhu cầu truy cập website của người dùng trên các thiết bị này sẽ nhiều hơn so với máy tính như truyền thống. Vì vậy, <bold>thiết kế web responsive</bold> sẽ giúp tăng khả năng tiếp cận với đông đảo người dùng hiện tại, và dù sử dụng bất kỳ giao diện nào, người dùng điều cảm nhận được sự hoàn thiện của mọi yếu tố trên website với trải nghiệm tốt."
+      },
+      "criteria_4": {
+        "heading": "Công nghệ thiết kế website hiện đại",
+        "description": "Ngôn ngữ lập trình đóng góp một phần quan trọng tạo nên tính hiệu quả của website. Hiện tại có rất nhiều ngôn ngữ lập trình khác nhau như: Wordpress, PHP, JavaScript, C++... mỗi loại ngôn ngữ đi kèm những ưu và khuyết khác nhau. Trong đó, <bold>thiết kế website bằng nền tảng mở Wordpress</bold> đang được rất nhiều khách hàng lựa chọn về tính đa nhiệm, dễ mở rộng và hỗ trợ tốt cho SEO."
+      },
+      "criteria_5": {
+        "heading": "Khả năng tối ưu SEO",
+        "description": "<bold>Thiết kế website chuẩn SEO</bold> hay tối ưu công cụ tìm kiếm là website phải tối ưu về mặt kỹ thuật như code web, thiết kế giao diện, tốc độ tải trang nhanh,… Điều này cũng giúp website của bạn có thể được xếp hạng trên SERPs."
+      },
+      "criteria_6": {
+        "heading": "Khả năng truy xuất - tốc độ tải trang",
+        "description": "Một website quá “chậm chạp” mỗi khi truy cập chắc chắn khiến người dùng nản chí và không có mong muốn được quay lại. Rất nhiều yếu tố góp phần làm <bold>tốc độ trang</bold> của bạn chậm đi. Một website hiệu quả và chuyên nghiệp cần hết sức lưu ý điều này."
+      },
+      "criteria_7": {
+        "heading": "Quản trị đơn giản",
+        "description": "Không giới hạn khả năng quản lý website của khách hàng là điều RiverLee hướng đến. <bold>Phần mềm quản trị</bold> bên trong đảm bảo được thiết kế một cách tối giản và tiện dụng để hỗ trợ cho quá trình nhập liệu, thêm - bớt, thay đổi dữ liệu từ bên trong."
+      },
+      "criteria_8": {
+        "heading": "Mượt mà về tính năng",
+        "description": "Tuỳ vào đặc thù mỗi website, sẽ phát sinh thêm những Tools - công cụ hỗ trợ cần thiết. Vì vậy, <bold>thiết kế website hiệu quả</bold> cũng cần đảm bảo cân bằng tất cả yếu tố để không ảnh hưởng đến chất lượng vận hành chung của toàn bộ website."
+      }
     }
   }
 }

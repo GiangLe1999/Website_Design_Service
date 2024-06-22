@@ -9,6 +9,7 @@ import section4Bg from "@/public/home-page/section-4-background.webp";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import Section6 from "@/components/home-page/section-6";
+import Section7 from "@/components/home-page/section-7";
 
 interface Props {
   params: {
@@ -46,6 +47,7 @@ const HomePage = ({ params: { locale } }: Props) => {
 
       <Section5 />
       <Section6 />
+      <Section7 />
     </section>
   );
 };
