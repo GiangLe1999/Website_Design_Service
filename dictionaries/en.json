@@ -20,12 +20,14 @@
   "home_page": {
     "section_ids": {
       "design_service": "professional_website_design_service",
-      "why_needed": "why_should_you_design_a_website"
+      "why_needed": "why_should_you_design_a_website",
+      "website_criteria": "criteria_for_website_design",
+      "website_framework": "website_design_framework"
     },
     "section_1": {
       "heading": "RiverLee Web Agency provides <orange>professional website design services</orange> - with credibility",
       "paragraph_1": "Over 90% of customers at <bold>RiverLee Agency</bold> expect to have a <bold>professional website design</bold> that operates efficiently, supports increased revenue, meets the best SEO standards, and features impressive and attractive designs suitable for their industry characteristics at the most economical cost. We, <bold>RiverLee, a reputable web design company</bold> in Buon Ma Thuot city, are continuously working on the most optimal solutions for these expectations, ready to be a reliable companion for our customers.",
-      "paragraph_2": "<italic>“Thuy Thu Agency always focuses on the user experience when using the website. 100% of the websites 'launched' at Thuy Thu ensure good display on multiple devices (PC, Mobile, Tablet…), fast page loading speed, and keep up with the latest design trends in the world,”</italic> shared Mr. Giang – Account Director.",
+      "paragraph_2": "<italic>“RiverLee Agency always focuses on the user experience when using the website. 100% of the websites 'launched' at RiverLee ensure good display on multiple devices (PC, Mobile, Tablet…), fast page loading speed, and keep up with the latest design trends in the world,”</italic> shared Mr. Giang – Account Director.",
       "paragraph_3": "Mr. Le Thanh Giang is currently the Business Director at RiverLee Agency. With over 2 years of experience in the field of website design, he has had the opportunity to become a strategic consultant on building and developing websites for hundreds of clients, from businesses, shop owners, to individuals. He believes that every website is the most impressive introduction of its owner to their customers and partners.",
       "image_1": "Website design for Buon Ma Thuot city",
       "image_2": "SEO standard website design",
@@ -103,6 +105,41 @@
         "heading": "Smooth functionality",
         "description": "Depending on the specific nature of each website, additional necessary tools and support systems may arise. Therefore, ensuring an effective website design also means balancing all factors to maintain overall operational quality."
       }
+    },
+    "section_8": {
+      "heading": "<orange>The design foundation</orange> of RiverLee's website design service.",
+      "paragraph_1": "From the very beginning of venturing into website design, RiverLee Agency has recognized the distinct advantages of two web design technologies: <bold>WordPress</bold> and <bold>NextJS</bold> in the web development process.",
+      "paragraph_2": "Before officially launching products, RiverLee's production team spent nearly a year researching, testing, and applying open-source technologies like WordPress and NextJS to design products. As of now, we have over 100 websites across various fields, serving numerous large, medium, and small brands using WordPress/NextJS technology, all operating smoothly and yielding results we are extremely proud of.",
+      "question": "Why did RiverLee choose the <bold>WordPress (Open Source Software)</bold> and <bold>NextJS (Javascript Framework)</bold> platforms to complement its website construction strategy?",
+      "answer_1": {
+        "heading": "Multilingual integration in source code",
+        "description": "Both WordPress and NextJS source codes integrate multiple languages on the same website, helping your website reach and engage with customers worldwide."
+      },
+      "answer_2": {
+        "heading": "Large ecosystem",
+        "description": "The WordPress and NextJS ecosystems can create hundreds of different types of websites according to consumer design needs: e-commerce sites, real estate websites, interior design sites, corporate websites, etc."
+      },
+      "answer_3": {
+        "heading": "Easy upgrades",
+        "description": "If you enjoy innovation and creativity, WordPress/NextJS websites will definitely satisfy you. Upgrading and expanding with WordPress and NextJS is straightforward and flexible."
+      },
+      "answer_4": {
+        "heading": "Continuous improvement",
+        "description": "The global WordPress and NextJS communities are vast knowledge repositories, always ready to support and update new features to ensure WordPress/NextJS keeps advancing."
+      },
+      "answer_5": {
+        "heading": "Easy management",
+        "description": "The professional website management systems of WordPress and NextJS CMS need no further debate about their convenience and ease of use."
+      },
+      "answer_6": {
+        "heading": "SEO optimization",
+        "description": "Like Google's strategic ally, search engine optimization - SEO standards are more effective with the support of NextJS or WordPress."
+      },
+      "answer_7": {
+        "heading": "Feature diversity",
+        "description": "Rich plugin/library support is a significant advantage of using these technologies in website design, making it extremely easy to upgrade and add new features."
+      },
+      "image_1": "The website design platforms WordPress and NextJS"
     }
   }
 }

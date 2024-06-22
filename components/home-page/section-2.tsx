@@ -7,7 +7,7 @@ interface Props {}
 const Section2: FC<Props> = (props): JSX.Element => {
   const t = useTranslations("home_page.section_2");
   return (
-    <div className="pb-[70px]">
+    <div className="pb-[70px] bg-gradient-to-b from-[#f3ebe9] to-[#ebf1ef]">
       <ContentContainer maxWidth="max-w-[1040px]">
         <h2 className="text-[50px] font-bold leading-[1.2] mb-5">
           <span className="text-primary">{t("heading_part_1")}</span>{" "}

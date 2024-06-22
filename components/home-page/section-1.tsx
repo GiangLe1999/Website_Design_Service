@@ -16,9 +16,9 @@ const Section1: FC<Props> = (props): JSX.Element => {
   const t = useTranslations("home_page.section_1");
 
   return (
-    <div>
+    <div className="bg-[#f3ebe9]">
       <div className="bg-[#fef6e2] pt-[200px] pb-[110px]">
-        <div className="container">
+        <ContentContainer>
           <div className="text-center z-[1] relative">
             <h1 className="text-6xl font-bold text-primary leading-[1.2] mb-5">
               {t.rich("heading", {
@@ -49,7 +49,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
               <p>{t("paragraph_3")}</p>
             </ContentContainer>
           </div>
-        </div>
+        </ContentContainer>
       </div>
 
       <ContentContainer customClassName="relative">

@@ -90,6 +90,7 @@ interface Props {}
 
 const Section7: FC<Props> = (): JSX.Element => {
   const t = useTranslations("home_page.section_7");
+  const t_id = useTranslations("home_page.section_ids");
   const [currentTab, setCurrentTab] = useState("tab_1");
 
   const activeTab = useMemo(
@@ -104,7 +105,10 @@ const Section7: FC<Props> = (): JSX.Element => {
   };
 
   return (
-    <div className="relative z-[1] after:content-[url('/home-page/section-7-bottom-background.png')] after:left-0 after:bottom-0 after:absolute after:z-[2]">
+    <section
+      id={t_id("website_criteria")}
+      className="relative bg-gradient-to-b from-[#fff9f8] to-[#f3eae8] after:content-[url('/home-page/section-7-bottom-background.png')] after:left-0 after:bottom-[-7px] after:absolute after:z-[2] pb-[88px]"
+    >
       <ContentContainer maxWidth="max-w-[900px] mb-[110px]">
         <h2 className="text-[50px] font-bold leading-[1.2] mb-5 text-primary text-center">
           {t.rich("heading", {
@@ -135,7 +139,7 @@ const Section7: FC<Props> = (): JSX.Element => {
               onClick={() => handleTabClick(id)}
               className={cn(
                 "transition cursor-pointer absolute grid place-items-center w-[95px] aspect-square shadow-[2px_2px_79px_rgba(0,1,52,0.13)] z-[9] rounded-[50%]",
-                currentTab === id ? "bg-secondary scale-110" : "bg-[#f4eae8]"
+                currentTab === id ? "bg-secondary scale-110" : "bg-[#fff9f9]"
               )}
               style={{ left, bottom, right }}
             >
@@ -170,7 +174,7 @@ const Section7: FC<Props> = (): JSX.Element => {
           </div>
         </div>
       </ContentContainer>
-    </div>
+    </section>
   );
 };
 

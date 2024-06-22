@@ -2,7 +2,6 @@
 
 import { FC, useMemo, useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import { useTranslations } from "next-intl";
 import { Autoplay, Navigation } from "swiper/modules";
@@ -33,7 +32,7 @@ const Section6: FC<Props> = (): JSX.Element => {
   );
 
   return (
-    <div className="w-screen flex gap-16 items-center relative z-[1] pb-[150px]">
+    <div className="bg-gradient-to-b from-[#fcf9f8] to-[#fff9f8] flex gap-16 items-center relative z-[1] pb-[150px]">
       <Swiper
         direction="horizontal"
         ref={swiperRef}
@@ -105,7 +104,7 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ number, content }) => {
   return (
-    <div className="p-[50px] bg-[#eff8f6] shadow-[0_1px_14px_rgba(0,0,0,0.1)] h-full cursor-pointer transition duration-500 rounded-[20px] hover:bg-white">
+    <div className="p-[50px] bg-[#ffffff] shadow-[0_1px_14px_rgba(0,0,0,0.1)] h-full cursor-pointer transition duration-500 rounded-[20px] hover:bg-[#fff9f8]">
       <p className="font-bold text-[60px] leading-none mb-4">
         <span className="text-primary">{number}</span>
         <span className="text-secondary">.</span>

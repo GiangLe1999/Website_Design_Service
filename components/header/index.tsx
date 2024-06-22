@@ -6,6 +6,7 @@ import { Link } from "@/app/navigation";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "./language-switcher";
 import { cn } from "@/lib/utils";
+import ContentContainer from "../content-container";
 
 interface Props {}
 
@@ -75,7 +76,7 @@ const Header: FC<Props> = (props): JSX.Element => {
         scrolled ? "bg-white shadow border-b" : "bg-transparent"
       )}
     >
-      <div className="container">
+      <ContentContainer>
         <div className="flex justify-between py-[10px] h-[100px]">
           <div className="flex items-center gap-[30px]">
             <Link className="w-[107px]" href="/">
@@ -102,7 +103,7 @@ const Header: FC<Props> = (props): JSX.Element => {
             <LanguageSwitcher />
           </div>
         </div>
-      </div>
+      </ContentContainer>
     </header>
   );
 };

@@ -10,8 +10,8 @@ interface Props {}
 const Section4: FC<Props> = (props): JSX.Element => {
   const t = useTranslations("home_page.section_4");
   return (
-    <div className="w-screen relative bg-[#e6f5f2] pt-[110px]">
-      <ContentContainer maxWidth="max-w-[1040px] z-[1] relative">
+    <div className="w-screen relative bg-[#f1f1f1] pt-[110px]">
+      <ContentContainer maxWidth="max-w-[1040px] z-[1] relative pb-[110px]">
         <p className="relative text-xl leading-10 mb-10">
           {t.rich("paragraph_1", {
             bold: (chunks) => (
@@ -36,7 +36,7 @@ const Section4: FC<Props> = (props): JSX.Element => {
           />
         </p>
 
-        <div className="space-y-[18.5px] pb-[800px]">
+        <div className="space-y-[18.5px]">
           <p className="text-sm leading-6">
             {t.rich("paragraph_2", {
               bold: (chunks) => (
@@ -62,6 +62,8 @@ const Section4: FC<Props> = (props): JSX.Element => {
           </p>
         </div>
       </ContentContainer>
+
+      <div className="bg-[url('/home-page/section-4-background.webp')] h-[464px] bg-cover bg-left-bottom"></div>
     </div>
   );
 };

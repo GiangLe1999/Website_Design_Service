@@ -20,12 +20,14 @@
   "home_page": {
     "section_ids": {
       "design_service": "dich_vu_thiet_ke_website_chuyen_nghiep",
-      "why_needed": "tai_sao_nen_thiet-ke_website"
+      "why_needed": "tai_sao_nen_thiet-ke_website",
+      "website_criteria": "tieu_chi_thiet_ke_website",
+      "website_framework": "nen_tang_thiet_ke_websie"
     },
     "section_1": {
       "heading": "RiverLee Web Agency mang đến dịch vụ <orange>thiết kế website chuyên nghiệp</orange> - uy tín",
       "paragraph_1": "Hơn 90% khách hàng tại <bold>RiverLee Agency</bold> đều kỳ vọng có thể sở hữu <bold>thiết kế website chuyên nghiệp</bold> hoạt động hiệu quả, hỗ trợ đẩy mạnh doanh thu, đáp ứng tốt nhất về SEO, giao diện thiết kế ấn tượng – bắt mắt, phù hợp với đặc điểm ngành nghề của họ với mức chi phí kinh tế nhất. Chúng tôi, <bold>công ty thiết kế web uy tín</bold> RiverLee, tại thành phố Buôn Ma Thuột vẫn miệt mài những giải pháp tối ưu nhất cho những kỳ vọng này, sẵn sàng là người đồng hành đáng tin cậy cho quý khách hàng.",
-      "paragraph_2": "<italic>“Thủy Thủ Agency luôn chú trọng đến sự trải nghiệm của người dùng khi sử dụng website. 100% các website được “xuất xưởng” tại Thuỷ Thủ điều đảm bảo đáp ứng tốt việc hiển thị trên đa thiết bị (Pc, Mobile, Tablet…), tốc độ load trang nhanh, bắt kịp xu hướng thiết kế mới nhất của thế giới.”</italic>, Mr. Giang – Account Director chia sẻ.",
+      "paragraph_2": "<italic>“RiverLee Agency luôn chú trọng đến sự trải nghiệm của người dùng khi sử dụng website. 100% các website được “xuất xưởng” bởi RiverLee điều đảm bảo đáp ứng tốt việc hiển thị trên đa thiết bị (Pc, Mobile, Tablet…), tốc độ load trang nhanh, bắt kịp xu hướng thiết kế mới nhất của thế giới.”</italic>, Mr. Giang – Account Director chia sẻ.",
       "paragraph_3": "Mr. Lê Thanh Giang, hiện là giám đốc kinh doanh tại RiverLee Agency. Với hơn 2 năm kinh nghiệm chinh chiến trong lĩnh vực thiết kế website, anh đã có cơ hội trở thành nhà tư vấn chiến lược về xây dựng, phát triển website của hàng trăm khách hàng từ doanh nghiệp, chủ cửa hàng, cá nhân… Anh tâm niệm rằng mỗi website chính là “lời giới thiệu” ấn tượng nhất của chủ sở hữu dành cho khách hàng và đối tác của mình.",
       "image_1": "Thiết kế website TP.Buôn Ma Thuột",
       "image_2": "Thiết kế website chuẩn SEO",
@@ -103,6 +105,41 @@
         "heading": "Mượt mà về tính năng",
         "description": "Tuỳ vào đặc thù mỗi website, sẽ phát sinh thêm những Tools - công cụ hỗ trợ cần thiết. Vì vậy, <bold>thiết kế website hiệu quả</bold> cũng cần đảm bảo cân bằng tất cả yếu tố để không ảnh hưởng đến chất lượng vận hành chung của toàn bộ website."
       }
+    },
+    "section_8": {
+      "heading": "<orange>Nền tảng thiết kế</orange> của dịch vụ thiết kế website RiverLee.",
+      "paragraph_1": "Ngay những ngày đầu “dấn thân” vào lĩnh vực thiết kế website, RiverLee Agency đã nhận ra những ưu điểm ưu Việt của 2 công nghệ thiết kế web: <bold>Wordpress</bold> và <bold>NextJS</bold> trong quá trình <bold>làm web</bold>.",
+      "paragraph_2": "Trước khi chính thức cho ra mắt các sản phẩm, team sản xuất của RiverLee đã dành ra gần một năm để nghiên cứu, thử nghiệm và ứng dụng công nghệ mã nguồn mở WordPress cũng như NextJS vào các sản phẩm thiết kế. Cho đến thời điểm hiện tại, chúng tôi đã có hơn 100 website ở đa dạng lĩnh vực, rất nhiều thương hiệu lớn – vừa – nhỏ sử dụng công nghệ WordPress/NextJS ra đời, đang vận hành ổn định mang lại kết quả vô cùng đáng tự hào.",
+      "question": "Tại sao RiverLee đã lựa chọn nền tảng <bold>WordPress (Open Source Software)</bold> và <bold>NextJS (Javascript Framework)</bold> song hành cùng chiến lược xây dựng website?",
+      "answer_1": {
+        "heading": "Mã nguồn tích hợp đa ngôn ngữ",
+        "description": "Mã nguồn WordPress và Frame NextJS đều tích hợp đa ngôn ngữ trên cùng website, điều này giúp website của bạn chu du khắp nơi trên khắp thế giới và chinh phục nhiều khách hàng hơn."
+      },
+      "answer_2": {
+        "heading": "Hệ sinh thái lớn",
+        "description": "Hệ sinh thái WordPress và NextJS có thể tạo ra hàng trăm loại website khác nhau theo nhu cầu thiết kế của người tiêu dùng: website bán hàng, website bất động sản, website nội thất, website công ty..."
+      },
+      "answer_3": {
+        "heading": "Dễ dàng nâng cấp",
+        "description": "Nếu bạn là một người thích đổi mới và sáng tạo thì chắc chắn website bằng WordPress / NextJS sẽ chiều lòng bạn. Nâng cấp, mở rộng sẽ không thể làm khó được WordPress cũng như NextJS"
+      },
+      "answer_4": {
+        "heading": "Không ngừng cải tiến",
+        "description": "Cộng động WordPress và NextJS trên toàn thế giới là một “kho tàng” kiến thức khổng lồ và họ sẵn sàng hỗ trợ, cập nhật tính năng mới để WordPress/NextJS không ngừng vươn xa."
+      },
+      "answer_5": {
+        "heading": "Quản trị dễ dàng",
+        "description": "CMS - Hệ thống quản trị website chuyên nghiệp của WordPress và NextJS không cần bàn cãi thêm về tính tiện dụng và dễ quản lý."
+      },
+      "answer_6": {
+        "heading": "Tối ưu SEO",
+        "description": "Ví như người bạn “chiến lược” của Google, tối ưu hóa công cụ tìm kiếm - chuẩn SEO sẽ càng hiệu quả với sự đồng hành của NextJS hay WordPress."
+      },
+      "answer_7": {
+        "heading": "Đa dạng tính năng",
+        "description": "Plugin/Library hỗ trợ phong phú là điểm cộng rất lớn khi sử dụng công nghệ này trong thiết kế website, việc nâng cấp thêm tính năng mới sẽ vô cùng dễ dàng."
+      },
+      "image_1": "Nền tảng thiết kế website Wordpress và NextJS"
     }
   }
 }

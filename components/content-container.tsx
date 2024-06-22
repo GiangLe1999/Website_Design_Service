@@ -11,7 +11,7 @@ interface Props {
 const ContentContainer: FC<Props> = ({
   children,
   maxWidth = "max-w-[1200px]",
-  padding = "px-[10px]",
+  padding = "px-5",
   customClassName = "",
 }): JSX.Element => {
   return (
