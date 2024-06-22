@@ -17,58 +17,25 @@ import { cn } from "@/lib/utils";
 import ConsultButtton from "../consult-button";
 import CallButton from "../call-button";
 
+interface TabContent {
+  id: string;
+  number: string;
+  heading: string;
+  description: string;
+}
+
 const tabsIconData = [
-  {
-    id: "tab_1",
-    icon: IconTab1,
-    left: "-3%",
-    bottom: "13%",
-  },
-  {
-    id: "tab_2",
-    icon: IconTab2,
-    left: "0",
-    bottom: "42%",
-  },
-  {
-    id: "tab_3",
-    icon: IconTab3,
-    left: "9%",
-    bottom: "68%",
-  },
-  {
-    id: "tab_4",
-    icon: IconTab4,
-    left: "24%",
-    bottom: "86%",
-  },
-  {
-    id: "tab_5",
-    icon: IconTab5,
-    left: "45%",
-    bottom: "93%",
-  },
-  {
-    id: "tab_6",
-    icon: IconTab6,
-    right: "25%",
-    bottom: "85.8%",
-  },
-  {
-    id: "tab_7",
-    icon: IconTab7,
-    right: "8.2%",
-    bottom: "65%",
-  },
-  {
-    id: "tab_8",
-    icon: IconTab8,
-    right: "-1%",
-    bottom: "38%",
-  },
+  { id: "tab_1", icon: IconTab1, left: "-3%", bottom: "13%" },
+  { id: "tab_2", icon: IconTab2, left: "0", bottom: "42%" },
+  { id: "tab_3", icon: IconTab3, left: "9%", bottom: "68%" },
+  { id: "tab_4", icon: IconTab4, left: "24%", bottom: "86%" },
+  { id: "tab_5", icon: IconTab5, left: "45%", bottom: "93%" },
+  { id: "tab_6", icon: IconTab6, right: "25%", bottom: "85.8%" },
+  { id: "tab_7", icon: IconTab7, right: "8.2%", bottom: "65%" },
+  { id: "tab_8", icon: IconTab8, right: "-1%", bottom: "38%" },
 ];
 
-const tabsContentData = [
+const tabsContentData: TabContent[] = [
   {
     id: "tab_1",
     number: "01",
@@ -121,16 +88,23 @@ const tabsContentData = [
 
 interface Props {}
 
-const Section7: FC<Props> = (props): JSX.Element => {
+const Section7: FC<Props> = (): JSX.Element => {
   const t = useTranslations("home_page.section_7");
   const [currentTab, setCurrentTab] = useState("tab_1");
 
-  const activeTab = useMemo(() => {
-    return tabsContentData.find((tab) => tab.id === currentTab);
-  }, [currentTab]);
+  const activeTab = useMemo(
+    () => tabsContentData.find((tab) => tab.id === currentTab),
+    [currentTab]
+  );
+
+  const handleTabClick = (id: string) => {
+    if (currentTab !== id) {
+      setCurrentTab(id);
+    }
+  };
 
   return (
-    <div className="relative z-[1]">
+    <div className="relative z-[1] after:content-[url('/home-page/section-7-bottom-background.png')] after:left-0 after:bottom-0 after:absolute after:z-[2]">
       <ContentContainer maxWidth="max-w-[900px] mb-[110px]">
         <h2 className="text-[50px] font-bold leading-[1.2] mb-5 text-primary text-center">
           {t.rich("heading", {
@@ -153,14 +127,12 @@ const Section7: FC<Props> = (props): JSX.Element => {
 
       <ContentContainer maxWidth="max-w-[1140px] relative">
         <Image src={background} alt="Section 7 ellipses background" />
+
         <ul>
           {tabsIconData.map(({ id, icon, left, bottom, right }) => (
             <li
-              onClick={() => {
-                if (currentTab === id) return;
-                setCurrentTab(id);
-              }}
               key={id}
+              onClick={() => handleTabClick(id)}
               className={cn(
                 "transition cursor-pointer absolute grid place-items-center w-[95px] aspect-square shadow-[2px_2px_79px_rgba(0,1,52,0.13)] z-[9] rounded-[50%]",
                 currentTab === id ? "bg-secondary scale-110" : "bg-[#f4eae8]"
