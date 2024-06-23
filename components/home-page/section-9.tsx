@@ -218,8 +218,9 @@ const SwiperCard: FC<SwiperCardProps> = ({
 
         <ConsultButtton type_1 />
       </ContentContainer>
-
-      <Image src={image} alt={heading} />
+      <a href={link} target="_blank" rel="noopener">
+        <Image src={image} alt={heading} />
+      </a>
     </div>
   );
 };

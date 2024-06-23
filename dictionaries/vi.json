@@ -4,7 +4,9 @@
       "consult": "Tư vấn báo giá",
       "call": "Gọi cho chúng tôi"
     },
-    "step": "Bước"
+    "step": "Bước",
+    "tel": "SĐT",
+    "address": "Địa chỉ"
   },
   "header": {
     "website_design": "Thiết kế website",
@@ -25,7 +27,8 @@
       "website_criteria": "tieu_chi_thiet_ke_website",
       "website_framework": "nen_tang_thiet_ke_websie",
       "categorize_website": "phan_loai_dich_vu_thiet_ke_website",
-      "design_process": "quy_trinh_thiet_ke_website"
+      "design_process": "quy_trinh_thiet_ke_website",
+      "why_choose_us": "tai_sao_nen_thiet_ke_web_tai_riverlee"
     },
     "section_1": {
       "heading": "RiverLee Web Agency mang đến dịch vụ <orange>thiết kế website chuyên nghiệp</orange> - uy tín",
@@ -229,6 +232,21 @@
         "heading": "Bàn giao toàn vẹn để website thật sự là của riêng bạn",
         "description": "Source code và tài khoản quản trị cao nhất sẽ được trao gửi cho chủ nhân thật sự website. Nhưng chế độ bảo hành, bảo trì website vẫn được RiverLee cung cấp và hỗ trợ tối đa sau này."
       }
+    },
+    "section_11": {
+      "heading": "Tại sao bạn nên chọn dịch vụ <orange>thiết kế website theo yêu cầu</orange> tại RiverLee?",
+      "description_1": "<bold>RiverLee Agency</bold> tự hào với vai trò là một chuyên gia sở hữu nhiều năm kinh nghiệm thực chiến trong lĩnh vực thiết kế website và là tác giả của 100+ website thuộc nhiều lĩnh vực, ngành nghề. Hãy liên hệ với <link>Riverlee.org</link> ngay hôm nay để bắt đầu tạo dựng một <bold>website chất lượng</bold> cho doanh nghiệp của bạn.",
+      "description_2": "Dịch vụ thiết kế website theo yêu càu River - Chuyên thiết kế website Wordpress/NextJS",
+      "address": "16 Đường Má Hai, TDP.5, TP. Buôn Ma Thuột, Đăk Lăk",
+      "reason_1": "Chăm sóc khách hàng nhiệt thành, tận tâm, giàu kinh nghiệm.",
+      "reason_2": "Ứng dụng những xu hướng, công nghệ mới vào thiết kế website.",
+      "reason_3": "Nơi tập hợp của đội ngũ trẻ, nhiệt huyết, sáng tạo, hết mình.",
+      "reason_4": "Thực hiện dự án đúng thời gian, trong thời gian ngắn nhất.",
+      "reason_5": "Năm kinh nghiệm tư vấn các giải pháp về thiết kế website.",
+      "reason_6": "Sản phẩm thiết kế web đa ngành được thực hiện thành công.",
+      "reason_7": "Lĩnh vực và ngành nghề mà RiverLee từng chinh phục qua.",
+      "reason_8": "Tôn trọng tối cao với thông tin bảo mật và quyền riêng tự.",
+      "reason_9": "Tôn trọng tối cao với thông tin bảo mật và quyền riêng tự."
     }
   }
 }

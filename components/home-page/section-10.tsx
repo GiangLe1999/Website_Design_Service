@@ -5,12 +5,12 @@ import Image from "next/image";
 import arrow_top from "@/public/home-page/arrow_top.png";
 import arrow_step from "@/public/home-page/arrows_step.png";
 import { cn } from "@/lib/utils";
-import step_1_img from "@/public/home-page/quy-trinh-thiet-ke-web-gap-go-khach-hang.jpeg";
-import step_2_img from "@/public/home-page/quy-trinh-thiet-ke-web-vach-ra-huong-di.jpeg";
-import step_3_img from "@/public/home-page/quy-trinh-thiet-ke-web-tien-hanh-thiet-ke-lap-trinh.jpeg";
-import step_4_img from "@/public/home-page/quy-trinh-thiet-ke-web-toi-uu-website.jpeg";
-import step_5_img from "@/public/home-page/quy-trinh-thiet-ke-web-trao-quyen-website.jpeg";
-import step_6_img from "@/public/home-page/quy-trinh-thiet-ke-web-bao-tri-website.jpeg";
+import step_1_img from "@/public/home-page/quy-trinh-thiet-ke-web-gap-go-khach-hang.webp";
+import step_2_img from "@/public/home-page/quy-trinh-thiet-ke-web-vach-ra-huong-di.webp";
+import step_3_img from "@/public/home-page/quy-trinh-thiet-ke-web-tien-hanh-thiet-ke-lap-trinh.webp";
+import step_4_img from "@/public/home-page/quy-trinh-thiet-ke-web-toi-uu-website.webp";
+import step_5_img from "@/public/home-page/quy-trinh-thiet-ke-web-trao-quyen-website.webp";
+import step_6_img from "@/public/home-page/quy-trinh-thiet-ke-web-bao-tri-website.webp";
 
 interface Props {}
 
@@ -53,7 +53,10 @@ const Section10: FC<Props> = (props): JSX.Element => {
   const t_id = useTranslations("home_page.section_ids");
 
   return (
-    <section id={t_id("design_process")} className="bg-white pb-[100px]">
+    <section
+      id={t_id("design_process")}
+      className="relative bg-white pb-[200px] after:content-[url('/home-page/section-7-bottom-background.png')] after:left-0 after:bottom-[-7px] after:absolute after:z-[2]"
+    >
       <ContentContainer>
         <p className="text-center mb-4 font-semibold text-primary text-lg">
           {t("sub_heading")}
@@ -119,8 +122,8 @@ const Section10: FC<Props> = (props): JSX.Element => {
                   style={{
                     transform:
                       index % 2 !== 0
-                        ? "rotateY(180deg) translateX(-50%) translateY(calc(100% + 50px))"
-                        : "translateX(-50%) translateY(calc(100% + 50px))",
+                        ? "rotateY(180deg) translateX(50%) translateY(calc(100% - 25px))"
+                        : "translateX(-60%) translateY(calc(100% - 25px))",
                   }}
                 />
               )}

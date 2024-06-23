@@ -27,7 +27,7 @@ interface TabContent {
 const tabsIconData = [
   { id: "tab_1", icon: IconTab1, left: "-3%", bottom: "13%" },
   { id: "tab_2", icon: IconTab2, left: "0", bottom: "42%" },
-  { id: "tab_3", icon: IconTab3, left: "9%", bottom: "68%" },
+  { id: "tab_3", icon: IconTab3, left: "10.1%", bottom: "67.5%" },
   { id: "tab_4", icon: IconTab4, left: "24%", bottom: "86%" },
   { id: "tab_5", icon: IconTab5, left: "45%", bottom: "93%" },
   { id: "tab_6", icon: IconTab6, right: "25%", bottom: "85.8%" },

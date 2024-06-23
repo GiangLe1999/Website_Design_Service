@@ -4,7 +4,9 @@
       "consult": "Request a quote",
       "call": "Call us"
     },
-    "step": "Step"
+    "step": "Step",
+    "tel": "Tel",
+    "address": "Address"
   },
   "header": {
     "website_design": "Website Design",
@@ -25,7 +27,8 @@
       "website_criteria": "criteria_for_website_design",
       "website_framework": "website_design_framework",
       "categorize_website": "classify_website_design_services",
-      "design_process": "website_design_process"
+      "design_process": "website_design_process",
+      "why_choose_us": "why_should_you_design_your_website_at_riverlee"
     },
     "section_1": {
       "heading": "RiverLee Web Agency provides <orange>professional website design services</orange> - with credibility",
@@ -229,6 +232,21 @@
         "heading": "Hand over in entirety to truly be your own website",
         "description": "Source code and the highest administrative account will be sent to the true owner of the website. However, the RiverLee provides and supports maximum later maintenance website is even provided"
       }
+    },
+    "section_11": {
+      "heading": "Why should you choose <orange>custom web design services</orange> at RiverLee?",
+      "description_1": "<bold>RiverLee Agency</bold> takes pride in being an experienced expert in the field of website design, having created 100+ websites across various industries. Contact <link>Riverlee.org</link> today to start building a <bold>high-quality website</bold> for your business.",
+      "description_2": "Custom web design services at RiverLee - Specializing in Wordpress/NextJS website design",
+      "address": "16 Má Hai Street, TDP.5, Buon Ma Thuot City, Dak Lak Province",
+      "reason_1": "Dedicated customer care, attentive, and experienced.",
+      "reason_2": "Applying the latest trends and technologies in web design.",
+      "reason_3": "A team of young, enthusiastic, creative, and dedicated professionals.",
+      "reason_4": "Delivering projects on time, within the shortest timeframe possible.",
+      "reason_5": "5 years of experience advising on web design solutions.",
+      "reason_6": "Successfully executed web designs across multiple industries.",
+      "reason_7": "Industries and sectors RiverLee has conquered.",
+      "reason_8": "Utmost respect for data security and privacy rights.",
+      "reason_9": "Highest regard for data security and privacy rights."
     }
   }
 }

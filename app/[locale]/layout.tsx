@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Raleway } from "next/font/google";
+import { Nunito } from "next/font/google";
 import "../globals.css";
 import { cn } from "@/lib/utils";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import { locales } from "../config";
 import { unstable_setRequestLocale } from "next-intl/server";
 
-const raleway = Raleway({
+const nunito = Nunito({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-raleway",
+  variable: "--font-nunito",
 });
 
 export const metadata: Metadata = {
@@ -50,7 +50,7 @@ export default function RootLayout({
         sizes="16x16"
         href="/static/favicons/favicon-16x16.png"
       />
-      <body className={cn(raleway.className, "antialiased")}>
+      <body className={cn(nunito.className, "antialiased")}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="flex h-screen flex-col justify-between">
             <div className="mb-auto">{children}</div>
