@@ -16,6 +16,7 @@ import reason5 from "@/public/home-page/reason-5.png";
 import reason6 from "@/public/home-page/reason-6.png";
 import reason7 from "@/public/home-page/reason-7.png";
 import { MoveLeftIcon, MoveRightIcon } from "lucide-react";
+import CustomHeading2 from "../custom-heading-2";
 
 const swiperData = [
   {
@@ -68,13 +69,7 @@ const Section8: FC<Props> = (props): JSX.Element => {
       <ContentContainer>
         <div className="flex items-center mb-[70px]">
           <div className="w-1/2">
-            <h2 className="text-[50px] font-bold leading-[1.2] mb-5 text-primary">
-              {t.rich("heading", {
-                orange: (chunks) => (
-                  <span className="text-secondary">{chunks}</span>
-                ),
-              })}
-            </h2>
+            <CustomHeading2 t={t} type_1 />
             <div className="text-sm leading-6 mb-5">
               <p>
                 {t.rich("paragraph_1", {

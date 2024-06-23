@@ -3,6 +3,7 @@ import { FC } from "react";
 import { useTranslations } from "next-intl";
 import ContentContainer from "../content-container";
 import whyNeedWebsite from "@/public/home-page/tai-sao-nen-thiet-ke-website.webp";
+import CustomHeading2 from "../custom-heading-2";
 
 interface Props {}
 
@@ -12,13 +13,7 @@ const Section5: FC<Props> = (props): JSX.Element => {
     <div className="bg-gradient-to-b from-[#f3eae8] to-[#fcf9f8]">
       <ContentContainer customClassName="flex items-center gap-16">
         <div className="w-1/2">
-          <h2 className="text-[50px] font-bold leading-[1.2] mb-5 text-primary">
-            {t.rich("heading", {
-              orange: (chunks) => (
-                <span className="text-secondary">{chunks}</span>
-              ),
-            })}
-          </h2>
+          <CustomHeading2 t={t} type_1 />
 
           <div className="text-sm leading-6 space-y-5">
             <p>

@@ -28,7 +28,9 @@
       "website_framework": "nen_tang_thiet_ke_websie",
       "categorize_website": "phan_loai_dich_vu_thiet_ke_website",
       "design_process": "quy_trinh_thiet_ke_website",
-      "why_choose_us": "tai_sao_nen_thiet_ke_web_tai_riverlee"
+      "why_choose_us": "tai_sao_nen_thiet_ke_web_tai_riverlee",
+      "website_demo": "khach_hang_thiet_ke_web_tai_riverlee",
+      "website_pricing": "gia_thiet_ke_website"
     },
     "section_1": {
       "heading": "RiverLee Web Agency mang đến dịch vụ <orange>thiết kế website chuyên nghiệp</orange> - uy tín",
@@ -235,18 +237,64 @@
     },
     "section_11": {
       "heading": "Tại sao bạn nên chọn dịch vụ <orange>thiết kế website theo yêu cầu</orange> tại RiverLee?",
-      "description_1": "<bold>RiverLee Agency</bold> tự hào với vai trò là một chuyên gia sở hữu nhiều năm kinh nghiệm thực chiến trong lĩnh vực thiết kế website và là tác giả của 100+ website thuộc nhiều lĩnh vực, ngành nghề. Hãy liên hệ với <link>Riverlee.org</link> ngay hôm nay để bắt đầu tạo dựng một <bold>website chất lượng</bold> cho doanh nghiệp của bạn.",
-      "description_2": "Dịch vụ thiết kế website theo yêu càu River - Chuyên thiết kế website Wordpress/NextJS",
+      "description": "<bold>RiverLee Agency</bold> tự hào với vai trò là một chuyên gia sở hữu nhiều năm kinh nghiệm thực chiến trong lĩnh vực thiết kế website và là tác giả của 100+ website thuộc nhiều lĩnh vực, ngành nghề. Hãy liên hệ với <link>Riverlee.org</link> ngay hôm nay để bắt đầu tạo dựng một <bold>website chất lượng</bold> cho doanh nghiệp của bạn.",
+      "agency_name": "Dịch vụ thiết kế website theo yêu cầu RiverLee - Chuyên thiết kế website Wordpress/NextJS",
       "address": "16 Đường Má Hai, TDP.5, TP. Buôn Ma Thuột, Đăk Lăk",
-      "reason_1": "Chăm sóc khách hàng nhiệt thành, tận tâm, giàu kinh nghiệm.",
-      "reason_2": "Ứng dụng những xu hướng, công nghệ mới vào thiết kế website.",
-      "reason_3": "Nơi tập hợp của đội ngũ trẻ, nhiệt huyết, sáng tạo, hết mình.",
-      "reason_4": "Thực hiện dự án đúng thời gian, trong thời gian ngắn nhất.",
-      "reason_5": "Năm kinh nghiệm tư vấn các giải pháp về thiết kế website.",
-      "reason_6": "Sản phẩm thiết kế web đa ngành được thực hiện thành công.",
-      "reason_7": "Lĩnh vực và ngành nghề mà RiverLee từng chinh phục qua.",
-      "reason_8": "Tôn trọng tối cao với thông tin bảo mật và quyền riêng tự.",
-      "reason_9": "Tôn trọng tối cao với thông tin bảo mật và quyền riêng tự."
+      "reason_1": {
+        "heading": "Chăm sóc khách hàng",
+        "description": "Chúng tôi cam kết xây dựng mối quan hệ mạnh mẽ với khách hàng, đảm bảo các nhu cầu của bạn được đáp ứng với sự hài lòng tuyệt đối."
+      },
+      "reason_2": {
+        "heading": "Công nghệ hiện đại",
+        "description": "Việc ứng dụng những xu hướng và công nghệ tiên tiến nhất đảm bảo website của bạn không chỉ hiện đại và bắt mắt mà còn hoạt động hiệu quả."
+      },
+      "reason_3": {
+        "heading": "Đội ngũ trẻ, nhiệt huyết",
+        "description": "Đội ngũ của chúng tôi gồm những cá nhân trẻ tuổi, nhiệt huyết, sáng tạo và cam kết mang đến những giải pháp thiết kế web xuất sắc."
+      },
+      "reason_4": {
+        "heading": "Cam kết đúng hạn",
+        "description": "Chúng tôi cam kết về việc hoàn thành các dự án đúng tiến độ, thậm chí là sớm hơn dự kiến nếu quy trình xây dựng diễn ra suôn sẻ."
+      },
+      "reason_5": {
+        "heading": "Bảo mật thông tin",
+        "description": "Chúng tôi luôn đặt vấn đề bảo mật thông tin và tôn trọng quyền riêng tư của khách hàng lên hàng đầu trong quá trình hợp tác đôi bên."
+      }
+    },
+    "section_12": {
+      "heading": "Top 20++ mẫu <orange>giao diện website</orange> nổi bật"
+    },
+    "section_13": {
+      "heading": "<orange>Bảng giá thiết kế website</orange> RiverLee",
+      "description": "Thiết kế Website tại RiverLee được tối ưu dựa trên các tiêu chí cốt lõi tập trung vào nhu cầu của khách hàng. Chúng tôi nhận thức rằng trong mọi ngành nghề và quy mô, một thiết kế website chuyên nghiệp và hiệu quả là cần thiết. Vì vậy, dịch vụ thiết kế web của chúng tôi cam kết đáp ứng nhu cầu của khách hàng từ mọi phân khúc với mức giá hợp lý.",
+      "common": {
+        "price_from": "Giá từ",
+        "suitable_with": "Phù hợp với",
+        "included": "Đã bao gồm",
+        "features": "Lập trình chức năng cơ bản theo yêu cầu",
+        "framework": "Nền tảng lập trình: NextJS/WordPress",
+        "included_1": "Thiết kế chuẩn UI/UX - giao diện người dùng và trải nghiệm người dùng",
+        "included_2": "Chuẩn Responsive - tương thích với nhiều trình duyệt, thiết bị như PC, laptop, máy tính bảng, di động,…)",
+        "included_3": "Tối ưu tốc độ load trang",
+        "included_4": "Lập trình chuẩn SEO",
+        "included_5": "Miễn phí bảo mật SSL năm đầu",
+        "included_6": "Hướng dẫn quản trị",
+        "included_7": "Bàn giao mã nguồn (source code)",
+        "included_8": "Bảo hành và bảo trì vĩnh viễn",
+        "included_9": "Hỗ trợ kỹ thuật 24/7"
+      },
+      "basic_type": {
+        "heading": "Thiết kế website theo giao diện có sẵn",
+        "suitable_with_1": "Website giới thiệu cá nhân, cửa hàng và doanh nghiệp trung bình, nhỏ",
+        "suitable_with_2": "Web bán hàng phổ thông",
+        "effect": "Hiệu ứng website: Cơ bản"
+      },
+      "premium_type": {
+        "heading": "Thiết kế website theo yêu cầu",
+        "suitable_with_1": "Website giới thiệu cửa hàng, doanh nghiệp lớn",
+        "suitable_with_2": "Website kinh doanh online, tin tức, dịch vụ, tài chính, công nghệ đặc biệt, đồ họa cao…",
+        "effect": "Hiệu ứng website: Nâng cao"
+      }
     }
   }
 }

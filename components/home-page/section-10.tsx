@@ -11,6 +11,7 @@ import step_3_img from "@/public/home-page/quy-trinh-thiet-ke-web-tien-hanh-thie
 import step_4_img from "@/public/home-page/quy-trinh-thiet-ke-web-toi-uu-website.webp";
 import step_5_img from "@/public/home-page/quy-trinh-thiet-ke-web-trao-quyen-website.webp";
 import step_6_img from "@/public/home-page/quy-trinh-thiet-ke-web-bao-tri-website.webp";
+import CustomHeading2 from "../custom-heading-2";
 
 interface Props {}
 
@@ -61,13 +62,7 @@ const Section10: FC<Props> = (props): JSX.Element => {
         <p className="text-center mb-4 font-semibold text-primary text-lg">
           {t("sub_heading")}
         </p>
-        <h2 className="text-center text-[50px] font-bold leading-[1.3] mb-5 text-primary">
-          {t.rich("heading", {
-            orange: (chunks) => (
-              <span className="text-secondary">{chunks}</span>
-            ),
-          })}
-        </h2>
+        <CustomHeading2 t={t} type_1 customClassname="text-center" />
 
         <div className="relative">
           <Image

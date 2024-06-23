@@ -1,6 +1,7 @@
 import { FC } from "react";
 import ContentContainer from "../content-container";
 import { useTranslations } from "next-intl";
+import CustomHeading2 from "../custom-heading-2";
 
 interface Props {}
 
@@ -9,13 +10,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
   return (
     <div className="pb-[70px] bg-gradient-to-b from-[#f3ebe9] to-[#ebf1ef]">
       <ContentContainer maxWidth="max-w-[1040px]">
-        <h2 className="text-[50px] font-bold leading-[1.2] mb-5 text-primary">
-          {t.rich("heading", {
-            orange: (chunks) => (
-              <span className="text-secondary">{chunks}</span>
-            ),
-          })}
-        </h2>
+        <CustomHeading2 t={t} type_1 />
 
         <p className="text-xl leading-10 mb-5">
           {t.rich("paragraph_1", {

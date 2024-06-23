@@ -16,6 +16,7 @@ import IconTab8 from "@/public/home-page/tab-icon-8.png";
 import { cn } from "@/lib/utils";
 import ConsultButtton from "../consult-button";
 import CallButton from "../call-button";
+import CustomHeading2 from "../custom-heading-2";
 
 interface TabContent {
   id: string;
@@ -110,13 +111,7 @@ const Section7: FC<Props> = (): JSX.Element => {
       className="relative bg-gradient-to-b from-[#fff9f8] to-[#f3eae8] after:content-[url('/home-page/section-7-bottom-background.png')] after:left-0 after:bottom-[-7px] after:absolute after:z-[2] pb-[88px]"
     >
       <ContentContainer maxWidth="max-w-[900px] mb-[110px]">
-        <h2 className="text-[50px] font-bold leading-[1.2] mb-5 text-primary text-center">
-          {t.rich("heading", {
-            orange: (chunks) => (
-              <span className="text-secondary">{chunks}</span>
-            ),
-          })}
-        </h2>
+        <CustomHeading2 t={t} type_1 customClassname="text-center" />
         <div className="leading-8 text-center text-lg">
           <p>{t("paragraph_1")}</p>
           <p>

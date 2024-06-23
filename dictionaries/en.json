@@ -28,7 +28,9 @@
       "website_framework": "website_design_framework",
       "categorize_website": "classify_website_design_services",
       "design_process": "website_design_process",
-      "why_choose_us": "why_should_you_design_your_website_at_riverlee"
+      "why_choose_us": "why_should_you_design_your_website_at_riverlee",
+      "website_demo": "customers_design_website_at_riverlee",
+      "website_pricing": "website_design_pricing"
     },
     "section_1": {
       "heading": "RiverLee Web Agency provides <orange>professional website design services</orange> - with credibility",
@@ -235,18 +237,64 @@
     },
     "section_11": {
       "heading": "Why should you choose <orange>custom web design services</orange> at RiverLee?",
-      "description_1": "<bold>RiverLee Agency</bold> takes pride in being an experienced expert in the field of website design, having created 100+ websites across various industries. Contact <link>Riverlee.org</link> today to start building a <bold>high-quality website</bold> for your business.",
-      "description_2": "Custom web design services at RiverLee - Specializing in Wordpress/NextJS website design",
-      "address": "16 Má Hai Street, TDP.5, Buon Ma Thuot City, Dak Lak Province",
-      "reason_1": "Dedicated customer care, attentive, and experienced.",
-      "reason_2": "Applying the latest trends and technologies in web design.",
-      "reason_3": "A team of young, enthusiastic, creative, and dedicated professionals.",
-      "reason_4": "Delivering projects on time, within the shortest timeframe possible.",
-      "reason_5": "5 years of experience advising on web design solutions.",
-      "reason_6": "Successfully executed web designs across multiple industries.",
-      "reason_7": "Industries and sectors RiverLee has conquered.",
-      "reason_8": "Utmost respect for data security and privacy rights.",
-      "reason_9": "Highest regard for data security and privacy rights."
+      "description": "<bold>RiverLee Agency</bold> takes pride in being an experienced expert in the field of website design, having created 100+ websites across various industries. Contact <link>Riverlee.org</link> today to start building a <bold>high-quality website</bold> for your business.",
+      "agency_name": "Custom web design services at RiverLee - Specializing in Wordpress/NextJS website design",
+      "address": "16 Ma Hai Street, Buon Ma Thuot City, Dak Lak Province",
+      "reason_1": {
+        "heading": "Customer Care",
+        "description": "We are committed to building strong relationships with our customers, ensuring your needs are met with absolute satisfaction."
+      },
+      "reason_2": {
+        "heading": "Modern Technology",
+        "description": "Applying the latest trends and advanced technologies ensures your website is only modern, attractive and functions efficiently."
+      },
+      "reason_3": {
+        "heading": "Young and Dynamic Team",
+        "description": "Our team consists of young, enthusiastic individuals who are creative and dedicated to delivering excellent web design solutions."
+      },
+      "reason_4": {
+        "heading": "On-time Commitment",
+        "description": "We pledge to complete projects on schedule, even ahead of time if the development process goes smoothly."
+      },
+      "reason_5": {
+        "heading": "Data Security",
+        "description": "We prioritize data security and respect for customer privacy throughout our collaborative process."
+      }
+    },
+    "section_12": {
+      "heading": "Top 20++ highlighted <orange>website interface</orange> templates"
+    },
+    "section_13": {
+      "heading": "<orange>Website Design Pricing</orange> RiverLee",
+      "description": "Website design at RiverLee is optimized based on core criteria focusing on customer needs. We recognize that in every industry and scale, a professional and efficient website design is essential. Therefore, our web design service is committed to meeting customer needs across all segments at reasonable prices.",
+      "common": {
+        "price_from": "Price from",
+        "suitable_with": "Suitable for",
+        "included": "Included",
+        "features": "Basic function programming as required",
+        "framework": "Programming platform: NextJS/WordPress",
+        "included_1": "Standard UI/UX design - user interface and user experience",
+        "included_2": "Responsive standard - compatible with various browsers, devices such as PC, laptop, tablet, mobile,...",
+        "included_3": "Optimized page load speed",
+        "included_4": "Standard SEO programming",
+        "included_5": "Free SSL security for the first year",
+        "included_6": "Administrator guidance",
+        "included_7": "Source code delivery",
+        "included_8": "Lifetime warranty and maintenance",
+        "included_9": "24/7 technical support"
+      },
+      "basic_type": {
+        "heading": "Pre-designed interface website design",
+        "suitable_with_1": "Personal introduction websites, small to medium businesses and shops",
+        "suitable_with_2": "Basic e-commerce websites",
+        "effect": "Website effects: Basic"
+      },
+      "premium_type": {
+        "heading": "Custom-designed website",
+        "suitable_with_1": "Large business, corporate introduction websites",
+        "suitable_with_2": "Online business, news, services, special finance, high graphics technology,...",
+        "effect": "Website effects: Advanced"
+      }
     }
   }
 }
