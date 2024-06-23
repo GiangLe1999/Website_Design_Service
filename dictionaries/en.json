@@ -22,7 +22,8 @@
       "design_service": "professional_website_design_service",
       "why_needed": "why_should_you_design_a_website",
       "website_criteria": "criteria_for_website_design",
-      "website_framework": "website_design_framework"
+      "website_framework": "website_design_framework",
+      "categorize_website": "classify_website_design_services"
     },
     "section_1": {
       "heading": "RiverLee Web Agency provides <orange>professional website design services</orange> - with credibility",
@@ -36,8 +37,7 @@
       "image_5": "User-friendly website design"
     },
     "section_2": {
-      "heading_part_1": "Web Design - Essential Tool in",
-      "heading_part_2": "the “Digital Transformation Race” of Businesses.",
+      "heading": "Web Design - Essential Tool in the <orange>“Digital Transformation Race” of Businesses.<orange>",
       "paragraph_1": "In Vietnam, there are over 45,200 searches for keywords like “website design” or <bold>“website design services”</bold> every month, with thousands of <bold>web designs</bold> being created across various fields. But what percentage of these can truly satisfy owners, operate smoothly, and deliver optimal results?",
       "paragraph_2": "With just a few simple steps, the keyword “professional web design” leads you to hundreds of different <bold>web development services</bold>. The diversity in costs and service packages, implemented through various programming technologies, differing strategies, and execution processes... each provider has enriched this field of website construction with a broader spectrum.",
       "paragraph_3": "Moreover, <bold>business entities</bold> that emerged earlier have also begun expanding into the online business market to increase market share and better reach the many customers they once missed out on. Hence, the competition among businesses in the same industry is fiercer than ever.",
@@ -51,7 +51,7 @@
       "paragraph_4": "RiverLee Agency also plays the role of an expert with many years of practical experience in web design, with 500+ websites created and operating steadily. We do not create an overall strategy for your website that is too distant or too large. We are your companion in creating a <bold>beautiful website design</bold> that is SUITABLE – EFFECTIVE – CAPABLE OF QUICKLY INCREASING REVENUE."
     },
     "section_5": {
-      "heading": "Reasons Why Should Design a Website?",
+      "heading": "Reasons Why Should <orange>Design a Website?</orange>",
       "paragraph_1": "We understand that the costs, needs, and industries of each customer segment vary greatly. The ambition of <bold>RiverLee Web Design Services</bold> is to fully meet the website design requirements for a diverse range of customers across various segments, from low to high.",
       "paragraph_2": "According to the Vietnam 2020 White Paper, up to 84% of Internet users (aged 16-64) search online for products and services and make purchasing decisions; 35% make online purchases via computers and 59% through smartphones.",
       "paragraph_3": "All of this shows that <bold>YOUR CUSTOMERS ARE ONLINE</bold> and <bold>DO NOT LET PRODUCTS REMAIN OFFLINE ONLY</bold>.",
@@ -140,6 +140,65 @@
         "description": "Rich plugin/library support is a significant advantage of using these technologies in website design, making it extremely easy to upgrade and add new features."
       },
       "image_1": "The website design platforms WordPress and NextJS"
+    },
+    "section_9": {
+      "heading": "<orange>Multi-industry Website</orange> Design Services",
+      "type_1": {
+        "heading": "Landing Page Design",
+        "description": "Often referred to as a critical destination in Marketing campaigns, a Landing Page is also where potential customers are quickly engaged. If the information on a pure website can easily cause customers to overlook your important goals, a Landing Page will address that and increase conversion more effectively."
+      },
+      "type_2": {
+        "heading": "E-commerce Website Design",
+        "description": "Our customers are frequently online; don't keep our goods offline forever. Online shopping now dominates consumer shopping behaviors. A smart e-commerce website with full features will guide customers to find you, easily finalize orders, and make quick payments."
+      },
+      "type_3": {
+        "heading": "Real Estate Website Design",
+        "description": "Depending on each client's business purpose, we provide appropriate advice on various types of real estate websites. Owning a standard SEO, high-quality real estate website will significantly support customer engagement and enhance conversion from online to offline."
+      },
+      "type_4": {
+        "heading": "Corporate Website Design",
+        "description": "In a world where everyone is on a level playing field, every business builds a strong 'Online home'. Designing a corporate website is a special channel of communication, a distinctive profile that helps customers recognize your brand, affirm trust in your brand, and facilitate cooperation."
+      },
+      "type_5": {
+        "heading": "Interior Design Website",
+        "description": "An industry closely associated with aesthetic beauty and sophistication. Therefore, it's understandable that customers have high demands in all visual identity aspects related to the brand. Customers will quickly be convinced if they experience a luxurious, classy, and user-friendly interior design website."
+      },
+      "type_6": {
+        "heading": "Study Abroad Website Design",
+        "description": "Providing comprehensive information about living and studying abroad in upcoming countries for parents and students is especially essential. A study abroad website is such a channel. At the same time, it's an important marketing channel for brand promotion campaigns on the Internet (SEO, Google Ads, Facebook Ads...)."
+      },
+      "type_7": {
+        "heading": "Cosmetics Website Design",
+        "description": "In an industry with fierce competition and thousands of new names emerging every year, customers have many choices, which means they may easily hesitate during decision-making. A professional, user-friendly cosmetics website will better approach customers and enhance trust in your brand."
+      },
+      "type_8": {
+        "heading": "Skin Care and Spa Website Design",
+        "description": "Understanding you through the website, deciding to experience and becoming a loyal customer is something 4.0 era customers still often do. A dull, poorly experienced skin care and spa website with slow page loads risks losing potential customers, and Google quickly forgets your brand."
+      },
+      "type_9": {
+        "heading": "Beauty Clinic Website Design",
+        "description": "Representing beauty and stunning transformations, beauty clinics are an area customers carefully consider before choosing an experience. Search information provided online is an indispensable advisor. An impressive, SEO-friendly Beauty Clinic website builds solid trust from the start."
+      },
+      "type_10": {
+        "heading": "Fashion Website Design",
+        "description": "In recent years, online shopping trends have surged, including favored fashion products such as clothing, trousers, and accessories. Therefore, a website will be an 'extended arm' to assist sellers in getting closer to customers with needs, quickly enticing them to make final decisions."
+      },
+      "type_11": {
+        "heading": "Construction Website Design",
+        "description": "Enhancing reputation, affirming market position online, and building strong customer trust are vital roles of a successfully operated construction website. A standout company introduction website will easily 'engrave' its name in customers' minds, thereby establishing trust."
+      },
+      "type_12": {
+        "heading": "Restaurant and Hotel Website Design",
+        "description": "The physical business space isn't limited by real-world square meters. The restaurant or hotel you're running can reach millions of customers across five continents. A restaurant or hotel website helps customers compare, reference, contact immediately, book conveniently and quickly."
+      },
+      "type_13": {
+        "heading": "Travel Website Design",
+        "description": "Owning a unique travel website with lightning-fast page load speeds for quick tour booking and online payment capabilities will be a powerful tool for travel and resort businesses to impress customers. Completing and upgrading websites to keep up with the returning travel lifestyle and various breakthrough directions."
+      },
+      "type_14": {
+        "heading": "Education Website Design",
+        "description": "Education websites and schools are extremely necessary in today's life. They serve as a valuable information gateway for students and a bridge between schools and parents. Professional education website design helps enhance the quality and credibility of the school, instilling trust in parents' decision-making."
+      }
     }
   }
 }

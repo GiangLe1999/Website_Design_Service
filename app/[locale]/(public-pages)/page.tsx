@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 import Section6 from "@/components/home-page/section-6";
 import Section7 from "@/components/home-page/section-7";
 import Section8 from "@/components/home-page/section-8";
+import Section9 from "@/components/home-page/section-9";
 
 interface Props {
   params: {
@@ -34,6 +35,7 @@ const HomePage = ({ params: { locale } }: Props) => {
 
       <Section7 />
       <Section8 />
+      <Section9 />
     </>
   );
 };

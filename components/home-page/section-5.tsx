@@ -9,11 +9,15 @@ interface Props {}
 const Section5: FC<Props> = (props): JSX.Element => {
   const t = useTranslations("home_page.section_5");
   return (
-    <div className="bg-gradient-to-b from-[#f3eae8] to-[#fcf9f8] border-t-[8px] border-[#b3b3b3]">
+    <div className="bg-gradient-to-b from-[#f3eae8] to-[#fcf9f8]">
       <ContentContainer customClassName="flex items-center gap-16">
         <div className="w-1/2">
           <h2 className="text-[50px] font-bold leading-[1.2] mb-5 text-primary">
-            {t("heading")}
+            {t.rich("heading", {
+              orange: (chunks) => (
+                <span className="text-secondary">{chunks}</span>
+              ),
+            })}
           </h2>
 
           <div className="text-sm leading-6 space-y-5">

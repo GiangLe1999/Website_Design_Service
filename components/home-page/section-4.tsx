@@ -4,13 +4,14 @@ import bfContent from "@/public/home-page/bf_content.png";
 import afterContent from "@/public/home-page/after_content.png";
 import Image from "next/image";
 import ContentContainer from "../content-container";
+import background from "@/public/home-page/section-4-background-thing.webp";
 
 interface Props {}
 
 const Section4: FC<Props> = (props): JSX.Element => {
   const t = useTranslations("home_page.section_4");
   return (
-    <div className="w-screen relative bg-[#f1f1f1] pt-[110px]">
+    <div className="w-screen relative bg-gradient-to-b from-[#ebf1ef] to-[#f3eae8] pt-[110px]">
       <ContentContainer maxWidth="max-w-[1040px] z-[1] relative pb-[110px]">
         <p className="relative text-xl leading-10 mb-10">
           {t.rich("paragraph_1", {
@@ -63,7 +64,9 @@ const Section4: FC<Props> = (props): JSX.Element => {
         </div>
       </ContentContainer>
 
-      <div className="bg-[url('/home-page/section-4-background.webp')] h-[464px] bg-cover bg-left-bottom"></div>
+      <div className="flex items-center justify-center h-[464px]">
+        <Image src={background} alt="Section 4 background" />
+      </div>
     </div>
   );
 };

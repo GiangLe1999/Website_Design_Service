@@ -22,7 +22,8 @@
       "design_service": "dich_vu_thiet_ke_website_chuyen_nghiep",
       "why_needed": "tai_sao_nen_thiet-ke_website",
       "website_criteria": "tieu_chi_thiet_ke_website",
-      "website_framework": "nen_tang_thiet_ke_websie"
+      "website_framework": "nen_tang_thiet_ke_websie",
+      "categorize_website": "phan_loai_dich_vu_thiet_ke_website"
     },
     "section_1": {
       "heading": "RiverLee Web Agency mang đến dịch vụ <orange>thiết kế website chuyên nghiệp</orange> - uy tín",
@@ -36,8 +37,7 @@
       "image_5": "Thiết kế website hiệu thân thiện với người dùng"
     },
     "section_2": {
-      "heading_part_1": "Thiết kế web - công cụ đắc lực không thể thiếu trong",
-      "heading_part_2": "“cuộc đua kinh doanh chuyển đổi số”.",
+      "heading": "Thiết kế web - công cụ đắc lực không thể thiếu trong <orange>“cuộc đua kinh doanh chuyển đổi số”.</orange>",
       "paragraph_1": "Tại Việt Nam, có hơn 45.200 lượt tìm kiếm từ khóa “thiết kế website” hay <bold>“dịch vụ thiết kế website”</bold>mỗi tháng, hàng nghìn <bold>thiết kế web</bold> được ra đời ở rất nhiều các lĩnh vực khác nhau. Nhưng có bao nhiêu phần trăm trong tổng số có thể khiến cho chủ sở hữu hài lòng, vận hành ổn định và mang lại những hiệu quả tối ưu?",
       "paragraph_2": "Chỉ với một vài thao tác đơn giản, từ khóa “thiết kế web chuyên nghiệp” sẽ dẫn lối cho bạn đến hàng trăm cái tên khác nhau của các <bold>dịch vụ làm web</bold>. Sự đa dạng chi phí và gói dịch vụ, thực hiện bằng nhiều công nghệ lập trình khác nhau, khác biệt về chiến lược và quy trình thực hiện,… mỗi đơn vị đã làm phong phú thêm mảng màu xây dựng website này.",
       "paragraph_3": "Bên cạnh đó, các cá nhân <bold>doanh nghiệp</bold> ra đời trước đó cũng đã bắt đầu lấn sân sang thị trường kinh doanh Online với mục đích tăng thị phần, và tiếp cận tốt hơn với số đông khách hàng họ từng bỏ lỡ. Vì thế, “cuộc đua” cạnh tranh giữa các doanh nghiệp trong cùng ngành nghề đang trở nên khốc liệt hơn bao giờ hết.",
@@ -51,7 +51,7 @@
       "paragraph_4": "RiverLee Agency còn đứng ở vai trò là một chuyên gia với nhiều năm kinh nghiệm thực chiến trong lĩnh vực thiết kế trang web, 500+ website đã ra đời và vận hành ổn định. Chúng tôi không vẽ ra cho bạn chiến lược tổng thể về website xa vời hay quá to lớn. Chúng tôi là người đồng hành cùng bạn tạo ra một <bold>thiết kế website đẹp</bold> PHÙ HỢP – HIỆU QUẢ – CÓ KHẢ NĂNG TĂNG DOANH THU NHANH CHÓNG."
     },
     "section_5": {
-      "heading": "Những lý do bạn nên thiết kế website?",
+      "heading": "Những lý do bạn nên <orange>thiết kế website?</orange>",
       "paragraph_1": "Chúng tôi hiểu rằng mức chi phí, nhu cầu, ngành nghề của từng đối tượng khách hàng sẽ rất khác nhau. Tham vọng của <bold>Dịch vụ thiết kế web RiverLee</bold> là đáp ứng đầy đủ yêu cầu thiết kế website cho đông đảo khách hàng ở nhiều phân khúc từ thấp đến cao.",
       "paragraph_2": "Theo Sách trắng Việt Nam 2020 nhận định rằng có đến 84% người dùng Internet (độ tuổi từ 16-64) tìm kiếm trực tuyến các sản phẩm dịch vụ và đưa ra quyết định mua hàng; 35% mua trực tuyến thông qua máy tính và 59% thực hiện hành vi mua hàng thông qua smartphone.",
       "paragraph_3": "Tất cả điều này đã cho thấy rằng <bold>KHÁCH HÀNG CỦA BẠN ĐANG ONLINE</bold> và <bold>ĐỪNG ĐỂ HÀNG HÓA CHỈ MÃI OFFLINE</bold>.",
@@ -140,6 +140,65 @@
         "description": "Plugin/Library hỗ trợ phong phú là điểm cộng rất lớn khi sử dụng công nghệ này trong thiết kế website, việc nâng cấp thêm tính năng mới sẽ vô cùng dễ dàng."
       },
       "image_1": "Nền tảng thiết kế website Wordpress và NextJS"
+    },
+    "section_9": {
+      "heading": "Dịch vụ thiết kế <orange>website đa ngành</orange>",
+      "type_1": {
+        "heading": "Thiết kế Landing Page",
+        "description": "Được ví là “điểm đến” quan trọng trong các chiến dịch Marketing, Landing Page cũng là nơi giúp việc thu thập khách hàng tiềm năng hiệu nhanh chóng. Nếu thông tin trên website  thuần có thể dễ dàng khiến khách hàng bỏ qua mục tiêu quan trọng của bạn. Landing page sẽ khắc phục điều đó và nâng cao chuyển đổi hiệu quả hơn."
+      },
+      "type_2": {
+        "heading": "Thiết kế website bán hàng",
+        "description": "Khách hàng của chúng ta đang online thường xuyên, đừng để hàng hoá của chúng ta mãi Offline. Bán hàng online giờ đây đã chiếm ưu thế lớn trong hành vi mua sắm của người tiêu dùng. Website bán hàng thông minh với đầy đủ tính năng sẽ dẫn đường để khách hàng tìm đến bạn, “chốt đơn” dễ dàng và thanh toán nhanh chóng."
+      },
+      "type_3": {
+        "heading": "Thiết kế website bất động sản",
+        "description": "Tuỳ thuộc vào mục đích kinh doanh của từng khách hàng, chúng tôi sẽ đưa ra những tư vấn phù hợp về các loại hình website bất động sản tương ứng. Sở hữu thiết kế website bất động sản chuẩn SEO, chất lượng sẽ hỗ trợ đắc lực trong việc tiếp cận khách hàng và tăng khả năng chuyển đổi từ Online sang Offline."
+      },
+      "type_4": {
+        "heading": "Thiết kế website giới thiệu doanh nghiệp",
+        "description": "Khi thế giới đang nằm trên “một mặt phẳng, bất kỳ doanh nghiệp nào cũng xây dựng cho mình một “ngôi nhà Online” vững chắc. Thiết kế website công ty, doanh nghiệp chính là 1 kênh truyền thông, là 1 chiếc Profile đặc biệt giúp khách hàng có thể biết đến thương hiệu của bạn, khẳng định lòng tin về thương hiệu và cơ sở  xúc tiến cho việc hợp tác."
+      },
+      "type_5": {
+        "heading": "Thiết kế website nội thất",
+        "description": "Là ngành nghề luôn gắn liền với nét đẹp thẩm mỹ và sự tinh tế. Vì thế, sẽ không khó hiểu khách hàng cũng sẽ có những yêu cầu rất cao ở tất cả các nhận diện hình ảnh liên quan đến thương hiệu. Khách hàng sẽ nhanh chóng bị thuyết phục nếu trải nghiệm website nội thất sang trọng, đẳng cấp và thân thiện với người dùng."
+      },
+      "type_6": {
+        "heading": "Thiết kế website du học",
+        "description": "Việc cung cấp thông tin toàn diện về nơi sống, trường học ở các nước du học sắp tới cho các phụ huynh và học sinh là đặc biệt cần thiết. Website du học chính là một kênh tin như thế. Đồng thời, đây là kênh marketing quan trọng cho các chiến dịch quảng bá thương hiệu trên mạng Internet (SEO, Google Ads, Facebook Ads…)."
+      },
+      "type_7": {
+        "heading": "Thiết kế website mỹ phẩm",
+        "description": "Trong một ngành nghề đang có sự cạnh tranh khốc liệt với hàng nghìn tên tuổi ra đời hằng năm. Khách hàng có rất nhiều sự lựa chọn đồng nghĩa với việc họ sẽ dễ bị phân vân trong quá trình ra quyết định. Website mỹ phẩm chuyên nghiệp, thân thiện sẽ tiếp cận khách hàng tốt hơn và nâng cao sự tín nhiệm về thương hiệu của bạn."
+      },
+      "type_8": {
+        "heading": "Thiết kế website chăm sóc da – Spa",
+        "description": "Tìm hiểu bạn thông qua website, quyết định trải nghiệm và trở thành khách hàng trung thành là điều khách hàng thời 4.0 vẫn thường làm. Chỉ thiết kế website chăm sóc da; Spa mờ nhạt, trải nghiệm kém, load trang chậm điều dẫn đến nguy cơ bạn mất đi khách hàng tiềm năng chắc chắn Google sẽ rất nhanh lãng quên thương hiệu của bạn."
+      },
+      "type_9": {
+        "heading": "Thiết kế website thẩm mỹ viện",
+        "description": "Là ngành nghề đại diện cho cái đẹp, cho những cú “lột xác” ngoạn mục. Thẩm mỹ viện là lĩnh vực được khách hàng quan tâm kỹ càng trước khi lựa chọn trải nghiệm. Tìm kiếm thông tin được cung cấp trên mạng sẽ là “quân sư mách nước” không thể thiếu. Website TMV chính chủ, ấn tượng, hỗ trợ tốt SEO tạo dựng niềm tin vững chắc ngay từ đầu."
+      },
+      "type_10": {
+        "heading": "Thiết kế website thời trang",
+        "description": "Những năm gần đây xu hướng mua sắm online tăng vọt, trong đó phải kể đến các sản phẩm thời trang luôn được người dùng ưu ái như: áo, quần, phụ kiện. Vì thế, website sẽ là “một cánh tay nối dài” hỗ trợ cho người bán hàng tiếp cận gần hơn khách hàng đang có nhu cầu, hấp dẫn họ nhanh chóng đưa ra quyết định cuối cùng."
+      },
+      "type_11": {
+        "heading": "Thiết kế website xây dựng",
+        "description": "Nâng cao danh tiếng, khẳng định vị trí trên thị trường Online, xây dựng niềm tin  vững chắc trong lòng khách hàng là vai trò quan trọng của 1 website xây dựng được vận hành thành công. Website giới thiệu công ty đặc sắc sẽ dễ dàng “khắc tên” mình vào tâm trí khách hàng, sự tin tưởng cũng sẽ được tạo dựng từ đó."
+      },
+      "type_12": {
+        "heading": "Thiết kế website nhà hàng khách sạn",
+        "description": "Không “đóng gói” không gian kinh doanh được tính bằng m2 ngoài đời thực. Nhà hàng; khách sạn bạn đang kinh doanh có thể tiếp cận với triệu triệu khách hàng trên khắp 5 châu. Website nhà hàng; khách sạn sẽ giúp khách hàng so sánh, tham khảo, liên hệ ngay, booking, một cách tiện lợi và nhanh chóng."
+      },
+      "type_13": {
+        "heading": "Thiết kế website du lịch",
+        "description": "Sở hữu website du lịch độc đáo, tốc độ load trang “thần tốc” book tour nhanh, có khả năng thanh toán trực tuyến sẽ là cánh tay đắc lực cho các doanh nghiệp hoạt động du lịch; nghỉ dưỡng ghi điểm trong mắt khách hàng. Hoàn thiện và nâng cấp website để bắt kịp nhịp sống du lịch đang quay trở lại và nhiều hướng đi bứt phá."
+      },
+      "type_14": {
+        "heading": "Thiết kế website giáo dục",
+        "description": "Website giáo dục, trường học vô cùng cần thiết trong cuộc sống hiện nay. Vừa là cổng thông tin hữu ích dành cho các bạn học sinh, cầu nối giữa nhà trường và phụ huynh. Thiết kế website giáo dục chuyên nghiệp giúp nâng cao chất lượng, sự uy tín của nhà trường và tạo niềm tin trong các quyết định lựa chọn của phụ huynh."
+      }
     }
   }
 }

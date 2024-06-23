@@ -15,6 +15,7 @@ import reason4 from "@/public/home-page/reason-4.png";
 import reason5 from "@/public/home-page/reason-5.png";
 import reason6 from "@/public/home-page/reason-6.png";
 import reason7 from "@/public/home-page/reason-7.png";
+import { MoveLeftIcon, MoveRightIcon } from "lucide-react";
 
 const swiperData = [
   {
@@ -62,12 +63,12 @@ const Section8: FC<Props> = (props): JSX.Element => {
   return (
     <section
       id={t_id("website_framework")}
-      className="bg-gradient-to-b from-[#fcf5e4] to-[#f3eae8]"
+      className="bg-gradient-to-b from-[#fcf5e4] to-[#f4f1f1] pb-[120px]"
     >
       <ContentContainer>
         <div className="flex items-center mb-[70px]">
           <div className="w-1/2">
-            <h2 className="text-[50px] font-bold leading-[1.3] mb-5 text-primary">
+            <h2 className="text-[50px] font-bold leading-[1.2] mb-5 text-primary">
               {t.rich("heading", {
                 orange: (chunks) => (
                   <span className="text-secondary">{chunks}</span>
@@ -142,6 +143,7 @@ const SectionSwiper = () => {
       // }}
       modules={[Autoplay, Navigation]}
       onInit={() => setInit(true)}
+      className="relative !pt-[80px]"
     >
       {swiperData.map((slide, index) => (
         <SwiperSlide key={index}>
@@ -152,6 +154,22 @@ const SectionSwiper = () => {
           />
         </SwiperSlide>
       ))}
+
+      <button
+        type="button"
+        ref={prevRef}
+        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute left-0 top-[0px] z-[10]"
+      >
+        <MoveLeftIcon className="w-4 h-4" />
+      </button>
+
+      <button
+        type="button"
+        ref={nextRef}
+        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute left-[45px] top-[0px] z-[10]"
+      >
+        <MoveRightIcon className="w-4 h-4" />
+      </button>
     </Swiper>
   );
 };
