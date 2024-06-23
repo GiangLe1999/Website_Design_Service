@@ -112,7 +112,7 @@ const Section9: FC<Props> = (props): JSX.Element => {
   return (
     <section
       id={t_id("categorize_website")}
-      className="bg-gradient-to-b from-[#f4f1f1] to-[#eeeefb] pb-[100px]"
+      className="bg-gradient-to-b from-[#f4f1f1] to-[#ffffff] pb-[150px]"
     >
       <ContentContainer>
         <h2 className="text-center text-[50px] font-bold leading-[1.3] mb-5 text-primary">

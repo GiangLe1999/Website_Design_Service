@@ -3,7 +3,8 @@
     "button": {
       "consult": "Request a quote",
       "call": "Call us"
-    }
+    },
+    "step": "Step"
   },
   "header": {
     "website_design": "Website Design",
@@ -23,7 +24,8 @@
       "why_needed": "why_should_you_design_a_website",
       "website_criteria": "criteria_for_website_design",
       "website_framework": "website_design_framework",
-      "categorize_website": "classify_website_design_services"
+      "categorize_website": "classify_website_design_services",
+      "design_process": "website_design_process"
     },
     "section_1": {
       "heading": "RiverLee Web Agency provides <orange>professional website design services</orange> - with credibility",
@@ -37,7 +39,7 @@
       "image_5": "User-friendly website design"
     },
     "section_2": {
-      "heading": "Web Design - Essential Tool in the <orange>“Digital Transformation Race” of Businesses.<orange>",
+      "heading": "Web Design - Essential Tool in the <orange>“Digital Transformation Race” of Businesses.</orange>",
       "paragraph_1": "In Vietnam, there are over 45,200 searches for keywords like “website design” or <bold>“website design services”</bold> every month, with thousands of <bold>web designs</bold> being created across various fields. But what percentage of these can truly satisfy owners, operate smoothly, and deliver optimal results?",
       "paragraph_2": "With just a few simple steps, the keyword “professional web design” leads you to hundreds of different <bold>web development services</bold>. The diversity in costs and service packages, implemented through various programming technologies, differing strategies, and execution processes... each provider has enriched this field of website construction with a broader spectrum.",
       "paragraph_3": "Moreover, <bold>business entities</bold> that emerged earlier have also begun expanding into the online business market to increase market share and better reach the many customers they once missed out on. Hence, the competition among businesses in the same industry is fiercer than ever.",
@@ -198,6 +200,34 @@
       "type_14": {
         "heading": "Education Website Design",
         "description": "Education websites and schools are extremely necessary in today's life. They serve as a valuable information gateway for students and a bridge between schools and parents. Professional education website design helps enhance the quality and credibility of the school, instilling trust in parents' decision-making."
+      }
+    },
+    "section_10": {
+      "sub_heading": "6 STEPS TO PERFECT YOUR WEBSITE",
+      "heading": "<orange>Professional website design process</orange> at RiverLee",
+      "step_1": {
+        "heading": "Meet and analyze information provided by the customer.",
+        "description": "This is the first step but also one of the most crucial. Professional understanding will impress customers with us right from the start."
+      },
+      "step_2": {
+        "heading": "Outline the direction, specific milestones through a detailed plan",
+        "description": "The website development plan is more 'compatible' with brand development goals and more specific will make the project more accurate and fastest."
+      },
+      "step_3": {
+        "heading": "Design, programming, and on-air website testing",
+        "description": "This process is always in an accelerating state to run to the finish line. Unique 'tricks' will be used by Water Sailor at appropriate stages to create an effective, full personality website."
+      },
+      "step_4": {
+        "heading": "Adjust, optimize in all aspects and officially launch",
+        "description": "At this point, you can rest assured that your 'child' is almost 90% complete, just a few adjustments to suit the web design. The impressive launch."
+      },
+      "step_5": {
+        "heading": "Transfer website management rights",
+        "description": "Don't worry or be confused if you have never managed a website. The management team will directly guide and provide accompanying materials such as video, guidebook."
+      },
+      "step_6": {
+        "heading": "Hand over in entirety to truly be your own website",
+        "description": "Source code and the highest administrative account will be sent to the true owner of the website. However, the RiverLee provides and supports maximum later maintenance website is even provided"
       }
     }
   }

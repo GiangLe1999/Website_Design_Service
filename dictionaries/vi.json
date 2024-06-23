@@ -3,7 +3,8 @@
     "button": {
       "consult": "Tư vấn báo giá",
       "call": "Gọi cho chúng tôi"
-    }
+    },
+    "step": "Bước"
   },
   "header": {
     "website_design": "Thiết kế website",
@@ -23,7 +24,8 @@
       "why_needed": "tai_sao_nen_thiet-ke_website",
       "website_criteria": "tieu_chi_thiet_ke_website",
       "website_framework": "nen_tang_thiet_ke_websie",
-      "categorize_website": "phan_loai_dich_vu_thiet_ke_website"
+      "categorize_website": "phan_loai_dich_vu_thiet_ke_website",
+      "design_process": "quy_trinh_thiet_ke_website"
     },
     "section_1": {
       "heading": "RiverLee Web Agency mang đến dịch vụ <orange>thiết kế website chuyên nghiệp</orange> - uy tín",
@@ -198,6 +200,34 @@
       "type_14": {
         "heading": "Thiết kế website giáo dục",
         "description": "Website giáo dục, trường học vô cùng cần thiết trong cuộc sống hiện nay. Vừa là cổng thông tin hữu ích dành cho các bạn học sinh, cầu nối giữa nhà trường và phụ huynh. Thiết kế website giáo dục chuyên nghiệp giúp nâng cao chất lượng, sự uy tín của nhà trường và tạo niềm tin trong các quyết định lựa chọn của phụ huynh."
+      }
+    },
+    "section_10": {
+      "sub_heading": "6 BƯỚC HOÀN THIỆN WEBSITE",
+      "heading": "<orange>Quy trình thiết kế website</orange> chuyên nghiệp tại RiverLee",
+      "step_1": {
+        "heading": "Gặp gỡ và phân tích thông tin từ khách hàng cung cấp.",
+        "description": "Đây là bước đầu tiên nhưng cũng là 1 trong những bước quan trọng nhất. Sự am hiểu và chuyên nghiệp sẽ giúp khách hàng ấn tượng với chúng tôi ngay từ lúc đầu."
+      },
+      "step_2": {
+        "heading": "Vạch ra hướng đi, những cột mốc nhất định thông qua kế hoạch cụ thể",
+        "description": "Kế hoạch phát triển website càng “tương thích” với mục tiêu phát triển thương hiệu và càng cụ thể sẽ làm cho dự án càng đúng hướng và thực hiện nhanh nhất."
+      },
+      "step_3": {
+        "heading": "Tiến hành thiết kế, lập trình và on air website thử nghiệm",
+        "description": "Quá trình này luôn trong trạng thái tăng tốc để chạy về đích. Các “chiêu thức” độc đáo sẽ được Thuỷ Thủ sử dụng phù hợp ở các khâu để làm nên website hiệu quả, đầy cá tính."
+      },
+      "step_4": {
+        "heading": "Điều chỉnh, tối ưu về mọi mặt và chính thức ra mắt",
+        "description": "Lúc này bạn có thể yên tâm vì “con cưng” của bạn gần như hoàn thành hơn 90%, chỉ một vài điều chỉnh đúng ý là thiết kế web đã có thể ra mắt ấn tượng."
+      },
+      "step_5": {
+        "heading": "Trao quyền quản trị website",
+        "description": "Bạn đừng lo lắng hay bỡ ngỡ nếu chưa từng quản trị website. Đội ngũ nhân viên hướng dẫn quản trị sẽ trực tiếp chỉ dẫn và cung cấp các tài liệu đi kèm như: video, sách hướng dẫn."
+      },
+      "step_6": {
+        "heading": "Bàn giao toàn vẹn để website thật sự là của riêng bạn",
+        "description": "Source code và tài khoản quản trị cao nhất sẽ được trao gửi cho chủ nhân thật sự website. Nhưng chế độ bảo hành, bảo trì website vẫn được RiverLee cung cấp và hỗ trợ tối đa sau này."
       }
     }
   }
