@@ -42,7 +42,7 @@ const Section13: FC<Props> = (props): JSX.Element => {
   return (
     <section
       id={t_id("website_pricing")}
-      className="relative bg-gradient-to-b from-[#f0eff9] to-[#f7f2ed] pt-[195px]"
+      className="relative bg-gradient-to-b from-[#f0eff9] to-[#f7f2ed] pt-[150px] pb-[60px]"
     >
       <ContentContainer>
         <div className="flex items-center gap-16">
@@ -105,7 +105,7 @@ const PriceBlock: FC<PriceBlockProps> = ({
   suitableWithArr,
 }) => {
   return (
-    <div className="rounded-[20px] shadow-[2px_2px_30px_rgba(0,28,24,0.13)] bg-white p-6">
+    <div className="rounded-[20px] shadow-[2px_2px_30px_rgba(0,28,24,0.13)] bg-white p-6 mb-6">
       {/* Type */}
       <p className="flex items-center gap-2 border-b pb-4">
         <Image
@@ -114,7 +114,9 @@ const PriceBlock: FC<PriceBlockProps> = ({
           width={iconWidth}
           height={iconHeight}
         />
-        <span className="font-bold text-primary text-xl">{typeTitle}</span>
+        <span className="font-bold text-primary text-xl line-clamp-1">
+          {typeTitle}
+        </span>
       </p>
 
       {/* Giá từ */}

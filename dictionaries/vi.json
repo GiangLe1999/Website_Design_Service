@@ -30,7 +30,8 @@
       "design_process": "quy_trinh_thiet_ke_website",
       "why_choose_us": "tai_sao_nen_thiet_ke_web_tai_riverlee",
       "website_demo": "khach_hang_thiet_ke_web_tai_riverlee",
-      "website_pricing": "gia_thiet_ke_website"
+      "website_pricing": "gia_thiet_ke_website",
+      "testimonials": "cam_nhan_khach_hang"
     },
     "section_1": {
       "heading": "RiverLee Web Agency mang đến dịch vụ <orange>thiết kế website chuyên nghiệp</orange> - uy tín",
@@ -246,7 +247,7 @@
       },
       "reason_2": {
         "heading": "Công nghệ hiện đại",
-        "description": "Việc ứng dụng những xu hướng và công nghệ tiên tiến nhất đảm bảo website của bạn không chỉ hiện đại và bắt mắt mà còn hoạt động hiệu quả."
+        "description": "Việc ứng dụng những xu hướng và công nghệ tiên tiến đảm bảo website của bạn không chỉ hiện đại và bắt mắt mà còn hoạt động hiệu quả."
       },
       "reason_3": {
         "heading": "Đội ngũ trẻ, nhiệt huyết",
@@ -284,16 +285,50 @@
         "included_9": "Hỗ trợ kỹ thuật 24/7"
       },
       "basic_type": {
-        "heading": "Thiết kế website theo giao diện có sẵn",
+        "heading": "Website theo giao diện có sẵn",
         "suitable_with_1": "Website giới thiệu cá nhân, cửa hàng và doanh nghiệp trung bình, nhỏ",
         "suitable_with_2": "Web bán hàng phổ thông",
         "effect": "Hiệu ứng website: Cơ bản"
       },
       "premium_type": {
         "heading": "Thiết kế website theo yêu cầu",
-        "suitable_with_1": "Website giới thiệu cửa hàng, doanh nghiệp lớn",
+        "suitable_with_1": "Website giới thiệu doanh nghiệp lớn",
         "suitable_with_2": "Website kinh doanh online, tin tức, dịch vụ, tài chính, công nghệ đặc biệt, đồ họa cao…",
         "effect": "Hiệu ứng website: Nâng cao"
+      }
+    },
+    "section_14": {
+      "heading": "Cảm nhận từ <orange>khách hàng</orange>",
+      "description": "RiverLee Agency tự hào là một <bold>dịch vụ thiết kế website</bold> được nhiều doanh nghiệp uy tín tin tưởng và lựa chọn đồng hành.",
+      "feedback_1": {
+        "content": "RiverLee đã thực sự làm tôi bất ngờ với dịch vụ thiết kế website cho lĩnh vực nội thất. Họ không chỉ tạo ra một giao diện đẹp mắt mà còn tinh chỉnh từng chi tiết sao cho phù hợp với phong cách thiết kế của công ty tôi. Website giúp tăng tính chuyên nghiệp và sự uy tín của thương hiệu trên mạng.",
+        "name": "Anh Văn Giàu",
+        "type": "Website Nội Thất"
+      },
+      "feedback_2": {
+        "content": "Tôi đã làm việc với nhiều công ty thiết kế web trước đây, nhưng RiverLee là người đầu tiên làm cho tôi hài lòng với dịch vụ thiết kế website thương mại điện tử. Họ đã tạo ra một trang web rất chuyên nghiệp, tối ưu hóa tốt cho việc tìm kiếm trên công cụ tìm kiếm và có giao diện thân thiện với người dùng. Tôi rất ấn tượng với sự chuyên nghiệp và sự tận tâm của đội ngũ thiết kế của RiverLee.",
+        "name": "Anh Quốc Oai",
+        "type": "Website TMĐT"
+      },
+      "feedback_3": {
+        "content": "Dịch vụ thiết kế website bất động sản từ RiverLee đã vượt quá sự mong đợi của chúng tôi. Họ đã hiểu rất rõ yêu cầu của ngành bất động sản và cung cấp một giao diện trực quan, giúp khách hàng dễ dàng tìm kiếm thông tin về các dự án và tính năng tuyệt vời để thêm các tiện ích như tour 3D và video về dự án.",
+        "name": "Anh Đình Tuấn",
+        "type": "Website Bất Động Sản"
+      },
+      "feedback_4": {
+        "content": "Thiết kế website dành cho dịch vụ du học của chúng tôi là một thành tựu lớn đối với RiverLee. Họ đã đưa ra một giao diện dễ sử dụng, mà không chỉ hướng dẫn khách hàng thông tin về các chương trình du học mà còn cung cấp các tài liệu hữu ích như hướng dẫn xin visa và các bài viết chia sẻ kinh nghiệm từ các sinh viên đã đi du học.",
+        "name": "Anh Trọng Huy",
+        "type": "Website Du Học"
+      },
+      "feedback_5": {
+        "content": "Thiết kế website cho thương hiệu mỹ phẩm của chúng tôi từ RiverLee là một trong những đầu tư tốt nhất mà chúng tôi đã làm. Họ đã không chỉ tạo ra một giao diện thú vị và bắt mắt mà còn đảm bảo rằng trang web là nơi mua sắm trực tuyến an toàn và thuận tiện cho khách hàng. Những tính năng như đánh giá sản phẩm và chia sẻ trên mạng xã hội đã giúp tăng cường sự tương tác và doanh số bán hàng của chúng tôi.",
+        "name": "Chị Thùy Linh",
+        "type": "Website Mỹ Phẩm"
+      },
+      "feedback_6": {
+        "content": "RiverLee đã mang lại cho chúng tôi một trang web cho đại lý ô tô rất chuyên nghiệp và hiện đại. Giao diện của họ không chỉ đẹp mắt mà còn dễ dàng quản lý các sản phẩm ô tô và tính năng tìm kiếm nâng cao giúp người dùng có thể dễ dàng tìm thấy xe mình muốn. Sự chuyên nghiệp và hiệu quả của RiverLee thực sự đã giúp cho doanh nghiệp của chúng tôi có mặt mạnh mẽ trên thị trường.",
+        "name": "Chị Hồng Ngọc",
+        "type": "Website Ô Tô"
       }
     }
   }

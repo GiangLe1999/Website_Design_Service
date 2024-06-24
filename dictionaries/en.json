@@ -30,7 +30,8 @@
       "design_process": "website_design_process",
       "why_choose_us": "why_should_you_design_your_website_at_riverlee",
       "website_demo": "customers_design_website_at_riverlee",
-      "website_pricing": "website_design_pricing"
+      "website_pricing": "website_design_pricing",
+      "testimonials": "customer_feedback"
     },
     "section_1": {
       "heading": "RiverLee Web Agency provides <orange>professional website design services</orange> - with credibility",
@@ -284,16 +285,50 @@
         "included_9": "24/7 technical support"
       },
       "basic_type": {
-        "heading": "Pre-designed interface website design",
+        "heading": "Pre-designed interface website",
         "suitable_with_1": "Personal introduction websites, small to medium businesses and shops",
         "suitable_with_2": "Basic e-commerce websites",
         "effect": "Website effects: Basic"
       },
       "premium_type": {
         "heading": "Custom-designed website",
-        "suitable_with_1": "Large business, corporate introduction websites",
+        "suitable_with_1": "Large business introduction websites",
         "suitable_with_2": "Online business, news, services, special finance, high graphics technology,...",
         "effect": "Website effects: Advanced"
+      }
+    },
+    "section_14": {
+      "heading": "Customer Feedback",
+      "description": "RiverLee Agency is proud to be a <bold>website design service</bold> trusted and chosen by many reputable businesses.",
+      "feedback_1": {
+        "content": "RiverLee truly impressed me with their website design service for interior design. They not only created a beautiful interface but also fine-tuned every detail to match our company's design style. The website enhances our professionalism and brand credibility online.",
+        "name": "Mr. Van Giau",
+        "type": "Interior Design Website"
+      },
+      "feedback_2": {
+        "content": "I've worked with several web design companies before, but RiverLee was the first to satisfy me with their ecommerce website design service. They've created a very professional website, well optimized for search engines and user-friendly. I'm impressed with the professionalism and dedication of RiverLee's design team.",
+        "name": "Mr. Quoc Oai",
+        "type": "Ecommerce Website"
+      },
+      "feedback_3": {
+        "content": "RiverLee's real estate website design service exceeded our expectations. They understood the requirements of the real estate industry well and provided an intuitive interface, making it easy for customers to find information about projects and great features such as 3D tours and project videos.",
+        "name": "Mr. Dinh Tuan",
+        "type": "Real Estate Website"
+      },
+      "feedback_4": {
+        "content": "The website design for our study abroad service is a major achievement for RiverLee. They've delivered a user-friendly interface that not only guides customers through information about study programs but also provides useful resources such as visa application guides and experience-sharing articles from students who have studied abroad.",
+        "name": "Mr. Trong Huy",
+        "type": "Study Abroad Website"
+      },
+      "feedback_5": {
+        "content": "The website design for our cosmetics brand by RiverLee is one of the best investments we've made. They've not only created an engaging and visually appealing interface but also ensured that the website is a safe and convenient online shopping destination for customers. Features like product reviews and social media sharing have helped boost our interaction and sales.",
+        "name": "Ms. Thuy Linh",
+        "type": "Cosmetics Website"
+      },
+      "feedback_6": {
+        "content": "RiverLee has provided us with a very professional and modern website for our automotive dealership. Their interface is not only attractive but also makes it easy to manage automotive products and includes advanced search features, allowing users to easily find the car they want. RiverLee's professionalism and efficiency have truly helped our business establish a strong presence in the market.",
+        "name": "Ms. Hong Ngoc",
+        "type": "Automotive Website"
       }
     }
   }

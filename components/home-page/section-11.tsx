@@ -157,8 +157,8 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ icon, heading, description }) => {
   return (
-    <div className="relative bg-[#fcf7f5] rounded-[30px] shadow-md hover:bg-white group transition duration-500">
-      <div className="bg-[#fcf7f5] group-hover:bg-white transition duration-500 shadow-md absolute left-1/2 -translate-x-1/2 mt-[-60px] rounded-full w-[112px] aspect-square grid place-items-center">
+    <div className="relative bg-[#ffffff82] rounded-[30px] shadow-md hover:bg-white group transition duration-500">
+      <div className="bg-[#fff] group-hover:bg-white transition duration-500 shadow-md absolute left-1/2 -translate-x-1/2 mt-[-60px] rounded-full w-[112px] aspect-square grid place-items-center">
         <Image src={icon} alt={heading} width={50} />
       </div>
 
