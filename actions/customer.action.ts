@@ -4,7 +4,7 @@ import sendEmail from "@/lib/send-mail";
 import fs from "fs";
 import path from "path";
 
-const dataFilePath = path.join(process.cwd(), "data", "form-data.json");
+const dataFilePath = path.join(process.cwd(), "customer-forms-data.json");
 
 export const saveFormData = async (formData: any) => {
   try {
