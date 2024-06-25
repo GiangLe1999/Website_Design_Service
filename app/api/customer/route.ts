@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-import sendEmail from "@/lib/utils";
 import fs from "fs";
 import path from "path";
+import sendEmail from "@/lib/send-mail";
 
 const dataFilePath = path.join(process.cwd(), "data", "form-data.json");
 
