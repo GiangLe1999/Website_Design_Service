@@ -2,7 +2,10 @@
   "common": {
     "button": {
       "consult": "Request a quote",
-      "call": "Call us"
+      "call": "Call us",
+      "submit": "Submit information",
+      "loading": "Loading...",
+      "close": "Cancel"
     },
     "step": "Step",
     "tel": "Tel",
@@ -31,7 +34,9 @@
       "why_choose_us": "why_should_you_design_your_website_at_riverlee",
       "website_demo": "customers_design_website_at_riverlee",
       "website_pricing": "website_design_pricing",
-      "testimonials": "customer_feedback"
+      "testimonials": "customer_feedback",
+      "knowledge": "website_design_knowledge",
+      "quote": "website_design_quote"
     },
     "section_1": {
       "heading": "RiverLee Web Agency provides <orange>professional website design services</orange> - with credibility",
@@ -329,6 +334,43 @@
         "content": "RiverLee has provided us with a very professional and modern website for our automotive dealership. Their interface is not only attractive but also makes it easy to manage automotive products and includes advanced search features, allowing users to easily find the car they want. RiverLee's professionalism and efficiency have truly helped our business establish a strong presence in the market.",
         "name": "Ms. Hong Ngoc",
         "type": "Automotive Website"
+      }
+    },
+    "section_15": {
+      "heading": "General knowledge about <orange>websites</orange>",
+      "sub_heading": "Stay updated on information, knowledge, and the latest trends about websites."
+    },
+    "section_16": {
+      "heading": "Request <orange>website design price</orange>",
+      "sub_heading_1": "Please provide your information to receive a call / email with a price quote from our consultants.",
+      "sub_heading_2": "Please contact us with any inquiries:",
+      "field_1": {
+        "name": "Full Name",
+        "error": "Full name must be at least 2 characters long."
+      },
+      "field_2": {
+        "name": "Phone number (+84)",
+        "error": "Please enter valid phone number (Starting with +84)."
+      },
+      "field_3": {
+        "error": "Please enter a valid email address."
+      },
+      "field_4": {
+        "name": "Package choice",
+        "option_1": "Basic Package",
+        "option_2": "Premium Package"
+      },
+      "field_5": {
+        "name": "Message",
+        "placeholder": "Is there anything else you'd like to send to RiverLee?"
+      },
+      "submit_successfully": {
+        "heading": "Form submitted successfully",
+        "description": "A staff member at RiverLee will contact you as soon as possible."
+      },
+      "submit_failed": {
+        "heading": "Failed to submit form",
+        "description": "There was an issue submitting the form. We will resolve it as soon as possible."
       }
     }
   }

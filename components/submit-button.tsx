@@ -4,16 +4,18 @@ import { ButtonHTMLAttributes, FC, useState } from "react";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
-import { MoveRightIcon } from "lucide-react";
+import { MoveRightIcon, LoaderCircleIcon } from "lucide-react";
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
   type_1?: boolean;
+  isLoading?: boolean;
 }
 
-const ConsultButtton: FC<Props> = ({
+const SubmitButton: FC<Props> = ({
   className,
   type_1,
+  isLoading,
   ...props
 }): JSX.Element => {
   const t_btn = useTranslations("common.button");
@@ -36,11 +38,21 @@ const ConsultButtton: FC<Props> = ({
       )}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      type="submit"
       {...props}
     >
-      {t_btn("consult")} <MoveRightIcon className="w-5 h-5 ml-2" />
+      {isLoading ? (
+        <>
+          {t_btn("loading")}{" "}
+          <LoaderCircleIcon className="w-5 h-5 ml-2 animate-spin" />{" "}
+        </>
+      ) : (
+        <>
+          {t_btn("submit")} <MoveRightIcon className="w-5 h-5 ml-2" />
+        </>
+      )}
     </Button>
   );
 };
 
-export default ConsultButtton;
+export default SubmitButton;

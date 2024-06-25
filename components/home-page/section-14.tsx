@@ -118,7 +118,7 @@ const Section14: FC<Props> = (props): JSX.Element => {
         <Image
           src={customer_logo_4}
           alt="Customer logo 4"
-          className="absolute left-[15%] -bottom-48 -translate-x-1/2 z-[3]"
+          className="absolute left-[15%] -bottom-52 -translate-x-1/2 z-[3]"
           width={170}
           height={170}
         />
@@ -126,7 +126,7 @@ const Section14: FC<Props> = (props): JSX.Element => {
         <Image
           src={customer_logo_5}
           alt="Customer logo 5"
-          className="absolute left-1/2 -translate-x-full -bottom-44 z-[3]"
+          className="absolute left-1/2 -translate-x-full -bottom-48 z-[3]"
           width={170}
           height={170}
         />

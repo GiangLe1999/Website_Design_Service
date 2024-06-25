@@ -14,6 +14,8 @@ import Section11 from "@/components/home-page/section-11";
 import Section12 from "@/components/home-page/section-12";
 import Section13 from "@/components/home-page/section-13";
 import Section14 from "@/components/home-page/section-14";
+import Section15 from "@/components/home-page/section-15";
+import Section16 from "@/components/home-page/section-16";
 
 interface Props {
   params: {
@@ -46,6 +48,8 @@ const HomePage = ({ params: { locale } }: Props) => {
       <Section12 />
       <Section13 />
       <Section14 />
+      <Section15 />
+      <Section16 />
     </>
   );
 };

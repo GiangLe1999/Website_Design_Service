@@ -2,7 +2,10 @@
   "common": {
     "button": {
       "consult": "Tư vấn báo giá",
-      "call": "Gọi cho chúng tôi"
+      "call": "Gọi cho chúng tôi",
+      "submit": "Gửi thông tin",
+      "loading": "Đang xử lý",
+      "close": "Đóng"
     },
     "step": "Bước",
     "tel": "SĐT",
@@ -31,7 +34,9 @@
       "why_choose_us": "tai_sao_nen_thiet_ke_web_tai_riverlee",
       "website_demo": "khach_hang_thiet_ke_web_tai_riverlee",
       "website_pricing": "gia_thiet_ke_website",
-      "testimonials": "cam_nhan_khach_hang"
+      "testimonials": "cam_nhan_khach_hang",
+      "knowledge": "kien_thuc_thiet_ke_website",
+      "quote": "bao_gia_thiet_ke_website"
     },
     "section_1": {
       "heading": "RiverLee Web Agency mang đến dịch vụ <orange>thiết kế website chuyên nghiệp</orange> - uy tín",
@@ -329,6 +334,43 @@
         "content": "RiverLee đã mang lại cho chúng tôi một trang web cho đại lý ô tô rất chuyên nghiệp và hiện đại. Giao diện của họ không chỉ đẹp mắt mà còn dễ dàng quản lý các sản phẩm ô tô và tính năng tìm kiếm nâng cao giúp người dùng có thể dễ dàng tìm thấy xe mình muốn. Sự chuyên nghiệp và hiệu quả của RiverLee thực sự đã giúp cho doanh nghiệp của chúng tôi có mặt mạnh mẽ trên thị trường.",
         "name": "Chị Hồng Ngọc",
         "type": "Website Ô Tô"
+      }
+    },
+    "section_15": {
+      "heading": "Kiến thức thường thức về <orange>website</orange>",
+      "sub_heading": "Cập nhật thông tin, kiến thức, xu hướng mới nhất về website cho bạn"
+    },
+    "section_16": {
+      "heading": "Nhận báo <orange>giá thiết kế website</orange>",
+      "sub_heading_1": "Mời bạn gửi thông tin để nhận được cuộc gọi / email báo giá từ chuyên viên tư vấn.",
+      "sub_heading_2": "Mọi thắc mắc xin liên hệ:",
+      "field_1": {
+        "name": "Họ và tên",
+        "error": "Họ và tên phải có ít nhất 2 kí tự."
+      },
+      "field_2": {
+        "name": "Số điện thoại (+84)",
+        "error": "Vui lòng điền đúng định dạng SĐT (Bắt đầu bằng +84)."
+      },
+      "field_3": {
+        "error": "Vui lòng nhập email hợp lệ."
+      },
+      "field_4": {
+        "name": "Lựa chọn gói",
+        "option_1": "Gói Basic",
+        "option_2": "Gói Premium"
+      },
+      "field_5": {
+        "name": "Tin nhắn",
+        "placeholder": "Bạn muốn nhắn gửi thêm điều gì tới RiverLee?"
+      },
+      "submit_successfully": {
+        "heading": "Gửi form thành công",
+        "description": "Nhân viên tại RiverLee sẽ liên hệ với bạn trong thời gian sớm nhất."
+      },
+      "submit_failed": {
+        "heading": "Gửi form thất bại",
+        "description": "Đã có vấn đề khi gửi form. Chúng tôi sẽ khắc phục trong thời gian sớm nhất."
       }
     }
   }

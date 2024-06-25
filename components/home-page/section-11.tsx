@@ -17,6 +17,7 @@ import icon_4 from "@/public/home-page/thuc-hien-du-an-website-dung-han.png";
 import icon_5 from "@/public/home-page/ton-trong-thong-tin-bao-mat.png";
 import ConsultButtton from "../consult-button";
 import CallButton from "../call-button";
+import { cn } from "@/lib/utils";
 
 const swiperData = [
   {
@@ -51,7 +52,6 @@ interface Props {}
 const Section11: FC<Props> = (props): JSX.Element => {
   const t = useTranslations("home_page.section_11");
   const t_id = useTranslations("home_page.section_ids");
-  const t_common = useTranslations("common");
 
   return (
     <section
@@ -79,26 +79,7 @@ const Section11: FC<Props> = (props): JSX.Element => {
 
         <SectionSwiper />
 
-        <p className="text-xl font-semibold text-primary leading-8 text-center mb-2">
-          {t("agency_name")}
-        </p>
-        <ul className="space-y-2 text-center">
-          <li>
-            <b>{t_common("tel")}</b>:{" "}
-            <a href={`tel:${siteMetadata.tel}`}>{siteMetadata.tel}</a>
-          </li>
-          <li>
-            <b>Email</b>:{" "}
-            <a href={`mailto:${siteMetadata.email}`}>{siteMetadata.email}</a>
-          </li>
-          <li className="flex items-center justify-center">
-            <b>{t_common("address")}</b>:
-            <address className="not-italic ml-1">{t("address")}</address>
-          </li>
-          <li>
-            <b>Website</b>: <Link href="/">{siteMetadata.siteUrl}</Link>
-          </li>
-        </ul>
+        <ContactInfo />
 
         <div className="flex items-center justify-center gap-4 mt-10">
           <ConsultButtton type_1 />
@@ -106,6 +87,45 @@ const Section11: FC<Props> = (props): JSX.Element => {
         </div>
       </ContentContainer>
     </section>
+  );
+};
+
+interface ContactInfoProps {
+  isSection16?: boolean;
+}
+
+export const ContactInfo: FC<ContactInfoProps> = ({ isSection16 = false }) => {
+  const t = useTranslations("home_page.section_11");
+  const t_common = useTranslations("common");
+
+  return (
+    <>
+      <p
+        className={cn(
+          "font-semibold text-primary leading-8 text-center mb-2",
+          isSection16 ? "text-lg" : "text-xl"
+        )}
+      >
+        {t("agency_name")}
+      </p>
+      <ul className="space-y-2 text-center">
+        <li>
+          <b>{t_common("tel")}</b>:{" "}
+          <a href={`tel:${siteMetadata.tel}`}>{siteMetadata.tel}</a>
+        </li>
+        <li>
+          <b>Email</b>:{" "}
+          <a href={`mailto:${siteMetadata.email}`}>{siteMetadata.email}</a>
+        </li>
+        <li className="flex items-center justify-center">
+          <b>{t_common("address")}</b>:
+          <address className="not-italic ml-1">{t("address")}</address>
+        </li>
+        <li>
+          <b>Website</b>: <Link href="/">{siteMetadata.siteUrl}</Link>
+        </li>
+      </ul>
+    </>
   );
 };
 
