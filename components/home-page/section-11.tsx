@@ -119,7 +119,9 @@ export const ContactInfo: FC<ContactInfoProps> = ({ isSection16 = false }) => {
         </li>
         <li className="flex items-center justify-center">
           <b>{t_common("address")}</b>:
-          <address className="not-italic ml-1">{t("address")}</address>
+          <address className="not-italic ml-1">
+            {t_common("address_text")}
+          </address>
         </li>
         <li>
           <b>Website</b>: <Link href="/">{siteMetadata.siteUrl}</Link>

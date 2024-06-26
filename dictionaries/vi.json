@@ -9,7 +9,11 @@
     },
     "step": "Bước",
     "tel": "SĐT",
-    "address": "Địa chỉ"
+    "address": "Địa chỉ",
+    "address_text": "16 Đường Má Hai, phường Tân Hòa, TP. Buôn Ma Thuột, Đăk Lăk",
+    "site_name": "Thiết kế website chuyên nghiệp RiverLee",
+    "work_hours": "Thời gian hoạt động",
+    "work_hours_text": "9h00 - 18h từ Thứ 2 - Thứ 6"
   },
   "header": {
     "website_design": "Thiết kế website",
@@ -36,7 +40,8 @@
       "website_pricing": "gia_thiet_ke_website",
       "testimonials": "cam_nhan_khach_hang",
       "knowledge": "kien_thuc_thiet_ke_website",
-      "quote": "bao_gia_thiet_ke_website"
+      "quote": "bao_gia_thiet_ke_website",
+      "faq": "tu_van_thiet_ke_website"
     },
     "section_1": {
       "heading": "RiverLee Web Agency mang đến dịch vụ <orange>thiết kế website chuyên nghiệp</orange> - uy tín",
@@ -245,7 +250,6 @@
       "heading": "Tại sao bạn nên chọn dịch vụ <orange>thiết kế website theo yêu cầu</orange> tại RiverLee?",
       "description": "<bold>RiverLee Agency</bold> tự hào với vai trò là một chuyên gia sở hữu nhiều năm kinh nghiệm thực chiến trong lĩnh vực thiết kế website và là tác giả của 100+ website thuộc nhiều lĩnh vực, ngành nghề. Hãy liên hệ với <link>Riverlee.org</link> ngay hôm nay để bắt đầu tạo dựng một <bold>website chất lượng</bold> cho doanh nghiệp của bạn.",
       "agency_name": "Dịch vụ thiết kế website theo yêu cầu RiverLee - Chuyên thiết kế website Wordpress/NextJS",
-      "address": "16 Đường Má Hai, TDP.5, TP. Buôn Ma Thuột, Đăk Lăk",
       "reason_1": {
         "heading": "Chăm sóc khách hàng",
         "description": "Chúng tôi cam kết xây dựng mối quan hệ mạnh mẽ với khách hàng, đảm bảo các nhu cầu của bạn được đáp ứng với sự hài lòng tuyệt đối."
@@ -371,6 +375,62 @@
       "submit_failed": {
         "heading": "Gửi form thất bại",
         "description": "Đã có vấn đề khi gửi form. Chúng tôi sẽ khắc phục trong thời gian sớm nhất."
+      }
+    },
+    "section_17": {
+      "heading": "Bạn hỏi - <orange>RiverLee trả lời</orange>",
+      "description": "Bạn đang băn khoăn về quy trình thiết kế website tại RiverLee, chúng tôi luôn sẵn sàng giải đáp các thắc mắc của quý khách hàng",
+      "question_1": {
+        "question": "Thiết kế website là gì?",
+        "answer": "Thiết kế website là công việc tạo trang web hoàn chỉnh cho cá nhân, doanh nghiệp, tổ chức. Thiết kế website sẽ sử dụng các công cụ lập trình để trình bày ý tưởng, nội dung lên giao diện của website. Có 2 phương thức chính để thiết kế web: Thiết kế web tĩnh và thiết kế web động. Bạn có thể tìm hiểu kỹ chi tiết tại bài viết <link>“Thiết kế website là gì?”</link>"
+      },
+      "question_2": {
+        "question": "Thiết kế website chuẩn SEO là gì?",
+        "answer": "<link>“Thiết kế website chuẩn SEO”</link> là việc tối ưu hóa cấu trúc, nội dung và các yếu tố kỹ thuật trên trang web nhằm cải thiện vị trí của trang trên các công cụ tìm kiếm như Google, bao gồm việc sử dụng từ khóa phù hợp, tối ưu hóa tốc độ tải trang, cấu trúc URL logic và sử dụng thẻ meta mô tả."
+      },
+      "question_3": {
+        "question": "Thiết kế website responsive là gì?",
+        "answer": "Thiết kế website responsive là việc tạo ra một trang web có thể hiển thị một cách tối ưu trên các thiết bị và kích thước màn hình khác nhau, từ máy tính để bàn đến điện thoại di động và máy tính bảng. Thiết kế này đảm bảo rằng trang web có thể điều chỉnh và phản hồi một cách linh hoạt để cung cấp trải nghiệm người dùng tốt nhất cho mọi loại thiết bị. Xem thêm ngay bài viết về <link>7 nguyên tắc “vàng”</link> cần nắm rõ khi thiết kế web responsive."
+      },
+      "question_4": {
+        "question": "Thiết kế website theo yêu cầu là gì?",
+        "answer": "<link>“Thiết kế website theo yêu cầu”</link> là quá trình tạo ra một trang web dựa trên các yêu cầu cụ thể từ khách hàng hoặc người dùng cuối. Quá trình này thường bắt đầu bằng việc thu thập thông tin và yêu cầu chi tiết từ khách hàng, sau đó phát triển và triển khai trang web dựa trên những yêu cầu này. Thiết kế theo yêu cầu có thể bao gồm tất cả các giai đoạn từ lập kế hoạch, thiết kế giao diện, phát triển tính năng, kiểm tra và bảo trì để đảm bảo rằng sản phẩm cuối cùng đáp ứng đầy đủ các mong đợi của khách hàng."
+      },
+      "question_5": {
+        "question": "Thiết kế website cần những kiến thức và kĩ năng gì?",
+        "answer": "Để thiết kế website hiệu quả, bạn cần có những kiến thức cơ bản sau:<ul><li><bold>HTML và CSS:</bold> Là ngôn ngữ cơ bản để tạo ra cấu trúc và thiết kế giao diện của trang web.</li><li><bold>JavaScript:</bold> Để thêm tính năng động và tương tác vào trang web.</li><li><bold>Responsive Design:</bold> Kiến thức về cách thiết kế sao cho trang web có thể hiển thị đẹp và hoạt động tốt trên các thiết bị khác nhau.</li><li><bold>Các nguyên tắc thiết kế UX/UI:</bold> Hiểu về cách sắp xếp, thiết kế và trải nghiệm người dùng để tối ưu hóa sự thu hút và sử dụng của người dùng trên trang web.</li><li><bold>SEO (Search Engine Optimization):</bold> Kiến thức về cách tối ưu hóa trang web để tăng khả năng xuất hiện trên các công cụ tìm kiếm như Google.</li><li><bold>Kiến thức về quản lý dữ liệu và bảo mật:</bold> Đảm bảo an toàn thông tin của người dùng và các dữ liệu quan trọng trên trang web.</li><li><bold>Các công cụ và framework:</bold> Sử dụng các công cụ như Bootstrap, jQuery, React, Angular, WordPress, v.v., để tăng tốc quá trình phát triển và cải thiện tính năng của trang web.</li><li><bold>Kiến thức về thử nghiệm và debug:</bold> Hiểu biết về cách kiểm tra, debug và sửa lỗi trên trang web để đảm bảo tính ổn định và chất lượng.</li></ul>"
+      },
+      "question_6": {
+        "question": "Thiết kế website bao gồm những gì?",
+        "answer": "Thiết kế website bao gồm lập kế hoạch, thiết kế giao diện, phát triển và lập trình, <link>“tối ưu hóa SEO”</link>, thiết kế đáp ứng, kiểm tra và triển khai, cùng với bảo trì và nâng cấp sau này."
+      },
+      "question_7": {
+        "question": "Nên sử dụng những phần mềm gì để thiết kế website?",
+        "answer": "Tất cả đều tùy thuộc vào yêu cầu cụ thể của dự án. Đối với <link>“thiết kế giao diện”</link>, Adobe XD, Sketch và Figma đều là lựa chọn phổ biến với tính năng thiết kế và prototype. Trong khi đó, Visual Studio Code và Sublime Text thường được sử dụng cho việc lập trình với tính năng mở rộng và hỗ trợ mạnh mẽ."
+      },
+      "question_8": {
+        "question": "Những lĩnh vực nào cần có thiết kế website? Tại sao?",
+        "answer": "Ở bất kỳ lĩnh vực nào, bạn cũng cần cho mình thiết kế website phù hợp. Vì các kênh Marketing online đang bùng nổ và hứa hẹn dẫn đầu xu hướng trong thời gian tới. Người ta có xu hướng dịch chuyển cửa hàng hữu thành thành cửa hàng ảo trên mạng và khách hàng đang hứng thú hơn so với việc mua hàng truyền thống. Vì thế, nếu bạn không chuẩn bị cho mình website hoàn hảo, bạn có nguy cơ bỏ lỡ những nguồn lợi khủng trong tương lai đấy."
+      },
+      "question_9": {
+        "question": "Quy trình thiết kế website gồm những bước nào?",
+        "answer": "Quy trình thiết kế website gồm:<ul><li>Lập kế hoạch và nghiên cứu</li><li>Thiết kế giao diện (UI/UX)</li><li>Phát triển và lập trình</li><li>Tối ưu hóa SEO</li><li>Kiểm tra và đánh giá</li><li>Triển khai và bảo trì</li></ul>"
+      },
+      "question_10": {
+        "question": "Thiết kế Website thường cần chi phí bao nhiêu?",
+        "answer": "Tuỳ thuộc vào loại thiết kế khác như thiết kế website tin tức, website giới thiệu sẽ có các mức giá khác nhau. <link>“Thiết kế website bán hàng”</link> là một loại thiết kế rất đặc thù với nhiều tính năng phức tạp hơn. Tùy vào nhu cầu thực tế của bạn như: cho khách hàng xem hàng cho vào giỏ hàng hay thanh toán trực tuyến, hay công cụ tính toán đi kèm thì mức chi phí cho gói thiết kế bán hàng sẽ khác nhau."
+      },
+      "question_11": {
+        "question": "Có phải khi tôi thiết kế website xong là có thể chạy được SEO?",
+        "answer": "Đây là một sự hiểu nhầm ở đa số người dùng website và thiết kế website. Việc thiết kế website và chạy SEO là hai công việc độc lập với nhau. Một website khi được hoàn thành không đồng nghĩa là đã thực hiện SEO. Tuy nhiên, để có thể chạy được SEO, bạn cần có website và quá trình SEO càng thành công nếu website đó đáp ứng yêu cầu về kỹ thuật cần thiết. SEO là một quá trình chiến lược dài hạn, cần yếu tố về nội dung, kỹ thuật và thuật toán từ sâu bên trong website và sẽ bắt đầu sau khi website hoàn thiện."
+      },
+      "question_12": {
+        "question": "Nhận báo giá và liên hệ tư vấn thiết kế website chuẩn SEO ở đâu?",
+        "answer": "Liên hệ tư vấn và nhận báo giá thiết kế website chuẩn SEO tại Miko Tech:<ul><li><bold>SĐT liên hệ:</bold> 028 3636 8805</li><li><bold>Địa chỉ:</bold> 16 Đường Má Hai, TDP.5, TP. Buôn Ma Thuột, Đăk Lăk, Việt Nam</li><li><bold>Email:</bold> legiangbmt09@gmail.com</li></ul>"
+      },
+      "question_13": {
+        "question": "Dịch vụ thiết kế website RiverLee có gì nổi bật?",
+        "answer": "Dịch vụ thiết kế website RiverLee có những điểm nổi bật sau:<ul><li><bold>Thiết kế độc đáo và chuyên nghiệp:</bold> RiverLee tập trung vào việc tạo ra các trang web với thiết kế đẹp mắt, phù hợp với thương hiệu và mục đích sử dụng.</li><li><bold>Tối ưu hóa SEO:</bold> Đảm bảo rằng các trang web được thiết kế bởi RiverLee được tối ưu hóa để tăng khả năng xuất hiện trên các công cụ tìm kiếm.</li><li><bold>Responsive Design:</bold> Các trang web được RiverLee thiết kế có khả năng hiển thị tốt trên mọi thiết bị, từ máy tính để bàn đến điện thoại di động.</li><li><bold>Tích hợp công nghệ mới:</bold> Sử dụng các công nghệ và framework hiện đại để phát triển và thiết kế trang web, giúp tối ưu hóa trải nghiệm người dùng và tính năng của trang.</li><li><bold>Dịch vụ hỗ trợ sau khi triển khai:</bold> Cung cấp các dịch vụ bảo trì và hỗ trợ khách hàng sau khi trang web được triển khai để đảm bảo hoạt động ổn định và hiệu quả.</li></ul>"
       }
     }
   }

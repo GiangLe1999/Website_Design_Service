@@ -9,7 +9,11 @@
     },
     "step": "Step",
     "tel": "Tel",
-    "address": "Address"
+    "address": "Address",
+    "address_text": "16 Ma Hai Street, Tan Hoa Ward, Buon Ma Thuot City, Dak Lak Province",
+    "site_name": "RiverLee Professional Website Design Service",
+    "work_hours": "Operating Hours",
+    "work_hours_text": "9:00 AM - 6:00 PM, Monday to Friday"
   },
   "header": {
     "website_design": "Website Design",
@@ -36,7 +40,8 @@
       "website_pricing": "website_design_pricing",
       "testimonials": "customer_feedback",
       "knowledge": "website_design_knowledge",
-      "quote": "website_design_quote"
+      "quote": "website_design_quote",
+      "faq": "website_design_consultancy"
     },
     "section_1": {
       "heading": "RiverLee Web Agency provides <orange>professional website design services</orange> - with credibility",
@@ -245,7 +250,6 @@
       "heading": "Why should you choose <orange>custom web design services</orange> at RiverLee?",
       "description": "<bold>RiverLee Agency</bold> takes pride in being an experienced expert in the field of website design, having created 100+ websites across various industries. Contact <link>Riverlee.org</link> today to start building a <bold>high-quality website</bold> for your business.",
       "agency_name": "Custom web design services at RiverLee - Specializing in Wordpress/NextJS website design",
-      "address": "16 Ma Hai Street, Buon Ma Thuot City, Dak Lak Province",
       "reason_1": {
         "heading": "Customer Care",
         "description": "We are committed to building strong relationships with our customers, ensuring your needs are met with absolute satisfaction."
@@ -371,6 +375,62 @@
       "submit_failed": {
         "heading": "Failed to submit form",
         "description": "There was an issue submitting the form. We will resolve it as soon as possible."
+      }
+    },
+    "section_17": {
+      "heading": "Your Question - <orange>RiverLee's Answer</orange>",
+      "description": "If you're curious about the website design process at RiverLee, we're always ready to answer your questions.",
+      "question_1": {
+        "question": "What is website design?",
+        "answer": "Website design is the process of creating a complete web page for individuals, businesses, or organizations. It involves using programming tools to present ideas and content on the website interface. There are two main methods of web design: static and dynamic. You can find detailed information in the article <link>“What is website design?”</link>."
+      },
+      "question_2": {
+        "question": "What is SEO-friendly website design?",
+        "answer": "<link>“SEO-friendly website design”</link> involves optimizing the structure, content, and technical factors on the website to improve its ranking on search engines like Google. This includes using relevant keywords, optimizing page loading speed, logical URL structures, and meta description tags."
+      },
+      "question_3": {
+        "question": "What is responsive website design?",
+        "answer": "Responsive website design is creating a website that can display optimally on various devices and screen sizes, from desktop computers to mobile phones and tablets. This design ensures that the website can adapt and respond flexibly to provide the best user experience across all devices. Learn more in the article on <link>7 golden principles of responsive web design.</link>"
+      },
+      "question_4": {
+        "question": "What is custom website design?",
+        "answer": "<link>“Custom website design”</link> is the process of creating a website based on specific requirements from clients or end users. This process typically starts with gathering detailed information and requirements from clients, followed by developing and deploying the website based on these requirements. Custom design may encompass all stages from planning, interface design, feature development, testing, and maintenance to ensure the final product meets all client expectations."
+      },
+      "question_5": {
+        "question": "What knowledge and skills are needed for website design?",
+        "answer": "To design an effective website, you need the following basic knowledge:<ul><li><bold>HTML and CSS:</bold> Basic languages for creating the structure and design interface of the website.</li><li><bold>JavaScript:</bold> To add dynamic features and interactions to the website.</li><li><bold>Responsive Design:</bold> Knowledge of designing websites that display beautifully and function well on different devices.</li><li><bold>UI/UX Design Principles:</bold> Understanding how to layout, design, and user experience to optimize user attraction and usage on the website.</li><li><bold>SEO (Search Engine Optimization):</bold> Knowledge of optimizing the website to increase its visibility on search engines like Google.</li><li><bold>Data management and security:</bold> Ensuring the security of user information and important data on the website.</li><li><bold>Tools and frameworks:</bold> Using tools like Bootstrap, jQuery, React, Angular, WordPress, etc., to speed up development and enhance website features.</li><li><bold>Testing and debugging:</bold> Understanding how to test, debug, and fix errors on the website to ensure stability and quality.</li></ul>"
+      },
+      "question_6": {
+        "question": "What does website design include?",
+        "answer": "Website design includes planning, interface design, development and programming, <link>“SEO optimization”</link>, responsive design, testing and deployment, along with maintenance and future upgrades."
+      },
+      "question_7": {
+        "question": "What software should be used for website design?",
+        "answer": "It all depends on the specific requirements of the project. For <link>“interface design”</link>, Adobe XD, Sketch, and Figma are popular choices for their design and prototyping features. Meanwhile, Visual Studio Code and Sublime Text are often used for programming due to their extensive features and strong support."
+      },
+      "question_8": {
+        "question": "Which fields require website design? Why?",
+        "answer": "In any field, having a suitable website design is crucial. Online marketing channels are booming and are expected to lead trends in the future. There is a tendency to move from physical stores to virtual stores online, and customers are more interested in online shopping than traditional methods. Therefore, if you don't prepare a perfect website, you risk missing out on huge opportunities in the future."
+      },
+      "question_9": {
+        "question": "What are the steps in the website design process?",
+        "answer": "The process of website design includes:<ul><li>Planning and research</li><li>Interface design (UI/UX)</li><li>Development and programming</li><li>SEO optimization</li><li>Testing and evaluation</li><li>Deployment and maintenance</li></ul>"
+      },
+      "question_10": {
+        "question": "How much does website design usually cost?",
+        "answer": "The cost varies depending on different types of designs such as news website design, introduction website will have different prices. <link>“E-commerce website design”</link> is a special kind of design with many complex features. Depending on your actual needs: to view the product for the customer to put in the cart or pay online, or the accompanying calculation tool, the cost for the e-commerce design package will vary."
+      },
+      "question_11": {
+        "question": "Does designing a website mean it's ready for SEO?",
+        "answer": "This is a common misunderstanding among website users and designers. Designing a website and running SEO are two independent tasks. Completing a website does not mean SEO has been implemented. However, for SEO to run successfully, the website needs to meet the necessary technical requirements. SEO is a long-term strategic process that requires content, technical factors, and algorithms deep within the website, starting after the completion of the website."
+      },
+      "question_12": {
+        "question": "Where can I get a quote and consult for SEO-friendly website design?",
+        "answer": "Contact for consultation and receive a quote for SEO-friendly website design at Miko Tech:<ul><li><bold>Contact number:</bold> 028 3636 8805</li><li><bold>Address:</bold> 16 Má Hai Street, TDP.5, Buon Ma Thuot City, Dak Lak, Vietnam</li><li><bold>Email:</bold> legiangbmt09@gmail.com</li></ul>"
+      },
+      "question_13": {
+        "question": "What are the highlights of RiverLee's website design services?",
+        "answer": "RiverLee's website design services have the following highlights:<ul><li><bold>Unique and professional design:</bold> RiverLee focuses on creating websites with beautiful designs that fit the brand and purpose of use.</li><li><bold>SEO optimization:</bold> Ensuring that websites designed by RiverLee are optimized to increase visibility on search engines.</li><li><bold>Responsive Design:</bold> RiverLee-designed websites are capable of displaying well on all devices, from desktops to mobile phones.</li><li><bold>Integration of new technologies:</bold> Using modern technologies and frameworks to develop and design websites, optimizing user experience and website features.</li><li><bold>Post-deployment support services:</bold> Providing maintenance and customer support services after the website is deployed to ensure stable and effective operation.</li></ul>"
       }
     }
   }

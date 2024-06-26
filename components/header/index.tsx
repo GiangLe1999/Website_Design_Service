@@ -79,7 +79,7 @@ const Header: FC<Props> = (props): JSX.Element => {
       <ContentContainer>
         <div className="flex justify-between py-[10px] h-[100px]">
           <div className="flex items-center gap-[30px]">
-            <Link className="w-[107px]" href="/">
+            <Link className="w-[107px] relative aspect-[1.33]" href="/">
               <Logo />
             </Link>
 

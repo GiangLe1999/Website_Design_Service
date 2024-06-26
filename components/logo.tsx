@@ -9,8 +9,9 @@ const Logo: FC<Props> = (props): JSX.Element => {
     <Image
       src={logo}
       alt="Logo"
+      style={{ objectFit: "cover" }}
+      fill
       sizes="100vw"
-      style={{ width: "100%", height: "auto" }}
     />
   );
 };
