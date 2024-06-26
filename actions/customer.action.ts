@@ -1,10 +1,6 @@
 "use server";
 
 import sendEmail from "@/lib/send-mail";
-import fs from "fs";
-import path from "path";
-
-const dataFilePath = path.join(process.cwd(), "customer-forms-data.json");
 
 export const saveFormData = async (formData: any) => {
   try {
@@ -27,26 +23,15 @@ export const saveFormData = async (formData: any) => {
       `
     );
 
-    let existingData = [];
-
-    // Check if the file exists
-    if (fs.existsSync(dataFilePath)) {
-      // Read the file content
-      const fileContent = fs.readFileSync(dataFilePath, "utf-8").trim();
-
-      // Parse the JSON content if it's not empty
-      if (fileContent !== "") {
-        existingData = JSON.parse(fileContent);
-      }
-    }
-
-    // Push formData to existingData
-    existingData.push(formData);
-
-    // Write updated data back to the file
-    fs.writeFileSync(dataFilePath, JSON.stringify(existingData, null, 2));
-
-    console.log("Data saved successfully.");
+    const res = await fetch(process.env.WEB_APP_URL as string, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+    const result = await res.json();
+    return result.result;
   } catch (error) {
     console.error("Error saving data:", error);
     throw new Error("Could not save data.");

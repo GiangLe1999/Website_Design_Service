@@ -46,7 +46,7 @@ const Section16: FC<Props> = (props): JSX.Element => {
   const t = useTranslations("home_page.section_16");
   const t_id = useTranslations("home_page.section_ids");
   const t_btn = useTranslations("common.button");
-  const [openDialog, setOpenDialog] = useState(false);
+  const [openSuccessfulDialog, setSucessfulOpenDialog] = useState(false);
   const [openFailedDialog, setOpenFailedDialog] = useState(false);
   const [isPending, startTransition] = useTransition();
 
@@ -74,11 +74,16 @@ const Section16: FC<Props> = (props): JSX.Element => {
   async function onSubmit(values: z.infer<typeof ContactFormSchema>) {
     startTransition(async () => {
       try {
-        await saveFormData({
+        const result = await saveFormData({
           ...values,
           created_at: formatDateForContactForm(new Date()),
         });
-        setOpenDialog(true);
+        if (result === "success") {
+          setSucessfulOpenDialog(true);
+          form.reset();
+        } else {
+          throw new Error("Error saving form data");
+        }
       } catch (error) {
         console.error("Error saving form data:", error);
         setOpenFailedDialog(true);
@@ -211,7 +216,7 @@ const Section16: FC<Props> = (props): JSX.Element => {
         </ContentContainer>
       </section>
 
-      <Dialog open={openDialog} onOpenChange={setOpenDialog}>
+      <Dialog open={openSuccessfulDialog} onOpenChange={setSucessfulOpenDialog}>
         <DialogContent className="sm:max-w-md">
           <DialogHeader>
             <DialogTitle className="text-green-600 mb-2 font-bold">
