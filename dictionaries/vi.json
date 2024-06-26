@@ -27,6 +27,25 @@
     "vietnamese": "Tiếng Việt",
     "english": "Tiếng Anh"
   },
+  "footer": {
+    "description": "Dịch vụ thiết kế website chuyên nghiệp của RiverLee hướng tới việc nâng tầm thương hiệu của bạn trên Internet và cung cấp hệ sinh thái các giải pháp Marketing toàn diện. Chúng tôi cam kết mang đến cho bạn và doanh nghiệp của bạn một bệ phóng vững chắc cho mọi hoạt động kinh doanh.",
+    "contact_with_us": "Liên hệ với chúng tôi",
+    "connect_with_us": "Kết nối với chúng tôi",
+    "service": "Dịch vụ",
+    "website_design": "Thiết kế website",
+    "property_website": "Thiết kế website bất động sản",
+    "furniture_website": "Thiết kế website nội thất",
+    "ecommerce_website": "Thiết kế website bán hàng",
+    "travel_website": "Thiết kế website xây dựng",
+    "business_website": "Thiết kế website doanh nghiệp",
+    "download_software": "Download phần mềm free",
+    "policy": "Chính sách",
+    "terms_of_use": "Điều khoản sử dụng",
+    "privacy_policy": "Chính sách bảo mật",
+    "payment_methods": "Hình thức thanh toán",
+    "rfq": "Gửi yêu cầu báo giá",
+    "rfq_description": "RiverLee luôn tư vấn dịch vụ miễn phí. Vui lòng để lại thông tin để chuyên viên tư vấn liên hệ lại với bạn trong thời gian sớm nhất."
+  },
   "home_page": {
     "section_ids": {
       "design_service": "dich_vu_thiet_ke_website_chuyen_nghiep",

@@ -1,14 +1,9 @@
 "use client";
 
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-import { z } from "zod";
-
 import { useTranslations } from "next-intl";
-import { FC, useState, useTransition } from "react";
+import { FC } from "react";
 import CustomHeading2 from "../custom-heading-2";
 import ContentContainer from "../content-container";
-import { formatDateForContactForm, zPhoneNumber } from "@/lib/utils";
 import { Textarea } from "@/components/ui/textarea";
 
 import {
@@ -27,69 +22,28 @@ import {
 } from "@/components/ui/select";
 import { Input } from "../ui/input";
 import { ContactInfo } from "./section-11";
-import {
-  Dialog,
-  DialogClose,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
-import { Button } from "../ui/button";
+
 import SubmitButton from "../submit-button";
 import { saveFormData } from "@/actions/customer.action";
+import SuccessfulDialog from "../customer-form/successful-dialog";
+import FailedDialog from "../customer-form/failed-dialog";
+import useCustomerForm from "../customer-form/use-customer-form";
 
 interface Props {}
 
 const Section16: FC<Props> = (props): JSX.Element => {
-  const t = useTranslations("home_page.section_16");
   const t_id = useTranslations("home_page.section_ids");
-  const t_btn = useTranslations("common.button");
-  const [openSuccessfulDialog, setSucessfulOpenDialog] = useState(false);
-  const [openFailedDialog, setOpenFailedDialog] = useState(false);
-  const [isPending, startTransition] = useTransition();
 
-  const ContactFormSchema = z.object({
-    full_name: z.string().min(2, {
-      message: t("field_1.error"),
-    }),
-    tel: zPhoneNumber(t("field_2.error")),
-    email: z.string().email({ message: t("field_3.error") }),
-    message: z.string().optional(),
-    type: z.string(),
-  });
-
-  const form = useForm<z.infer<typeof ContactFormSchema>>({
-    resolver: zodResolver(ContactFormSchema),
-    defaultValues: {
-      full_name: "",
-      tel: "",
-      email: "",
-      message: "",
-      type: "basic",
-    },
-  });
-
-  async function onSubmit(values: z.infer<typeof ContactFormSchema>) {
-    startTransition(async () => {
-      try {
-        const result = await saveFormData({
-          ...values,
-          created_at: formatDateForContactForm(new Date()),
-        });
-        if (result === "success") {
-          setSucessfulOpenDialog(true);
-          form.reset();
-        } else {
-          throw new Error("Error saving form data");
-        }
-      } catch (error) {
-        console.error("Error saving form data:", error);
-        setOpenFailedDialog(true);
-      }
-    });
-  }
+  const {
+    t,
+    onSubmit,
+    openSuccessfulDialog,
+    setSucessfulOpenDialog,
+    openFailedDialog,
+    setOpenFailedDialog,
+    isPending,
+    form,
+  } = useCustomerForm();
 
   return (
     <>
@@ -216,50 +170,15 @@ const Section16: FC<Props> = (props): JSX.Element => {
         </ContentContainer>
       </section>
 
-      <Dialog open={openSuccessfulDialog} onOpenChange={setSucessfulOpenDialog}>
-        <DialogContent className="sm:max-w-md">
-          <DialogHeader>
-            <DialogTitle className="text-green-600 mb-2 font-bold">
-              {t("submit_successfully.heading")}
-            </DialogTitle>
-            <DialogDescription>
-              {t("submit_successfully.description")}
-            </DialogDescription>
-          </DialogHeader>
-          <div className="flex items-center space-x-2"></div>
-          <DialogFooter className="sm:justify-start">
-            <DialogClose asChild>
-              <Button
-                type="button"
-                className="text-white ml-auto !bg-green-600"
-              >
-                {t_btn("close")}
-              </Button>
-            </DialogClose>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
+      <SuccessfulDialog
+        openSuccessfulDialog={openSuccessfulDialog}
+        setSucessfulOpenDialog={setSucessfulOpenDialog}
+      />
 
-      <Dialog open={openFailedDialog} onOpenChange={setOpenFailedDialog}>
-        <DialogContent className="sm:max-w-md">
-          <DialogHeader>
-            <DialogTitle className="text-red-500 mb-2 font-bold">
-              {t("submit_failed.heading")}
-            </DialogTitle>
-            <DialogDescription>
-              {t("submit_failed.description")}
-            </DialogDescription>
-          </DialogHeader>
-          <div className="flex items-center space-x-2"></div>
-          <DialogFooter className="sm:justify-start">
-            <DialogClose asChild>
-              <Button type="button" className="text-white ml-auto !bg-red-600">
-                {t_btn("close")}
-              </Button>
-            </DialogClose>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
+      <FailedDialog
+        openFailedDialog={openFailedDialog}
+        setOpenFailedDialog={setOpenFailedDialog}
+      />
     </>
   );
 };
