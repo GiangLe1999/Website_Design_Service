@@ -6,6 +6,7 @@ import MainLayout from '@/components/blog-page/layouts/main-layout';
 import { coreContent, formatBlogLink, sortedBlogPost } from '@/lib/content-layer';
 import { allBlogs } from '@/.contentlayer/generated';
 import { Metadata } from 'next';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({
   params,
@@ -25,7 +26,9 @@ export async function generateMetadata({
   };
 }
 
-export default function BlogPost({ params }: { params: { slug: string } }) {
+export default function BlogPost({ params }: { params: { slug: string; locale: string } }) {
+  unstable_setRequestLocale(params.locale);
+
   const slug = params.slug;
   const sortedPosts = sortedBlogPost(allBlogs);
 
