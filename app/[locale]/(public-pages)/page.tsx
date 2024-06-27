@@ -17,6 +17,7 @@ import Section14 from "@/components/home-page/section-14";
 import Section15 from "@/components/home-page/section-15";
 import Section16 from "@/components/home-page/section-16";
 import Section17 from "@/components/home-page/section-17";
+import NavigationDots from "@/components/navigation-dots";
 
 interface Props {
   params: {
@@ -52,6 +53,8 @@ const HomePage = ({ params: { locale } }: Props) => {
       <Section15 />
       <Section16 />
       <Section17 />
+
+      <NavigationDots />
     </>
   );
 };

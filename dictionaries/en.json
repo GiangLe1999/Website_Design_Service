@@ -27,6 +27,25 @@
     "vietnamese": "Vietnamese",
     "english": "English"
   },
+  "footer": {
+    "description": "RiverLee's professional website design services aim to elevate your brand on the Internet and provide a comprehensive ecosystem of Marketing solutions. We are committed to providing you and your business with a solid launchpad for all business activities.",
+    "contact_with_us": "Contact us",
+    "connect_with_us": "Connect with us",
+    "service": "Services",
+    "website_design": "Website Design",
+    "property_website": "Real Estate Website Design",
+    "furniture_website": "Furniture Website Design",
+    "ecommerce_website": "E-commerce Website Design",
+    "travel_website": "Travel Website Design",
+    "business_website": "Business Website Design",
+    "download_software": "Download Free Software",
+    "policy": "Policies",
+    "terms_of_use": "Terms of Use",
+    "privacy_policy": "Privacy Policy",
+    "payment_methods": "Payment Methods",
+    "rfq": "Request for Quotation",
+    "rfq_description": "RiverLee always provides free service consultations. Please leave your information so our consultants can get back to you as soon as possible."
+  },
   "home_page": {
     "section_ids": {
       "design_service": "professional_website_design_service",

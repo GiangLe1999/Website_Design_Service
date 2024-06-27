@@ -17,7 +17,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
 
   return (
     <div className="bg-[#f3ebe9]">
-      <div className="bg-[#fef6e2] pt-[200px] pb-[110px]">
+      <div className="bg-[#fef6e2] pt-[150px] pb-[110px]">
         <ContentContainer maxWidth="max-w-[1300px]">
           <div className="text-center z-[1] relative">
             <h1 className="text-6xl font-bold text-primary leading-[1.2] mb-5">

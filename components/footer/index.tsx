@@ -40,11 +40,7 @@ const Footer: FC<Props> = (props): JSX.Element => {
                 {t_common("site_name")}
               </Link>
               <p className="text-[#bcbcbc] text-xs mt-2 leading-5 max-w-[85%]">
-                Dịch vụ thiết kế website chuyên nghiệp của RiverLee hướng tới
-                việc nâng tầm thương hiệu của bạn trên Internet và cung cấp hệ
-                sinh thái các giải pháp Marketing toàn diện. Chúng tôi cam kết
-                mang đến cho bạn và doanh nghiệp của bạn một bệ phóng vững chắc
-                cho mọi hoạt động kinh doanh.
+                {t("description")}
               </p>
             </div>
 
