@@ -35,7 +35,6 @@ interface Props {
 }
 
 const iconClassname = 'w-4 h-4';
-
 const icons = [
   <GlobeIcon className={iconClassname} key={1} />,
   <HotelIcon className={iconClassname} key={2} />,
@@ -54,7 +53,6 @@ export const MobileSidebar: FC<Props> = ({ showSidebar, setShowSidebar, items })
     [items]
   );
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <aside className="xl:hidden block">
       <Sheet open={showSidebar} onOpenChange={setShowSidebar}>
@@ -64,7 +62,7 @@ export const MobileSidebar: FC<Props> = ({ showSidebar, setShowSidebar, items })
               <Link className="w-[100px] relative aspect-[1.33]" href="/">
                 <Logo />
               </Link>
-              <div>
+              <div className="text-left">
                 <SheetTitle>River Lee</SheetTitle>
                 <SheetDescription>{t('site_field')}</SheetDescription>
               </div>
