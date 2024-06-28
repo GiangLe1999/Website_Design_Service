@@ -44,20 +44,20 @@ const NavigationDots: FC<Props> = (props): JSX.Element => {
   }, []);
 
   return (
-    <ul className="fixed left-[10px] top-1/2 -translate-y-1/2 z-[49] flex flex-col gap-4">
+    <ul className="fixed sm:left-[10px] left-auto right-[10px] sm:right-auto top-1/2 -translate-y-1/2 z-[49] flex flex-col gap-4 w-fit">
       {sectionIds.map((id) => (
         <li key={id} onClick={() => setCurrentSection(id)}>
           <Link
             href={`#${id}` as any}
             className={cn(
               currentSection === id ? 'border-secondary' : 'border-primary',
-              'w-[15px] h-[15px] rounded-full  border grid place-items-center'
+              'w-[10px] h-[10px] sm:w-[15px] sm:h-[15px] rounded-full  border grid place-items-center'
             )}
           >
             <span
               className={cn(
                 currentSection === id ? 'bg-secondary' : 'bg-primary',
-                'block w-[7px] h-[7px] rounded-[50%]'
+                'block w-[4px] h-[4px] sm:w-[7px] sm:h-[7px] rounded-[50%]'
               )}
             ></span>
           </Link>

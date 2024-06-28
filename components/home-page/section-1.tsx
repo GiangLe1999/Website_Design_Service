@@ -28,7 +28,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
 
             <ContentContainer
               maxWidth="max-w-[840px]"
-              customClassName="space-y-6 text-xl leading-10 relative"
+              customClassName="space-y-6 text-sm leading-7 md:text-lg md:leading-9 xl:text-xl xl:leading-10 relative"
             >
               <p>
                 {t.rich('paragraph_1', {
@@ -66,7 +66,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
           alt={t('image_1')}
           width={150}
           height={150}
-          className="absolute top-0 left-[18%] z-[1]"
+          className="absolute top-0 left-[18%] z-[1] md:block hidden"
         />
 
         <Image
@@ -74,7 +74,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
           alt={t('image_2')}
           width={150}
           height={150}
-          className="absolute top-[35%] left-[2%] z-[1]"
+          className="absolute top-[35%] left-[2%] z-[1] md:block hidden"
         />
 
         <Image
@@ -82,7 +82,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
           alt={t('image_3')}
           width={150}
           height={150}
-          className="absolute bottom-[37%] right-[7.5%] z-[1]"
+          className="absolute bottom-[37%] right-[7.5%] z-[1] md:block hidden"
         />
 
         <Image
@@ -90,7 +90,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
           alt={t('image_4')}
           width={150}
           height={150}
-          className="absolute bottom-[11%] left-[13.5%] z-[1]"
+          className="absolute bottom-[11%] left-[13.5%] z-[1] md:block hidden"
         />
 
         <Image
@@ -98,7 +98,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
           alt={t('image_5')}
           width={61}
           height={61}
-          className="absolute top-[13%] right-[29.5%] z-[1]"
+          className="absolute top-[13%] right-[29.5%] z-[1] md:block hidden"
         />
       </ContentContainer>
     </div>

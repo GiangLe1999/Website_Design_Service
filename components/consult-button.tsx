@@ -25,7 +25,7 @@ const ConsultButtton: FC<Props> = ({ className, type_1, ...props }): JSX.Element
   return (
     <Button
       className={cn(
-        'overflow-hidden relative rounded-[27px] px-[30px] h-[54px] text-lg font-semibold text-white custom-btn',
+        'overflow-hidden relative rounded-[27px] px-[30px] sm:h-[54px] h-[48px] sm:text-lg text-base font-semibold text-white custom-btn sm:w-fit w-full',
         isHovered && 'after:animate-shine',
         type_1 && 'bg-[linear-gradient(to_right,#ee4207_0%,#ff9173_100%)]',
         className

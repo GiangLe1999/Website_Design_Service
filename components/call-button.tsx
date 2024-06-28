@@ -23,7 +23,7 @@ const CallButton: FC<Props> = ({ className, type_1 }): JSX.Element => {
   return (
     <Button
       className={cn(
-        'overflow-hidden relative rounded-[27px] px-[30px] h-[54px] text-lg font-semibold text-white custom-btn',
+        'overflow-hidden relative rounded-[27px] px-[30px] sm:h-[54px] h-[48px] sm:text-lg text-base font-semibold text-white custom-btn sm:w-fit w-full',
         isHovered && 'after:animate-shine',
         type_1 && 'bg-[linear-gradient(to_right,#000248_0%,#565aca_100%)]',
         className

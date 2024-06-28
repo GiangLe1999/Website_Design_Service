@@ -49,12 +49,11 @@ body {
 
 /* Home swiper section */
 .home-swiper {
-  @apply relative h-[320px] !p-[10px] w-1/2;
+  @apply relative h-[400px] !p-[10px] xl:w-1/2 w-full xl:px-0;
 }
 
 .home-swiper-heading {
-  padding-right: calc((100vw - 1400px) / 2);
-  @apply text-2xl flex-1 leading-10;
+  @apply text-2xl flex-1 leading-10 xl:pr-[calc((100vw_-_1400px)_/_2)] xl:pl-0 px-5;
 }
 
 .custom-btn::after {
