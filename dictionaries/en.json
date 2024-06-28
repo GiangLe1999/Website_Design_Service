@@ -12,6 +12,7 @@
     "address": "Address",
     "address_text": "16 Ma Hai Street, Tan Hoa Ward, Buon Ma Thuot City, Dak Lak Province",
     "site_name": "RiverLee Professional Website Design Service",
+    "site_field": "Website Design Service",
     "work_hours": "Operating Hours",
     "work_hours_text": "9:00 AM - 6:00 PM, Monday to Friday"
   },
@@ -39,6 +40,7 @@
     "travel_website": "Travel Website Design",
     "business_website": "Business Website Design",
     "download_software": "Download Free Software",
+    "website_knowledge": "Website Knowledge",
     "policy": "Policies",
     "terms_of_use": "Terms of Use",
     "privacy_policy": "Privacy Policy",

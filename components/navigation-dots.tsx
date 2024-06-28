@@ -1,18 +1,18 @@
-"use client";
+'use client';
 
-import { Link } from "@/app/navigation";
-import { cn } from "@/lib/utils";
-import { FC, useEffect, useRef, useState } from "react";
+import { Link } from '@/app/navigation';
+import { cn } from '@/lib/utils';
+import { FC, useEffect, useRef, useState } from 'react';
 
 interface Props {}
 
 const NavigationDots: FC<Props> = (props): JSX.Element => {
   const [sectionIds, setSectionIds] = useState<string[]>([]);
-  const [currentSection, setCurrentSection] = useState("");
+  const [currentSection, setCurrentSection] = useState('');
   const observerRef = useRef<IntersectionObserver | null>(null);
 
   useEffect(() => {
-    const sections = Array.from(document.querySelectorAll("section[id]"));
+    const sections = Array.from(document.querySelectorAll('section[id]'));
     const ids = sections.map((section) => section.id);
     setSectionIds(ids);
 
@@ -44,20 +44,20 @@ const NavigationDots: FC<Props> = (props): JSX.Element => {
   }, []);
 
   return (
-    <ul className="fixed left-[10px] top-1/2 -translate-y-1/2 z-[999] flex flex-col gap-4">
+    <ul className="fixed left-[10px] top-1/2 -translate-y-1/2 z-[49] flex flex-col gap-4">
       {sectionIds.map((id) => (
         <li key={id} onClick={() => setCurrentSection(id)}>
           <Link
             href={`#${id}` as any}
             className={cn(
-              currentSection === id ? "border-secondary" : "border-primary",
-              "w-[15px] h-[15px] rounded-full  border grid place-items-center"
+              currentSection === id ? 'border-secondary' : 'border-primary',
+              'w-[15px] h-[15px] rounded-full  border grid place-items-center'
             )}
           >
             <span
               className={cn(
-                currentSection === id ? "bg-secondary" : "bg-primary",
-                "block w-[7px] h-[7px] rounded-[50%]"
+                currentSection === id ? 'bg-secondary' : 'bg-primary',
+                'block w-[7px] h-[7px] rounded-[50%]'
               )}
             ></span>
           </Link>

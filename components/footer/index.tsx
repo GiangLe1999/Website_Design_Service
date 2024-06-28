@@ -1,32 +1,33 @@
-import { FC } from "react";
-import ContentContainer from "../content-container";
-import { Link } from "@/app/navigation";
-import { useTranslations } from "next-intl";
-import { Clock8Icon, MailIcon, MapPinIcon, PhoneIcon } from "lucide-react";
-import Image from "next/image";
-import FacebookIcon from "@/public/icons/facebook.webp";
-import InstagramIcon from "@/public/icons/instagram.webp";
-import YoutubeIcon from "@/public/icons/youtube.webp";
-import { cn } from "@/lib/utils";
-import FooterForm from "./footer-form";
+import { FC } from 'react';
+import ContentContainer from '../content-container';
+import { Link } from '@/app/navigation';
+import { useTranslations } from 'next-intl';
+import { Clock8Icon, MailIcon, MapPinIcon, PhoneIcon } from 'lucide-react';
+import Image from 'next/image';
+import FacebookIcon from '@/public/icons/facebook.webp';
+import InstagramIcon from '@/public/icons/instagram.webp';
+import YoutubeIcon from '@/public/icons/youtube.webp';
+import { cn } from '@/lib/utils';
+import FooterForm from './footer-form';
 
 interface Props {}
 
-const flexStyle = "flex items-center gap-1";
+const flexStyle = 'flex items-center gap-1';
 
 const secondColumnData = [
-  { title: "website_design", link: "/" },
-  { title: "property_website", link: "/thiet-ke-website-bat-dong-san" },
-  { title: "furniture_website", link: "/thiet-ke-website-noi-that" },
-  { title: "ecommerce_website", link: "/thiet-ke-website-ban-hang" },
-  { title: "travel_website", link: "/thiet-ke-website-du-lich" },
-  { title: "business_website", link: "/thiet-ke-website-doanh-nghiep" },
-  { title: "download_software", link: "/" },
+  { title: 'website_design', link: '/' },
+  { title: 'property_website', link: '/thiet-ke-website-bat-dong-san' },
+  { title: 'furniture_website', link: '/thiet-ke-website-noi-that' },
+  { title: 'ecommerce_website', link: '/thiet-ke-website-ban-hang' },
+  { title: 'travel_website', link: '/thiet-ke-website-du-lich' },
+  { title: 'business_website', link: '/thiet-ke-website-doanh-nghiep' },
+  { title: 'download_software', link: '/' },
+  { title: 'website_knowledge', link: '/blog' },
 ];
 
 const Footer: FC<Props> = (props): JSX.Element => {
-  const t = useTranslations("footer");
-  const t_common = useTranslations("common");
+  const t = useTranslations('footer');
+  const t_common = useTranslations('common');
 
   return (
     <footer className="bg-[#05141f]">
@@ -37,18 +38,16 @@ const Footer: FC<Props> = (props): JSX.Element => {
             {/* Row 1 */}
             <div>
               <Link href="/" className="uppercase text-white font-bold">
-                {t_common("site_name")}
+                {t_common('site_name')}
               </Link>
               <p className="text-[#bcbcbc] text-xs mt-2 leading-5 max-w-[85%]">
-                {t("description")}
+                {t('description')}
               </p>
             </div>
 
             {/* Row 2 */}
             <div>
-              <p className="uppercase text-white font-bold">
-                {t("contact_with_us")}
-              </p>
+              <p className="uppercase text-white font-bold">{t('contact_with_us')}</p>
 
               <ul className="text-[#bcbcbc] text-xs space-y-2 mt-2 leading-5">
                 <li className={flexStyle}>
@@ -63,34 +62,32 @@ const Footer: FC<Props> = (props): JSX.Element => {
                 <li className={flexStyle}>
                   <b className={flexStyle}>
                     <PhoneIcon className="w-3 h-3" />
-                    {t_common("tel")}:
+                    {t_common('tel')}:
                   </b>
                   <a className="" href="tel:+84962334807">
                     84962334807
                   </a>
                 </li>
-                <li className={cn(flexStyle, "flex-wrap")}>
+                <li className={cn(flexStyle, 'flex-wrap')}>
                   <b className={flexStyle}>
                     <MapPinIcon className="w-3 h-3" />
-                    {t_common("address")}:
+                    {t_common('address')}:
                   </b>
-                  <span>{t_common("address_text")}</span>
+                  <span>{t_common('address_text')}</span>
                 </li>
-                <li className={cn(flexStyle, "flex-wrap")}>
+                <li className={cn(flexStyle, 'flex-wrap')}>
                   <b className={flexStyle}>
                     <Clock8Icon className="w-3 h-3" />
-                    {t_common("work_hours")}:
+                    {t_common('work_hours')}:
                   </b>
-                  <span>{t_common("work_hours_text")}</span>
+                  <span>{t_common('work_hours_text')}</span>
                 </li>
               </ul>
             </div>
 
             {/*  Row 3 */}
             <div>
-              <p className="uppercase text-white font-bold">
-                {t("connect_with_us")}
-              </p>
+              <p className="uppercase text-white font-bold">{t('connect_with_us')}</p>
               <ul className="flex items-center gap-2 mt-3">
                 <li>
                   <a href="http://" target="_blank" rel="noopener noreferrer">
@@ -134,7 +131,7 @@ const Footer: FC<Props> = (props): JSX.Element => {
             {/* Row 1 */}
 
             <div>
-              <p className="uppercase text-white font-bold">{t("service")}</p>
+              <p className="uppercase text-white font-bold">{t('service')}</p>
               <ul className="text-[#bcbcbc] text-xs space-y-2 mt-2 leading-5">
                 {secondColumnData.map((service, index) => (
                   <li key={index}>
@@ -151,42 +148,31 @@ const Footer: FC<Props> = (props): JSX.Element => {
 
             {/* Row 2 */}
             <div>
-              <p className="uppercase text-white font-bold">{t("policy")}</p>
+              <p className="uppercase text-white font-bold">{t('policy')}</p>
               <ul className="text-[#bcbcbc] text-xs space-y-2 mt-2 leading-5">
                 <li>
-                  <Link
-                    href="/"
-                    className="hover:text-white hover:underline transition"
-                  >
-                    {t("terms_of_use")}
+                  <Link href="/" className="hover:text-white hover:underline transition">
+                    {t('terms_of_use')}
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="/"
-                    className="hover:text-white hover:underline transition"
-                  >
-                    {t("privacy_policy")}
+                  <Link href="/" className="hover:text-white hover:underline transition">
+                    {t('privacy_policy')}
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="/"
-                    className="hover:text-white hover:underline transition"
-                  >
-                    {t("payment_methods")}
+                  <Link href="/" className="hover:text-white hover:underline transition">
+                    {t('payment_methods')}
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
 
-          {/* Column 2 */}
+          {/* Column 3 */}
           <div className="col-span-4">
-            <p className="uppercase text-white font-bold">{t("rfq")}</p>
-            <p className="text-[#bcbcbc] text-xs mt-2 leading-5">
-              {t("rfq_description")}
-            </p>
+            <p className="uppercase text-white font-bold">{t('rfq')}</p>
+            <p className="text-[#bcbcbc] text-xs mt-2 leading-5">{t('rfq_description')}</p>
 
             <FooterForm />
           </div>
