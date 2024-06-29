@@ -1,27 +1,21 @@
-import { FC } from "react";
-import useCustomerForm from "./use-customer-form";
+import { FC } from 'react';
+import useCustomerForm from './use-customer-form';
 
-import { Textarea } from "@/components/ui/textarea";
+import { Textarea } from '@/components/ui/textarea';
 
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormMessage,
-} from "@/components/ui/form";
+import { Form, FormControl, FormField, FormItem, FormMessage } from '@/components/ui/form';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Input } from "../ui/input";
+} from '@/components/ui/select';
+import { Input } from '../ui/input';
 
-import SubmitButton from "../submit-button";
-import FailedDialog from "./failed-dialog";
-import SuccessfulDialog from "./successful-dialog";
+import SubmitButton from '../submit-button';
+import FailedDialog from './failed-dialog';
+import SuccessfulDialog from './successful-dialog';
 
 interface Props {}
 
@@ -41,7 +35,7 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
     <>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             <FormField
               control={form.control}
               name="full_name"
@@ -50,7 +44,7 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
                   <FormControl>
                     <Input
                       className="h-[54px] rounded-[27px] px-[30px]"
-                      placeholder={t("field_1.name")}
+                      placeholder={t('field_1.name')}
                       {...field}
                     />
                   </FormControl>
@@ -100,22 +94,15 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
               name="type"
               render={({ field }) => (
                 <FormItem>
-                  <Select
-                    onValueChange={field.onChange}
-                    defaultValue={field.value}
-                  >
+                  <Select onValueChange={field.onChange} defaultValue={field.value}>
                     <FormControl>
                       <SelectTrigger className="h-[54px] rounded-[27px] px-[30px] z-[10]">
                         <SelectValue />
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value="basic">
-                        {t("field_4.option_1")}
-                      </SelectItem>
-                      <SelectItem value="premium">
-                        {t("field_4.option_2")}
-                      </SelectItem>
+                      <SelectItem value="basic">{t('field_4.option_1')}</SelectItem>
+                      <SelectItem value="premium">{t('field_4.option_2')}</SelectItem>
                     </SelectContent>
                   </Select>
 
@@ -132,7 +119,7 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
               <FormItem>
                 <FormControl>
                   <Textarea
-                    placeholder={t("field_5.placeholder")}
+                    placeholder={t('field_5.placeholder')}
                     className="rounded-[27px] px-[30px] py-5"
                     {...field}
                     rows={5}
@@ -152,10 +139,7 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
         setSucessfulOpenDialog={setSucessfulOpenDialog}
       />
 
-      <FailedDialog
-        openFailedDialog={openFailedDialog}
-        setOpenFailedDialog={setOpenFailedDialog}
-      />
+      <FailedDialog openFailedDialog={openFailedDialog} setOpenFailedDialog={setOpenFailedDialog} />
     </>
   );
 };

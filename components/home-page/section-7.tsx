@@ -17,6 +17,7 @@ import { cn } from '@/lib/utils';
 import ConsultButtton from '../consult-button';
 import CallButton from '../call-button';
 import CustomHeading2 from '../custom-heading-2';
+import footer_bg from '@/public/home-page/section-7-bottom-background.png';
 
 interface TabContent {
   id: string;
@@ -108,8 +109,11 @@ const Section7: FC<Props> = (): JSX.Element => {
   return (
     <section
       id={t_id('website_criteria')}
-      className="relative bg-gradient-to-b from-[#fff9f8] to-[#f3eae8] xl:after:block after:hidden after:content-[url('/home-page/section-7-bottom-background.png')] after:left-0 after:bottom-[-7px] after:absolute after:z-[2] pb-[88px]"
+      className="relative bg-gradient-to-b from-[#fff9f8] to-[#f3eae8] pb-[90px]"
     >
+      <div className="absolute hidden xl:block left-0 right-0 bottom-0 z-[1]">
+        <Image className="" src={footer_bg} alt="Section 7 bottom background" />
+      </div>
       <ContentContainer maxWidth="max-w-[900px] xl:mb-[110px] mb-10">
         <CustomHeading2 t={t} type_1 customClassname="text-center" />
         <div className="text-center text-sm leading-7 md:text-base md:leading-8 xl:text-lg xl:leading-9">

@@ -19,7 +19,7 @@ const Section15: FC<Props> = (props): JSX.Element => {
   const posts = sortedBlogPost(activePosts);
 
   return (
-    <section id={t_id('knowledge')} className="relative bg-white pb-[150px]">
+    <section id={t_id('knowledge')} className="relative bg-white xl:pt-0 pt-14 pb-[150px]">
       <ContentContainer>
         <CustomHeading2 customClassname="text-center" t={t} type_1 />
         <p className="text-center">{t('sub_heading')}</p>

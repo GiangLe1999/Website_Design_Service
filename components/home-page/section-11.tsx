@@ -1,48 +1,48 @@
-"use client";
+'use client';
 
-import { useTranslations } from "next-intl";
-import { FC, useState } from "react";
-import CustomHeading2 from "../custom-heading-2";
-import ContentContainer from "../content-container";
-import Link from "next/link";
-import { siteMetadata } from "@/data/site-metadata";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { Autoplay } from "swiper/modules";
-import Image, { StaticImageData } from "next/image";
-import icon_1 from "@/public/home-page/cham-soc-khach-hang-nhiet-thanh.png";
-import icon_2 from "@/public/home-page/ung-dung-cong-nghe-moi-vao-website.png";
-import icon_3 from "@/public/home-page/doi-ngu-tre-nhiet-huyet.png";
-import icon_4 from "@/public/home-page/thuc-hien-du-an-website-dung-han.png";
-import icon_5 from "@/public/home-page/ton-trong-thong-tin-bao-mat.png";
-import ConsultButtton from "../consult-button";
-import CallButton from "../call-button";
-import { cn } from "@/lib/utils";
+import { useTranslations } from 'next-intl';
+import { FC, useState } from 'react';
+import CustomHeading2 from '../custom-heading-2';
+import ContentContainer from '../content-container';
+import Link from 'next/link';
+import { siteMetadata } from '@/data/site-metadata';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Autoplay } from 'swiper/modules';
+import Image, { StaticImageData } from 'next/image';
+import icon_1 from '@/public/home-page/cham-soc-khach-hang-nhiet-thanh.png';
+import icon_2 from '@/public/home-page/ung-dung-cong-nghe-moi-vao-website.png';
+import icon_3 from '@/public/home-page/doi-ngu-tre-nhiet-huyet.png';
+import icon_4 from '@/public/home-page/thuc-hien-du-an-website-dung-han.png';
+import icon_5 from '@/public/home-page/ton-trong-thong-tin-bao-mat.png';
+import ConsultButtton from '../consult-button';
+import CallButton from '../call-button';
+import { cn } from '@/lib/utils';
 
 const swiperData = [
   {
-    heading: "reason_1.heading",
-    description: "reason_1.description",
+    heading: 'reason_1.heading',
+    description: 'reason_1.description',
     icon: icon_1,
   },
   {
-    heading: "reason_2.heading",
-    description: "reason_2.description",
+    heading: 'reason_2.heading',
+    description: 'reason_2.description',
     icon: icon_2,
   },
   {
-    heading: "reason_3.heading",
-    description: "reason_3.description",
+    heading: 'reason_3.heading',
+    description: 'reason_3.description',
     icon: icon_3,
   },
   {
-    heading: "reason_4.heading",
-    description: "reason_4.description",
+    heading: 'reason_4.heading',
+    description: 'reason_4.description',
     icon: icon_4,
   },
   {
-    heading: "reason_5.heading",
-    description: "reason_5.description",
+    heading: 'reason_5.heading',
+    description: 'reason_5.description',
     icon: icon_5,
   },
 ];
@@ -50,22 +50,20 @@ const swiperData = [
 interface Props {}
 
 const Section11: FC<Props> = (props): JSX.Element => {
-  const t = useTranslations("home_page.section_11");
-  const t_id = useTranslations("home_page.section_ids");
+  const t = useTranslations('home_page.section_11');
+  const t_id = useTranslations('home_page.section_ids');
 
   return (
     <section
-      id={t_id("why_choose_us")}
-      className="relative bg-gradient-to-b from-[#fdf6e3] to-[#f4eae8] pb-[100px]"
+      id={t_id('why_choose_us')}
+      className="relative bg-gradient-to-b from-[#fdf6e3] to-[#f4eae8] xl:pt-0 pt-[80px] pb-[100px]"
     >
       <ContentContainer>
         <CustomHeading2 t={t} type_1 customClassname="text-center" />
 
-        <p className="text-lg leading-8 text-center mb-4">
-          {t.rich("description", {
-            bold: (chunks) => (
-              <strong className="font-bold text-primary">{chunks}</strong>
-            ),
+        <p className="lg:text-lg lg:leading-8 text-sm leading-7 text-center mb-4">
+          {t.rich('description', {
+            bold: (chunks) => <strong className="font-bold text-primary">{chunks}</strong>,
             link: (chunks) => (
               <Link
                 href="/"
@@ -81,7 +79,7 @@ const Section11: FC<Props> = (props): JSX.Element => {
 
         <ContactInfo />
 
-        <div className="flex items-center justify-center gap-4 mt-10">
+        <div className="flex sm:flex-row flex-col items-center justify-center gap-[14px] mt-10">
           <ConsultButtton type_1 />
           <CallButton type_1 />
         </div>
@@ -90,41 +88,30 @@ const Section11: FC<Props> = (props): JSX.Element => {
   );
 };
 
-interface ContactInfoProps {
-  isSection16?: boolean;
-}
+interface ContactInfoProps {}
 
-export const ContactInfo: FC<ContactInfoProps> = ({ isSection16 = false }) => {
-  const t = useTranslations("home_page.section_11");
-  const t_common = useTranslations("common");
+export const ContactInfo: FC<ContactInfoProps> = () => {
+  const t = useTranslations('home_page.section_11');
+  const t_common = useTranslations('common');
 
   return (
     <>
-      <p
-        className={cn(
-          "font-semibold text-primary leading-8 text-center mb-2",
-          isSection16 ? "text-lg" : "text-xl"
-        )}
-      >
-        {t("agency_name")}
+      <p className="font-semibold text-primary leading-8 text-center mb-2 text-lg">
+        {t('agency_name')}
       </p>
-      <ul className="space-y-2 text-center">
+      <ul className="space-y-2 text-center md:text-base text-sm">
         <li>
-          <b>{t_common("tel")}</b>:{" "}
-          <a href={`tel:${siteMetadata.tel}`}>{siteMetadata.tel}</a>
+          <b>{t_common('tel')}:</b> <a href={`tel:${siteMetadata.tel}`}>{siteMetadata.tel}</a>
         </li>
         <li>
-          <b>Email</b>:{" "}
-          <a href={`mailto:${siteMetadata.email}`}>{siteMetadata.email}</a>
+          <b>Email:</b> <a href={`mailto:${siteMetadata.email}`}>{siteMetadata.email}</a>
         </li>
-        <li className="flex items-center justify-center">
-          <b>{t_common("address")}</b>:
-          <address className="not-italic ml-1">
-            {t_common("address_text")}
-          </address>
+        <li className="flex items-center flex-wrap gap-1 justify-center">
+          <b>{t_common('address')}:</b>
+          <address className="not-italic ml-1">{t_common('address_text')}</address>
         </li>
         <li>
-          <b>Website</b>: <Link href="/">{siteMetadata.siteUrl}</Link>
+          <b>Website:</b> <Link href="/">{siteMetadata.siteUrl}</Link>
         </li>
       </ul>
     </>
@@ -133,7 +120,7 @@ export const ContactInfo: FC<ContactInfoProps> = ({ isSection16 = false }) => {
 
 const SectionSwiper = () => {
   const [_, setInit] = useState<boolean>();
-  const t = useTranslations("home_page.section_11");
+  const t = useTranslations('home_page.section_11');
   return (
     <Swiper
       direction="horizontal"
@@ -146,14 +133,17 @@ const SectionSwiper = () => {
         delay: 5000,
         disableOnInteraction: false,
       }}
-      // breakpoints={{
-      //   0: {
-      //     slidesPerView: 1.5,
-      //   },
-      //   660: {
-      //     slidesPerView: 2.5,
-      //   },
-      // }}
+      breakpoints={{
+        0: {
+          slidesPerView: 1,
+        },
+        660: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      }}
       modules={[Autoplay]}
       onInit={() => setInit(true)}
       className="relative my-10 !pt-16 !pb-5"
@@ -185,9 +175,7 @@ const SwiperCard: FC<SwiperCardProps> = ({ icon, heading, description }) => {
       </div>
 
       <div className="max-w-[85%] pt-[70px] pb-[50px] mx-auto">
-        <p className="text-lg font-bold text-primary mb-4 text-center">
-          {heading}
-        </p>
+        <p className="text-lg font-bold text-primary mb-4 text-center">{heading}</p>
         <p className="text-sm leading-6 text-center">{description}</p>
       </div>
     </div>

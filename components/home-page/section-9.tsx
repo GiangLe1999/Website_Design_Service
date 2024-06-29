@@ -147,14 +147,6 @@ const SectionSwiper = () => {
         delay: 4000,
         disableOnInteraction: false,
       }}
-      // breakpoints={{
-      //   0: {
-      //     slidesPerView: 1.5,
-      //   },
-      //   660: {
-      //     slidesPerView: 2.5,
-      //   },
-      // }}
       modules={[Autoplay, Navigation]}
       onInit={() => setInit(true)}
       className="relative"

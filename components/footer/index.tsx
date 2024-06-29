@@ -32,15 +32,15 @@ const Footer: FC<Props> = (props): JSX.Element => {
   return (
     <footer className="bg-[#05141f]">
       <ContentContainer customClassName="py-10">
-        <div className="grid grid-cols-12 gap-10">
+        <div className="sm:grid grid-cols-12 gap-10 sm:space-y-0 space-y-12">
           {/* Column 1 */}
-          <div className="col-span-5 flex flex-col gap-12">
+          <div className="md:col-span-5 sm:col-span-8 flex flex-col gap-12">
             {/* Row 1 */}
             <div>
               <Link href="/" className="uppercase text-white font-bold">
                 {t_common('site_name')}
               </Link>
-              <p className="text-[#bcbcbc] text-xs mt-2 leading-5 max-w-[85%]">
+              <p className="text-[#bcbcbc] text-xs mt-2 leading-5 sm:max-w-[85%] max-w-none">
                 {t('description')}
               </p>
             </div>
@@ -127,7 +127,7 @@ const Footer: FC<Props> = (props): JSX.Element => {
           </div>
 
           {/* Column 2 */}
-          <div className="col-span-3 flex flex-col gap-12">
+          <div className="md:col-span-3 sm:col-span-4 flex flex-col gap-12">
             {/* Row 1 */}
 
             <div>
@@ -170,7 +170,7 @@ const Footer: FC<Props> = (props): JSX.Element => {
           </div>
 
           {/* Column 3 */}
-          <div className="col-span-4">
+          <div className="md:col-span-4 col-span-12">
             <p className="uppercase text-white font-bold">{t('rfq')}</p>
             <p className="text-[#bcbcbc] text-xs mt-2 leading-5">{t('rfq_description')}</p>
 

@@ -53,10 +53,10 @@ const Section6: FC<Props> = (): JSX.Element => {
         }}
         breakpoints={{
           0: {
-            slidesPerView: 1,
+            slidesPerView: 1.5,
           },
-          550: {
-            slidesPerView: 2,
+          641: {
+            slidesPerView: 2.5,
           },
           900: {
             slidesPerView: 3,
@@ -108,7 +108,7 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ number, content }) => {
   return (
-    <div className="p-[50px] bg-[#ffffff] shadow-[0_1px_14px_rgba(0,0,0,0.1)] h-full cursor-pointer transition duration-500 rounded-[20px] hover:bg-[#fff9f8]">
+    <div className="xl:p-[50px] p-10 bg-[#ffffff] shadow-[0_1px_14px_rgba(0,0,0,0.1)] h-full cursor-pointer transition duration-500 rounded-[20px] hover:bg-[#fff9f8]">
       <p className="font-bold text-[60px] leading-none mb-4">
         <span className="text-primary">{number}</span>
         <span className="text-secondary">.</span>
