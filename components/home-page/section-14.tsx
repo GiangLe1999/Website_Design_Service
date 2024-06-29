@@ -192,17 +192,9 @@ const SectionSwiper = () => {
         delay: 4000,
         disableOnInteraction: false,
       }}
-      // breakpoints={{
-      //   0: {
-      //     slidesPerView: 1.5,
-      //   },
-      //   660: {
-      //     slidesPerView: 2.5,
-      //   },
-      // }}
       modules={[Autoplay, Navigation]}
       onInit={() => setInit(true)}
-      className="relative my-10 !pt-16 !pb-5"
+      className="relative my-10 !pt-16 sm:!pb-5 !pb-12"
     >
       {swiperData.map((slide, index) => (
         <SwiperSlide key={index}>
@@ -218,7 +210,7 @@ const SectionSwiper = () => {
       <button
         type="button"
         ref={prevRef}
-        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute left-0 top-[48%] z-[10]"
+        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute sm:left-0 left-1/2 -translate-x-[120%] sm:top-[48%] top-auto -bottom-0 sm:bottom-auto z-[10]"
       >
         <MoveLeftIcon className="w-4 h-4" />
       </button>
@@ -226,7 +218,7 @@ const SectionSwiper = () => {
       <button
         type="button"
         ref={nextRef}
-        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute right-0 top-[48%] z-[10]"
+        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute sm:right-0 right-1/2 translate-x-[120%] sm:top-[48%] top-auto -bottom-0 sm:bottom-auto z-[10]"
       >
         <MoveRightIcon className="w-4 h-4" />
       </button>
@@ -243,7 +235,7 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ content, name, type, logo }) => {
   return (
-    <div className="mx-12 relative bg-[#ffffff82] rounded-[30px] shadow-[0_1px_14px_rgba(0,0,0,0.1)] hover:bg-white group transition duration-500">
+    <div className="sm:mx-12 mx-4 relative bg-[#ffffff82] rounded-[30px] shadow-[0_1px_14px_rgba(0,0,0,0.1)] hover:bg-white group transition duration-500">
       <div className="bg-[#fff] group-hover:bg-white transition duration-500 shadow-[0_1px_14px_rgba(0,0,0,0.1)] absolute left-1/2 -translate-x-1/2 mt-[-60px] rounded-full w-[112px] aspect-square grid place-items-center">
         <Image src={logo} alt={name} className="rounded-full" />
       </div>

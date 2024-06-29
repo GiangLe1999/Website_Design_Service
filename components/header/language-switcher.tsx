@@ -1,20 +1,16 @@
-"use client";
+'use client';
 
-import { useParams } from "next/navigation";
-import { FC, useTransition } from "react";
-import { useRouter, usePathname } from "@/app/navigation";
-import { useLocale, useTranslations } from "next-intl";
+import { useParams } from 'next/navigation';
+import { FC, useTransition } from 'react';
+import { useRouter, usePathname } from '@/app/navigation';
+import { useLocale, useTranslations } from 'next-intl';
 // import { useQuery } from "@tanstack/react-query";
 // import { getProjectSlugMappings } from "@/lib/slug-mappings";
-import {
-  HoverCard,
-  HoverCardContent,
-  HoverCardTrigger,
-} from "@/components/ui/hover-card";
-import VNFlag from "@/public/icons/vietnam-flag.webp";
-import ENFlag from "@/public/icons/england-flag.webp";
-import Image from "next/image";
-import { cn } from "@/lib/utils";
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import VNFlag from '@/public/icons/vietnam-flag.webp';
+import ENFlag from '@/public/icons/england-flag.webp';
+import Image from 'next/image';
+import { cn } from '@/lib/utils';
 
 interface Props {}
 
@@ -29,7 +25,7 @@ const LanguageSwitcher: FC<Props> = (props): JSX.Element => {
   const [isPending, startTransition] = useTransition();
   const pathname = usePathname();
   const params = useParams();
-  const t = useTranslations("header");
+  const t = useTranslations('header');
 
   const changeLocaleHandler = () => {
     startTransition(() => {
@@ -54,28 +50,28 @@ const LanguageSwitcher: FC<Props> = (props): JSX.Element => {
       router.replace(
         // @ts-ignore
         { pathname, params },
-        { locale: locale === "vi" ? "en" : "vi" }
+        { locale: locale === 'vi' ? 'en' : 'vi' }
       );
     });
   };
 
   const changeToVietnameseLocale = () => {
-    if (locale === "vi") return;
+    if (locale === 'vi') return;
 
     router.replace(
       // @ts-ignore
       { pathname, params },
-      { locale: "vi" }
+      { locale: 'vi' }
     );
   };
 
   const changeToEnglishLocale = () => {
-    if (locale === "en") return;
+    if (locale === 'en') return;
 
     router.replace(
       // @ts-ignore
       { pathname, params },
-      { locale: "en" }
+      { locale: 'en' }
     );
   };
 
@@ -86,56 +82,44 @@ const LanguageSwitcher: FC<Props> = (props): JSX.Element => {
     // >
     //   {locale}
     // </button>
-    <HoverCard openDelay={0} closeDelay={100}>
-      <HoverCardTrigger className="cursor-pointer">
+    <Popover>
+      <PopoverTrigger className="cursor-pointer">
         <div className="flex items-center gap-2">
           <Image
-            src={locale === "vi" ? VNFlag : ENFlag}
+            src={locale === 'vi' ? VNFlag : ENFlag}
             alt={locale}
             width={25}
             className="rounded-[2px]"
-          />{" "}
+          />{' '}
           <div className="h-5 w-[1px] bg-[#ccc]"></div>
           <span className="uppercase  font-bold text-sm">{locale}</span>
         </div>
-      </HoverCardTrigger>
-      <HoverCardContent align="end" className="p-0 rounded w-fit">
+      </PopoverTrigger>
+      <PopoverContent align="end" className="p-0 rounded w-fit">
         <ul>
           <li
             className={cn(
-              "flex items-center gap-3 p-3 border-b cursor-pointer hover:bg-gray-100 transition",
-              locale === "vi" ? "bg-gray-100" : "bg-white"
+              'flex items-center gap-3 p-3 border-b cursor-pointer hover:bg-gray-100 transition',
+              locale === 'vi' ? 'bg-gray-100' : 'bg-white'
             )}
             onClick={changeToVietnameseLocale}
           >
-            <Image
-              src={VNFlag}
-              alt="Vietnamese Flag"
-              width={25}
-              className="rounded-[2px]"
-            />{" "}
-            <span className="text-xs font-semibold">
-              {t("vietnamese")} ( VI )
-            </span>
+            <Image src={VNFlag} alt="Vietnamese Flag" width={25} className="rounded-[2px]" />{' '}
+            <span className="text-xs font-semibold">{t('vietnamese')} ( VI )</span>
           </li>
           <li
             className={cn(
-              "flex items-center gap-3 p-3 border-b cursor-pointer hover:bg-gray-100 transition",
-              locale === "en" ? "bg-gray-100" : "bg-white"
+              'flex items-center gap-3 p-3 border-b cursor-pointer hover:bg-gray-100 transition',
+              locale === 'en' ? 'bg-gray-100' : 'bg-white'
             )}
             onClick={changeToEnglishLocale}
           >
-            <Image
-              src={ENFlag}
-              alt="England flag"
-              width={25}
-              className="rounded-[2px]"
-            />{" "}
-            <span className="text-xs font-semibold">{t("english")} ( EN )</span>
+            <Image src={ENFlag} alt="England flag" width={25} className="rounded-[2px]" />{' '}
+            <span className="text-xs font-semibold">{t('english')} ( EN )</span>
           </li>
         </ul>
-      </HoverCardContent>
-    </HoverCard>
+      </PopoverContent>
+    </Popover>
   );
 };
 

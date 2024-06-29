@@ -93,7 +93,7 @@ const Section17: FC<Props> = (props): JSX.Element => {
         <Accordion type="single" collapsible>
           {accordionData.map((item, index) => (
             <AccordionItem value={`item-${index}`} key={index}>
-              <AccordionTrigger className="sm:text-base text-sm text-primary text-left hover:text-secondary hover:no-underline transition">
+              <AccordionTrigger className="sm:text-base text-sm text-left hover:text-secondary hover:no-underline transition">
                 {t(item.question)}
               </AccordionTrigger>
               <AccordionContent className="text-sm leading-7">
