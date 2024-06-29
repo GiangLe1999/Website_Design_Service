@@ -50,7 +50,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
 
       <ContentContainer customClassName="relative">
         <div className="z-0 w-screen overflow-hidden flex justify-center absolute left-1/2 -translate-x-1/2 bottom-[35px]">
-          <Image src={background} alt="Section 1 background" />
+          <Image src={background} alt="Section 1 background" priority quality={100} />
         </div>
 
         <Image

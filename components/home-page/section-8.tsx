@@ -149,6 +149,7 @@ const SectionSwiper = () => {
         type="button"
         ref={prevRef}
         className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute lg:left-0 left-1/2 lg:translate-x-0 -translate-x-[130%] top-[0px] z-[10]"
+        aria-label="Previous slide"
       >
         <MoveLeftIcon className="w-4 h-4" />
       </button>
@@ -157,6 +158,7 @@ const SectionSwiper = () => {
         type="button"
         ref={nextRef}
         className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute lg:left-[45px] left-[calc(50%-45px)] lg:translate-x-0 translate-x-[130%] top-[0px] z-[10]"
+        aria-label="Next slide"
       >
         <MoveRightIcon className="w-4 h-4" />
       </button>

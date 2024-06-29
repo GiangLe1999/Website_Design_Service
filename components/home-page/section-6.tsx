@@ -85,6 +85,7 @@ const Section6: FC<Props> = (): JSX.Element => {
             type="button"
             ref={prevRef}
             className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full"
+            aria-label="Previous slide"
           >
             <MoveLeftIcon className="w-4 h-4" />
           </button>
@@ -92,6 +93,7 @@ const Section6: FC<Props> = (): JSX.Element => {
             type="button"
             ref={nextRef}
             className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full"
+            aria-label="Next slide"
           >
             <MoveRightIcon className="w-4 h-4" />
           </button>

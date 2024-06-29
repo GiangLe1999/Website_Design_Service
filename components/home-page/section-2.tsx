@@ -18,7 +18,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
           })}
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-sm leading-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-sm leading-7">
           <p>
             {t.rich('paragraph_2', {
               bold: (chunks) => <strong className="text-primary">{chunks}</strong>,

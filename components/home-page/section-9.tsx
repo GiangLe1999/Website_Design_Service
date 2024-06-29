@@ -166,6 +166,7 @@ const SectionSwiper = () => {
         type="button"
         ref={prevRef}
         className="bg-[#05141F1A] w-9 h-9 place-items-center rounded-full absolute left-0 top-2/3 z-[10] sm:grid hidden"
+        aria-label="Previous slide"
       >
         <MoveLeftIcon className="w-4 h-4" />
       </button>
@@ -174,6 +175,7 @@ const SectionSwiper = () => {
         type="button"
         ref={nextRef}
         className="bg-[#05141F1A] w-9 h-9 place-items-center rounded-full absolute right-0 top-2/3 z-[10] sm:grid hidden"
+        aria-label="Next slide"
       >
         <MoveRightIcon className="w-4 h-4" />
       </button>
