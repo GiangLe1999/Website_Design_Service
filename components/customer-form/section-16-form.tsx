@@ -96,7 +96,10 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
                 <FormItem>
                   <Select onValueChange={field.onChange} defaultValue={field.value}>
                     <FormControl>
-                      <SelectTrigger className="h-[54px] rounded-[27px] px-[30px] z-[10]">
+                      <SelectTrigger
+                        aria-label="Choose a type"
+                        className="h-[54px] rounded-[27px] px-[30px] z-[10]"
+                      >
                         <SelectValue />
                       </SelectTrigger>
                     </FormControl>

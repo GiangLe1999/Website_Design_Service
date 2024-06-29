@@ -98,7 +98,10 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                 <FormItem>
                   <Select onValueChange={field.onChange} defaultValue={field.value}>
                     <FormControl>
-                      <SelectTrigger className="h-[40px] text-xs rounded-md z-[10] focus:border-none">
+                      <SelectTrigger
+                        aria-label="Choose a type"
+                        className="h-[40px] text-xs rounded-md z-[10] focus:border-none"
+                      >
                         <SelectValue />
                       </SelectTrigger>
                     </FormControl>
@@ -133,7 +136,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
               type="submit"
               disabled={isPending}
               variant="secondary"
-              className="text-white w-full"
+              className="text-white w-full disabled:opacity-50"
             >
               <>
                 {isPending ? (
