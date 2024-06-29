@@ -11,6 +11,7 @@ const nunito = Nunito({
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
   variable: '--font-nunito',
+  fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
 export const metadata: Metadata = {

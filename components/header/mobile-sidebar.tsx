@@ -56,7 +56,7 @@ export const MobileSidebar: FC<Props> = ({ showSidebar, setShowSidebar, items })
   return (
     <aside className="xl:hidden block">
       <Sheet open={showSidebar} onOpenChange={setShowSidebar}>
-        <SheetContent side="left" className="flex flex-col justify-between">
+        <SheetContent side="left" className="flex flex-col justify-between bg-white">
           <SheetHeader className="border-b pb-3">
             <div className="flex items-center gap-3">
               <Link className="w-[100px] relative aspect-[1.33]" href="/">
