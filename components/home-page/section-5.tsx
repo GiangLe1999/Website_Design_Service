@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import ContentContainer from '../content-container';
 import whyNeedWebsite from '@/public/home-page/tai-sao-nen-thiet-ke-website.webp';
 import CustomHeading2 from '../custom-heading-2';
+import Reveal from '../reveal';
 
 interface Props {}
 
@@ -15,27 +16,31 @@ const Section5: FC<Props> = (props): JSX.Element => {
         <div className="md:w-1/2 w-full">
           <CustomHeading2 t={t} type_1 />
 
-          <div className="text-sm leading-6 space-y-5">
-            <p>
-              {t.rich('paragraph_1', {
-                bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
-              })}
-            </p>
+          <Reveal>
+            <div className="text-sm leading-6 space-y-5">
+              <p>
+                {t.rich('paragraph_1', {
+                  bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
+                })}
+              </p>
 
-            <p>{t('paragraph_2')}</p>
+              <p>{t('paragraph_2')}</p>
 
-            <p>
-              {t.rich('paragraph_3', {
-                bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
-              })}
-            </p>
+              <p>
+                {t.rich('paragraph_3', {
+                  bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
+                })}
+              </p>
 
-            <p>{t('paragraph_4')}</p>
-          </div>
+              <p>{t('paragraph_4')}</p>
+            </div>
+          </Reveal>
         </div>
 
         <div className="flex-1">
-          <Image src={whyNeedWebsite} alt="Why need website" />
+          <Reveal>
+            <Image src={whyNeedWebsite} alt="Why need website" />
+          </Reveal>
         </div>
       </ContentContainer>
     </div>

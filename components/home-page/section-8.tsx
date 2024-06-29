@@ -17,6 +17,7 @@ import reason6 from '@/public/home-page/reason-6.png';
 import reason7 from '@/public/home-page/reason-7.png';
 import { MoveLeftIcon, MoveRightIcon } from 'lucide-react';
 import CustomHeading2 from '../custom-heading-2';
+import Reveal from '../reveal';
 
 const swiperData = [
   {
@@ -70,24 +71,30 @@ const Section8: FC<Props> = (props): JSX.Element => {
         <div className="flex lg:flex-row flex-col gap-y-16 items-center lg:mb-[70px] mb-10">
           <div className="lg:w-1/2 w-full lg:order-1 order-2">
             <CustomHeading2 t={t} type_1 customClassname="lg:text-left text-center" />
-            <div className="text-sm leading-7 mb-5 lg:text-left text-center">
-              <p className="lg:mb-0 mb-5">
-                {t.rich('paragraph_1', {
+            <Reveal>
+              <div className="text-sm leading-7 mb-5 lg:text-left text-center">
+                <p className="lg:mb-0 mb-5">
+                  {t.rich('paragraph_1', {
+                    bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
+                  })}
+                </p>
+                <p>{t('paragraph_2')}</p>
+              </div>
+            </Reveal>
+
+            <Reveal>
+              <p className="text-sm leading-7 xl:text-xl xl:leading-9 lg:text-left text-center">
+                {t.rich('question', {
                   bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
                 })}
               </p>
-              <p>{t('paragraph_2')}</p>
-            </div>
-
-            <p className="text-sm leading-7 xl:text-xl xl:leading-9 lg:text-left text-center">
-              {t.rich('question', {
-                bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
-              })}
-            </p>
+            </Reveal>
           </div>
 
           <div className="lg:w-1/2 w-full lg:order-2 order-1">
-            <Image src={MockImg} alt={t('image_1')} className="lg:w-[1300px] w-full max-w-none" />
+            <Reveal>
+              <Image src={MockImg} alt={t('image_1')} className="lg:w-[1300px] w-full max-w-none" />
+            </Reveal>
           </div>
         </div>
 
@@ -151,7 +158,9 @@ const SectionSwiper = () => {
         className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute lg:left-0 left-1/2 lg:translate-x-0 -translate-x-[130%] top-[0px] z-[10]"
         aria-label="Previous slide"
       >
-        <MoveLeftIcon className="w-4 h-4" />
+        <Reveal>
+          <MoveLeftIcon className="w-4 h-4" />
+        </Reveal>
       </button>
 
       <button
@@ -160,7 +169,9 @@ const SectionSwiper = () => {
         className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute lg:left-[45px] left-[calc(50%-45px)] lg:translate-x-0 translate-x-[130%] top-[0px] z-[10]"
         aria-label="Next slide"
       >
-        <MoveRightIcon className="w-4 h-4" />
+        <Reveal>
+          <MoveRightIcon className="w-4 h-4" />
+        </Reveal>
       </button>
     </Swiper>
   );
@@ -174,7 +185,7 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ icon, heading, description }) => {
   return (
-    <div>
+    <Reveal>
       <div className="relative h-[90px] mb-10 border-b">
         <Image src={icon} alt={heading} className="sm:mx-0 mx-auto" />
         <span className="w-[9px] h-[9px] bg-secondary rounded-full absolute sm:left-0 left-1/2 sm:translate-x-0 -translate-x-1/2 -bottom-[5px]"></span>
@@ -187,7 +198,7 @@ const SwiperCard: FC<SwiperCardProps> = ({ icon, heading, description }) => {
 
         <p className="text-sm leading-7 text-[#45455e] sm:text-left text-center">{description}</p>
       </div>
-    </div>
+    </Reveal>
   );
 };
 

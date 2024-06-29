@@ -7,6 +7,7 @@ import { useTranslations } from 'next-intl';
 import { Autoplay, Navigation } from 'swiper/modules';
 import { MoveLeftIcon, MoveRightIcon } from 'lucide-react';
 import CustomHeading2 from '../custom-heading-2';
+import Reveal from '../reveal';
 
 interface Props {}
 
@@ -80,24 +81,26 @@ const Section6: FC<Props> = (): JSX.Element => {
 
       <div className="home-swiper-heading text-primary font-semibold xl:order-2 order-1">
         <CustomHeading2 t={t} type_1 customClassname="xl:text-left text-center xl:text-3xl" />
-        <div className="flex items-center xl:justify-start justify-center gap-2 mt-4">
-          <button
-            type="button"
-            ref={prevRef}
-            className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full"
-            aria-label="Previous slide"
-          >
-            <MoveLeftIcon className="w-4 h-4" />
-          </button>
-          <button
-            type="button"
-            ref={nextRef}
-            className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full"
-            aria-label="Next slide"
-          >
-            <MoveRightIcon className="w-4 h-4" />
-          </button>
-        </div>
+        <Reveal>
+          <div className="flex items-center xl:justify-start justify-center gap-2 mt-4">
+            <button
+              type="button"
+              ref={prevRef}
+              className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full"
+              aria-label="Previous slide"
+            >
+              <MoveLeftIcon className="w-4 h-4" />
+            </button>
+            <button
+              type="button"
+              ref={nextRef}
+              className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full"
+              aria-label="Next slide"
+            >
+              <MoveRightIcon className="w-4 h-4" />
+            </button>
+          </div>
+        </Reveal>
       </div>
     </div>
   );
@@ -110,13 +113,15 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ number, content }) => {
   return (
-    <div className="xl:p-[50px] p-10 bg-[#ffffff] shadow-[0_1px_14px_rgba(0,0,0,0.1)] h-full cursor-pointer transition duration-500 rounded-[20px] hover:bg-[#fff9f8]">
-      <p className="font-bold text-[60px] leading-none mb-4">
-        <span className="text-primary">{number}</span>
-        <span className="text-secondary">.</span>
-      </p>
-      <p className="leading-8">{content}</p>
-    </div>
+    <Reveal>
+      <div className="xl:p-[50px] p-10 bg-[#ffffff] shadow-[0_1px_14px_rgba(0,0,0,0.1)] h-full cursor-pointer transition duration-500 rounded-[20px] hover:bg-[#fff9f8]">
+        <p className="font-bold text-[60px] leading-none mb-4">
+          <span className="text-primary">{number}</span>
+          <span className="text-secondary">.</span>
+        </p>
+        <p className="leading-8">{content}</p>
+      </div>
+    </Reveal>
   );
 };
 

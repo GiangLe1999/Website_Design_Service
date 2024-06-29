@@ -15,6 +15,7 @@ import Image, { StaticImageData } from 'next/image';
 import { MoveLeftIcon, MoveRightIcon } from 'lucide-react';
 import ConsultButtton from '../consult-button';
 import CustomHeading2 from '../custom-heading-2';
+import Reveal from '../reveal';
 
 const swiperData = [
   {
@@ -194,14 +195,18 @@ const SwiperCard: FC<SwiperCardProps> = ({ image, heading, description, link }) 
   return (
     <div>
       <ContentContainer maxWidth="max-w-[900px]" customClassName="text-center mb-20">
-        <h3 className="text-[20px] md:text-[25px] font-bold text-primary mb-5">{heading}</h3>
-        <p className="text-sm leading-7 mb-10">{description}</p>
+        <Reveal>
+          <h3 className="text-[20px] md:text-[25px] font-bold text-primary mb-5">{heading}</h3>
+          <p className="text-sm leading-7 mb-10">{description}</p>
 
-        <ConsultButtton type_1 />
+          <ConsultButtton type_1 />
+        </Reveal>
       </ContentContainer>
-      <a href={link} target="_blank" rel="noopener">
-        <Image src={image} alt={heading} />
-      </a>
+      <Reveal>
+        <a href={link} target="_blank" rel="noopener">
+          <Image src={image} alt={heading} />
+        </a>
+      </Reveal>
     </div>
   );
 };

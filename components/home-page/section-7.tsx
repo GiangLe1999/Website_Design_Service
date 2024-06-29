@@ -18,6 +18,7 @@ import ConsultButtton from '../consult-button';
 import CallButton from '../call-button';
 import CustomHeading2 from '../custom-heading-2';
 import footer_bg from '@/public/home-page/section-7-bottom-background.png';
+import Reveal from '../reveal';
 
 interface TabContent {
   id: string;
@@ -116,14 +117,16 @@ const Section7: FC<Props> = (): JSX.Element => {
       </div>
       <ContentContainer maxWidth="max-w-[900px] xl:mb-[110px] mb-10">
         <CustomHeading2 t={t} type_1 customClassname="text-center" />
-        <div className="text-center text-sm leading-7 md:text-base md:leading-8 xl:text-lg xl:leading-9">
-          <p className="mb-5">{t('paragraph_1')}</p>
-          <p>
-            {t.rich('paragraph_2', {
-              bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
-            })}
-          </p>
-        </div>
+        <Reveal>
+          <div className="text-center text-sm leading-7 md:text-base md:leading-8 xl:text-lg xl:leading-9">
+            <p className="mb-5">{t('paragraph_1')}</p>
+            <p>
+              {t.rich('paragraph_2', {
+                bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
+              })}
+            </p>
+          </div>
+        </Reveal>
       </ContentContainer>
 
       <ContentContainer maxWidth="max-w-[1140px] relative">
@@ -140,11 +143,13 @@ const Section7: FC<Props> = (): JSX.Element => {
               )}
               style={{ left, bottom, right }}
             >
-              <Image
-                src={icon}
-                alt={`Tab icon ${id}`}
-                className={id === currentTab ? 'brightness-0 invert-[1]' : 'transition'}
-              />
+              <Reveal>
+                <Image
+                  src={icon}
+                  alt={`Tab icon ${id}`}
+                  className={id === currentTab ? 'brightness-0 invert-[1]' : 'transition'}
+                />
+              </Reveal>
             </li>
           ))}
         </ul>
@@ -159,36 +164,42 @@ const Section7: FC<Props> = (): JSX.Element => {
                 currentTab === id ? 'bg-secondary' : 'bg-[#fff9f9]'
               )}
             >
-              <Image
-                src={icon}
-                alt={`Tab icon ${id}`}
-                className={cn(
-                  'w-1/2',
-                  id === currentTab ? 'brightness-0 invert-[1]' : 'transition'
-                )}
-              />
+              <Reveal>
+                <Image
+                  src={icon}
+                  alt={`Tab icon ${id}`}
+                  className={cn(
+                    'w-1/2',
+                    id === currentTab ? 'brightness-0 invert-[1]' : 'transition'
+                  )}
+                />
+              </Reveal>
             </li>
           ))}
         </ul>
 
         <div className="space-y-4 text-center xl:absolute w-[90%] md:w-[600px] mx-auto xl:left-1/2 xl:-translate-x-1/2 xl:top-1/2 xl:-translate-y-1/2 z-[9]">
-          <p className="font-bold xl:text-[60px] text-5xl leading-none">
-            <span className="text-primary">{activeTab?.number}</span>
-            <span className="text-secondary">.</span>
-          </p>
-          <h3 className="xl:text-[35px] md:text-3xl text-2xl text-primary">
-            {t(activeTab?.heading)}
-          </h3>
-          <p className="text-sm leading-7">
-            {t.rich(activeTab?.description, {
-              bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
-            })}
-          </p>
+          <Reveal>
+            <p className="font-bold xl:text-[60px] text-5xl leading-none">
+              <span className="text-primary">{activeTab?.number}</span>
+              <span className="text-secondary">.</span>
+            </p>
 
-          <div className="flex sm:flex-row flex-col items-center justify-center gap-[14px] !mt-10">
-            <ConsultButtton type_1 />
-            <CallButton type_1 />
-          </div>
+            <h3 className="xl:text-[35px] md:text-3xl text-2xl text-primary">
+              {t(activeTab?.heading)}
+            </h3>
+
+            <p className="text-sm leading-7">
+              {t.rich(activeTab?.description, {
+                bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
+              })}
+            </p>
+
+            <div className="flex sm:flex-row flex-col items-center justify-center gap-[14px] !mt-10">
+              <ConsultButtton type_1 />
+              <CallButton type_1 />
+            </div>
+          </Reveal>
         </div>
       </ContentContainer>
     </section>
