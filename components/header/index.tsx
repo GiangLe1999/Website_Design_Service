@@ -84,8 +84,9 @@ const Header: FC<Props> = (props): JSX.Element => {
           <div className="flex justify-between py-[10px] h-[100px]">
             <button
               type="button"
-              className="xl:hidden block"
+              className="xl:hidden block w-[30px]"
               onClick={() => setShowSidebar(!showSidebar)}
+              aria-label="Open sidebar"
             >
               <AlignLeftIcon className="w-6 h-6 text-primary" />
             </button>

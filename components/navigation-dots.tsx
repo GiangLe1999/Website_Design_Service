@@ -48,6 +48,7 @@ const NavigationDots: FC<Props> = (props): JSX.Element => {
       {sectionIds.map((id) => (
         <li key={id} onClick={() => setCurrentSection(id)}>
           <Link
+            aria-label={`Go to section ${id}`}
             href={`#${id}` as any}
             className={cn(
               currentSection === id ? 'border-secondary' : 'border-primary',

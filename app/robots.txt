@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://website-design-service.vercel.app//sitemap.xml

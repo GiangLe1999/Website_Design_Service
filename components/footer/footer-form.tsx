@@ -1,33 +1,27 @@
-"use client";
-import { useTranslations } from "next-intl";
-import { FC } from "react";
-import { Textarea } from "@/components/ui/textarea";
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormMessage,
-} from "@/components/ui/form";
+'use client';
+import { useTranslations } from 'next-intl';
+import { FC } from 'react';
+import { Textarea } from '@/components/ui/textarea';
+import { Form, FormControl, FormField, FormItem, FormMessage } from '@/components/ui/form';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
-import { Input } from "../ui/input";
+} from '@/components/ui/select';
+import { Input } from '../ui/input';
 
-import { Button } from "../ui/button";
-import SuccessfulDialog from "../customer-form/successful-dialog";
-import FailedDialog from "../customer-form/failed-dialog";
-import useCustomerForm from "../customer-form/use-customer-form";
-import { LoaderCircleIcon } from "lucide-react";
+import { Button } from '../ui/button';
+import SuccessfulDialog from '../customer-form/successful-dialog';
+import FailedDialog from '../customer-form/failed-dialog';
+import useCustomerForm from '../customer-form/use-customer-form';
+import { LoaderCircleIcon } from 'lucide-react';
 
 interface Props {}
 
 const FooterForm: FC<Props> = (props): JSX.Element => {
-  const t_btn = useTranslations("common.button");
+  const t_btn = useTranslations('common.button');
   const {
     t,
     onSubmit,
@@ -42,10 +36,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
   return (
     <>
       <Form {...form}>
-        <form
-          onSubmit={form.handleSubmit(onSubmit)}
-          className="space-y-4 rounded-md mt-4"
-        >
+        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 rounded-md mt-4">
           <div className="grid grid-cols-2 gap-4">
             <FormField
               control={form.control}
@@ -54,8 +45,8 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                 <FormItem>
                   <FormControl>
                     <Input
-                      className="h-[40px] rounded-md text-xs focus:border-none"
-                      placeholder={t("field_1.name")}
+                      className="h-[40px] rounded-md focus:border-none placeholder:text-xs"
+                      placeholder={t('field_1.name')}
                       {...field}
                     />
                   </FormControl>
@@ -71,7 +62,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                 <FormItem>
                   <FormControl>
                     <Input
-                      className="h-[40px] rounded-md text-xs focus:border-none"
+                      className="h-[40px] rounded-md focus:border-none placeholder:text-xs"
                       type="email"
                       placeholder="Email"
                       {...field}
@@ -89,7 +80,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                 <FormItem>
                   <FormControl>
                     <Input
-                      className="h-[40px] rounded-md text-xs focus:border-none"
+                      className="h-[40px] rounded-md focus:border-none placeholder:text-xs"
                       type="tel"
                       placeholder="+84962334807"
                       {...field}
@@ -105,22 +96,15 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
               name="type"
               render={({ field }) => (
                 <FormItem>
-                  <Select
-                    onValueChange={field.onChange}
-                    defaultValue={field.value}
-                  >
+                  <Select onValueChange={field.onChange} defaultValue={field.value}>
                     <FormControl>
-                      <SelectTrigger className="h-[40px] rounded-md z-[10] text-xs focus:border-none">
+                      <SelectTrigger className="h-[40px] text-xs rounded-md z-[10] focus:border-none">
                         <SelectValue />
                       </SelectTrigger>
                     </FormControl>
                     <SelectContent>
-                      <SelectItem value="basic" className="text-xs">
-                        {t("field_4.option_1")}
-                      </SelectItem>
-                      <SelectItem value="premium" className="text-xs">
-                        {t("field_4.option_2")}
-                      </SelectItem>
+                      <SelectItem value="basic">{t('field_4.option_1')}</SelectItem>
+                      <SelectItem value="premium">{t('field_4.option_2')}</SelectItem>
                     </SelectContent>
                   </Select>
                 </FormItem>
@@ -135,8 +119,8 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
               <FormItem>
                 <FormControl>
                   <Textarea
-                    placeholder={t("field_5.placeholder")}
-                    className="rounded-md text-xs focus:border-none"
+                    placeholder={t('field_5.placeholder')}
+                    className="rounded-md focus:border-none placeholder:text-xs"
                     {...field}
                     rows={7}
                   />
@@ -154,11 +138,11 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
               <>
                 {isPending ? (
                   <>
-                    {t_btn("loading")}
+                    {t_btn('loading')}
                     <LoaderCircleIcon className="w-5 h-5 ml-2 animate-spin" />
                   </>
                 ) : (
-                  t_btn("submit")
+                  t_btn('submit')
                 )}
               </>
             </Button>
@@ -171,10 +155,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
         setSucessfulOpenDialog={setSucessfulOpenDialog}
       />
 
-      <FailedDialog
-        openFailedDialog={openFailedDialog}
-        setOpenFailedDialog={setOpenFailedDialog}
-      />
+      <FailedDialog openFailedDialog={openFailedDialog} setOpenFailedDialog={setOpenFailedDialog} />
     </>
   );
 };

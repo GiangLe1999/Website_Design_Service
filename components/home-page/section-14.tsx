@@ -74,7 +74,7 @@ const Section14: FC<Props> = (props): JSX.Element => {
   return (
     <section
       id={t_id('testimonials')}
-      className="relative bg-gradient-to-b from-[#f7f2ed] to-[#faf6e4] pt-[100px] md:pb-[300px] pb-1"
+      className="relative bg-gradient-to-b from-[#f7f2ed] to-[#faf6e4] md:pt-[80px] pt-5 md:pb-[300px] pb-1"
     >
       <div className="absolute hidden xl:block left-0 right-0 bottom-0 z-[1]">
         <Image src={footer_bg} alt="Section 14 bottom background" />
