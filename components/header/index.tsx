@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 import ContentContainer from '../content-container';
 import { AlignLeftIcon } from 'lucide-react';
 import MobileSidebar from './mobile-sidebar';
+import Reveal from '../reveal';
 
 interface Props {}
 
@@ -92,23 +93,29 @@ const Header: FC<Props> = (props): JSX.Element => {
             </button>
 
             <div className="flex items-center gap-[30px]">
-              <Link className="w-[107px] relative aspect-[1.33]" href="/">
-                <Logo />
-              </Link>
+              <Reveal>
+                <div className="w-[107px] aspect-[1.33]">
+                  <Link className="w-full relative h-full block" href="/">
+                    <Logo />
+                  </Link>
+                </div>
+              </Reveal>
 
-              <nav className="items-center h-full hidden xl:flex">
-                <ul className="flex items-center gap-6 h-full">
-                  {headerItems.map((item) => (
-                    <li key={item.href} className="text-[13px] font-bold h-full">
-                      <Link
-                        className="flex items-center h-full relative text-typography hover:text-secondary transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-6 after:w-0 hover:after:!w-full after:bg-secondary after:h-[2px] after:transition-all"
-                        href={item.href as any}
-                      >
-                        {item.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+              <nav className="h-full">
+                <Reveal customClassname="items-center h-full hidden xl:flex">
+                  <ul className="flex items-center gap-6 h-full">
+                    {headerItems.map((item) => (
+                      <li key={item.href} className="text-[13px] font-bold h-full">
+                        <Link
+                          className="flex items-center h-full relative text-typography hover:text-secondary transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-6 after:w-0 hover:after:!w-full after:bg-secondary after:h-[2px] after:transition-all"
+                          href={item.href as any}
+                        >
+                          {item.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </Reveal>
               </nav>
             </div>
 
