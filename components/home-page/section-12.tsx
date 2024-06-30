@@ -8,6 +8,7 @@ import demo_4 from '@/public/home-page/mau-website-4.webp';
 import CustomHeading2 from '../custom-heading-2';
 import ContentContainer from '../content-container';
 import { cn } from '@/lib/utils';
+import Reveal from '../reveal';
 
 interface Props {}
 
@@ -27,25 +28,27 @@ const Section12: FC<Props> = (props): JSX.Element => {
         <CustomHeading2 t={t} type_1 customClassname="text-center" />
       </ContentContainer>
 
-      <div className="grid sm:grid-cols-2 grid-cols-1">
-        <div>
-          <div className="grid grid-cols-2">
-            <div className={squareImgWrapperClasses}>
-              <Image src={demo_1} alt="Mẫu website 1" className="object-cover" />
+      <Reveal>
+        <div className="grid sm:grid-cols-2 grid-cols-1">
+          <div>
+            <div className="grid grid-cols-2">
+              <div className={squareImgWrapperClasses}>
+                <Image src={demo_1} alt="Mẫu website 1" className="object-cover" />
+              </div>
+              <div className={squareImgWrapperClasses}>
+                <Image src={demo_2} alt="Mẫu website 2" className="object-cover" />
+              </div>
             </div>
-            <div className={squareImgWrapperClasses}>
-              <Image src={demo_2} alt="Mẫu website 2" className="object-cover" />
+            <div className={cn(squareImgWrapperClasses, '!aspect-[2]')}>
+              <Image src={demo_3} alt="Mẫu website 3" className="object-cover h-full" />
             </div>
           </div>
-          <div className={cn(squareImgWrapperClasses, '!aspect-[2]')}>
-            <Image src={demo_3} alt="Mẫu website 3" className="object-cover h-full" />
-          </div>
-        </div>
 
-        <div className={squareImgWrapperClasses}>
-          <Image src={demo_4} alt="Mẫu website 4" className="object-cover" />
+          <div className={squareImgWrapperClasses}>
+            <Image src={demo_4} alt="Mẫu website 4" className="object-cover" />
+          </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 };

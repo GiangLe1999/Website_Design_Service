@@ -16,6 +16,7 @@ import { Input } from '../ui/input';
 import SubmitButton from '../submit-button';
 import FailedDialog from './failed-dialog';
 import SuccessfulDialog from './successful-dialog';
+import Reveal from '../reveal';
 
 interface Props {}
 
@@ -36,104 +37,115 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <FormField
-              control={form.control}
-              name="full_name"
-              render={({ field }) => (
-                <FormItem>
-                  <FormControl>
-                    <Input
-                      className="h-[54px] rounded-[27px] px-[30px]"
-                      placeholder={t('field_1.name')}
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-
-            <FormField
-              control={form.control}
-              name="email"
-              render={({ field }) => (
-                <FormItem>
-                  <FormControl>
-                    <Input
-                      className="h-[54px] rounded-[27px] px-[30px]"
-                      type="email"
-                      placeholder="Email"
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-
-            <FormField
-              control={form.control}
-              name="tel"
-              render={({ field }) => (
-                <FormItem>
-                  <FormControl>
-                    <Input
-                      className="h-[54px] rounded-[27px] px-[30px]"
-                      type="tel"
-                      placeholder="+84962334807"
-                      {...field}
-                    />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-
-            <FormField
-              control={form.control}
-              name="type"
-              render={({ field }) => (
-                <FormItem>
-                  <Select onValueChange={field.onChange} defaultValue={field.value}>
+            <Reveal>
+              <FormField
+                control={form.control}
+                name="full_name"
+                render={({ field }) => (
+                  <FormItem>
                     <FormControl>
-                      <SelectTrigger
-                        aria-label="Choose a type"
-                        className="h-[54px] rounded-[27px] px-[30px] z-[10]"
-                      >
-                        <SelectValue />
-                      </SelectTrigger>
+                      <Input
+                        className="h-[54px] rounded-[27px] px-[30px]"
+                        placeholder={t('field_1.name')}
+                        {...field}
+                      />
                     </FormControl>
-                    <SelectContent>
-                      <SelectItem value="basic">{t('field_4.option_1')}</SelectItem>
-                      <SelectItem value="premium">{t('field_4.option_2')}</SelectItem>
-                    </SelectContent>
-                  </Select>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </Reveal>
 
-                  <FormMessage />
+            <Reveal>
+              <FormField
+                control={form.control}
+                name="email"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormControl>
+                      <Input
+                        className="h-[54px] rounded-[27px] px-[30px]"
+                        type="email"
+                        placeholder="Email"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </Reveal>
+
+            <Reveal>
+              <FormField
+                control={form.control}
+                name="tel"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormControl>
+                      <Input
+                        className="h-[54px] rounded-[27px] px-[30px]"
+                        type="tel"
+                        placeholder="+84962334807"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </Reveal>
+
+            <Reveal>
+              <FormField
+                control={form.control}
+                name="type"
+                render={({ field }) => (
+                  <FormItem>
+                    <Select onValueChange={field.onChange} defaultValue={field.value}>
+                      <FormControl>
+                        <SelectTrigger
+                          aria-label="Choose a type"
+                          className="h-[54px] rounded-[27px] px-[30px] z-[10]"
+                        >
+                          <SelectValue />
+                        </SelectTrigger>
+                      </FormControl>
+                      <SelectContent>
+                        <SelectItem value="basic">{t('field_4.option_1')}</SelectItem>
+                        <SelectItem value="premium">{t('field_4.option_2')}</SelectItem>
+                      </SelectContent>
+                    </Select>
+
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            </Reveal>
+          </div>
+
+          <Reveal>
+            <FormField
+              control={form.control}
+              name="message"
+              render={({ field }) => (
+                <FormItem>
+                  <FormControl>
+                    <Textarea
+                      placeholder={t('field_5.placeholder')}
+                      className="rounded-[27px] px-[30px] py-5"
+                      {...field}
+                      rows={5}
+                    />
+                  </FormControl>
                 </FormItem>
               )}
             />
-          </div>
+          </Reveal>
 
-          <FormField
-            control={form.control}
-            name="message"
-            render={({ field }) => (
-              <FormItem>
-                <FormControl>
-                  <Textarea
-                    placeholder={t('field_5.placeholder')}
-                    className="rounded-[27px] px-[30px] py-5"
-                    {...field}
-                    rows={5}
-                  />
-                </FormControl>
-              </FormItem>
-            )}
-          />
-          <div className="text-center">
+          <Reveal customClassname="text-center">
             <SubmitButton isLoading={isPending} type_1 className="my-4" />
-          </div>
+          </Reveal>
         </form>
       </Form>
 

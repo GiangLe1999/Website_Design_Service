@@ -8,6 +8,7 @@ import ContentContainer from '../content-container';
 import { allBlogs } from '@/.contentlayer/generated';
 import { sortedBlogPost } from '@/lib/content-layer';
 import { Link } from '@/app/navigation';
+import Reveal from '../reveal';
 
 interface Props {}
 
@@ -22,7 +23,9 @@ const Section15: FC<Props> = (props): JSX.Element => {
     <section id={t_id('knowledge')} className="relative bg-white xl:pt-0 pt-14 pb-[150px]">
       <ContentContainer>
         <CustomHeading2 customClassname="text-center" t={t} type_1 />
-        <p className="text-center">{t('sub_heading')}</p>
+        <Reveal>
+          <p className="text-center">{t('sub_heading')}</p>
+        </Reveal>
 
         <ul>
           {posts.map(({ slug, title, tags, summary }, index) => (

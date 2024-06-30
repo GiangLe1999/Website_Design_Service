@@ -113,15 +113,15 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ number, content }) => {
   return (
-    <Reveal>
-      <div className="xl:p-[50px] p-10 bg-[#ffffff] shadow-[0_1px_14px_rgba(0,0,0,0.1)] h-full cursor-pointer transition duration-500 rounded-[20px] hover:bg-[#fff9f8]">
+    <div className="xl:p-[50px] p-10 bg-[#ffffff] shadow-[0_1px_14px_rgba(0,0,0,0.1)] h-full cursor-pointer transition duration-500 rounded-[20px] hover:bg-[#fff9f8]">
+      <Reveal>
         <p className="font-bold text-[60px] leading-none mb-4">
           <span className="text-primary">{number}</span>
           <span className="text-secondary">.</span>
         </p>
         <p className="leading-8">{content}</p>
-      </div>
-    </Reveal>
+      </Reveal>
+    </div>
   );
 };
 

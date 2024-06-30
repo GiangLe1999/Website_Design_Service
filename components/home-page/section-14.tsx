@@ -25,6 +25,7 @@ import customer_logo_7 from '@/public/home-page/customer-logo-7.webp';
 import customer_logo_8 from '@/public/home-page/customer-logo-8.webp';
 import customer_logo_9 from '@/public/home-page/customer-logo-9.webp';
 import footer_bg from '@/public/home-page/section-14-bottom-background.webp';
+import Reveal from '../reveal';
 
 interface Props {}
 
@@ -81,11 +82,13 @@ const Section14: FC<Props> = (props): JSX.Element => {
       </div>
       <ContentContainer maxWidth="max-w-[700px]">
         <CustomHeading2 t={t} type_1 customClassname="text-center" />
-        <p className="text-center">
-          {t.rich('description', {
-            bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
-          })}
-        </p>
+        <Reveal>
+          <p className="text-center">
+            {t.rich('description', {
+              bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
+            })}
+          </p>
+        </Reveal>
       </ContentContainer>
 
       <ContentContainer customClassName="relative">
@@ -93,77 +96,41 @@ const Section14: FC<Props> = (props): JSX.Element => {
           <SectionSwiper />
         </ContentContainer>
 
-        <Image
-          src={customer_logo_1}
-          alt="Customer logo 1"
-          className="absolute left-0 -translate-x-full -translate-y-1/2 top-0 md:block hidden"
-          width={170}
-          height={170}
-        />
+        <Reveal customClassname="absolute left-0 -translate-x-full -translate-y-1/2 top-0 md:block hidden">
+          <Image src={customer_logo_1} alt="Customer logo 1" width={170} height={170} />
+        </Reveal>
 
-        <Image
-          src={customer_logo_2}
-          alt="Customer logo 2"
-          className="absolute left-0 -translate-x-1/3 top-20 md:block hidden"
-          width={160}
-          height={160}
-        />
+        <Reveal customClassname="absolute left-0 -translate-x-1/3 top-20 md:block hidden">
+          <Image src={customer_logo_2} alt="Customer logo 2" width={160} height={160} />
+        </Reveal>
 
-        <Image
-          src={customer_logo_3}
-          alt="Customer logo 3"
-          className="absolute left-0 -bottom-24 -translate-x-1/2 z-[3] md:block hidden"
-          width={170}
-          height={170}
-        />
+        <Reveal customClassname="absolute left-0 -bottom-24 -translate-x-1/2 z-[3] md:block hidden">
+          <Image src={customer_logo_3} alt="Customer logo 3" width={170} height={170} />
+        </Reveal>
 
-        <Image
-          src={customer_logo_4}
-          alt="Customer logo 4"
-          className="absolute left-[15%] -bottom-52 -translate-x-1/2 z-[3] md:block hidden"
-          width={170}
-          height={170}
-        />
+        <Reveal customClassname="absolute left-[15%] -bottom-52 -translate-x-1/2 z-[3] md:block hidden">
+          <Image src={customer_logo_4} alt="Customer logo 4" width={170} height={170} />
+        </Reveal>
 
-        <Image
-          src={customer_logo_5}
-          alt="Customer logo 5"
-          className="absolute left-1/2 -translate-x-full -bottom-48 z-[3] md:block hidden"
-          width={170}
-          height={170}
-        />
+        <Reveal customClassname="absolute left-1/2 -translate-x-full -bottom-48 z-[3] md:block hidden">
+          <Image src={customer_logo_5} alt="Customer logo 5" width={170} height={170} />
+        </Reveal>
 
-        <Image
-          src={customer_logo_6}
-          alt="Customer logo 6"
-          className="absolute right-[5%] -bottom-44 z-[3] md:block hidden"
-          width={170}
-          height={170}
-        />
+        <Reveal customClassname="absolute right-[5%] -bottom-44 z-[3] md:block hidden">
+          <Image src={customer_logo_6} alt="Customer logo 6" width={170} height={170} />
+        </Reveal>
 
-        <Image
-          src={customer_logo_7}
-          alt="Customer logo 7"
-          className="absolute -right-[5%] -bottom-16 z-[3] md:block hidden"
-          width={170}
-          height={170}
-        />
+        <Reveal customClassname="absolute -right-[5%] -bottom-16 z-[3] md:block hidden">
+          <Image src={customer_logo_7} alt="Customer logo 7" width={170} height={170} />
+        </Reveal>
 
-        <Image
-          src={customer_logo_8}
-          alt="Customer logo 8"
-          className="absolute -right-[15%] -bottom-44 z-[3] md:block hidden"
-          width={170}
-          height={170}
-        />
+        <Reveal customClassname="absolute -right-[15%] -bottom-44 z-[3] md:block hidden">
+          <Image src={customer_logo_8} alt="Customer logo 8" width={170} height={170} />
+        </Reveal>
 
-        <Image
-          src={customer_logo_9}
-          alt="Customer logo 9"
-          className="absolute -right-[10%] top-0 z-[3] md:block hidden"
-          width={170}
-          height={170}
-        />
+        <Reveal customClassname="absolute -right-[10%] top-0 z-[3] md:block hidden">
+          <Image src={customer_logo_9} alt="Customer logo 9" width={170} height={170} />
+        </Reveal>
       </ContentContainer>
     </section>
   );
@@ -210,7 +177,7 @@ const SectionSwiper = () => {
       <button
         type="button"
         ref={prevRef}
-        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute sm:left-0 left-1/2 -translate-x-[120%] sm:top-[48%] top-auto -bottom-0 sm:bottom-auto z-[10]"
+        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute left-1/2 -translate-x-[120%] top-auto -bottom-0 z-[10] sm:hidden"
         aria-label="Previous slide"
       >
         <MoveLeftIcon className="w-4 h-4" />
@@ -219,7 +186,7 @@ const SectionSwiper = () => {
       <button
         type="button"
         ref={nextRef}
-        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute sm:right-0 right-1/2 translate-x-[120%] sm:top-[48%] top-auto -bottom-0 sm:bottom-auto z-[10]"
+        className="bg-[#05141F1A] w-9 h-9 grid place-items-center rounded-full absolute right-1/2 translate-x-[120%] top-auto -bottom-0 z-[10] sm:hidden"
         aria-label="Next slide"
       >
         <MoveRightIcon className="w-4 h-4" />
@@ -242,11 +209,13 @@ const SwiperCard: FC<SwiperCardProps> = ({ content, name, type, logo }) => {
         <Image src={logo} alt={name} className="rounded-full" />
       </div>
 
-      <div className="max-w-[85%] pt-[80px] pb-[50px] mx-auto">
-        <p className="text-sm leading-6 text-center mb-4">{content}</p>
-        <p className="text-lg font-bold text-primary mb-1 text-center">{name}</p>
-        <p className="text-center text-sm font-semibold">{type}</p>
-      </div>
+      <Reveal>
+        <div className="max-w-[85%] pt-[80px] pb-[50px] mx-auto">
+          <p className="text-sm leading-6 text-center mb-4">{content}</p>
+          <p className="text-lg font-bold text-primary mb-1 text-center">{name}</p>
+          <p className="text-center text-sm font-semibold">{type}</p>
+        </div>
+      </Reveal>
     </div>
   );
 };

@@ -8,6 +8,7 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import CustomHeading2 from '../custom-heading-2';
+import Reveal from '../reveal';
 
 interface Props {}
 
@@ -86,34 +87,38 @@ const Section17: FC<Props> = (props): JSX.Element => {
     <section id={t_id('faq')} className="relative bg-white pb-[100px]">
       <ContentContainer maxWidth="max-w-[740px]" customClassName="mb-[50px]">
         <CustomHeading2 customClassname="text-center" t={t} type_1 />
-        <p className="text-center mb-2">{t('description')}</p>
+        <Reveal>
+          <p className="text-center mb-2">{t('description')}</p>
+        </Reveal>
       </ContentContainer>
 
       <ContentContainer maxWidth="max-w-[1000px]">
         <Accordion type="single" collapsible>
           {accordionData.map((item, index) => (
-            <AccordionItem value={`item-${index}`} key={index}>
-              <AccordionTrigger className="sm:text-base text-sm text-left hover:text-secondary hover:no-underline transition">
-                {t(item.question)}
-              </AccordionTrigger>
-              <AccordionContent className="text-sm leading-7">
-                {t.rich(item.answer, {
-                  ul: (chunks) => <ul className="space-y-2 mt-2">{chunks}</ul>,
-                  li: (chunks) => <li className="list-disc list-inside">{chunks}</li>,
-                  link: (chunks) => (
-                    <a
-                      className="text-primary font-bold hover:text-secondary hover:underline transition"
-                      href={item.link}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {chunks}
-                    </a>
-                  ),
-                  bold: (chunks) => <strong className="font-bold text-primary">{chunks}</strong>,
-                })}
-              </AccordionContent>
-            </AccordionItem>
+            <Reveal key={index}>
+              <AccordionItem value={`item-${index}`}>
+                <AccordionTrigger className="sm:text-base text-sm text-left hover:text-secondary hover:no-underline transition">
+                  {t(item.question)}
+                </AccordionTrigger>
+                <AccordionContent className="text-sm leading-7">
+                  {t.rich(item.answer, {
+                    ul: (chunks) => <ul className="space-y-2 mt-2">{chunks}</ul>,
+                    li: (chunks) => <li className="list-disc list-inside">{chunks}</li>,
+                    link: (chunks) => (
+                      <a
+                        className="text-primary font-bold hover:text-secondary hover:underline transition"
+                        href={item.link}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {chunks}
+                      </a>
+                    ),
+                    bold: (chunks) => <strong className="font-bold text-primary">{chunks}</strong>,
+                  })}
+                </AccordionContent>
+              </AccordionItem>
+            </Reveal>
           ))}
         </Accordion>
       </ContentContainer>

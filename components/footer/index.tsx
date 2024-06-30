@@ -9,6 +9,7 @@ import InstagramIcon from '@/public/icons/instagram.webp';
 import YoutubeIcon from '@/public/icons/youtube.webp';
 import { cn } from '@/lib/utils';
 import FooterForm from './footer-form';
+import Reveal from '../reveal';
 
 interface Props {}
 
@@ -36,17 +37,17 @@ const Footer: FC<Props> = (props): JSX.Element => {
           {/* Column 1 */}
           <div className="md:col-span-5 sm:col-span-8 flex flex-col gap-12">
             {/* Row 1 */}
-            <div>
+            <Reveal>
               <Link href="/" className="uppercase text-white font-bold">
                 {t_common('site_name')}
               </Link>
               <p className="text-[#bcbcbc] text-xs mt-2 leading-5 sm:max-w-[85%] max-w-none">
                 {t('description')}
               </p>
-            </div>
+            </Reveal>
 
             {/* Row 2 */}
-            <div>
+            <Reveal>
               <p className="uppercase text-white font-bold">{t('contact_with_us')}</p>
 
               <ul className="text-[#bcbcbc] text-xs space-y-2 mt-2 leading-5">
@@ -83,10 +84,10 @@ const Footer: FC<Props> = (props): JSX.Element => {
                   <span>{t_common('work_hours_text')}</span>
                 </li>
               </ul>
-            </div>
+            </Reveal>
 
             {/*  Row 3 */}
-            <div>
+            <Reveal>
               <p className="uppercase text-white font-bold">{t('connect_with_us')}</p>
               <ul className="flex items-center gap-2 mt-3">
                 <li>
@@ -123,14 +124,13 @@ const Footer: FC<Props> = (props): JSX.Element => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </Reveal>
           </div>
 
           {/* Column 2 */}
           <div className="md:col-span-3 sm:col-span-4 flex flex-col gap-12">
             {/* Row 1 */}
-
-            <div>
+            <Reveal>
               <p className="uppercase text-white font-bold">{t('service')}</p>
               <ul className="text-[#bcbcbc] text-xs space-y-2 mt-2 leading-5">
                 {secondColumnData.map((service, index) => (
@@ -144,10 +144,10 @@ const Footer: FC<Props> = (props): JSX.Element => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </Reveal>
 
             {/* Row 2 */}
-            <div>
+            <Reveal>
               <p className="uppercase text-white font-bold">{t('policy')}</p>
               <ul className="text-[#bcbcbc] text-xs space-y-2 mt-2 leading-5">
                 <li>
@@ -166,16 +166,16 @@ const Footer: FC<Props> = (props): JSX.Element => {
                   </Link>
                 </li>
               </ul>
-            </div>
+            </Reveal>
           </div>
 
           {/* Column 3 */}
-          <div className="md:col-span-4 col-span-12">
+          <Reveal customClassname="md:col-span-4 col-span-12">
             <p className="uppercase text-white font-bold">{t('rfq')}</p>
             <p className="text-[#bcbcbc] text-xs mt-2 leading-5">{t('rfq_description')}</p>
 
             <FooterForm />
-          </div>
+          </Reveal>
         </div>
       </ContentContainer>
     </footer>

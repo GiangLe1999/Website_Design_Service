@@ -17,7 +17,7 @@ import icon_4 from '@/public/home-page/thuc-hien-du-an-website-dung-han.png';
 import icon_5 from '@/public/home-page/ton-trong-thong-tin-bao-mat.png';
 import ConsultButtton from '../consult-button';
 import CallButton from '../call-button';
-import { cn } from '@/lib/utils';
+import Reveal from '../reveal';
 
 const swiperData = [
   {
@@ -61,28 +61,32 @@ const Section11: FC<Props> = (props): JSX.Element => {
       <ContentContainer>
         <CustomHeading2 t={t} type_1 customClassname="text-center" />
 
-        <p className="lg:text-lg lg:leading-8 text-sm leading-7 text-center mb-4">
-          {t.rich('description', {
-            bold: (chunks) => <strong className="font-bold text-primary">{chunks}</strong>,
-            link: (chunks) => (
-              <Link
-                href="/"
-                className="font-bold text-primary underline hover:text-secondary transition"
-              >
-                {chunks}
-              </Link>
-            ),
-          })}
-        </p>
+        <Reveal>
+          <p className="lg:text-lg lg:leading-8 text-sm leading-7 text-center mb-4">
+            {t.rich('description', {
+              bold: (chunks) => <strong className="font-bold text-primary">{chunks}</strong>,
+              link: (chunks) => (
+                <Link
+                  href="/"
+                  className="font-bold text-primary underline hover:text-secondary transition"
+                >
+                  {chunks}
+                </Link>
+              ),
+            })}
+          </p>
+        </Reveal>
 
         <SectionSwiper />
 
         <ContactInfo />
 
-        <div className="flex sm:flex-row flex-col items-center justify-center gap-[14px] mt-10">
-          <ConsultButtton type_1 />
-          <CallButton type_1 />
-        </div>
+        <Reveal>
+          <div className="flex sm:flex-row flex-col items-center justify-center gap-[14px] mt-10">
+            <ConsultButtton type_1 />
+            <CallButton type_1 />
+          </div>
+        </Reveal>
       </ContentContainer>
     </section>
   );
@@ -95,7 +99,7 @@ export const ContactInfo: FC<ContactInfoProps> = () => {
   const t_common = useTranslations('common');
 
   return (
-    <>
+    <Reveal>
       <p className="font-semibold text-primary leading-8 text-center mb-2 text-lg">
         {t('agency_name')}
       </p>
@@ -114,7 +118,7 @@ export const ContactInfo: FC<ContactInfoProps> = () => {
           <b>Website:</b> <Link href="/">{siteMetadata.siteUrl}</Link>
         </li>
       </ul>
-    </>
+    </Reveal>
   );
 };
 
@@ -169,16 +173,18 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ icon, heading, description }) => {
   return (
-    <div className="relative bg-[#ffffff82] rounded-[30px] shadow-md hover:bg-white group transition duration-500">
-      <div className="bg-[#fff] group-hover:bg-white transition duration-500 shadow-md absolute left-1/2 -translate-x-1/2 mt-[-60px] rounded-full w-[112px] aspect-square grid place-items-center">
-        <Image src={icon} alt={heading} width={50} />
-      </div>
+    <Reveal>
+      <div className="relative bg-[#ffffff82] rounded-[30px] shadow-md hover:bg-white group transition duration-500">
+        <div className="bg-[#fff] group-hover:bg-white transition duration-500 shadow-md absolute left-1/2 -translate-x-1/2 mt-[-60px] rounded-full w-[112px] aspect-square grid place-items-center">
+          <Image src={icon} alt={heading} width={50} />
+        </div>
 
-      <div className="max-w-[85%] pt-[70px] pb-[50px] mx-auto">
-        <p className="text-lg font-bold text-primary mb-4 text-center">{heading}</p>
-        <p className="text-sm leading-6 text-center">{description}</p>
+        <div className="max-w-[85%] pt-[70px] pb-[50px] mx-auto">
+          <p className="text-lg font-bold text-primary mb-4 text-center">{heading}</p>
+          <p className="text-sm leading-6 text-center">{description}</p>
+        </div>
       </div>
-    </div>
+    </Reveal>
   );
 };
 

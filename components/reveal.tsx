@@ -5,9 +5,10 @@ import { motion, useAnimation, useInView } from 'framer-motion';
 
 interface Props {
   children: ReactNode;
+  customClassname?: string;
 }
 
-const Reveal: FC<Props> = ({ children }): JSX.Element => {
+const Reveal: FC<Props> = ({ children, customClassname }): JSX.Element => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
@@ -19,7 +20,7 @@ const Reveal: FC<Props> = ({ children }): JSX.Element => {
   }, [isInView]);
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className={customClassname || ''}>
       <motion.div
         variants={{
           hidden: { opacity: 0, y: 75 },

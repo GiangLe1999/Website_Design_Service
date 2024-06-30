@@ -5,6 +5,7 @@ import ContentContainer from '../content-container';
 import Image from 'next/image';
 import { CircleCheckBig } from 'lucide-react';
 import ConsultButtton from '../consult-button';
+import Reveal from '../reveal';
 
 interface Props {}
 const basicSuitableWith = [
@@ -73,7 +74,9 @@ const Section13: FC<Props> = (props): JSX.Element => {
           </div>
           <div className="flex-1 lg:order-2 order-1">
             <CustomHeading2 t={t} type_1 customClassname="lg:text-left text-center" />
-            <p className="text-sm leading-7 lg:text-left text-center">{t('description')}</p>
+            <Reveal>
+              <p className="text-sm leading-7 lg:text-left text-center">{t('description')}</p>
+            </Reveal>
           </div>
         </div>
       </ContentContainer>
@@ -105,47 +108,49 @@ const PriceBlock: FC<PriceBlockProps> = ({
   suitableWithArr,
 }) => {
   return (
-    <div className="rounded-[20px] shadow-[2px_2px_30px_rgba(0,28,24,0.13)] bg-white p-6 mb-6">
-      {/* Type */}
-      <p className="flex items-center gap-2 border-b pb-4">
-        <Image src={iconLink} alt={iconAlt} width={iconWidth} height={iconHeight} />
-        <span className="font-bold text-primary text-xl line-clamp-1">{typeTitle}</span>
-      </p>
+    <Reveal>
+      <div className="rounded-[20px] shadow-[2px_2px_30px_rgba(0,28,24,0.13)] bg-white p-6 mb-6">
+        {/* Type */}
+        <p className="flex items-center gap-2 border-b pb-4">
+          <Image src={iconLink} alt={iconAlt} width={iconWidth} height={iconHeight} />
+          <span className="font-bold text-primary text-xl line-clamp-1">{typeTitle}</span>
+        </p>
 
-      {/* Giá từ */}
-      <h3 className="font-semibold mt-4 mb-2">{headingTitle}</h3>
-      <span className="text-xs text-[#516f90]">{t('common.price_from')}:</span>
-      <p className="text-4xl text-secondary font-bold border-b pb-4">
-        {priceFrom}
-        <span className="text-sm relative -top-5">₫</span>
-      </p>
+        {/* Giá từ */}
+        <h3 className="font-semibold mt-4 mb-2">{headingTitle}</h3>
+        <span className="text-xs text-[#516f90]">{t('common.price_from')}:</span>
+        <p className="text-4xl text-secondary font-bold border-b pb-4">
+          {priceFrom}
+          <span className="text-sm relative -top-5">₫</span>
+        </p>
 
-      {/* Phù hợp với */}
-      <p className="text-xs text-[#516f90] mt-5 mb-3">{t('common.suitable_with')}:</p>
-      <ul className="text-xs space-y-3 mt-1 border-b pb-5 leading-5">
-        {suitableWithArr.map((item) => (
-          <li className="flex items-start gap-2" key={item}>
-            <CircleCheckBig className="w-3 h-3 text-emerald-600 shrink-0 mt-1" />
-            <span>{t(item)}</span>
-          </li>
-        ))}
-      </ul>
+        {/* Phù hợp với */}
+        <p className="text-xs text-[#516f90] mt-5 mb-3">{t('common.suitable_with')}:</p>
+        <ul className="text-xs space-y-3 mt-1 border-b pb-5 leading-5">
+          {suitableWithArr.map((item) => (
+            <li className="flex items-start gap-2" key={item}>
+              <CircleCheckBig className="w-3 h-3 text-emerald-600 shrink-0 mt-1" />
+              <span>{t(item)}</span>
+            </li>
+          ))}
+        </ul>
 
-      {/* Tính năng */}
-      <p className="text-xs text-[#516f90] mt-5 mb-3">{t('common.included')}:</p>
-      <ul className="text-xs space-y-3 mt-1 border-b pb-5 leading-5">
-        {included_items.map((item) => (
-          <li className="flex items-start gap-2" key={item}>
-            <CircleCheckBig className="w-3 h-3 text-emerald-600 shrink-0 mt-1" />
-            <span>{t(`common.${item}`)}</span>
-          </li>
-        ))}
-      </ul>
+        {/* Tính năng */}
+        <p className="text-xs text-[#516f90] mt-5 mb-3">{t('common.included')}:</p>
+        <ul className="text-xs space-y-3 mt-1 border-b pb-5 leading-5">
+          {included_items.map((item) => (
+            <li className="flex items-start gap-2" key={item}>
+              <CircleCheckBig className="w-3 h-3 text-emerald-600 shrink-0 mt-1" />
+              <span>{t(`common.${item}`)}</span>
+            </li>
+          ))}
+        </ul>
 
-      <div className="text-center">
-        <ConsultButtton type_1 className="mt-6" />
+        <div className="text-center">
+          <ConsultButtton type_1 className="mt-6" />
+        </div>
       </div>
-    </div>
+    </Reveal>
   );
 };
 

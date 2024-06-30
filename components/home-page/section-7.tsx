@@ -164,14 +164,11 @@ const Section7: FC<Props> = (): JSX.Element => {
                 currentTab === id ? 'bg-secondary' : 'bg-[#fff9f9]'
               )}
             >
-              <Reveal>
+              <Reveal customClassname="w-1/2">
                 <Image
                   src={icon}
                   alt={`Tab icon ${id}`}
-                  className={cn(
-                    'w-1/2',
-                    id === currentTab ? 'brightness-0 invert-[1]' : 'transition'
-                  )}
+                  className={id === currentTab ? 'brightness-0 invert-[1]' : 'transition'}
                 />
               </Reveal>
             </li>
@@ -184,17 +181,23 @@ const Section7: FC<Props> = (): JSX.Element => {
               <span className="text-primary">{activeTab?.number}</span>
               <span className="text-secondary">.</span>
             </p>
+          </Reveal>
 
+          <Reveal>
             <h3 className="xl:text-[35px] md:text-3xl text-2xl text-primary">
               {t(activeTab?.heading)}
             </h3>
+          </Reveal>
 
+          <Reveal>
             <p className="text-sm leading-7">
               {t.rich(activeTab?.description, {
                 bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
               })}
             </p>
+          </Reveal>
 
+          <Reveal>
             <div className="flex sm:flex-row flex-col items-center justify-center gap-[14px] !mt-10">
               <ConsultButtton type_1 />
               <CallButton type_1 />
