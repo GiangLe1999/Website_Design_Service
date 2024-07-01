@@ -29,7 +29,7 @@ const HomePage = ({ params: { locale } }: Props) => {
   unstable_setRequestLocale(locale);
   const t = useTranslations('home_page.section_ids');
   return (
-    <>
+    <main>
       <section id={t('design_service')}>
         <Section1 />
         <Section2 />
@@ -55,7 +55,7 @@ const HomePage = ({ params: { locale } }: Props) => {
       <Section17 />
 
       <NavigationDots />
-    </>
+    </main>
   );
 };
 

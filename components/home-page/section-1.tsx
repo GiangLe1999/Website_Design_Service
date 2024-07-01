@@ -72,35 +72,25 @@ const Section1: FC<Props> = (props): JSX.Element => {
           />
         </Reveal>
 
-        <div className="absolute top-0 left-[18%] z-[1] md:block hidden">
-          <Reveal>
-            <Image src={icon1} alt={t('image_1')} width={150} height={150} />
-          </Reveal>
-        </div>
+        <Reveal customClassname="absolute top-0 left-[18%] z-[1] md:block hidden">
+          <Image src={icon1} alt={t('image_1')} width={150} height={150} />
+        </Reveal>
 
-        <div className="absolute top-[35%] left-[2%] z-[1] md:block hidden">
-          <Reveal>
-            <Image src={icon2} alt={t('image_2')} width={150} height={150} />
-          </Reveal>
-        </div>
+        <Reveal customClassname="absolute top-[35%] left-[2%] z-[1] md:block hidden">
+          <Image src={icon2} alt={t('image_2')} width={150} height={150} />
+        </Reveal>
 
-        <div className="absolute bottom-[37%] right-[7.5%] z-[1] md:block hidden">
-          <Reveal>
-            <Image src={icon3} alt={t('image_3')} width={150} height={150} />
-          </Reveal>
-        </div>
+        <Reveal customClassname="absolute bottom-[37%] right-[7.5%] z-[1] md:block hidden">
+          <Image src={icon3} alt={t('image_3')} width={150} height={150} />
+        </Reveal>
 
-        <div className="absolute bottom-[11%] left-[13.5%] z-[1] md:block hidden">
-          <Reveal>
-            <Image src={icon4} alt={t('image_4')} width={150} height={150} />
-          </Reveal>
-        </div>
+        <Reveal customClassname="absolute bottom-[11%] left-[13.5%] z-[1] md:block hidden">
+          <Image src={icon4} alt={t('image_4')} width={150} height={150} />
+        </Reveal>
 
-        <div className="absolute top-[13%] right-[29.5%] z-[1] md:block hidden">
-          <Reveal>
-            <Image src={icon5} alt={t('image_5')} width={61} height={61} />
-          </Reveal>
-        </div>
+        <Reveal customClassname="absolute top-[13%] right-[29.5%] z-[1] md:block hidden">
+          <Image src={icon5} alt={t('image_5')} width={61} height={61} />
+        </Reveal>
       </ContentContainer>
     </div>
   );

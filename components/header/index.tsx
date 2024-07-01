@@ -1,38 +1,19 @@
 'use client';
 
-import { FC, useEffect, useMemo, useState } from 'react';
+import { FC, useMemo, useState } from 'react';
 import Logo from '../logo';
 import { Link } from '@/app/navigation';
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from './language-switcher';
-import { cn } from '@/lib/utils';
 import ContentContainer from '../content-container';
 import { AlignLeftIcon } from 'lucide-react';
 import MobileSidebar from './mobile-sidebar';
-import Reveal from '../reveal';
 
 interface Props {}
 
 const Header: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('header');
-  const [scrolled, setScrolled] = useState(false);
   const [showSidebar, setShowSidebar] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   const headerItems = useMemo(
     () => [
@@ -76,13 +57,10 @@ const Header: FC<Props> = (props): JSX.Element => {
     <>
       <header
         itemType="https://schema.org/WPHeader"
-        className={cn(
-          'fixed inset-x-0 top-0 z-50 transition',
-          scrolled ? 'bg-white shadow border-b' : 'bg-transparent'
-        )}
+        className="fixed inset-x-0 top-0 z-50 transition bg-white shadow border-b"
       >
         <ContentContainer>
-          <div className="flex justify-between py-[10px] h-[100px]">
+          <div className="flex justify-between py-[10px] h-20">
             <button
               type="button"
               className="xl:hidden block w-[30px]"
@@ -93,33 +71,27 @@ const Header: FC<Props> = (props): JSX.Element => {
             </button>
 
             <div className="flex items-center gap-[30px]">
-              <Reveal>
-                <div className="w-[107px] aspect-[1.33]">
-                  <Link className="w-full relative h-full block" href="/">
-                    <Logo />
-                  </Link>
-                </div>
-              </Reveal>
+              <Link className="w-[80px] aspect-[1.33] relative" href="/">
+                <Logo />
+              </Link>
 
-              <nav className="h-full">
-                <Reveal customClassname="items-center h-full hidden xl:flex">
-                  <ul className="flex items-center gap-6 h-full">
-                    {headerItems.map((item) => (
-                      <li key={item.href} className="text-[13px] font-bold h-full">
-                        <Link
-                          className="flex items-center h-full relative text-typography hover:text-secondary transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-6 after:w-0 hover:after:!w-full after:bg-secondary after:h-[2px] after:transition-all"
-                          href={item.href as any}
-                        >
-                          {item.title}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </Reveal>
+              <nav className="h-full items-center hidden xl:flex">
+                <ul className="flex items-center gap-6 h-full">
+                  {headerItems.map((item) => (
+                    <li key={item.href} className="leading-none text-[13px] font-bold h-full">
+                      <Link
+                        className="flex items-center h-full relative text-typography hover:text-secondary transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-5 after:w-0 hover:after:!w-full after:bg-secondary after:h-[2px] after:transition-all"
+                        href={item.href as any}
+                      >
+                        {item.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </nav>
             </div>
 
-            <div className="h-full grid place-items-center">
+            <div className="h-full flex items-center">
               <LanguageSwitcher />
             </div>
           </div>

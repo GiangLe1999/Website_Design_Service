@@ -11,7 +11,6 @@ import VNFlag from '@/public/icons/vietnam-flag.webp';
 import ENFlag from '@/public/icons/england-flag.webp';
 import Image from 'next/image';
 import { cn } from '@/lib/utils';
-import Reveal from '../reveal';
 
 interface Props {}
 
@@ -85,18 +84,16 @@ const LanguageSwitcher: FC<Props> = (props): JSX.Element => {
     // </button>
     <Popover>
       <PopoverTrigger className="cursor-pointer">
-        <Reveal>
-          <div className="flex items-center gap-2">
-            <Image
-              src={locale === 'vi' ? VNFlag : ENFlag}
-              alt={locale}
-              width={25}
-              className="rounded-[2px]"
-            />{' '}
-            <div className="h-5 w-[1px] bg-[#ccc]"></div>
-            <span className="uppercase  font-bold text-sm">{locale}</span>
-          </div>
-        </Reveal>
+        <div className="flex items-center gap-2">
+          <Image
+            src={locale === 'vi' ? VNFlag : ENFlag}
+            alt={locale}
+            width={25}
+            className="rounded-[2px]"
+          />{' '}
+          <div className="h-5 w-[1px] bg-[#ccc]"></div>
+          <span className="uppercase  font-bold text-sm">{locale}</span>
+        </div>
       </PopoverTrigger>
       <PopoverContent align="end" className="p-0 rounded w-fit">
         <ul>

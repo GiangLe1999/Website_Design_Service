@@ -56,6 +56,7 @@ const config = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        dark_blue: '#024e7e',
       },
       typography: (theme: any) => ({
         DEFAULT: {

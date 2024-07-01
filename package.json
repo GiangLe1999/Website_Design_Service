@@ -21,6 +21,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "contentlayer": "^0.3.4",
+    "crisp-sdk-web": "^1.0.25",
     "framer-motion": "^11.2.12",
     "github-slugger": "^1.5.0",
     "libphonenumber-js": "^1.11.4",

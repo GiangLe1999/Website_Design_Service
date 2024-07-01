@@ -6,10 +6,11 @@ import { cn } from '@/lib/utils';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { locales } from '../config';
 import { unstable_setRequestLocale } from 'next-intl/server';
+import CrispChat from '@/components/crisp-chat';
 
 const nunito = Nunito({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '500', '600', '700', '800'],
   variable: '--font-nunito',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
@@ -45,6 +46,7 @@ export default function RootLayout({
           </div>
         </NextIntlClientProvider>
       </body>
+      <CrispChat />
     </html>
   );
 }
