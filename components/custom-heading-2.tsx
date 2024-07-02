@@ -17,14 +17,21 @@ const CustomHeading2: FC<Props> = ({ customClassname, type_1, type_2, type_3, t 
         className={cn(
           'section-heading-2 font-bold mb-5',
           type_1 && 'text-primary',
+          type_2 || type_3 ? 'font-light' : 'font-bold',
           customClassname
         )}
       >
         {t.rich('heading', {
-          orange: (chunks: any) => (
+          bold: (chunks: any) => (
             <span
               className={
-                type_1 ? 'text-secondary' : type_2 ? 'text-dark_blue' : type_3 ? 'text-white' : ''
+                type_1
+                  ? 'text-secondary'
+                  : type_2
+                  ? 'text-dark_blue font-extrabold'
+                  : type_3
+                  ? 'text-white font-extrabold'
+                  : ''
               }
             >
               {chunks}

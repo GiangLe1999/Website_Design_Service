@@ -24,7 +24,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
             <Reveal>
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold text-primary leading-[1.2] mb-5">
                 {t.rich('heading', {
-                  orange: (chunks) => <span className="text-secondary">{chunks}</span>,
+                  bold: (chunks) => <span className="text-secondary">{chunks}</span>,
                 })}
               </h1>
             </Reveal>

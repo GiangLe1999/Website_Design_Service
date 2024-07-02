@@ -6,14 +6,23 @@ import Reveal from '../reveal';
 import Image from 'next/image';
 import quote from '@/public/real-estate-page/quote-characters.png';
 import dash from '@/public/real-estate-page/dash-shape.png';
-import main_img from '@/public/real-estate-page/thiet-ke-web-bds-gia-re.webp';
+import main_img from '@/public/real-estate-page/thiet-ke-web-bat-dong-san.webp';
+import left_corner from '@/public/real-estate-page/section-2-left-img.png';
+import right_corner from '@/public/real-estate-page/section-2-right-img.png';
 
 interface Props {}
 
 const Section2: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('real_estate_page.section_2');
   return (
-    <section id={t('id')} className="pt-[60px]">
+    <section id={t('id')} className="pt-[60px] mb-[100px] relative">
+      <Reveal customClassname="absolute left-[-20%] bottom-[30%] w-">
+        <Image src={left_corner} alt="Left corner" />
+      </Reveal>
+      <Reveal customClassname="absolute right-[-20%] top-[15%]">
+        <Image src={right_corner} alt="Right corner" />
+      </Reveal>
+
       <ContentContainer maxWidth="max-w-[1060px]">
         <Reveal customClassname="relative mb-16">
           <p className="text-dark_blue text-3xl md:text-4xl xl:text-[50px] sm:!leading-[1.2] font-bold mb-[30px] text-center">
@@ -55,7 +64,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
               bold: (chunks: any) => <strong className="font-extrabold">{chunks}</strong>,
             })}
           </h1>
-          <div className="text-center text-sm leading-7 space-y-3 mb-8">
+          <div className="text-center text-sm leading-7 space-y-3">
             <p>{t('paragraph_1')}</p>
             <p>
               {t.rich('paragraph_2', {
@@ -64,25 +73,20 @@ const Section2: FC<Props> = (props): JSX.Element => {
             </p>
           </div>
 
-          <Image
-            alt={t('main_img')}
-            src={main_img}
-            width={935}
-            height={859}
-            quality={100}
-            className="mb-5"
-          />
+          <Reveal>
+            <Image alt={t('main_img')} src={main_img} width={935} height={859} quality={100} />
+          </Reveal>
 
           <div className="text-sm leading-7 space-y-3">
-            <p>
+            <Reveal>
               {t.rich('paragraph_3', {
                 bold: (chunks: any) => <strong>{chunks}</strong>,
               })}
-            </p>
-            <p>{t('paragraph_4')}</p>
-            <p>{t('paragraph_5')}</p>
-            <p>{t('paragraph_6')}</p>
-            <p>
+            </Reveal>
+            <Reveal>{t('paragraph_4')}</Reveal>
+            <Reveal>{t('paragraph_5')}</Reveal>
+            <Reveal>{t('paragraph_6')}</Reveal>
+            <Reveal>
               {t.rich('paragraph_7', {
                 link: (chunks: any) => (
                   <Link href={'/'} className="hover:text-dark_blue hover:underline transition">
@@ -90,12 +94,12 @@ const Section2: FC<Props> = (props): JSX.Element => {
                   </Link>
                 ),
               })}
-            </p>
-            <p>
+            </Reveal>
+            <Reveal>
               {t.rich('paragraph_8', {
                 bold: (chunks: any) => <strong>{chunks}</strong>,
               })}
-            </p>
+            </Reveal>
           </div>
         </div>
       </ContentContainer>
