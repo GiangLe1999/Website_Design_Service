@@ -104,10 +104,10 @@ const Section3: FC<Props> = (props): JSX.Element => {
 
         <SectionSwiper t={t} />
 
-        <div className="flex sm:flex-row flex-col items-center justify-center gap-[14px] mt-10">
+        <Reveal customClassname="flex sm:flex-row flex-col items-center justify-center gap-[14px] mt-10">
           <ConsultButtton type_2 />
           <CallButton type_2 />
-        </div>
+        </Reveal>
       </ContentContainer>
     </section>
   );

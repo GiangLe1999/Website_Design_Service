@@ -17,6 +17,7 @@ const CustomHeading2: FC<Props> = ({ customClassname, type_1, type_2, type_3, t 
         className={cn(
           'section-heading-2 font-bold mb-5',
           type_1 && 'text-primary',
+          type_2 && 'text-dark_blue',
           type_2 || type_3 ? 'font-light' : 'font-bold',
           customClassname
         )}

@@ -56,25 +56,29 @@ const Section2: FC<Props> = (props): JSX.Element => {
         </Reveal>
 
         <div>
-          <p className="text-center uppercase text-xl text-[#777777] mb-5 font-semibold">
-            {t('sub_heading')}
-          </p>
-          <h1 className="text-center section-heading-2 text-dark_blue mb-6">
-            {t.rich('heading', {
-              bold: (chunks: any) => <strong className="font-extrabold">{chunks}</strong>,
-            })}
-          </h1>
-          <div className="text-center text-sm leading-7 space-y-3">
+          <Reveal>
+            <p className="text-center uppercase text-xl text-[#777777] mb-5 font-semibold">
+              {t('sub_heading')}
+            </p>
+          </Reveal>
+          <Reveal>
+            <h1 className="text-center section-heading-2 text-dark_blue mb-6">
+              {t.rich('heading', {
+                bold: (chunks: any) => <strong className="font-extrabold">{chunks}</strong>,
+              })}
+            </h1>
+          </Reveal>
+          <Reveal customClassname="text-center text-sm leading-7 space-y-3">
             <p>{t('paragraph_1')}</p>
             <p>
               {t.rich('paragraph_2', {
                 bold: (chunks: any) => <strong>{chunks}</strong>,
               })}
             </p>
-          </div>
+          </Reveal>
 
           <Reveal>
-            <Image alt={t('main_img')} src={main_img} width={935} height={859} quality={100} />
+            <Image alt={t('main_img')} src={main_img} width={1024} height={711} quality={100} />
           </Reveal>
 
           <div className="text-sm leading-7 space-y-3">
