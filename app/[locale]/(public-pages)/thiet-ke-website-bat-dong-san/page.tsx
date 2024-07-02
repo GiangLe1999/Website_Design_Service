@@ -2,10 +2,16 @@ import Section1 from '@/components/real-estate-page/section-1';
 import Section2 from '@/components/real-estate-page/section-2';
 import Section3 from '@/components/real-estate-page/section-3';
 import { NextPage } from 'next';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
-interface Props {}
+interface Props {
+  params: {
+    locale: string;
+  };
+}
 
-const Page: NextPage<Props> = () => {
+const Page: NextPage<Props> = ({ params: { locale } }: Props) => {
+  unstable_setRequestLocale(locale);
   return (
     <main>
       <Section1 />
