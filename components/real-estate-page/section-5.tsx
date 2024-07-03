@@ -65,7 +65,7 @@ const Section5: FC<Props> = (props) => {
   return (
     <section
       id={t('id')}
-      className="mt-[200px] pt-[400px] pb-[250px] bg-[linear-gradient(to_top,rgb(3_89_128_/_75%)_0%,#ffffff00_100%)]"
+      className="pt-[200px] pb-[250px] bg-[linear-gradient(to_top,rgb(3_89_128_/_75%)_0%,#f3f3f3_100%)]"
     >
       <ContentContainer>
         <div className="flex items-center gap-12">

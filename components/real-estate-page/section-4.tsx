@@ -21,7 +21,10 @@ const Section4: FC<Props> = (props): JSX.Element => {
   const [activeType, setActiveType] = useState('type_1');
 
   return (
-    <section id={t('id')}>
+    <section
+      id={t('id')}
+      className="bg-[linear-gradient(to_bottom,#ffffff_0%,#f3f3f3_100%)] pb-[200px]"
+    >
       <ContentContainer>
         <Reveal>
           <p className="text-center uppercase text-xl text-[#777777] mb-5 font-semibold">
