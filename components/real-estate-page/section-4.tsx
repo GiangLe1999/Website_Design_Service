@@ -21,7 +21,7 @@ const Section4: FC<Props> = (props): JSX.Element => {
   const [activeType, setActiveType] = useState('type_1');
 
   return (
-    <section id={t('id')} className="pb-[200px]">
+    <section id={t('id')}>
       <ContentContainer>
         <Reveal>
           <p className="text-center uppercase text-xl text-[#777777] mb-5 font-semibold">
@@ -110,7 +110,7 @@ const Section4: FC<Props> = (props): JSX.Element => {
             <h3 className="text-lg text-dark_blue font-semibold">{t('type_4.legend')}</h3>
           </Reveal>
 
-          <div className="bg-white max-w-[615px] absolute bottom-[-18%] left-1/2 -translate-x-1/2 text-center z-[1]">
+          <div className="backdrop-blur-[10px] max-w-[600px] absolute bottom-[-21%] left-1/2 -translate-x-1/2 text-center z-[1]">
             <Reveal>
               <h4 className="font-extrabold text-xl mb-4">{t(`${activeType}.heading`)}</h4>
             </Reveal>

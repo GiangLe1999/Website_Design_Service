@@ -175,7 +175,7 @@ const Section7: FC<Props> = (): JSX.Element => {
           ))}
         </ul>
 
-        <div className="space-y-4 text-center xl:absolute w-[90%] md:w-[600px] mx-auto xl:left-1/2 xl:-translate-x-1/2 xl:top-1/2 xl:-translate-y-1/2 z-[9]">
+        <div className="space-y-4 text-center xl:absolute w-[90%] md:w-[600px] mx-auto xl:left-1/2 xl:-translate-x-1/2 xl:top-[47%] xl:-translate-y-1/2 z-[9]">
           <Reveal>
             <p className="font-bold xl:text-[60px] text-5xl leading-none">
               <span className="text-primary">{activeTab?.number}</span>

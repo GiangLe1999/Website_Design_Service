@@ -530,7 +530,7 @@
       "type_1": {
         "legend": "Thiết kế website dành cho sàn giao dịch Bất động sản",
         "heading": "Website dành cho sàn giao dịch Bất động sản",
-        "description": "Website Bất động sản được quy hoạch như trung tâm thương mại thu nhỏ trên đại dương kỹ thuật số, khách hàng sẽ có cái nhìn bao quát nhất về toàn bộ dự án của doanh nghiệp đó. <bold>Website dành cho sàn giao dịch bất động sản</bold> là “điểm giao” quan trọng giữa doanh nghiệp, nhà đầu tư, nhân viên kinh doanh và người thụ hưởng cuối cùng."
+        "description": "Website dành cho sàn giao dịch Bất động sản được quy hoạch như trung tâm thương mại thu nhỏ trên đại dương kỹ thuật số, khách hàng sẽ có cái nhìn bao quát nhất về toàn bộ dự án của doanh nghiệp đó. <bold>Website dành cho sàn giao dịch bất động sản</bold> là “điểm giao” quan trọng giữa doanh nghiệp, nhà đầu tư, nhân viên kinh doanh và người thụ hưởng cuối cùng."
       },
       "type_2": {
         "legend": "Thiết kế website Môi giới bất động sản",
@@ -546,6 +546,60 @@
         "legend": "Thiết kế website Bất động sản dành cho chủ đầu tư, doanh nghiệp",
         "heading": "Website Bất động sản dành cho chủ đầu tư",
         "description": "Được xem là “lý lịch trích ngang” theo chuẩn cao nhất, <bold>website dành cho chủ đầu tư Bất động sản</bold> sẽ là câu chuyện kể trực tuyến không lời nhưng vô cùng đầy đủ và sinh động về câu chuyện thương hiệu của công ty, toàn thể các dự án đã – đang – sắp mở bán, thông tin liên hệ cần thiết. Đây là cầu nối tốt nhất giữa chủ đầu tư và những đối tác tiềm năng của họ."
+      }
+    },
+    "section_5": {
+      "id": "cac_module_trong_website_bat_dong_san",
+      "sub_heading": "YẾU TỐ QUAN TRỌNG BÊN TRONG WEBSITE",
+      "heading": "Website Bất động sản <bold>cần có những chức năng gì?</bold>",
+      "description": "Để vận hành website Bất động sản thành công và hiệu quả đòi hỏi <bold>các chức năng (Module)</bold> có mặt ở tất cả trang (Trang chủ, trang con) cần được lập trình bài bản, hoàn thiện, thống nhất. Dưới đây là những Module đặc trưng thường hiện diện trong website Bất động sản tại RiverLee.",
+      "module_1": {
+        "heading": "MODULE TRANG CHỦ",
+        "list": "<ul><li>Thanh công cụ điều hướng – Menu (Menu chính + Menu nhóm con)</li><li>Sản phẩm nổi bật/sản phẩm chính</li><li>Tin tức dự án</li><li>Bài viết mới</li><li>Thông tin giới thiệu</li></ul>"
+      },
+      "module_2": {
+        "heading": "MODULE GIỚI THIỆU",
+        "list": "<ul><li>Câu chuyện thương hiệu</li><li>Hình ảnh nhân viên đội ngũ</li><li>Hình ảnh + Video liên quan</li></ul>"
+      },
+      "module_3": {
+        "heading": "MODULE DANH MỤC",
+        "list": "<ul><li>Thể hiện đầy đủ danh mục sản phẩm <bold>Bất động sản cần bán/cần cho thuê</bold></li><li>Thể hiện thông tin tổng quan về các Bất động sản càn bán/cần cho thuê</li></ul>"
+      },
+      "module_4": {
+        "heading": "MODULE CHI TIẾT DỰ ÁN",
+        "list": "<ul><li>Thông tin đầy đủ của <bold>dự án Bất động sản</bold></li><li>Hình ảnh: hiển thị dưới dạng slide rõ ràng, sinh động</li><li>Tiện ích xung quanh: Khách hàng có thể xem vị trí bất động sản cũng như tiện ích xung quanh ngay trên bản đồ</li><li>Thông tin liên hệ</li><li>Danh sách Bất động sản cùng danh mục</li><li>Danh sách Bất động sản cùng dự án</li><li>Danh sách Bất động sản cùng người đăng <italic>(Website môi giới Bất động sản)</italic></li></ul>"
+      },
+      "module_5": {
+        "heading": "MODULE ĐĂNG TIN",
+        "list": "<ul><li>Chức năng này giúp chủ nhà, nhân viên kinh doanh Bất động sản có thể đăng tin rao vặt nhà đất cần bán/ cho thuê lên không gian của website</li><li>Những thuộc tính của <bold>website đăng tin bất động</bold></li><li>Hình ảnh: Một tin đăng có thể chứa nhiều ảnh bao quát của dự án</li><li>Vị trí dự án bất động sản trên Google Map: Khi thành viên chọn địa điểm thì vị trí trên google map tự động thay đổi</li></ul>"
+      },
+      "module_6": {
+        "heading": "MODULE TIN TỨC",
+        "list": "<ul><li>Tin tức thị trường <bold>bất động sản</bold></li><li>Tin tức phong thuỷ</li><li>Tin hoạch định – dự án</li></ul>"
+      },
+      "module_7": {
+        "heading": "MODULE TÌM KIẾM",
+        "list": "<ul><li>Công cụ tìm kiếm thiết kế  tiện dụng, tra cứu chính xác các thông tin khách hàng đang tìm kiếm trên thiết kế <bold>website bất động sản</bold></li><li>Các tiêu chí tìm kiếm bao gồm: <italic>Loại hình BĐS, danh mục BĐS, tỉnh/tp, quận/huyện, xã phường, dự án, khoảng giá, khoảng diện tích, số phòng ngủ, hướng phòng…</italic></li></ul>"
+      },
+      "module_8": {
+        "heading": "MODULE THÀNH VIÊN",
+        "list": "<ul><li>Đăng ký / Đăng nhập</li><li>Quản lý bài viết</li><li>Quản lý thông tin cá nhân</li></ul>"
+      },
+      "module_9": {
+        "heading": "MODULE HỎI ĐÁP",
+        "list": "<ul><li>Form đặt câu hỏi</li><li>Thông tin câu hỏi và câu trả lời</li></ul>"
+      },
+      "module_10": {
+        "heading": "MODULE LIÊN HỆ",
+        "list": "<ul><li>Form để lại thông tin khách hàng</li><li>Địa chỉ và thông tin chủ đầu tư, công ty, admin…</li></ul>"
+      },
+      "module_11": {
+        "heading": "MODULE HÌNH ẢNH",
+        "list": "<ul><li>Cho phép cập nhật và hiển thị hình ảnh theo dạng <italic>album, hay hình ảnh đơn lẻ về dự án Bất động sản, về công ty, về hoạt động bên ngoài…</italic></li></ul>"
+      },
+      "module_12": {
+        "heading": "MODULE TIỆN ÍCH",
+        "list": "<ul><li>Live chat trực tuyến, tiện ích hỗ trợ <bold>SEO bất động sản</bold></li><li>Tích hợp mạng xã hội phổ biến như Facebook, Twitter, Instagram, Zalo…</li><>Bên cạnh đó, chúng tôi tiếp tục mở rộng module này theo những yêu cầu riêng của khách hàng sử dụng <bold>dịch vụ thiết kế website bất động sản</bold> để phục hiệu quả cho từng mục đích kinh doanh</li></ul>"
       }
     }
   }
