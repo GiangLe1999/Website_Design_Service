@@ -23,6 +23,7 @@ import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
+import bg from '@/public/real-estate-page/section-5-bg.webp';
 
 const swiperData = [
   { id: 1, title: 'module_1.heading' },
@@ -65,9 +66,11 @@ const Section5: FC<Props> = (props) => {
   return (
     <section
       id={t('id')}
-      className="pt-[200px] pb-[250px] bg-[linear-gradient(to_top,rgb(3_89_128_/_75%)_0%,#f3f3f3_100%)]"
+      className="relative pt-[200px] pb-[80px] bg-[url('/real-estate-page/section-5-bg.webp')] bg-[50%_4%] bg-cover"
     >
-      <ContentContainer>
+      <div className="absolute inset-0 z-[1] bg-gradient-to-b from-[#00445c00] to-[#025c81]"></div>
+
+      <ContentContainer customClassName="relative z-[2]">
         <div className="flex items-center gap-12">
           <div className="w-[45%] text-white">
             <Reveal>
@@ -99,7 +102,6 @@ const Section5: FC<Props> = (props) => {
               src={activeImage}
               alt={t(`module_${activeModule}.heading`)}
               className="lg:w-[1030px] w-full max-w-none"
-              quality={100}
               width={1030}
               height={852}
             />
