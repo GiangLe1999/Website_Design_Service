@@ -14,9 +14,11 @@ import {
 import { Input } from '../ui/input';
 
 import SubmitButton from '../submit-button';
-import FailedDialog from './failed-dialog';
-import SuccessfulDialog from './successful-dialog';
 import Reveal from '../reveal';
+
+import dynamic from 'next/dynamic';
+const FailedDialog = dynamic(() => import('./failed-dialog'), { ssr: false });
+const SuccessfulDialog = dynamic(() => import('./successful-dialog'), { ssr: false });
 
 interface Props {}
 

@@ -11,12 +11,15 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { Input } from '../ui/input';
-
 import { Button } from '../ui/button';
-import SuccessfulDialog from '../customer-form/successful-dialog';
-import FailedDialog from '../customer-form/failed-dialog';
-import useCustomerForm from '../customer-form/use-customer-form';
 import { LoaderCircleIcon } from 'lucide-react';
+import useCustomerForm from '../customer-form/use-customer-form';
+
+import dynamic from 'next/dynamic';
+const FailedDialog = dynamic(() => import('../customer-form/failed-dialog'), { ssr: false });
+const SuccessfulDialog = dynamic(() => import('../customer-form/successful-dialog'), {
+  ssr: false,
+});
 
 interface Props {}
 

@@ -1,6 +1,7 @@
-import Footer from "@/components/footer";
-import Header from "@/components/header";
-import { FC, ReactNode } from "react";
+const Header = dynamic(() => import('@/components/header'));
+const Footer = dynamic(() => import('@/components/footer'));
+import dynamic from 'next/dynamic';
+import { FC, ReactNode } from 'react';
 
 interface Props {
   children: ReactNode;

@@ -1,23 +1,25 @@
-import Section1 from '@/components/home-page/section-1';
-import Section2 from '@/components/home-page/section-2';
-import Section3 from '@/components/home-page/section-3';
-import Section4 from '@/components/home-page/section-4';
-import Section5 from '@/components/home-page/section-5';
+import dynamic from 'next/dynamic';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
-import Section6 from '@/components/home-page/section-6';
-import Section7 from '@/components/home-page/section-7';
-import Section8 from '@/components/home-page/section-8';
-import Section9 from '@/components/home-page/section-9';
-import Section10 from '@/components/home-page/section-10';
-import Section11 from '@/components/home-page/section-11';
-import Section12 from '@/components/home-page/section-12';
-import Section13 from '@/components/home-page/section-13';
-import Section14 from '@/components/home-page/section-14';
-import Section15 from '@/components/home-page/section-15';
-import Section16 from '@/components/home-page/section-16';
-import Section17 from '@/components/home-page/section-17';
-import NavigationDots from '@/components/navigation-dots';
+const NavigationDots = dynamic(() => import('@/components/navigation-dots'), { ssr: false });
+
+import Section1 from '@/components/home-page/section-1';
+const Section2 = dynamic(() => import('@/components/home-page/section-2'));
+const Section3 = dynamic(() => import('@/components/home-page/section-3'));
+const Section4 = dynamic(() => import('@/components/home-page/section-4'));
+const Section5 = dynamic(() => import('@/components/home-page/section-5'));
+const Section6 = dynamic(() => import('@/components/home-page/section-6'));
+const Section7 = dynamic(() => import('@/components/home-page/section-7'));
+const Section8 = dynamic(() => import('@/components/home-page/section-8'));
+const Section9 = dynamic(() => import('@/components/home-page/section-9'));
+const Section10 = dynamic(() => import('@/components/home-page/section-10'));
+const Section11 = dynamic(() => import('@/components/home-page/section-11'));
+const Section12 = dynamic(() => import('@/components/home-page/section-12'));
+const Section13 = dynamic(() => import('@/components/home-page/section-13'));
+const Section14 = dynamic(() => import('@/components/home-page/section-14'));
+const Section15 = dynamic(() => import('@/components/home-page/section-15'));
+const Section16 = dynamic(() => import('@/components/home-page/section-16'));
+const Section17 = dynamic(() => import('@/components/home-page/section-17'));
 
 interface Props {
   params: {

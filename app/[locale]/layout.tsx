@@ -6,7 +6,8 @@ import { cn } from '@/lib/utils';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { locales } from '../config';
 import { unstable_setRequestLocale } from 'next-intl/server';
-import CrispChat from '@/components/crisp-chat';
+import dynamic from 'next/dynamic';
+const CrispChat = dynamic(() => import('@/components/crisp-chat'), { ssr: false });
 
 const nunito = Nunito({
   subsets: ['latin'],
@@ -43,10 +44,10 @@ export default function RootLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="flex h-screen flex-col justify-between">
             <div className="mb-auto">{children}</div>
+            <CrispChat />
           </div>
         </NextIntlClientProvider>
       </body>
-      <CrispChat />
     </html>
   );
 }

@@ -264,8 +264,8 @@ const SwiperCard: FC<SwiperCardProps> = memo(function SwiperCard({
         src={image}
         alt={name}
         className={classnames(
-          'sm:mx-0 mx-auto w-full h-auto rounded-[20px] shadow-[0px_10px_63px_rgb(0_0_0_/_0%)]',
-          isMiddle ? 'scale-[120%] transition-all duration-500 relative z-[1]' : 'relative z-[-1]',
+          'sm:mx-0 mx-auto w-full h-auto rounded-[20px] shadow-[0px_10px_63px_rgb(0_0_0_/_0%)] relative',
+          isMiddle ? 'scale-[120%] transition-all duration-500 z-[1]' : 'z-[-1]',
           isLeftOrRightMost ? 'opacity-40 transition duration-500' : 'opacity-100'
         )}
       />
