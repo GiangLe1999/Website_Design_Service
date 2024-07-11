@@ -10,6 +10,7 @@ import Image from 'next/image';
 import { cn } from '@/lib/utils';
 import ConsultButtton from '../consult-button';
 import CallButton from '../call-button';
+import CallToActions from './call-to-actions';
 
 const activeDotClassname =
   'bg-dark_blue relative after:absolute after:w-[50px] after:h-[50px] after:top-[-13px] after:left-[-13px] after:rounded-full after:content-[""] after:bg-[#024e7e40] transition';
@@ -123,10 +124,7 @@ const Section4: FC<Props> = (props): JSX.Element => {
               </p>
             </Reveal>
 
-            <Reveal customClassname="flex sm:flex-row flex-col items-center justify-center gap-[14px] mt-10">
-              <ConsultButtton type_2 />
-              <CallButton type_2 />
-            </Reveal>
+            <CallToActions />
           </div>
         </div>
       </ContentContainer>

@@ -38,6 +38,7 @@ const CustomHeading2: FC<Props> = ({ customClassname, type_1, type_2, type_3, t 
               {chunks}
             </span>
           ),
+          br: () => <br />,
         })}
       </h2>
     </Reveal>

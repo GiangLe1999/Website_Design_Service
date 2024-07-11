@@ -22,6 +22,7 @@ import { Autoplay, Navigation } from 'swiper/modules';
 import Reveal from '../reveal';
 import ConsultButtton from '../consult-button';
 import CallButton from '../call-button';
+import CallToActions from './call-to-actions';
 
 interface Props {}
 
@@ -104,10 +105,7 @@ const Section3: FC<Props> = (props): JSX.Element => {
 
         <SectionSwiper t={t} />
 
-        <Reveal customClassname="flex sm:flex-row flex-col items-center justify-center gap-[14px] mt-10">
-          <ConsultButtton type_2 />
-          <CallButton type_2 />
-        </Reveal>
+        <CallToActions />
       </ContentContainer>
     </section>
   );

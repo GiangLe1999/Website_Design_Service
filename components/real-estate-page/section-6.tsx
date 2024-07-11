@@ -50,6 +50,10 @@ const swiper_1 = [
     image: type_1_5,
     name: 'type_1.block_5',
   },
+  {
+    image: type_1_3,
+    name: 'type_1.block_3',
+  },
 ];
 
 const swiper_2 = [
@@ -128,7 +132,7 @@ const Section6: FC<Props> = (props): JSX.Element => {
   return (
     <section
       id={t('id')}
-      className="text-white text-center pb-[200px] bg-gradient-to-b from-[#025c81] to-[#025c81]"
+      className="text-white text-center pb-[150px] bg-gradient-to-b from-[#025c81] to-[#025c81]"
     >
       <Reveal customClassname="mb-12">
         <Image

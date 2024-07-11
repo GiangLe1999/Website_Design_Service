@@ -1,6 +1,6 @@
 'use client';
 
-import { FC, useMemo, useRef, useState } from 'react';
+import { FC, useMemo, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { useTranslations } from 'next-intl';
@@ -12,8 +12,6 @@ import Reveal from '../reveal';
 interface Props {}
 
 const Section6: FC<Props> = (): JSX.Element => {
-  const [_, setInit] = useState<boolean>();
-
   const t = useTranslations('home_page.section_6');
   const swiperRef = useRef(null);
   const prevRef = useRef(null);
@@ -70,7 +68,6 @@ const Section6: FC<Props> = (): JSX.Element => {
           },
         }}
         modules={[Autoplay, Navigation]}
-        onInit={() => setInit(true)}
       >
         {swiperData.map((slide, index) => (
           <SwiperSlide key={index}>

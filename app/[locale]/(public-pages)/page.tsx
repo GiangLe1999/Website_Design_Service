@@ -1,8 +1,8 @@
-import dynamic from 'next/dynamic';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 const NavigationDots = dynamic(() => import('@/components/navigation-dots'), { ssr: false });
 
+import dynamic from 'next/dynamic';
 import Section1 from '@/components/home-page/section-1';
 const Section2 = dynamic(() => import('@/components/home-page/section-2'));
 const Section3 = dynamic(() => import('@/components/home-page/section-3'));

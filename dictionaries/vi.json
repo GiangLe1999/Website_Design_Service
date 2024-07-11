@@ -605,7 +605,7 @@
     "section_6": {
       "id": "mau_thiet_ke_website_bat_dong_san",
       "sub_heading": "THƯ VIỆN WEBSITE",
-      "heading": "<bold>20 mẫu thiết kế website bất động sản</bold> đẹp nhất năm 2023",
+      "heading": "<bold>20 mẫu thiết kế website bất động sản</bold><br></br> đẹp nhất năm 2023",
       "description": "Thật khó để RiverLee lựa chọn 1 “nam vương” trong các <bold>thiết kế website Bất động sản</bold>. Vì ẩn sau mỗi website là 1 câu chuyện rất riêng, ý nghĩa đặc biệt. Dưới đây là 20 mẫu thiết kế website chúng tôi đề xuất để các bạn có thêm cái nhìn tổng thể nhất.",
       "type_1": {
         "heading": "Website giới thiệu dự án",
@@ -633,6 +633,61 @@
         "block_5": "Mẫu thiết kế website đăng tin BĐS NEXT LEVEL",
         "block_6": "Mẫu thiết kế website Savills - BĐS khu công nghiệp"
       }
+    },
+    "section_7": {
+      "id": "tai_sao_nen_chon_thiet_ke_website_bat_dong_san_tai_riverlee",
+      "sub_heading": "THẾ MẠNH CỦA RIVERLEE",
+      "heading": "<bold>Tại sao nên chọn</bold> thiết kế website bất động sản tại RiverLee Agency?",
+      "reason_1": "Năm kinh nghiệm “ra khơi”",
+      "reason_2": "Sản phẩm thiết kế vận hành ổn định",
+      "reason_3": "Ngành nghề thấu hiểu, song hành và chinh phục thành công",
+      "reason_4": {
+        "heading": "Nền tảng Wordpress/NextJS",
+        "description": "Sử dụng nền tảng <bold>WordPress/NextJS</bold> vào thiết kế website bất động sản, công nghệ mang tính xu hướng toàn cầu"
+      },
+      "reason_5": {
+        "heading": "Cam kết bảo mật tuyêt đối",
+        "description": "Cam kết về bảo mật thông tin và quyền riêng tư khách hàng"
+      },
+      "reason_6": {
+        "heading": "Chăm sóc khách hàng",
+        "description": "Dịch vụ chăm sóc khách hàng chuyên nghiệp, tư vấn nhiệt thành"
+      },
+      "reason_7": {
+        "heading": "Xu hướng thiết kế website mới",
+        "description": "Cập nhật và áp dụng những <bold>xu hướng thiết kế website bất động sản</bold> mới nhất"
+      }
+    },
+    "section_8": {
+      "id": "kien_thuc_thiet_ke_website",
+      "heading": "<bold>Kiến thức</bold> website",
+      "description": "Cập nhật thông tin, kiến thức, xu hướng mới nhất về website cho bạn"
+    },
+    "section_9": {
+      "id": "cau_hoi_thuong_gap_khi_thiet_ke_website_bat_dong_san",
+      "heading": "Thiết kế website bất động sản<br></br> <bold>Hỏi nhanh, đáp gọn</bold>",
+      "description": "Bạn đang băn khoăn về <bold>quy trình thiết kế website bất động sản</bold> tại RiverLee, chúng tôi luôn sẵn sàng giải đáp các thắc mắc của quý khách hàng",
+      "question_1": {
+        "question": "Giá trung bình của dịch vụ thiết kế website Bất động sản trọn gói tại RiverLee là bao nhiêu?",
+        "answer": "Tại RiverLee có rất nhiều phân khúc sản phẩm từ thấp đến cao nhằm tối đa khả năng phục vụ. Đồng thời chúng tôi tiếp nhận làm website theo yêu cầu của từng khách hàng. Vì thế chúng tôi không dùng con số cụ thể nào để trả lời cho câu hỏi này."
+      },
+      "question_2": {
+        "question": "Chúng tôi có thể nhận được website trong bao lâu khi thiết kế web bất động sản?",
+        "answer": "Khi bắt đầu chính thức dự án, RiverLee sẽ gửi đến bạn Timeline cụ thể dựa trên khối lượng thực hiện, thời gian mong muốn vận hành, yêu cầu phát sinh… Chúng tôi tuân thủ tốt nhất deadline thỏa thuận đầu."
+      },
+      "question_3": {
+        "question": "Website bất động sản của tôi có dùng để quảng cáo Google hoặc SEO được không?",
+        "answer": "Website bất động sản tại Thuỷ Thủ được sinh ra với sứ mệnh hỗ trợ tối đa cho SEO và quảng cáo Google. Vì thế sử dụng đúng cách, website giúp doanh nghiệp Bất động sản của bạn chiếm vị trí cao ngất ngưỡng trong bảng xếp hạng kết quả tìm kiếm."
+      },
+      "question_4": {
+        "question": "Tôi khá mù mờ về công nghệ, làm thế nào để tôi có thể nhập liệu khi website hoàn thành?",
+        "answer": "Trước khi vận hành chính thức, các bạn kỹ thuật viên sẽ có những buổi hướng dẫn và trao đổi cụ thể cách thức quản trị và những tập tài liệu chi tiết. Ngoài ra, số Hotline, Live chat của chúng tôi luôn hoạt động để lắng nghe và giải thích điều thắc mắc và bạn cần."
+      }
+    },
+    "section_10": {
+      "id": "bao_gia_thiet_ke_website_bat_dong_san",
+      "heading": "Nhận báo <bold>giá thiết kế website bất động sản</bold>",
+      "description": "Mời bạn gửi thông tin để nhận được cuộc gọi lại / email báo giá từ chuyên viên tư vấn"
     }
   }
 }

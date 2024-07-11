@@ -5,8 +5,8 @@ import { FC } from 'react';
 import CustomHeading2 from '../custom-heading-2';
 import ContentContainer from '../content-container';
 import { ContactInfo } from './section-11';
-import Section16Form from '../customer-form/section-16-form';
 import Reveal from '../reveal';
+import SectionForm from '../customer-form/section-form';
 
 interface Props {}
 
@@ -31,7 +31,7 @@ const Section16: FC<Props> = (props): JSX.Element => {
             <ContactInfo />
           </div>
 
-          <Section16Form />
+          <SectionForm type="type_1" />
         </ContentContainer>
       </section>
     </>

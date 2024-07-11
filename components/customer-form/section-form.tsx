@@ -17,12 +17,15 @@ import SubmitButton from '../submit-button';
 import Reveal from '../reveal';
 
 import dynamic from 'next/dynamic';
+import { cn } from '@/lib/utils';
 const FailedDialog = dynamic(() => import('./failed-dialog'), { ssr: false });
 const SuccessfulDialog = dynamic(() => import('./successful-dialog'), { ssr: false });
 
-interface Props {}
+interface Props {
+  type: 'type_1' | 'type_2';
+}
 
-const Section16Form: FC<Props> = (props): JSX.Element => {
+const SectionForm: FC<Props> = ({ type }): JSX.Element => {
   const {
     t,
     onSubmit,
@@ -47,7 +50,10 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
                   <FormItem>
                     <FormControl>
                       <Input
-                        className="h-[54px] rounded-[27px] px-[30px]"
+                        className={cn(
+                          'h-[54px] rounded-[27px] px-[30px]',
+                          type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                        )}
                         placeholder={t('field_1.name')}
                         {...field}
                       />
@@ -66,7 +72,10 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
                   <FormItem>
                     <FormControl>
                       <Input
-                        className="h-[54px] rounded-[27px] px-[30px]"
+                        className={cn(
+                          'h-[54px] rounded-[27px] px-[30px]',
+                          type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                        )}
                         type="email"
                         placeholder="Email"
                         {...field}
@@ -86,7 +95,10 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
                   <FormItem>
                     <FormControl>
                       <Input
-                        className="h-[54px] rounded-[27px] px-[30px]"
+                        className={cn(
+                          'h-[54px] rounded-[27px] px-[30px]',
+                          type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                        )}
                         type="tel"
                         placeholder="+84962334807"
                         {...field}
@@ -108,7 +120,11 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
                       <FormControl>
                         <SelectTrigger
                           aria-label="Choose a type"
-                          className="h-[54px] rounded-[27px] px-[30px] z-[10]"
+                          className={cn(
+                            'h-[54px] rounded-[27px] px-[30px] z-[10]',
+                            type === 'type_2' &&
+                              'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                          )}
                         >
                           <SelectValue />
                         </SelectTrigger>
@@ -135,7 +151,10 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
                   <FormControl>
                     <Textarea
                       placeholder={t('field_5.placeholder')}
-                      className="rounded-[27px] px-[30px] py-5"
+                      className={cn(
+                        'rounded-[27px] px-[30px] py-5',
+                        type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                      )}
                       {...field}
                       rows={5}
                     />
@@ -146,7 +165,12 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
           </Reveal>
 
           <Reveal customClassname="text-center">
-            <SubmitButton isLoading={isPending} type_1 className="my-4" />
+            <SubmitButton
+              isLoading={isPending}
+              className="my-4"
+              type_1={type === 'type_1'}
+              type_2={type === 'type_2'}
+            />
           </Reveal>
         </form>
       </Form>
@@ -161,4 +185,4 @@ const Section16Form: FC<Props> = (props): JSX.Element => {
   );
 };
 
-export default Section16Form;
+export default SectionForm;
