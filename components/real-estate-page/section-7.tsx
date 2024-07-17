@@ -37,24 +37,24 @@ const Section7: FC<Props> = (props): JSX.Element => {
     <section id={t('id')} className="pt-[100px]">
       <ContentContainer>
         <Reveal>
-          <p className="text-center uppercase text-xl text-[#777777] mb-5 font-semibold">
-            {t('sub_heading')}
-          </p>
+          <p className="bds-sub-heading">{t('sub_heading')}</p>
         </Reveal>
         <CustomHeading2 t={t} type_2 customClassname="text-center" />
 
         <Reveal>
-          <ContentContainer maxWidth="max-w-[855px] mt-12">
-            <ul className="grid grid-cols-3 gap-[30px]">
+          <ContentContainer maxWidth="max-w-[855px] mt-12 !px-0">
+            <ul className="grid sm:grid-cols-3 grid-cols-2 gap-[30px]">
               {row_1_data.map(({ number, text }) => (
                 <li
                   key={text}
                   className="p-[30px] rounded-[25px] bg-white shadow-[0_0_40px_rgba(0,50,82,0.1)]"
                 >
-                  <p className="bg-[linear-gradient(to_right,#024b7c_0,#00acb2_30%)] text-transparent text-[70px] bg-clip-text">
+                  <p className="bg-[linear-gradient(to_right,#024b7c_0,#00acb2_30%)] text-transparent text-5xl mb-3 font-semibold bg-clip-text">
                     {number}
                   </p>
-                  <p className="text-[#777777]">{t(text)}</p>
+                  <p className="text-[#777777] text-sm leading-7 md:text-base md:leading-8">
+                    {t(text)}
+                  </p>
                 </li>
               ))}
             </ul>
@@ -62,14 +62,14 @@ const Section7: FC<Props> = (props): JSX.Element => {
         </Reveal>
 
         <Reveal customClassname="mt-12">
-          <ul className="grid grid-cols-4 gap-[30px]">
+          <ul className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-[30px]">
             {row_2_data.map(({ heading, description }) => (
               <li
                 key={heading}
                 className="p-[30px] rounded-[25px] bg-white shadow-[0_0_40px_rgba(0,50,82,0.1)]"
               >
-                <h3 className="text-dark_blue font-bold text-2xl mb-4">{t(heading)}</h3>
-                <p className="text-[#777777] leading-8">
+                <h3 className="text-dark_blue font-bold md:text-2xl text-xl mb-4">{t(heading)}</h3>
+                <p className="text-[#777777] text-sm leading-7 md:text-base md:leading-8">
                   {t.rich(description, {
                     bold: (chunks: any) => <strong>{chunks}</strong>,
                   })}

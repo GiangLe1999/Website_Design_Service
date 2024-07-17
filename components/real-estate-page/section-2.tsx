@@ -16,16 +16,16 @@ const Section2: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('real_estate_page.section_2');
   return (
     <section id={t('id')} className="pt-[60px] mb-[100px] relative">
-      <Reveal customClassname="absolute left-[-20%] bottom-[30%] w-">
+      <Reveal customClassname="absolute left-[-20%] bottom-[30%] 2xl:block hidden">
         <Image src={left_corner} alt="Left corner" />
       </Reveal>
-      <Reveal customClassname="absolute right-[-20%] top-[15%]">
+      <Reveal customClassname="absolute right-[-20%] top-[15%] 2xl:block hidden">
         <Image src={right_corner} alt="Right corner" />
       </Reveal>
 
       <ContentContainer maxWidth="max-w-[1060px]">
         <Reveal customClassname="relative mb-16">
-          <p className="text-dark_blue text-3xl md:text-4xl xl:text-[50px] sm:!leading-[1.2] font-bold mb-[30px] text-center">
+          <p className="text-dark_blue text-3xl md:text-4xl xl:text-[50px] sm:!leading-[1.2] font-bold lg:mb-4 mb-2 text-center">
             {t('sapo_heading')}
           </p>
           <p className="text-sm leading-7 md:text-lg md:leading-9 xl:text-xl xl:leading-10 relative text-center">
@@ -42,11 +42,11 @@ const Section2: FC<Props> = (props): JSX.Element => {
             })}
           </p>
 
-          <Reveal customClassname="absolute left-[-9%] top-[-5%]">
+          <Reveal customClassname="absolute lg:block hidden xl:left-[-9%] left-[-3%] top-[-5%]">
             <Image src={quote} alt="Before quote" />
           </Reveal>
 
-          <Reveal customClassname="absolute right-[-9%] bottom-[-20%]">
+          <Reveal customClassname="absolute lg:block hidden xl:right-[-9%] right-[-3%] bottom-[-20%]">
             <Image src={quote} alt="After quote" className="rotate-180" />
           </Reveal>
         </Reveal>
@@ -57,9 +57,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
 
         <div>
           <Reveal>
-            <p className="text-center uppercase text-xl text-[#777777] mb-5 font-semibold">
-              {t('sub_heading')}
-            </p>
+            <p className="bds-sub-heading">{t('sub_heading')}</p>
           </Reveal>
           <Reveal>
             <h1 className="text-center section-heading-2 text-dark_blue mb-6">

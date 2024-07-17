@@ -80,7 +80,7 @@ const Section3: FC<Props> = (props): JSX.Element => {
   return (
     <section
       id={t('id')}
-      className='text-white text-center bg-[url("/real-estate-page/section-3-bg.webp")] bg-center bg-cover pt-[325px] pb-[477px] relative'
+      className='text-white text-center bg-[url("/real-estate-page/section-3-bg.webp")] bg-center bg-cover pt-[100px] md:pt-[325px] pb-[477px] relative'
     >
       <Image src={top_wave} alt="Section 3 top wave" className="absolute right-0 left-0 top-0" />
       <Image
@@ -92,7 +92,7 @@ const Section3: FC<Props> = (props): JSX.Element => {
 
       <ContentContainer>
         <Reveal>
-          <p className="text-center uppercase text-xl mb-5 font-semibold">{t('sub_heading')}</p>
+          <p className="bds-sub-heading !text-white">{t('sub_heading')}</p>
         </Reveal>
         <CustomHeading2 t={t} type_3 />
         <Reveal>

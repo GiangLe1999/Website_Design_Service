@@ -543,7 +543,7 @@
         "description": "Sẽ có 2 loại thường gặp cho hạng mục này: cá nhân và doanh nghiệp. Website này phục vụ cho việc <bold>giới thiệu một dự án Bất động sản</bold> mới được ra mắt. Landing page là sự lựa chọn hoàn hảo cho các thiết kế dạng này, vì sẽ có nhiều đất để diễn đạt về tổng quan dự án bằng hình ảnh, video, nội dung… nhằm khơi gợi sự hứng thú và nhanh chóng chốt deal từ khách hàng."
       },
       "type_4": {
-        "legend": "Thiết kế website Bất động sản dành cho chủ đầu tư, doanh nghiệp",
+        "legend": "Thiết kế website BĐS cho chủ đầu tư, doanh nghiệp",
         "heading": "Website Bất động sản dành cho chủ đầu tư",
         "description": "Được xem là “lý lịch trích ngang” theo chuẩn cao nhất, <bold>website dành cho chủ đầu tư Bất động sản</bold> sẽ là câu chuyện kể trực tuyến không lời nhưng vô cùng đầy đủ và sinh động về câu chuyện thương hiệu của công ty, toàn thể các dự án đã – đang – sắp mở bán, thông tin liên hệ cần thiết. Đây là cầu nối tốt nhất giữa chủ đầu tư và những đối tác tiềm năng của họ."
       }
@@ -566,7 +566,7 @@
         "list": "<ul><li>Thể hiện đầy đủ danh mục sản phẩm <bold>Bất động sản cần bán/cần cho thuê</bold></li><li>Thể hiện thông tin tổng quan về các Bất động sản càn bán/cần cho thuê</li></ul>"
       },
       "module_4": {
-        "heading": "MODULE CHI TIẾT DỰ ÁN",
+        "heading": "MODULE CT DỰ ÁN",
         "list": "<ul><li>Thông tin đầy đủ của <bold>dự án Bất động sản</bold></li><li>Hình ảnh: hiển thị dưới dạng slide rõ ràng, sinh động</li><li>Tiện ích xung quanh: Khách hàng có thể xem vị trí bất động sản cũng như tiện ích xung quanh ngay trên bản đồ</li><li>Thông tin liên hệ</li><li>Danh sách Bất động sản cùng danh mục</li><li>Danh sách Bất động sản cùng dự án</li><li>Danh sách Bất động sản cùng người đăng <italic>(Website môi giới Bất động sản)</italic></li></ul>"
       },
       "module_5": {
@@ -582,7 +582,7 @@
         "list": "<ul><li>Công cụ tìm kiếm thiết kế  tiện dụng, tra cứu chính xác các thông tin khách hàng đang tìm kiếm trên thiết kế <bold>website bất động sản</bold></li><li>Các tiêu chí tìm kiếm bao gồm: <italic>Loại hình BĐS, danh mục BĐS, tỉnh/tp, quận/huyện, xã phường, dự án, khoảng giá, khoảng diện tích, số phòng ngủ, hướng phòng…</italic></li></ul>"
       },
       "module_8": {
-        "heading": "MODULE THÀNH VIÊN",
+        "heading": "MODULE TH.VIÊN",
         "list": "<ul><li>Đăng ký / Đăng nhập</li><li>Quản lý bài viết</li><li>Quản lý thông tin cá nhân</li></ul>"
       },
       "module_9": {

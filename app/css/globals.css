@@ -70,3 +70,7 @@ body {
 .section-heading-2 {
   @apply text-3xl md:text-4xl xl:text-[50px] sm:!leading-[1.2];
 }
+
+.bds-sub-heading {
+  @apply text-center uppercase text-sm md:text-lg xl:text-xl text-[#777777] lg:mb-5 mb-3 font-semibold;
+}

@@ -66,19 +66,21 @@ const Section5: FC<Props> = (props) => {
   return (
     <section
       id={t('id')}
-      className="relative pt-[200px] pb-[80px] bg-[url('/real-estate-page/section-5-bg.webp')] bg-[50%_4%] bg-cover"
+      className="relative pt-[150px] bg-[url('/real-estate-page/section-5-bg.webp')] bg-[50%_4%] bg-cover before:content-[''] before:absolute before:top-0 before:w-full before:h-full before:bg-[rgba(0,0,0,0.3)]"
     >
       <div className="absolute inset-0 z-[1] bg-gradient-to-b from-[#00445c00] to-[#025c81]"></div>
 
       <ContentContainer customClassName="relative z-[2]">
-        <div className="flex items-center gap-12">
-          <div className="w-[45%] text-white">
+        <div className="flex lg:flex-row flex-col items-center gap-12">
+          <div className="lg:w-[45%] w-full text-white">
             <Reveal>
-              <p className="uppercase text-xl mb-5 font-semibold">{t('sub_heading')}</p>
+              <p className="bds-sub-heading !text-white lg:!text-left !text-center">
+                {t('sub_heading')}
+              </p>
             </Reveal>
-            <CustomHeading2 t={t} type_3 />
+            <CustomHeading2 t={t} type_3 customClassname="lg:text-left text-center" />
             <Reveal>
-              <p className="text-sm leading-7 md:text-lg md:leading-9">
+              <p className="text-sm leading-7 md:text-lg md:leading-9 lg:text-left text-center">
                 {t.rich('description', {
                   bold: (chunks) => <strong className="font-extrabold">{chunks}</strong>,
                 })}
@@ -97,11 +99,11 @@ const Section5: FC<Props> = (props) => {
             </Reveal>
           </div>
 
-          <Reveal customClassname="w-[55%]">
+          <Reveal customClassname="lg:w-[55%] w-full">
             <Image
               src={activeImage}
               alt={t(`module_${activeModule}.heading`)}
-              className="lg:w-[1030px] w-full max-w-none"
+              className="md:w-[1030px] sm:w-[800px] w-[600px] max-w-none"
               width={1030}
               height={852}
             />
@@ -132,7 +134,6 @@ const SectionSwiper: FC<SwiperProps> = ({ t, activeModule, setActiveModule }) =>
       direction="horizontal"
       ref={swiperRef}
       spaceBetween={10}
-      slidesPerView={4}
       slidesPerGroup={1}
       speed={1000}
       loop={true}
@@ -142,12 +143,18 @@ const SectionSwiper: FC<SwiperProps> = ({ t, activeModule, setActiveModule }) =>
       }}
       breakpoints={{
         0: {
-          slidesPerView: 1,
+          slidesPerView: 2,
         },
-        640: {
+        400: {
           slidesPerView: 3,
         },
-        800: {
+        500: {
+          slidesPerView: 4,
+        },
+        640: {
+          slidesPerView: 5,
+        },
+        1024: {
           slidesPerView: 4,
         },
       }}

@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { FC, useState, useCallback, useMemo, memo } from 'react';
+import { FC, useState, useCallback, useMemo, memo, useEffect } from 'react';
 import dash from '@/public/real-estate-page/dash-shape.png';
 import Reveal from '../reveal';
 import Image, { StaticImageData } from 'next/image';
@@ -144,7 +144,7 @@ const Section6: FC<Props> = (props): JSX.Element => {
 
       <ContentContainer customClassName="mb-10">
         <Reveal>
-          <p className="uppercase text-xl mb-5 font-semibold">{t('sub_heading')}</p>
+          <p className="bds-sub-heading !text-white">{t('sub_heading')}</p>
         </Reveal>
         <CustomHeading2 t={t} type_3 />
         <Reveal>
@@ -155,7 +155,7 @@ const Section6: FC<Props> = (props): JSX.Element => {
           </p>
         </Reveal>
 
-        <Reveal customClassname="grid grid-cols-3 gap-6 text-lg mt-8">
+        <Reveal customClassname="grid grid-cols-3 md:gap-x-6 gap-x-3 lg:text-lg md:text-base text-sm mt-8">
           {Array.from(Array(3).keys()).map((i) => (
             <button
               key={i}
@@ -185,6 +185,7 @@ interface SwiperProps {
 
 const SectionSwiper: FC<SwiperProps> = ({ activeSwiper, t }) => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [isAbove1000px, setIsAbove1000px] = useState(false);
 
   const handleSlideChange = useCallback(
     (swiper: any) => {
@@ -200,13 +201,31 @@ const SectionSwiper: FC<SwiperProps> = ({ activeSwiper, t }) => {
   };
 
   const isMiddle = (index: number) => {
-    return calculateRelativeIndex(index, activeIndex, activeSwiper.length) === 2;
+    if (isAbove1000px) {
+      return calculateRelativeIndex(index, activeIndex, activeSwiper.length) === 2;
+    } else {
+      return calculateRelativeIndex(index, activeIndex, activeSwiper.length) === 1;
+    }
   };
 
   const isLeftOrRightMost = (index: number) => {
     const relativeIndex = calculateRelativeIndex(index, activeIndex, activeSwiper.length);
-    return relativeIndex === 0 || relativeIndex === 4;
+    if (isAbove1000px) {
+      return relativeIndex === 0 || relativeIndex === 4;
+    } else {
+      return relativeIndex === 0 || relativeIndex === 2;
+    }
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsAbove1000px(window.innerWidth >= 1000);
+    };
+    handleResize();
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <Swiper
@@ -225,10 +244,7 @@ const SectionSwiper: FC<SwiperProps> = ({ activeSwiper, t }) => {
         0: {
           slidesPerView: 3,
         },
-        640: {
-          slidesPerView: 4,
-        },
-        800: {
+        1000: {
           slidesPerView: 5,
         },
       }}
@@ -273,7 +289,11 @@ const SwiperCard: FC<SwiperCardProps> = memo(function SwiperCard({
           isLeftOrRightMost ? 'opacity-40 transition duration-500' : 'opacity-100'
         )}
       />
-      {isMiddle && <p className="text-white text-2xl font-extrabold mt-24 leading-10">{name}</p>}
+      {isMiddle && (
+        <p className="text-white lg:text-2xl md:text-lg text-base lg:leading-10 md:leading-8 leading-7 font-extrabold md:mt-24 mt-16">
+          {name}
+        </p>
+      )}
     </Reveal>
   );
 });

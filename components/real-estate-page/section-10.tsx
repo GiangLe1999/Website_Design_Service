@@ -14,7 +14,7 @@ const Section10: FC<Props> = (props): JSX.Element => {
 
   return (
     <>
-      <section id={t('id')} className="relative bg-white pb-[150px]">
+      <section id={t('id')} className="relative bg-white pt-[50px] pb-[100px]">
         <ContentContainer
           maxWidth="xl:max-w-[1000px] max-w-[92%]"
           customClassName="xl:pt-[95px] pt-[50px] xl:pb-10 pb-5 xl:px-[100px] px-6 rounded-[25px] bg-white shadow-[0_0_40px_rgba(0,50,82,0.09)]"

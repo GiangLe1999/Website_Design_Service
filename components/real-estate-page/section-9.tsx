@@ -62,7 +62,7 @@ const Section9: FC<Props> = (props): JSX.Element => {
               <AccordionItem value={`item-${index}`} className="border-none">
                 <AccordionTrigger
                   className={cn(
-                    'bg-white rounded-xl hover:no-underline text-lg shadow-[0_0_40px_rgba(0,50,82,0.09)] mb-4 px-4 border-none',
+                    'bg-white rounded-xl hover:no-underline md:text-lg md:leading-8 text-base leading-8 text-left shadow-[0_0_40px_rgba(0,50,82,0.09)] mb-4 px-4 border-none',
                     accordionValue === `item-${index}` &&
                       'bg-gradient-to-r from-[#024C7C] to-[#007287] !text-white !no-underline'
                   )}
