@@ -48,7 +48,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                 <FormItem>
                   <FormControl>
                     <Input
-                      className="h-[40px] rounded-md focus:border-none placeholder:text-xs"
+                      className="h-[40px] rounded-md border-transparent focus-visible:border-transparent placeholder:text-xs"
                       placeholder={t('field_1.name')}
                       {...field}
                     />
@@ -65,7 +65,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                 <FormItem>
                   <FormControl>
                     <Input
-                      className="h-[40px] rounded-md focus:border-none placeholder:text-xs"
+                      className="h-[40px] rounded-md border-transparent focus-visible:border-transparent placeholder:text-xs"
                       type="email"
                       placeholder="Email"
                       {...field}
@@ -83,7 +83,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                 <FormItem>
                   <FormControl>
                     <Input
-                      className="h-[40px] rounded-md focus:border-none placeholder:text-xs"
+                      className="h-[40px] rounded-md border-transparent focus-visible:border-transparent placeholder:text-xs"
                       type="tel"
                       placeholder="+84962334807"
                       {...field}
@@ -103,7 +103,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                     <FormControl>
                       <SelectTrigger
                         aria-label="Choose a type"
-                        className="h-[40px] text-xs rounded-md z-[10] focus:border-none"
+                        className="h-[40px] text-xs rounded-md z-[10] border-transparent focus-visible:border-transparent"
                       >
                         <SelectValue />
                       </SelectTrigger>
@@ -126,7 +126,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                 <FormControl>
                   <Textarea
                     placeholder={t('field_5.placeholder')}
-                    className="rounded-md focus:border-none placeholder:text-xs"
+                    className="rounded-md border-transparent focus-visible:border-transparent placeholder:text-xs"
                     {...field}
                     rows={7}
                   />

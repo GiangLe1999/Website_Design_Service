@@ -657,6 +657,37 @@
         "heading": "New Website Design Trends",
         "description": "Updating and applying the latest <bold>real estate website design trends</bold>"
       }
+    },
+    "section_8": {
+      "id": "website_design_knowledge",
+      "heading": "<bold>Knowledge</bold> of websites",
+      "description": "Update information, knowledge, and the latest trends about websites for you"
+    },
+    "section_9": {
+      "id": "frequently_asked_questions_about_real_estate_website_design",
+      "heading": "Real estate website design<br></br> <bold>Quick Q&A</bold>",
+      "description": "If you have questions about <bold>the real estate website design process</bold> at RiverLee, we are always ready to answer your inquiries.",
+      "question_1": {
+        "question": "What is the average price for a complete real estate website design service at RiverLee?",
+        "answer": "At RiverLee, we offer a range of products from low to high to maximize service capabilities. We also customize websites based on each client’s requirements. Therefore, we do not provide a specific number to answer this question."
+      },
+      "question_2": {
+        "question": "How long does it take to receive a real estate website once designed?",
+        "answer": "Once the project officially starts, RiverLee will provide you with a specific timeline based on the scope of work, desired launch time, and any additional requirements. We adhere to the agreed deadline as closely as possible."
+      },
+      "question_3": {
+        "question": "Can my real estate website be used for Google advertising or SEO?",
+        "answer": "The real estate website designed by RiverLee is built with the mission to support SEO and Google advertising to the maximum extent. Therefore, when used correctly, the website can help your real estate business achieve high rankings in search results."
+      },
+      "question_4": {
+        "question": "I am not very tech-savvy. How can I input data once the website is completed?",
+        "answer": "Before the website goes live, our technical team will provide detailed guidance and training on how to manage the website, along with detailed documentation. Additionally, our Hotline and Live chat are always available to address any questions or concerns you may have."
+      }
+    },
+    "section_10": {
+      "id": "real_estate_website_design_quote",
+      "heading": "Get a <bold>quote for real estate website design</bold>",
+      "description": "Please provide your information to receive a callback or email with a quote from our consultants"
     }
   }
 }

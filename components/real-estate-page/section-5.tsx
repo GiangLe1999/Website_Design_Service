@@ -70,8 +70,8 @@ const Section5: FC<Props> = (props) => {
     >
       <div className="absolute inset-0 z-[1] bg-gradient-to-b from-[#00445c00] to-[#025c81]"></div>
 
-      <ContentContainer customClassName="relative z-[2]">
-        <div className="flex lg:flex-row flex-col items-center gap-12">
+      <div className="relative z-[2] overflow-hidden pl-0 lg:pl-[calc(100vw_/_2_-_580px)]">
+        <div className="flex lg:flex-row flex-col items-center gap-12 px-5 sm:px-9">
           <div className="lg:w-[45%] w-full text-white">
             <Reveal>
               <p className="bds-sub-heading !text-white lg:!text-left !text-center">
@@ -109,7 +109,7 @@ const Section5: FC<Props> = (props) => {
             />
           </Reveal>
         </div>
-      </ContentContainer>
+      </div>
     </section>
   );
 };
