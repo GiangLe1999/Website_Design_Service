@@ -67,9 +67,9 @@ const Section8: FC<Props> = (props): JSX.Element => {
       id={t_id('website_framework')}
       className="bg-gradient-to-b from-[#fcf5e4] to-[#f4f1f1] xl:pt-0 pt-[100px] pb-[120px]"
     >
-      <ContentContainer maxWidth="lg:max-w-[1200px] max-w-[900px]">
+      <div className="overflow-hidden pl-0 lg:pl-[calc(100vw_/_2_-_600px)]">
         <div className="flex lg:flex-row flex-col gap-y-16 items-center lg:mb-[70px] mb-10">
-          <div className="lg:w-1/2 w-full lg:order-1 order-2">
+          <div className="lg:w-1/2 w-full lg:order-1 order-2 px-5 sm:px-9">
             <CustomHeading2 t={t} type_1 customClassname="lg:text-left text-center" />
             <Reveal>
               <div className="text-sm leading-7 mb-5 lg:text-left text-center">
@@ -98,8 +98,10 @@ const Section8: FC<Props> = (props): JSX.Element => {
           </div>
         </div>
 
-        <SectionSwiper />
-      </ContentContainer>
+        <div className="px-5 sm:px-9">
+          <SectionSwiper />
+        </div>
+      </div>
     </section>
   );
 };

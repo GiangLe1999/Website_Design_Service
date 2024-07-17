@@ -22,7 +22,6 @@ import {
   RssIcon,
   HeadsetIcon,
 } from 'lucide-react';
-import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 
 interface Props {
@@ -30,8 +29,9 @@ interface Props {
   setShowSidebar: (showSidebar: boolean) => void;
   items: {
     title: string;
-    href: string;
+    href: string | undefined;
   }[];
+  currentHref: string;
 }
 
 const iconClassname = 'w-4 h-4';
@@ -46,13 +46,13 @@ const icons = [
   <HeadsetIcon className={iconClassname} key={8} />,
 ];
 
-export const MobileSidebar: FC<Props> = ({ showSidebar, setShowSidebar, items }) => {
+export const MobileSidebar: FC<Props> = ({ showSidebar, setShowSidebar, items, currentHref }) => {
   const t = useTranslations('common');
   const sidebarItems = useMemo(
     () => items.map((item, index) => ({ ...item, icon: icons[index] })),
     [items]
   );
-  const pathname = usePathname();
+
   return (
     <aside className="xl:hidden block">
       <Sheet open={showSidebar} onOpenChange={setShowSidebar}>
@@ -72,13 +72,13 @@ export const MobileSidebar: FC<Props> = ({ showSidebar, setShowSidebar, items })
             {sidebarItems.map((item) => (
               <li key={item.title}>
                 <Link
-                  href={item.href as any}
+                  href={('/' + item.href) as any}
                   onClick={() => {
                     setShowSidebar(false);
                   }}
                   className={cn(
                     'flex items-center gap-3 rounded-md p-3 group transition duration-500',
-                    pathname.includes(item.href)
+                    currentHref === item.href
                       ? 'bg-[linear-gradient(to_right,#ee4207_0%,#ff9173_100%)] text-white'
                       : 'hover:translate-x-2 hover:text-secondary'
                   )}

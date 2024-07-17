@@ -123,7 +123,7 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                           className={cn(
                             'h-[54px] rounded-[27px] px-[30px] z-[10]',
                             type === 'type_2' &&
-                              'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                              'border-[#006f8b69] focus:border-[#006f8be5] focus-visible:border-[#006f8be5]'
                           )}
                         >
                           <SelectValue />

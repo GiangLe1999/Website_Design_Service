@@ -2,52 +2,55 @@
 
 import { FC, useMemo, useState } from 'react';
 import Logo from '../logo';
-import { Link } from '@/app/navigation';
+import { Link, usePathname } from '@/app/navigation';
 import { useTranslations } from 'next-intl';
 import LanguageSwitcher from './language-switcher';
 import ContentContainer from '../content-container';
 import { AlignLeftIcon } from 'lucide-react';
 import MobileSidebar from './mobile-sidebar';
+import { cn } from '@/lib/utils';
 
 interface Props {}
 
 const Header: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('header');
   const [showSidebar, setShowSidebar] = useState(false);
+  const pathname = usePathname();
+  const currentHref = pathname.split('/')[1];
 
   const headerItems = useMemo(
     () => [
       {
         title: t('website_design'),
-        href: '/',
+        href: '',
       },
       {
         title: t('property_website'),
-        href: '/thiet-ke-website-bat-dong-san',
+        href: 'thiet-ke-website-bat-dong-san',
       },
       {
         title: t('furniture_website'),
-        href: '/thiet-ke-website-noi-that',
+        href: 'thiet-ke-website-noi-that',
       },
       {
         title: t('ecommerce_website'),
-        href: '/thiet-ke-website-ban-hang',
+        href: 'thiet-ke-website-ban-hang',
       },
       {
         title: t('travel_website'),
-        href: '/thiet-ke-website-du-lich',
+        href: 'thiet-ke-website-du-lich',
       },
       {
         title: t('business_website'),
-        href: '/thiet-ke-website-doanh-nghiep',
+        href: 'thiet-ke-website-doanh-nghiep',
       },
       {
         title: t('blog'),
-        href: '/blog',
+        href: 'blog',
       },
       {
         title: t('contact'),
-        href: '/lien-he',
+        href: 'lien-he',
       },
     ],
     [t]
@@ -78,10 +81,15 @@ const Header: FC<Props> = (props): JSX.Element => {
               <nav className="h-full items-center hidden xl:flex">
                 <ul className="flex items-center gap-6 h-full">
                   {headerItems.map((item) => (
-                    <li key={item.href} className="leading-none text-[13px] font-bold h-full">
+                    <li key={item.title} className="leading-none text-[13px] font-bold h-full">
                       <Link
-                        className="flex items-center h-full relative text-typography hover:text-secondary transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-5 after:w-0 hover:after:!w-full after:bg-secondary after:h-[2px] after:transition-all"
-                        href={item.href as any}
+                        className={cn(
+                          "flex items-center h-full relative text-typography hover:text-secondary transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-5 after:bg-secondary after:h-[2px] after:transition-all",
+                          currentHref === item.href
+                            ? 'text-secondary after:w-full'
+                            : 'after:w-0 hover:after:!w-full'
+                        )}
+                        href={('/' + item.href) as any}
                       >
                         {item.title}
                       </Link>
@@ -102,6 +110,7 @@ const Header: FC<Props> = (props): JSX.Element => {
         showSidebar={showSidebar}
         setShowSidebar={setShowSidebar}
         items={headerItems}
+        currentHref={currentHref}
       />
     </>
   );

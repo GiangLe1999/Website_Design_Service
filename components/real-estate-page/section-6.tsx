@@ -155,7 +155,7 @@ const Section6: FC<Props> = (props): JSX.Element => {
           </p>
         </Reveal>
 
-        <Reveal customClassname="grid grid-cols-3 md:gap-x-6 gap-x-3 lg:text-lg md:text-base text-sm mt-8">
+        <Reveal customClassname="grid grid-cols-3 md:gap-x-6 gap-x-3 lg:text-lg md:text-base sm:text-sm text-xs mt-8">
           {Array.from(Array(3).keys()).map((i) => (
             <button
               key={i}
@@ -164,7 +164,7 @@ const Section6: FC<Props> = (props): JSX.Element => {
                 activeSwiperIndex === i
                   ? 'bg-[#12a5c2c8]'
                   : 'bg-[#006f8bc9] hover:bg-[#e5e5e52d] hover:scale-105',
-                'uppercase py-3 px-4 rounded-2xl font-semibold transition duration-500'
+                'uppercase py-3 px-4 rounded-[25px] font-semibold transition duration-500'
               )}
             >
               {t(`type_${i + 1}.heading`)}
