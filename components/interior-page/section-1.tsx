@@ -1,15 +1,15 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { FC } from 'react';
-import background from '@/public/real-estate-page/thiet-ke-website-bat-dong-san.webp';
-import demo from '@/public/real-estate-page/thiet-ke-website-bds-chuyen-nghiep.webp';
+import background from '@/public/interior-page/thiet-ke-web-noi-that.jpeg';
+import demo from '@/public/interior-page/thiet-ke-website-kien-truc-noi-that.jpeg';
 import ContentContainer from '../content-container';
 import Reveal from '../reveal';
 
 interface Props {}
 
 const Section1: FC<Props> = (props): JSX.Element => {
-  const t = useTranslations('real_estate_page.section_1');
+  const t = useTranslations('interior_page.section_1');
 
   return (
     <section id={t('id')}>

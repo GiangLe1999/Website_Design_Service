@@ -23,7 +23,6 @@ import 'swiper/css';
 import { Autoplay } from 'swiper/modules';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
-import bg from '@/public/real-estate-page/section-5-bg.webp';
 
 const swiperData = [
   { id: 1, title: 'module_1.heading' },
@@ -192,7 +191,7 @@ const SwiperCard: FC<SwiperCardProps> = ({ id, title, isActive, setActiveModule 
       <Reveal
         customClassname={cn(
           isActive ? 'bg-[#0093b0]' : 'bg-[#006f8b]',
-          'rounded-[23px] p-3 text-sm font-bold text-center leading-[1.8]'
+          'rounded-[23px] py-3 px-5 text-sm font-bold text-center leading-[1.8]'
         )}
       >
         {title}

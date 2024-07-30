@@ -1,6 +1,6 @@
 'use client';
 
-import { FC, useMemo, useState } from 'react';
+import { FC, useEffect, useMemo, useState } from 'react';
 import Logo from '../logo';
 import { Link, usePathname } from '@/app/navigation';
 import { useTranslations } from 'next-intl';
@@ -15,8 +15,32 @@ interface Props {}
 const Header: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('header');
   const [showSidebar, setShowSidebar] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
   const currentHref = pathname.split('/')[1];
+  const location = usePathname();
+  const type = useMemo(() => {
+    switch (location) {
+      case '/':
+        return 'type_1';
+      case '/thiet-ke-website-bat-dong-san':
+        return 'type_2';
+      case '/thiet-ke-website-noi-that':
+        return 'type_3';
+      case '/thiet-ke-website-ban-hang':
+        return 'type_4';
+      case '/thiet-ke-website-du-lich':
+        return 'type_5';
+      case '/thiet-ke-website-doanh-nghiep':
+        return 'type_6';
+      case '/blog':
+        return 'type_7';
+      case '/lien-he':
+        return 'type_8';
+      default:
+        return 'type_1';
+    }
+  }, [location]);
 
   const headerItems = useMemo(
     () => [
@@ -56,11 +80,25 @@ const Header: FC<Props> = (props): JSX.Element => {
     [t]
   );
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <header
         itemType="https://schema.org/WPHeader"
-        className="fixed inset-x-0 top-0 z-50 transition bg-white shadow border-b"
+        className={cn(
+          'fixed inset-x-0 top-0 z-50 transition',
+          isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
+        )}
       >
         <ContentContainer>
           <div className="flex justify-between py-[10px] h-20">
@@ -84,9 +122,26 @@ const Header: FC<Props> = (props): JSX.Element => {
                     <li key={item.title} className="leading-none text-[13px] font-bold h-full">
                       <Link
                         className={cn(
-                          "flex items-center h-full relative text-typography hover:text-secondary transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-5 after:bg-secondary after:h-[2px] after:transition-all",
-                          currentHref === item.href
+                          "flex items-center h-full relative transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-5 after:h-[2px] after:transition-all",
+                          type === 'type_1'
+                            ? 'text-typography after:bg-secondary hover:text-secondary'
+                            : type === 'type_2'
+                            ? `${isScrolled ? 'text-typography' : 'text-white'} ${
+                                isScrolled
+                                  ? 'after:bg-dark_blue hover:text-dark_blue'
+                                  : 'after:bg-[#ffffff] hover:text-[#ffffff]'
+                              }`
+                            : type === 'type_3'
+                            ? `${
+                                isScrolled ? 'text-typography' : 'text-white'
+                              } after:bg-[#dfa041] hover:text-[#dfa041]`
+                            : 'text-white',
+                          currentHref === item.href && type === 'type_1'
                             ? 'text-secondary after:w-full'
+                            : currentHref === item.href && type === 'type_2'
+                            ? `${isScrolled ? 'text-dark_blue' : 'text-[#ffffff]'} after:w-full`
+                            : currentHref === item.href && type === 'type_3'
+                            ? 'text-[#dfa041] after:w-full'
                             : 'after:w-0 hover:after:!w-full'
                         )}
                         href={('/' + item.href) as any}
@@ -100,7 +155,7 @@ const Header: FC<Props> = (props): JSX.Element => {
             </div>
 
             <div className="h-full flex items-center">
-              <LanguageSwitcher />
+              <LanguageSwitcher type={type} isScrolled={isScrolled} />
             </div>
           </div>
         </ContentContainer>

@@ -689,5 +689,14 @@
       "heading": "Nhận báo <bold>giá thiết kế website bất động sản</bold>",
       "description": "Mời bạn gửi thông tin để nhận được cuộc gọi lại / email báo giá từ chuyên viên tư vấn"
     }
+  },
+  "interior_page": {
+    "section_1": {
+      "id": "thiet_ke_website_bat_dong_san_riverlee",
+      "heading": "<bold>Tại RiverLee Agency</bold>, thiết kế website bất động sản không còn là “bài toán khó”!",
+      "description": "RiverLee hiểu rằng để tạo ra <bold>website bất động sản</bold> chuyên nghiệp, hiệu quả, thật sự là “thỏi nam châm” có khả năng mang lại sức hút khó cưỡng đến với khách hàng. <bold>Trang web bất động sản</bold> ấy đòi hỏi phải có sự kết hợp chặt chẽ của rất nhiều yếu tố “CẦN - ĐỦ - VƯỢT TRỘI”.",
+      "section_1_bg": "Thiết kế website bất động sản",
+      "section_1_demo": "Thiết kế website bds"
+    }
   }
 }
