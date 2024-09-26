@@ -22,9 +22,9 @@ const Section2: FC<Props> = (props): JSX.Element => {
 
   return (
     <section id={t('id')} className="relative">
-      <div className="absolute top-[-100px] md:top-[-300px] left-0 right-0 w-full aspect-[1.9]">
+      <Reveal customClassname="absolute top-[-100px] md:top-[-300px] left-0 right-0 w-full aspect-[1.9]">
         <Image src={bg} alt="section_bg" sizes="100vw" fill className="object-cover" />
-      </div>
+      </Reveal>
 
       <div className="md:pt-[180px] pt-[100px] bg-gradient-to-b from-[#FFF6E5] to-[#FFF6E5]">
         <ContentContainer customClassName="relative z-[10]">
