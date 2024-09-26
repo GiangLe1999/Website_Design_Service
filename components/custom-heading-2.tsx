@@ -7,10 +7,18 @@ interface Props {
   type_1?: boolean;
   type_2?: boolean;
   type_3?: boolean;
+  type_4?: boolean;
   t: any;
 }
 
-const CustomHeading2: FC<Props> = ({ customClassname, type_1, type_2, type_3, t }): JSX.Element => {
+const CustomHeading2: FC<Props> = ({
+  customClassname,
+  type_1,
+  type_2,
+  type_3,
+  type_4,
+  t,
+}): JSX.Element => {
   return (
     <Reveal>
       <h2
@@ -18,6 +26,7 @@ const CustomHeading2: FC<Props> = ({ customClassname, type_1, type_2, type_3, t 
           'section-heading-2 font-bold mb-5',
           type_1 && 'text-primary',
           type_2 && 'text-dark_blue',
+          type_4 && 'text-[#666666]',
           type_2 || type_3 ? 'font-light' : 'font-bold',
           customClassname
         )}
