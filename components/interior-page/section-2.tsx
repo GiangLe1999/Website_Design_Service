@@ -76,7 +76,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
       <div className="bg-gradient-to-b from-[#FFF6E5] to-[#FFFFFF] md:pt-[80px] pt-10">
         <ContentContainer>
           <div className="relative mx-auto max-w-[846px]">
-            <div className="w-full relative aspect-[1.108]">
+            <Reveal customClassname="w-full relative aspect-[1.108]">
               <Image
                 src={phone}
                 alt="thiet-ke-website-noi-that-chuyen-nghiep"
@@ -108,7 +108,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
               <Reveal customClassname="absolute bottom-[27%] right-[3%] z-[1] md:block hidden">
                 <Image src={icon6} alt="icon-6" width={168} height={166} />
               </Reveal>
-            </div>
+            </Reveal>
           </div>
         </ContentContainer>
       </div>
