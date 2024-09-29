@@ -15,7 +15,7 @@ const Section5: FC<Props> = (props): JSX.Element => {
 
   return (
     <section id={t('id')} className="pt-[60px]">
-      <ContentContainer>
+      <ContentContainer customClassName="pb-16 border-b">
         <div className="lg:flex gap-14">
           <div className="lg:w-[40%]">
             <Reveal>
