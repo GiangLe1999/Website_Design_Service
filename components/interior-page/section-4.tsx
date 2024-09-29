@@ -13,6 +13,9 @@ import img3 from '@/public/interior-page/website-noi-that-3.webp';
 import img4 from '@/public/interior-page/website-noi-that-4.webp';
 import img5 from '@/public/interior-page/website-noi-that-5.webp';
 import img6 from '@/public/interior-page/website-noi-that-6.webp';
+import img7 from '@/public/interior-page/website-noi-that-7.webp';
+import img8 from '@/public/interior-page/website-noi-that-8.webp';
+import img9 from '@/public/interior-page/website-noi-that-9.webp';
 
 interface Props {}
 
@@ -21,14 +24,19 @@ const Section4: FC<Props> = (): JSX.Element => {
   const swiperData = useMemo(
     () => [
       {
-        img_1: { img: img1, title: t('img_title') + ' 1' },
+        img_1: { img: img9, title: t('img_title') + ' 1' },
         img_2: { img: img2, title: t('img_title') + ' 2' },
-        img_3: { img: img3, title: t('img_title') + ' 3' },
+        img_3: { img: img8, title: t('img_title') + ' 3' },
       },
       {
-        img_1: { img: img5, title: t('img_title') + ' 4' },
+        img_1: { img: img4, title: t('img_title') + ' 4' },
         img_2: { img: img6, title: t('img_title') + ' 5' },
-        img_3: { img: img4, title: t('img_title') + ' 6' },
+        img_3: { img: img5, title: t('img_title') + ' 6' },
+      },
+      {
+        img_1: { img: img7, title: t('img_title') + ' 7' },
+        img_2: { img: img1, title: t('img_title') + ' 8' },
+        img_3: { img: img3, title: t('img_title') + ' 9' },
       },
     ],
     [t]
