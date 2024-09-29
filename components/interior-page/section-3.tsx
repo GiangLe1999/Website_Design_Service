@@ -20,11 +20,19 @@ const Section3: FC<Props> = (props): JSX.Element => {
           <p className="text-sm leading-7 xl:text-xl xl:leading-10 mb-5 text-[#666666]">
             {t('paragraph_1')}
           </p>
-          <Image src={topQuote} alt="top_quote" className="absolute top-[7%] left-[-12%]" />
-          <Image src={bottomQuote} alt="top_quote" className="absolute bottom-[-5%] right-[-12%]" />
+          <Image
+            src={topQuote}
+            alt="top_quote"
+            className="absolute top-[7%] left-[-12%] lg:block hidden"
+          />
+          <Image
+            src={bottomQuote}
+            alt="top_quote"
+            className="absolute bottom-[-5%] right-[-12%] lg:block hidden"
+          />
         </Reveal>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-sm leading-7">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 text-sm leading-7 text-[#666666]">
           <Reveal>
             <p>{t('paragraph_2')}</p>
           </Reveal>

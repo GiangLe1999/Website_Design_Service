@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { Dispatch, FC, SetStateAction, memo, useMemo, useRef, useState } from 'react';
-import ContentContainer from '../content-container';
 import Reveal from '../reveal';
 import CustomHeading2 from '../custom-heading-2';
 import module_1 from '@/public/real-estate-page/module-trang-chu-website-bds.webp';
