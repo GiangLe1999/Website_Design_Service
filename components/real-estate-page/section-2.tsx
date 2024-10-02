@@ -16,10 +16,10 @@ const Section2: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('real_estate_page.section_2');
   return (
     <section id={t('id')} className="pt-[60px] mb-[100px] relative">
-      <Reveal customClassname="absolute left-[-20%] bottom-[30%] 2xl:block hidden">
+      <Reveal customClassname="absolute left-[-28%] bottom-[30%] 2xl:block hidden">
         <Image src={left_corner} alt="Left corner" />
       </Reveal>
-      <Reveal customClassname="absolute right-[-20%] top-[15%] 2xl:block hidden">
+      <Reveal customClassname="absolute right-[-30%] top-[15%] 2xl:block hidden">
         <Image src={right_corner} alt="Right corner" />
       </Reveal>
 

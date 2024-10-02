@@ -10,9 +10,16 @@ interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
   type_1?: boolean;
   type_2?: boolean;
+  type_4?: boolean;
 }
 
-const ConsultButtton: FC<Props> = ({ className, type_1, type_2, ...props }): JSX.Element => {
+const ConsultButtton: FC<Props> = ({
+  className,
+  type_1,
+  type_2,
+  type_4,
+  ...props
+}): JSX.Element => {
   const t_btn = useTranslations('common.button');
   const [isHovered, setIsHovered] = useState(false);
 
@@ -35,6 +42,8 @@ const ConsultButtton: FC<Props> = ({ className, type_1, type_2, ...props }): JSX
           ? 'linear-gradient(to right,#ee4207 0%,#ff9173 100%)'
           : type_2
           ? 'linear-gradient(to right,#c30017 0%, #ff4646 100%)'
+          : type_4
+          ? 'linear-gradient(to right, #daaa60 0%, #8d5520 100%)'
           : '',
       }}
       onMouseEnter={handleMouseEnter}

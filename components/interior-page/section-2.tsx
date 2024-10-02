@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { FC } from 'react';
-import demo from '@/public/interior-page/thiet-ke-website-kien-truc-noi-that.webp';
 import ContentContainer from '../content-container';
 import Reveal from '../reveal';
 import bg from '@/public/interior-page/section-2-bg.webp';

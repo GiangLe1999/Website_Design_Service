@@ -770,6 +770,60 @@
         "heading": "Sự tương thích khi trải nghiệm trang web ở nhiều thiết bị khác nhau",
         "description": "<p>Theo thống kê, tại Việt Nam có… người dùng sử dụng các thiết bị di động như smartphone, tablet…., trung bình người dùng sử dụng smartphone …./mỗi ngày.</p><p>Từ đó, việc tìm kiếm, truy cập, khám phá website trên các thiết bị cũng sẽ thực hiện nhiều hơn so với trải nghiệm trên PC. Vì vậy, <bold>thiết kế website nội thất</bold> cũng cần đòi hỏi cao về tính hiển thị và tương thích (Responsive website). Mobile First cũng là yếu tố ưu tiên trong quá trình thiết kế và lập trình các website tại RiverLee Agency.</p>"
       }
+    },
+    "section_7": {
+      "id": "tinh_nang_thiet_yeu_cua_website_noi_that",
+      "heading": "Website nội thất cần có những <br></br>Module (Tính năng) gì?",
+      "paragraph_1": "Để vận hành website nội thất thành công và hiệu quả thì các chức Module có mặt ở tất cả trang (Trang chủ, trang con) cần được lập trình logic, thống nhất và đầy đủ các tính năng cần thiết.",
+      "paragraph_2": "Dưới đây là những Module đặc trưng thường hiện diện trong <bold>website nội thất tại RiverLee.</bold>",
+      "module_1": {
+        "title": "Module giới thiệu",
+        "description": "Bao gồm câu chuyện thương hiệu, thành tựu nổi bật đã đạt được, hình ảnh nhân viên đội ngũ, cùng với hình ảnh và video liên quan để tạo sự kết nối thương hiệu với khách hàng."
+      },
+      "module_2": {
+        "title": "Module sản phẩm",
+        "description": "Thể hiện đầy đủ danh mục sản phẩm cần bán hoặc giới thiệu đến khách hàng, bao gồm các thông tin chi tiết về sản phẩm, giá cả và tính năng nổi bật của từng sản phẩm."
+      },
+      "module_3": {
+        "title": "Module chi tiết sản phẩm",
+        "description": "Xem chi tiết thông tin sản phẩm, quản lý giỏ hàng: thêm, sửa số lượng, xóa sản phẩm, tính chi phí. Đặt hàng, gửi đơn hàng qua email. Thông tin sản phẩm kèm Call to Action rõ ràng."
+      },
+      "module_4": {
+        "title": "Module dự án",
+        "description": "Liệt kê danh mục các dự án đã thực hiện và các dự án đang hoàn thành, bao gồm các chuyên mục chi tiết về từng loại dự án để người dùng dễ dàng tìm kiếm và theo dõi."
+      },
+      "module_5": {
+        "title": "Module chi tiết dự án",
+        "description": "Cung cấp chi tiết thông tin dự án nội thất - xây dựng, hình ảnh dạng slide sinh động, danh sách dự án cùng danh mục, kèm thông tin liên hệ rõ ràng để khách hàng dễ dàng tìm hiểu."
+      },
+      "module_6": {
+        "title": "Module tìm kiếm",
+        "description": "Công cụ tìm kiếm tiện dụng, giúp khách hàng tra cứu chính xác các thông tin như sản phẩm, dịch vụ, tin tức và thông tin công ty một cách nhanh chóng và dễ dàng."
+      },
+      "module_7": {
+        "title": "Module hỏi đáp",
+        "description": "Bao gồm form đặt câu hỏi, danh sách câu hỏi và câu trả lời. Giúp giải đáp thắc mắc của khách hàng một cách trực tiếp, tăng cường tính tương tác với người dùng."
+      },
+      "module_8": {
+        "title": "Module liên hệ",
+        "description": "Form để lại thông tin liên hệ của khách hàng, cùng với địa chỉ, thông tin liên hệ chi tiết của công ty, chủ sở hữu, hoặc quản trị viên để khách hàng có thể liên hệ dễ dàng."
+      },
+      "module_9": {
+        "title": "Module media, hình ảnh",
+        "description": "Cập nhật và hiển thị hình ảnh dưới dạng album hoặc đơn lẻ về các dự án nội thất - xây dựng, hoạt động của công ty, giúp khách hàng có cái nhìn rõ ràng về công ty."
+      },
+      "module_10": {
+        "title": "Module tiện ích, phần mềm",
+        "description": "Tích hợp live chat, các tiện ích hỗ trợ SEO, kết nối mạng xã hội như Facebook, Twitter, Zalo... Tiếp tục mở rộng module theo yêu cầu khách hàng để phù hợp với từng mục đích kinh doanh."
+      },
+      "module_11": {
+        "title": "Hệ thống quản trị web",
+        "description": "Cho phép đăng nhập, thay đổi mật khẩu, quản lý các mục giới thiệu, tin tức, sản phẩm và dự án một cách dễ dàng thông qua hệ thống quản trị trực quan và đơn giản."
+      },
+      "module_12": {
+        "title": "Module tin tức",
+        "description": "Cung cấp và hiển thị các tin tức mới nhất liên quan đến công ty, sản phẩm, dự án và các lĩnh vực liên quan. Bao gồm danh mục bài viết và chức năng chia sẻ thông tin trên mạng xã hội."
+      }
     }
   }
 }

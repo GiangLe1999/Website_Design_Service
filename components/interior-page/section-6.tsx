@@ -12,10 +12,10 @@ import IconTab4 from '@/public/interior-page/icon4-4.png';
 import IconTab5 from '@/public/interior-page/icon5-2.png';
 
 import { cn } from '@/lib/utils';
-import ConsultButtton from '../consult-button';
-import CallButton from '../call-button';
 import CustomHeading2 from '../custom-heading-2';
 import Reveal from '../reveal';
+import CallButton from '../call-button';
+import ConsultButtton from '../consult-button';
 
 interface TabContent {
   id: string;
@@ -176,6 +176,13 @@ const Section6: FC<Props> = (): JSX.Element => {
               p: (chunks) => <p>{chunks}</p>,
               bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
             })}
+          </Reveal>
+
+          <Reveal>
+            <div className="flex sm:flex-row flex-col items-center justify-center gap-[14px] !mt-10">
+              <ConsultButtton type_4 />
+              <CallButton type_4 />
+            </div>
           </Reveal>
         </div>
       </ContentContainer>
