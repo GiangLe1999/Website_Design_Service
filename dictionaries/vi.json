@@ -851,6 +851,35 @@
       "slide_7": "Website nội thất Tân tủ bếp",
       "slide_8": "Website giới thiệu Sesan Architects",
       "slide_9": "Website nội thất Green World"
+    },
+    "section_10": {
+      "id": "quy_trinh_thiet_ke_website_noi_that",
+      "heading": "Quy trình thiết kế website nội thất tại RiverLee",
+      "step": "Bước",
+      "step_1": {
+        "heading": "Lắng nghe và tiếp nhận yêu cầu thực hiện từ khách hàng",
+        "description": "Tiếp nhận yêu cầu, ngân sách khách hàng có, và mục tiêu kinh doanh cần đạt được sau khi thiết kế."
+      },
+      "step_2": {
+        "heading": "Tư vấn và xây dựng chiến lược và tiến hành ký hợp đồng",
+        "description": "Dựa trên việc phân tích đối thủ, tình hình nội tại của khách hàng, ưu và nhược điểm trang web trước đây để xây dựng chiến lược thiết kế tổng thể."
+      },
+      "step_3": {
+        "heading": "Triển khai thiết kế, lập trình và tiến hành chạy thử nghiệm",
+        "description": "RiverLee Agency sử dụng linh hoạt các thiết bị đo lường trải nghiệm người dùng (UX), thiết kế giao diện người dùng (UI), thiết kế tùy biến để tạo ra website thông minh mang đậm dấu ấn thương hiệu bạn, hoàn thiện các yếu tố về lập trình. Sau đó tiến hành chạy thử nghiệm trước khi vận hành chính thức."
+      },
+      "step_4": {
+        "heading": "Hoàn thiện, tối ưu và vận hành chính thức",
+        "description": "Sau khi trao đổi và điều chỉnh bản demo giữa hai bên. RiverLee hoàn thiện công đoạn cuối trước khi ra mắt website chính thức theo tên miền đã dự định."
+      },
+      "step_5": {
+        "heading": "Hướng dẫn quản trị và sử dụng website cụ thể, chi tiết",
+        "description": "Tư vấn viên trong team hướng dẫn website của RiverLee trực tiếp hướng dẫn sử dụng website, cách thức nhập liệu, thay đổi thông tin… Và gửi lại bằng hình ảnh và video để tiện cho việc theo dõi sau này của khách hàng."
+      },
+      "step_6": {
+        "heading": "Bàn giao website, bảo trì và hỗ trợ nâng cấp sau vận hành",
+        "description": "Bàn giao toàn vẹn những dữ liệu, thông tin như đã trao đổi trước đó. Tuy nhiên, đường dây nóng của RiverLee vẫn tiếp nhận những yêu cầu cần hỗ trợ cũng như nâng cấp sau vận hành 7/7 cho toàn thể quý khách hàng."
+      }
     }
   }
 }

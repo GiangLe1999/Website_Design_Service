@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { FC, useState, useCallback, useMemo, memo, useEffect } from 'react';
+import { FC, useState, useCallback, useMemo, memo, useEffect, useRef } from 'react';
 import Reveal from '../reveal';
 import Image, { StaticImageData } from 'next/image';
 import ContentContainer from '../content-container';
@@ -19,6 +19,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay, Navigation } from 'swiper/modules';
 import classnames from 'classnames';
+import { MoveLeftIcon, MoveRightIcon } from 'lucide-react';
 
 const swiperData = [
   {
@@ -90,6 +91,9 @@ interface SwiperProps {
 
 const SectionSwiper: FC<SwiperProps> = ({ t }) => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const swiperRef = useRef(null);
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
 
   const handleSlideChange = useCallback(
     (swiper: any) => {
@@ -109,35 +113,62 @@ const SectionSwiper: FC<SwiperProps> = ({ t }) => {
   };
 
   return (
-    <Swiper
-      onSlideChange={handleSlideChange}
-      direction="horizontal"
-      spaceBetween={12}
-      slidesPerView={3}
-      slidesPerGroup={1}
-      breakpoints={{
-        0: {
-          slidesPerView: 1,
-        },
-        768: {
-          slidesPerView: 3,
-        },
-      }}
-      speed={1000}
-      loop={true}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
-      modules={[Autoplay, Navigation]}
-      className="relative md:!pt-[80px] pt-0"
-    >
-      {swiperData.map((slide, index) => (
-        <SwiperSlide key={index} className={isMiddle(index) ? 'z-[10]' : 'z-[0]'}>
-          <SwiperCard name={t(slide.name)} image={slide.image} isMiddle={isMiddle(index)} />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className="relative md:pb-16 pb-0">
+      <Swiper
+        onSlideChange={handleSlideChange}
+        direction="horizontal"
+        spaceBetween={12}
+        slidesPerView={3}
+        slidesPerGroup={1}
+        navigation={{
+          prevEl: prevRef.current,
+          nextEl: nextRef.current,
+        }}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+        }}
+        speed={1000}
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        modules={[Autoplay, Navigation]}
+        className="relative md:!pt-[80px] pt-0"
+      >
+        {swiperData.map((slide, index) => (
+          <SwiperSlide key={index} className={isMiddle(index) ? 'z-[10]' : 'z-[0]'}>
+            <SwiperCard name={t(slide.name)} image={slide.image} isMiddle={isMiddle(index)} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      <button
+        type="button"
+        ref={prevRef}
+        className="bg-[#00000038] hover:bg-[#8d5520bd] transition md:w-11 md:h-11 w-9 h-9 grid place-items-center rounded-full absolute sm:right-[49%] right-[48%] -translate-x-1/2 md:bottom-0 bottom-10 z-[10]"
+        aria-label="Previous slide"
+      >
+        <Reveal>
+          <MoveLeftIcon className="md:w-6 md:h-6 w-4 h-4" />
+        </Reveal>
+      </button>
+
+      <button
+        type="button"
+        ref={nextRef}
+        className="bg-[#00000038] hover:bg-[#8d5520bd] transition md:w-11 md:h-11 w-9 h-9 grid place-items-center rounded-full absolute sm:left-[52%] left-[53%] -translate-x-1/2 md:bottom-0 bottom-10 z-[10]"
+        aria-label="Next slide"
+      >
+        <Reveal>
+          <MoveRightIcon className="md:w-6 md:h-6 w-4 h-4" />
+        </Reveal>
+      </button>
+    </div>
   );
 };
 
@@ -159,7 +190,7 @@ const SwiperCard: FC<SwiperCardProps> = memo(function SwiperCard({ name, image, 
         )}
       />
       {isMiddle && (
-        <p className="text-[#8D5520] lg:text-2xl md:text-lg text-base lg:leading-10 md:leading-8 leading-7 font-extrabold mt-20">
+        <p className="text-[#8D5520] lg:text-2xl md:text-lg text-base lg:leading-10 md:leading-8 leading-7 font-extrabold lg:mt-20 mt-16">
           {name}
         </p>
       )}
