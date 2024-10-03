@@ -1,118 +1,170 @@
+'use client';
+
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
-import { FC } from 'react';
-import ContentContainer from '../content-container';
+import { FC, useState, useCallback, useMemo, memo, useEffect } from 'react';
 import Reveal from '../reveal';
-import bg from '@/public/interior-page/section-2-bg.webp';
+import Image, { StaticImageData } from 'next/image';
+import ContentContainer from '../content-container';
 import CustomHeading2 from '../custom-heading-2';
-import { Link } from '@/app/navigation';
-import phone from '@/public/interior-page/thiet-ke-website-noi-that-chuyen-nghiep.png';
-import icon1 from '@/public/interior-page/icon1-4.png';
-import icon2 from '@/public/interior-page/icon2-4.png';
-import icon3 from '@/public/interior-page/icon3-3-1.png';
-import icon4 from '@/public/interior-page/icon4-3.png';
-import icon5 from '@/public/interior-page/icon5-1.png';
-import icon6 from '@/public/interior-page/icon6.png';
+import img1 from '@/public/interior-page/mau-website-noi-that-1.webp';
+import img2 from '@/public/interior-page/mau-website-noi-that-2.webp';
+import img3 from '@/public/interior-page/mau-website-noi-that-3.webp';
+import img4 from '@/public/interior-page/mau-website-noi-that-4.webp';
+import img5 from '@/public/interior-page/mau-website-noi-that-5.webp';
+import img6 from '@/public/interior-page/mau-website-noi-that-6.webp';
+import img7 from '@/public/interior-page/mau-website-noi-that-7.webp';
+import img8 from '@/public/interior-page/mau-website-noi-that-8.webp';
+import img9 from '@/public/interior-page/mau-website-noi-that-9.webp';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Autoplay, Navigation } from 'swiper/modules';
+import classnames from 'classnames';
+
+const swiperData = [
+  {
+    image: img1,
+    name: 'slide_1',
+  },
+  {
+    image: img2,
+    name: 'slide_2',
+  },
+  {
+    image: img3,
+    name: 'slide_3',
+  },
+  {
+    image: img4,
+    name: 'slide_4',
+  },
+  {
+    image: img5,
+    name: 'slide_5',
+  },
+  {
+    image: img6,
+    name: 'slide_6',
+  },
+  {
+    image: img7,
+    name: 'slide_7',
+  },
+  {
+    image: img8,
+    name: 'slide_8',
+  },
+  {
+    image: img9,
+    name: 'slide_9',
+  },
+];
 
 interface Props {}
 
-const Section2: FC<Props> = (props): JSX.Element => {
-  const t = useTranslations('interior_page.section_2');
+const Section9: FC<Props> = (props): JSX.Element => {
+  const t = useTranslations('interior_page.section_9');
 
   return (
-    <section id={t('id')} className="relative">
-      <Reveal customClassname="absolute top-[-100px] md:top-[-300px] left-0 right-0 w-full aspect-[1.9]">
-        <Image src={bg} alt="section_bg" sizes="100vw" fill className="object-cover" />
-      </Reveal>
+    <section
+      id={t('id')}
+      className="text-white text-center pt-[150px] bg-gradient-to-b from-[#FFF6E6] to-[#ffffff]"
+    >
+      <ContentContainer customClassName="mb-10 max-w-[900px]">
+        <Reveal>
+          <h2 className="section-heading-2 font-bold mb-5 text-[#666666]">
+            {t.rich('heading', {
+              bold: (chunks: any) => <span className="text-[#8D5520]">{chunks}</span>,
+            })}
+          </h2>
+        </Reveal>
+      </ContentContainer>
 
-      <div className="md:pt-[180px] pt-[100px] bg-gradient-to-b from-[#FFF6E5] to-[#FFF6E5]">
-        <ContentContainer customClassName="relative z-[10]">
-          <Reveal>
-            <CustomHeading2 t={t} type_4 customClassname="text-center" />
-          </Reveal>
-
-          <Reveal>
-            <p className="text-sm leading-7 xl:text-xl xl:leading-10 mb-5 text-[#666666]">
-              {t.rich('paragraph_1', {
-                bold: (chunks) => <strong>{chunks}</strong>,
-              })}
-            </p>
-          </Reveal>
-
-          <div className="space-y-3 text-[#666666] xl:text-base text-sm leading-7">
-            <Reveal>
-              <p>
-                {t.rich('paragraph_2', {
-                  bold: (chunks) => <strong>{chunks}</strong>,
-                })}
-              </p>
-            </Reveal>
-
-            <Reveal>
-              <p>
-                {t.rich('paragraph_3', {
-                  a: (chunks) => (
-                    <Link href="/thiet-ke-website-noi-that" className="font-bold">
-                      {chunks}
-                    </Link>
-                  ),
-                  bold: (chunks) => <strong>{chunks}</strong>,
-                })}
-              </p>
-            </Reveal>
-
-            <Reveal>
-              <p>
-                {t.rich('paragraph_4', {
-                  bold: (chunks) => <strong>{chunks}</strong>,
-                })}
-              </p>
-            </Reveal>
-          </div>
-        </ContentContainer>
-      </div>
-
-      <div className="bg-gradient-to-b from-[#FFF6E5] to-[#FFFFFF] md:pt-[80px] pt-10">
-        <ContentContainer>
-          <div className="relative mx-auto max-w-[846px]">
-            <Reveal customClassname="w-full relative aspect-[1.108]">
-              <Image
-                src={phone}
-                alt="thiet-ke-website-noi-that-chuyen-nghiep"
-                sizes="100vw"
-                fill
-                className="mx-auto object-cover"
-              />
-
-              <Reveal customClassname="absolute top-[-3%] left-[10%] z-[1] md:block hidden">
-                <Image src={icon1} alt="icon-1" width={213} height={210} />
-              </Reveal>
-
-              <Reveal customClassname="absolute top-[-10%] right-[30%] z-[1] md:block hidden">
-                <Image src={icon2} alt="icon-2" width={176} height={173} />
-              </Reveal>
-
-              <Reveal customClassname="absolute top-[9.5%] right-[25%] z-[1] md:block hidden">
-                <Image src={icon3} alt="icon-3" width={167} height={166} />
-              </Reveal>
-
-              <Reveal customClassname="absolute top-[11%] right-[5%] z-[1] md:block hidden">
-                <Image src={icon4} alt="icon-4" width={176} height={173} />
-              </Reveal>
-
-              <Reveal customClassname="absolute top-[32%] right-[13%] z-[1] md:block hidden">
-                <Image src={icon5} alt="icon-5" width={189} height={189} />
-              </Reveal>
-
-              <Reveal customClassname="absolute bottom-[27%] right-[3%] z-[1] md:block hidden">
-                <Image src={icon6} alt="icon-6" width={168} height={166} />
-              </Reveal>
-            </Reveal>
-          </div>
-        </ContentContainer>
-      </div>
+      <SectionSwiper t={t} />
     </section>
   );
 };
 
-export default Section2;
+interface SwiperProps {
+  t: any;
+}
+
+const SectionSwiper: FC<SwiperProps> = ({ t }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handleSlideChange = useCallback(
+    (swiper: any) => {
+      if (swiper.realIndex !== activeIndex) {
+        setActiveIndex(swiper.realIndex);
+      }
+    },
+    [activeIndex]
+  );
+
+  const calculateRelativeIndex = (index: number, activeIndex: number, length: number) => {
+    return (index - activeIndex + length) % length;
+  };
+
+  const isMiddle = (index: number) => {
+    return calculateRelativeIndex(index, activeIndex, 9) === 1;
+  };
+
+  return (
+    <Swiper
+      onSlideChange={handleSlideChange}
+      direction="horizontal"
+      spaceBetween={12}
+      slidesPerView={3}
+      slidesPerGroup={1}
+      breakpoints={{
+        0: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+      }}
+      speed={1000}
+      loop={true}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
+      modules={[Autoplay, Navigation]}
+      className="relative md:!pt-[80px] pt-0"
+    >
+      {swiperData.map((slide, index) => (
+        <SwiperSlide key={index} className={isMiddle(index) ? 'z-[10]' : 'z-[0]'}>
+          <SwiperCard name={t(slide.name)} image={slide.image} isMiddle={isMiddle(index)} />
+        </SwiperSlide>
+      ))}
+    </Swiper>
+  );
+};
+
+interface SwiperCardProps {
+  name: string;
+  image: StaticImageData;
+  isMiddle: boolean;
+}
+
+const SwiperCard: FC<SwiperCardProps> = memo(function SwiperCard({ name, image, isMiddle }) {
+  return (
+    <Reveal>
+      <Image
+        src={image}
+        alt={name}
+        className={classnames(
+          'sm:mx-0 mx-auto w-full h-auto shadow-[0px_10px_63px_rgb(0_0_0_/_0%)] relative',
+          isMiddle ? 'md:scale-[130%] md:mt-[-30px] mt-0 transition-all duration-500' : ''
+        )}
+      />
+      {isMiddle && (
+        <p className="text-[#8D5520] lg:text-2xl md:text-lg text-base lg:leading-10 md:leading-8 leading-7 font-extrabold mt-20">
+          {name}
+        </p>
+      )}
+    </Reveal>
+  );
+});
+
+export default Section9;

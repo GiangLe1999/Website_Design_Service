@@ -113,7 +113,7 @@ const SectionSwiper = () => {
       }}
       modules={[Autoplay]}
       onInit={() => setInit(true)}
-      className="relative mt-10"
+      className="relative mt-10 !pb-2"
     >
       {swiperData.map((slide, index) => (
         <SwiperSlide key={index}>

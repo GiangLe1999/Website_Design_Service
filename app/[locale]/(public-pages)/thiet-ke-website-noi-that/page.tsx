@@ -9,6 +9,7 @@ const Section5 = dynamic(() => import('@/components/interior-page/section-5'));
 const Section6 = dynamic(() => import('@/components/interior-page/section-6'));
 const Section7 = dynamic(() => import('@/components/interior-page/section-7'));
 const Section8 = dynamic(() => import('@/components/interior-page/section-8'));
+const Section9 = dynamic(() => import('@/components/interior-page/section-9'));
 
 interface Props {
   params: {
@@ -30,6 +31,7 @@ const Page: NextPage<Props> = ({ params: { locale } }: Props) => {
       <Section6 />
       <Section7 />
       <Section8 />
+      <Section9 />
     </main>
   );
 };

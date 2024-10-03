@@ -252,7 +252,7 @@ const SectionSwiper: FC<SwiperProps> = ({ activeSwiper, t }) => {
       className="relative !pt-[80px]"
     >
       {activeSwiper.map((slide, index) => (
-        <SwiperSlide key={index}>
+        <SwiperSlide key={index} className={isMiddle(index) ? 'z-[10]' : 'z-[0]'}>
           <SwiperCard
             name={t(slide.name)}
             image={slide.image}
@@ -285,7 +285,7 @@ const SwiperCard: FC<SwiperCardProps> = memo(function SwiperCard({
         alt={name}
         className={classnames(
           'sm:mx-0 mx-auto w-full h-auto rounded-[20px] shadow-[0px_10px_63px_rgb(0_0_0_/_0%)] relative',
-          isMiddle ? 'scale-[120%] transition-all duration-500 z-[1]' : 'z-[-1]',
+          isMiddle ? 'scale-[120%] transition-all duration-500' : '',
           isLeftOrRightMost ? 'opacity-40 transition duration-500' : 'opacity-100'
         )}
       />
