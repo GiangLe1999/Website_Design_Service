@@ -131,13 +131,13 @@ const SectionSwiper = () => {
         0: {
           slidesPerView: 1,
         },
-        660: {
+        768: {
           slidesPerView: 2,
         },
       }}
       modules={[Autoplay]}
       onInit={() => setInit(true)}
-      className="relative my-10 !pt-8 !pb-5"
+      className="relative mt-10"
     >
       {swiperData.map((slide, index) => (
         <SwiperSlide key={index}>
