@@ -880,6 +880,42 @@
         "heading": "Bàn giao website, bảo trì và hỗ trợ nâng cấp sau vận hành",
         "description": "Bàn giao toàn vẹn những dữ liệu, thông tin như đã trao đổi trước đó. Tuy nhiên, đường dây nóng của RiverLee vẫn tiếp nhận những yêu cầu cần hỗ trợ cũng như nâng cấp sau vận hành 7/7 cho toàn thể quý khách hàng."
       }
+    },
+    "section_11": {
+      "id": "cam_nhan_khach_hang_ve_dich_vu_thiet_ke_website_noi_that",
+      "sub_heading": "KHÁCH HÀNG NÓI GÌ VỀ DỊCH VỤ THIẾT KẾ WEBSITE NỘI THẤT RIVERLEE",
+      "heading": "Cảm nhận từ khách hàng",
+      "description": "<bold>RiverLee Agency</bold> tự hào là đơn vị thiết kế website nội thất được nhiều doanh nghiệp uy tín tin tưởng và lựa chọn đồng hành.",
+      "feedback_1": {
+        "content": "Dịch vụ thiết kế của công ty rất chuyên nghiệp, đáp ứng nhanh mọi yêu cầu của tôi. Website nội thất của tôi hoạt động mượt mà, giao diện tinh tế và dễ sử dụng. Tôi rất hài lòng với kết quả nhận được. Ngoài ra, đội ngũ còn hỗ trợ sau khi hoàn thành dự án, giúp tôi dễ dàng quản lý và điều chỉnh trang web theo nhu cầu. Tôi thực sự đánh giá cao sự tận tâm và chuyên nghiệp của họ trong mọi khía cạnh của công việc.",
+        "name": "Anh Nguyễn Hoàng Anh",
+        "website": "www.noithatvietanh.com"
+      },
+      "feedback_2": {
+        "content": "Đội ngũ thiết kế đã lắng nghe ý kiến của chúng tôi và hoàn thiện website theo đúng yêu cầu mà chúng tôi đưa ra. Chất lượng hình ảnh, bố cục và tốc độ tải trang đều rất tốt. Tôi đánh giá cao sự tận tâm và trách nhiệm của họ trong suốt quá trình hợp tác. Dịch vụ sau khi bàn giao cũng rất tuyệt, họ luôn sẵn sàng hỗ trợ bất cứ khi nào chúng tôi cần điều chỉnh hoặc cập nhật. Rất hài lòng với sự chuyên nghiệp của đội ngũ.",
+        "name": "Anh Trần Minh Tuấn",
+        "website": "www.minhphatdecor.com"
+      },
+      "feedback_3": {
+        "content": "Tôi rất ấn tượng với thiết kế website mà công ty mang lại. Họ đã giúp tôi xây dựng một trang web hiện đại, bắt mắt và thể hiện rõ phong cách nội thất của công ty chúng tôi. Dịch vụ thực sự rất tuyệt vời, đội ngũ làm việc hiệu quả và luôn sẵn sàng tư vấn những giải pháp tốt nhất cho các vấn đề phát sinh. Nhờ sự tận tâm của họ, chúng tôi đã có được một công cụ truyền thông hữu hiệu, thu hút khách hàng và tăng doanh số.",
+        "name": "Chị Lê Thị Mai",
+        "website": "www.maidecor.vn"
+      },
+      "feedback_4": {
+        "content": "Website của tôi được hoàn thành nhanh chóng và đạt chất lượng cao hơn cả mong đợi. Giao diện đẹp, dễ dàng quản lý sản phẩm nội thất và tích hợp nhiều tính năng tiện ích. Nhờ trang web này, doanh số của chúng tôi đã tăng rõ rệt, thu hút nhiều khách hàng hơn. Cảm ơn đội ngũ thiết kế đã hỗ trợ nhiệt tình và liên tục cải tiến để đáp ứng nhu cầu phát triển của doanh nghiệp.",
+        "name": "Anh Võ Văn Thành",
+        "website": "www.thanhhungdesign.com"
+      },
+      "feedback_5": {
+        "content": "Dịch vụ thiết kế website của công ty thực sự chuyên nghiệp, đội ngũ hỗ trợ rất nhiệt tình và chu đáo trong suốt quá trình làm việc. Website được tối ưu hóa rất tốt cho cả di động và máy tính, mang lại trải nghiệm người dùng tốt hơn. Tôi rất hài lòng với kết quả nhận được. Ngoài ra, họ còn tư vấn cho tôi nhiều chiến lược để tăng hiệu quả kinh doanh qua website, giúp trang web của tôi hoạt động một cách hiệu quả nhất.",
+        "name": "Chị Nguyễn Thị Lan",
+        "website": "www.laninterior.com"
+      },
+      "feedback_6": {
+        "content": "Công ty thiết kế đã cung cấp cho tôi một trang web nội thất hoàn hảo, từ giao diện cho đến tính năng đều rất tiện lợi và dễ sử dụng. Đội ngũ làm việc nhanh chóng, luôn sẵn sàng hỗ trợ bất cứ khi nào tôi cần, giúp tôi giải quyết mọi vấn đề phát sinh kịp thời. Dịch vụ bảo trì sau khi hoàn thành cũng rất tốt, tôi luôn cảm thấy yên tâm khi hợp tác với họ. Tôi chắc chắn sẽ tiếp tục sử dụng dịch vụ của công ty trong các dự án sắp tới.",
+        "name": "Anh Phạm Quốc Bảo",
+        "website": "www.noithatquocbao.com"
+      }
     }
   }
 }

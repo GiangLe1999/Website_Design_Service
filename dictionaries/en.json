@@ -837,6 +837,84 @@
       "reason_6": "Professional customer service with enthusiastic consultation.",
       "reason_7": "Regularly updates and applies the latest trends in website design.",
       "reason_8": "A passionate, creative, and experienced team."
+    },
+    "section_9": {
+      "id": "impressive_interior_website_designs",
+      "heading": "<bold>20+ Beautiful Interior Websites</bold> from RiverLee Agency",
+      "slide_1": "Luco Interior Furniture E-commerce Website",
+      "slide_2": "MYFURNI Interior Furniture E-commerce Website",
+      "slide_3": "M2 Concept Interior Showroom Website",
+      "slide_4": "VIETHOME Interior Website",
+      "slide_5": "Decor R.A.D Interior Website",
+      "slide_6": "Viet Product Interior Furniture E-commerce Website",
+      "slide_7": "Tan Kitchen Interior Website",
+      "slide_8": "Sesan Architects Introduction Website",
+      "slide_9": "Green World Interior Website"
+    },
+    "section_10": {
+      "id": "interior_website_design_process",
+      "heading": "Interior Website Design Process at RiverLee",
+      "step": "Step",
+      "step_1": {
+        "heading": "Listen and Receive Client's Requests",
+        "description": "Receive requests, client's budget, and business goals to be achieved after the design."
+      },
+      "step_2": {
+        "heading": "Consultation, Strategy Development, and Contract Signing",
+        "description": "Based on analyzing competitors, the client’s internal situation, and previous website’s strengths and weaknesses, we develop an overall design strategy."
+      },
+      "step_3": {
+        "heading": "Design, Programming, and Testing",
+        "description": "RiverLee Agency flexibly uses user experience (UX) and user interface (UI) measurement tools, along with customized designs to create a smart website with your brand’s signature, and finalize all programming elements. We then proceed with testing before the official launch."
+      },
+      "step_4": {
+        "heading": "Finalization, Optimization, and Official Operation",
+        "description": "After discussions and adjustments of the demo between both parties, RiverLee completes the final stage before launching the official website under the planned domain."
+      },
+      "step_5": {
+        "heading": "Detailed Website Management and Usage Training",
+        "description": "RiverLee’s website consultant team provides direct guidance on how to use the website, data input, information changes, etc., along with sending images and videos for clients to refer to later."
+      },
+      "step_6": {
+        "heading": "Website Handover, Maintenance, and Post-launch Upgrades",
+        "description": "We fully hand over the agreed-upon data and information. However, RiverLee’s hotline continues to support and provide post-launch upgrades 7/7 for all clients."
+      }
+    },
+    "section_11": {
+      "id": "client_feedback_on_interior_website_design_services",
+      "sub_heading": "WHAT CLIENTS SAY ABOUT RIVERLEE INTERIOR WEBSITE DESIGN SERVICES",
+      "heading": "Client Feedback",
+      "description": "<bold>RiverLee Agency</bold> is proud to be a trusted interior website design provider, chosen by many reputable businesses.",
+      "feedback_1": {
+        "content": "The company's design services are very professional, and they quickly met all of my requests. My interior design website runs smoothly, with a sophisticated and user-friendly interface. I am very satisfied with the results. Additionally, the team provided post-project support, making it easy for me to manage and adjust the website as needed. I truly appreciate their dedication and professionalism in every aspect of the work.",
+        "name": "Mr. Nguyễn Hoàng Anh",
+        "website": "www.noithatvietanh.com"
+      },
+      "feedback_2": {
+        "content": "The design team listened to our feedback and completed the website exactly as we requested. The image quality, layout, and loading speed are all excellent. I highly appreciate their dedication and responsibility throughout the entire collaboration process. Their post-handover service is also great, and they are always available to assist whenever we need adjustments or updates. Very satisfied with the team's professionalism.",
+        "name": "Mr. Trần Minh Tuấn",
+        "website": "www.minhphatdecor.com"
+      },
+      "feedback_3": {
+        "content": "I am very impressed with the website design the company provided. They helped me build a modern and visually appealing site that clearly reflects our company's interior design style. The service was truly excellent, with the team working efficiently and always ready to offer the best solutions to any issues that arose. Thanks to their dedication, we now have a powerful marketing tool that attracts customers and boosts sales.",
+        "name": "Ms. Lê Thị Mai",
+        "website": "www.maidecor.vn"
+      },
+      "feedback_4": {
+        "content": "My website was completed quickly and exceeded expectations in terms of quality. The design is beautiful, and managing our interior products is easy, with many useful integrated features. Thanks to this website, our sales have significantly increased, attracting more customers. I would like to thank the design team for their enthusiastic support and constant improvements to meet the business’s evolving needs.",
+        "name": "Mr. Võ Văn Thành",
+        "website": "www.thanhhungdesign.com"
+      },
+      "feedback_5": {
+        "content": "The company's web design services are truly professional, with a very enthusiastic and attentive support team throughout the entire process. The website is well-optimized for both mobile and desktop, providing a better user experience. I am extremely satisfied with the results. Additionally, they advised me on many strategies to improve business performance through the website, ensuring that my site operates at its highest potential.",
+        "name": "Ms. Nguyễn Thị Lan",
+        "website": "www.laninterior.com"
+      },
+      "feedback_6": {
+        "content": "The design company provided me with a perfect interior design website, with a convenient and user-friendly interface and features. The team worked quickly and was always ready to assist whenever I needed, resolving all issues in a timely manner. Their maintenance service after completion is also excellent, giving me peace of mind throughout the collaboration. I will definitely continue to use the company’s services in future projects.",
+        "name": "Mr. Phạm Quốc Bảo",
+        "website": "www.noithatquocbao.com"
+      }
     }
   }
 }

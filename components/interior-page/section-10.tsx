@@ -19,7 +19,7 @@ const Section10: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('interior_page.section_10');
 
   return (
-    <section id={t('id')} className="relative bg-white pt-[100px]">
+    <section id={t('id')} className="relative bg-white py-[100px]">
       <ContentContainer customClassName="max-w-[900px]">
         <CustomHeading2 t={t} type_4 customClassname="text-center md:mb-12 mb-8" />
       </ContentContainer>

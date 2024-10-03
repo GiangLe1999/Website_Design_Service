@@ -11,20 +11,20 @@ import { MoveLeftIcon, MoveRightIcon } from 'lucide-react';
 import Image, { StaticImageData } from 'next/image';
 import customer_1 from '@/public/home-page/customer-1.webp';
 import customer_2 from '@/public/home-page/customer-2.webp';
-import customer_3 from '@/public/home-page/customer-3.webp';
+import customer_3 from '@/public/home-page/customer-6.webp';
 import customer_4 from '@/public/home-page/customer-4.webp';
 import customer_5 from '@/public/home-page/customer-5.webp';
-import customer_6 from '@/public/home-page/customer-6.webp';
-import customer_logo_1 from '@/public/home-page/customer-logo-1.webp';
-import customer_logo_2 from '@/public/home-page/customer-logo-2.webp';
-import customer_logo_3 from '@/public/home-page/customer-logo-3.webp';
-import customer_logo_4 from '@/public/home-page/customer-logo-4.webp';
-import customer_logo_5 from '@/public/home-page/customer-logo-5.webp';
-import customer_logo_6 from '@/public/home-page/customer-logo-6.webp';
-import customer_logo_7 from '@/public/home-page/customer-logo-7.webp';
-import customer_logo_8 from '@/public/home-page/customer-logo-8.webp';
-import customer_logo_9 from '@/public/home-page/customer-logo-9.webp';
-import footer_bg from '@/public/home-page/section-14-bottom-background.webp';
+import customer_6 from '@/public/home-page/customer-3.webp';
+
+import customer_logo_1 from '@/public/interior-page/customer-logo-1.png';
+import customer_logo_2 from '@/public/interior-page/customer-logo-2.png';
+import customer_logo_3 from '@/public/interior-page/customer-logo-3.png';
+import customer_logo_4 from '@/public/interior-page/customer-logo-4.png';
+import customer_logo_5 from '@/public/interior-page/customer-logo-5.png';
+import customer_logo_6 from '@/public/interior-page/customer-logo-6.png';
+import customer_logo_7 from '@/public/interior-page/customer-logo-7.png';
+import customer_logo_8 from '@/public/interior-page/customer-logo-8.png';
+import customer_logo_9 from '@/public/interior-page/customer-logo-9.webp';
 import Reveal from '../reveal';
 
 interface Props {}
@@ -34,54 +34,54 @@ const swiperData = [
     logo: customer_1,
     content: 'feedback_1.content',
     name: 'feedback_1.name',
-    type: 'feedback_1.type',
+    website: 'feedback_1.website',
   },
   {
     logo: customer_2,
     content: 'feedback_2.content',
     name: 'feedback_2.name',
-    type: 'feedback_2.type',
+    website: 'feedback_2.website',
   },
   {
     logo: customer_3,
     content: 'feedback_3.content',
     name: 'feedback_3.name',
-    type: 'feedback_3.type',
+    website: 'feedback_3.website',
   },
   {
     logo: customer_4,
     content: 'feedback_4.content',
     name: 'feedback_4.name',
-    type: 'feedback_4.type',
+    website: 'feedback_4.website',
   },
   {
     logo: customer_5,
     content: 'feedback_5.content',
     name: 'feedback_5.name',
-    type: 'feedback_5.type',
+    website: 'feedback_5.website',
   },
   {
     logo: customer_6,
     content: 'feedback_6.content',
     name: 'feedback_6.name',
-    type: 'feedback_6.type',
+    website: 'feedback_6.website',
   },
 ];
 
-const Section14: FC<Props> = (props): JSX.Element => {
-  const t = useTranslations('home_page.section_14');
-  const t_id = useTranslations('home_page.section_ids');
+const Section11: FC<Props> = (props): JSX.Element => {
+  const t = useTranslations('interior_page.section_11');
 
   return (
-    <section
-      id={t_id('testimonials')}
-      className="relative bg-gradient-to-b from-[#f7f2ed] to-[#faf6e4] md:pt-[80px] pt-5 md:pb-[300px] pb-1"
-    >
-      <div className="absolute hidden xl:block left-0 right-0 bottom-0 z-[1]">
-        <Image src={footer_bg} alt="Section 14 bottom background" />
-      </div>
-      <ContentContainer maxWidth="max-w-[700px]">
-        <CustomHeading2 t={t} type_1 customClassname="text-center" />
+    <section id={t('id')} className="relative md:pt-[80px] border-t pt-5 md:pb-[300px] pb-1">
+      <ContentContainer maxWidth="max-w-[900px]">
+        <Reveal>
+          <p className="bds-sub-heading">{t('sub_heading')}</p>
+        </Reveal>
+        <Reveal>
+          <h2 className="section-heading-2 font-bold mb-5 text-[#A57038] text-center">
+            {t('heading')}
+          </h2>
+        </Reveal>
         <Reveal>
           <p className="text-center">
             {t.rich('description', {
@@ -141,7 +141,7 @@ const SectionSwiper = () => {
   const swiperRef = useRef(null);
   const prevRef = useRef(null);
   const nextRef = useRef(null);
-  const t = useTranslations('home_page.section_14');
+  const t = useTranslations('interior_page.section_11');
   return (
     <Swiper
       direction="horizontal"
@@ -168,7 +168,7 @@ const SectionSwiper = () => {
           <SwiperCard
             content={t(slide.content)}
             name={t(slide.name)}
-            type={t(slide.type)}
+            website={t(slide.website)}
             logo={slide.logo}
           />
         </SwiperSlide>
@@ -198,11 +198,11 @@ const SectionSwiper = () => {
 interface SwiperCardProps {
   content: string;
   name: string;
-  type: string;
+  website: string;
   logo: StaticImageData;
 }
 
-const SwiperCard: FC<SwiperCardProps> = ({ content, name, type, logo }) => {
+const SwiperCard: FC<SwiperCardProps> = ({ content, name, website, logo }) => {
   return (
     <div className="sm:mx-12 mx-4 relative bg-[#ffffff82] rounded-[30px] shadow-[0_1px_14px_rgba(0,0,0,0.1)] hover:bg-white group transition duration-500">
       <div className="bg-[#fff] group-hover:bg-white transition duration-500 shadow-[0_1px_14px_rgba(0,0,0,0.1)] absolute left-1/2 -translate-x-1/2 mt-[-60px] rounded-full w-[112px] aspect-square grid place-items-center">
@@ -212,12 +212,12 @@ const SwiperCard: FC<SwiperCardProps> = ({ content, name, type, logo }) => {
       <Reveal>
         <div className="max-w-[85%] pt-[80px] pb-[50px] mx-auto">
           <p className="text-sm leading-6 text-center mb-4">{content}</p>
-          <p className="text-lg font-bold text-primary mb-1 text-center">{name}</p>
-          <p className="text-center text-sm font-semibold">{type}</p>
+          <p className="text-lg font-bold text-[#A57038] mb-1 text-center">{name}</p>
+          <p className="text-center text-sm font-semibold">{website}</p>
         </div>
       </Reveal>
     </div>
   );
 };
 
-export default Section14;
+export default Section11;
