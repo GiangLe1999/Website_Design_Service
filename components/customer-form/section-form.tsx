@@ -22,7 +22,7 @@ const FailedDialog = dynamic(() => import('./failed-dialog'), { ssr: false });
 const SuccessfulDialog = dynamic(() => import('./successful-dialog'), { ssr: false });
 
 interface Props {
-  type: 'type_1' | 'type_2';
+  type: 'type_1' | 'type_2' | 'type_3';
 }
 
 const SectionForm: FC<Props> = ({ type }): JSX.Element => {
@@ -52,7 +52,10 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                       <Input
                         className={cn(
                           'h-[54px] rounded-[27px] px-[30px]',
-                          type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                          type === 'type_2' &&
+                            'border-[#006f8b69] focus-visible:border-[#006f8be5]',
+                          type === 'type_3' &&
+                            'border-[#d4d4d469] focus-visible:border-[#888888e5] rounded-lg'
                         )}
                         placeholder={t('field_1.name')}
                         {...field}
@@ -74,7 +77,10 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                       <Input
                         className={cn(
                           'h-[54px] rounded-[27px] px-[30px]',
-                          type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                          type === 'type_2' &&
+                            'border-[#006f8b69] focus-visible:border-[#006f8be5]',
+                          type === 'type_3' &&
+                            'border-[#d4d4d469] focus-visible:border-[#888888e5] rounded-lg'
                         )}
                         type="email"
                         placeholder="Email"
@@ -97,7 +103,10 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                       <Input
                         className={cn(
                           'h-[54px] rounded-[27px] px-[30px]',
-                          type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                          type === 'type_2' &&
+                            'border-[#006f8b69] focus-visible:border-[#006f8be5]',
+                          type === 'type_3' &&
+                            'border-[#d4d4d469] focus-visible:border-[#888888e5] rounded-lg'
                         )}
                         type="tel"
                         placeholder="+84962334807"
@@ -123,7 +132,9 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                           className={cn(
                             'h-[54px] rounded-[27px] px-[30px] z-[10]',
                             type === 'type_2' &&
-                              'border-[#006f8b69] focus:border-[#006f8be5] focus-visible:border-[#006f8be5]'
+                              'border-[#006f8b69] focus:border-[#006f8be5] focus-visible:border-[#006f8be5]',
+                            type === 'type_3' &&
+                              'border-[#d4d4d469] focus:border-[#888888e5] focus-visible:border-[#888888e5] rounded-lg'
                           )}
                         >
                           <SelectValue />
@@ -153,7 +164,9 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                       placeholder={t('field_5.placeholder')}
                       className={cn(
                         'rounded-[27px] px-[30px] py-5',
-                        type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]'
+                        type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]',
+                        type === 'type_3' &&
+                          'border-[#d4d4d469] focus-visible:border-[#888888e5] rounded-lg'
                       )}
                       {...field}
                       rows={5}
@@ -170,6 +183,7 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
               className="my-4"
               type_1={type === 'type_1'}
               type_2={type === 'type_2'}
+              type_3={type === 'type_3'}
             />
           </Reveal>
         </form>

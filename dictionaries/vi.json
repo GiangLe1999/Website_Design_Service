@@ -916,6 +916,32 @@
         "name": "Anh Phạm Quốc Bảo",
         "website": "www.noithatquocbao.com"
       }
+    },
+    "section_12": {
+      "id": "bao_gia_thiet_ke_website_noi_that",
+      "heading": "<bold>Nhận báo giá website</bold> nội thất",
+      "description": "Mời bạn gửi thông tin để nhận được cuộc gọi lại / email báo giá từ chuyên viên tư vấn"
+    },
+    "section_13": {
+      "id": "cau_hoi_thuong_gap_khi_thiet_ke_website_noi_that",
+      "heading": "<bold>Bạn hỏi</bold> - RiverLee trả lời",
+      "description": "Bạn đang băn khoăn về quy trình thiết kế website tại RiverLee, chúng tôi luôn sẵn sàng giải đáp các thắc mắc của quý khách hàng",
+      "question_1": {
+        "question": "Tôi muốn thiết kế web bán nội thất? Cần bao lâu để website hoàn thành?",
+        "answer": "Thời gian thực hiện dự án của quý khách sẽ phụ thuộc vào yêu cầu cụ thể: về thiết kế, tính năng, độ phức tạp của dự án. Website trung bình thực hiện 1 -3 tháng, hoặc sẽ chia nhỏ các giai đoạn để theo kịp dự định kinh doanh của quý khách hàng."
+      },
+      "question_2": {
+        "question": "Sau khi hoàn thành dự án, chúng tôi có nhận lại được source - code của website hay không?",
+        "answer": "Quý khách hàng hoàn toàn có thể yên tâm về vấn đề này. Website được thiết kế bởi Thuỷ Thủ điều sẽ là những website độc lập, bảo mật, thuộc về riêng chủ sở hữu. Sau khi hoàn thành dự án, quý khách có thể giữ lại source -code nguyên bản của mình."
+      },
+      "question_3": {
+        "question": "Mức giá trung bình khi thiết kế website bán hàng nội thất là bao nhiêu? Có ưu đãi gì không?",
+        "answer": "RiverLee thiết kế website rất đa dạng về phân khúc giá, yêu cầu. Có hai loại website chính: website theo mẫu có sẵn (mức giá tầm vừa và trung), và website may đo (mức giá ấn định phù hợp theo nhu cầu của quý khách hàng). Tại RiverLee thường xuyên có những chương trình ưu đãi: Tặng SSL, Hosting, Tên miền."
+      },
+      "question_4": {
+        "question": "Website nội thất có được bảo hành vĩnh viễn khi đã hoàn thành hay không?",
+        "answer": "Tất cả các website RiverLee thiết kế đều được bảo hành trong suốt thời gian hoạt động. Bao gồm việc khắc phục mọi sự cố (ngoại trừ các sự cố bất khả kháng).Tuy nhiên các yêu cầu mở rộng và nâng cấp sẽ sẽ cân nhắc và thương lượng theo như cam kết trong hợp đồng. Đặc biệt, với khách hàng thân thiết sẽ có mức ưu đãi tuyệt vời cho việc nâng cấp sau này."
+      }
     }
   }
 }

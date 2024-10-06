@@ -1,11 +1,10 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { FC, useState, useCallback, useMemo, memo, useEffect, useRef } from 'react';
+import { FC, useState, useCallback, memo, useRef } from 'react';
 import Reveal from '../reveal';
 import Image, { StaticImageData } from 'next/image';
 import ContentContainer from '../content-container';
-import CustomHeading2 from '../custom-heading-2';
 import img1 from '@/public/interior-page/mau-website-noi-that-1.webp';
 import img2 from '@/public/interior-page/mau-website-noi-that-2.webp';
 import img3 from '@/public/interior-page/mau-website-noi-that-3.webp';
@@ -17,7 +16,7 @@ import img8 from '@/public/interior-page/mau-website-noi-that-8.webp';
 import img9 from '@/public/interior-page/mau-website-noi-that-9.webp';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Autoplay, Navigation } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import classnames from 'classnames';
 import { MoveLeftIcon, MoveRightIcon } from 'lucide-react';
 
@@ -91,7 +90,6 @@ interface SwiperProps {
 
 const SectionSwiper: FC<SwiperProps> = ({ t }) => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const swiperRef = useRef(null);
   const prevRef = useRef(null);
   const nextRef = useRef(null);
 
@@ -134,11 +132,7 @@ const SectionSwiper: FC<SwiperProps> = ({ t }) => {
         }}
         speed={1000}
         loop={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        modules={[Autoplay, Navigation]}
+        modules={[Navigation]}
         className="relative md:!pt-[80px] pt-0"
       >
         {swiperData.map((slide, index) => (

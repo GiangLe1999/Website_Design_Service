@@ -10,6 +10,7 @@ interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
   type_1?: boolean;
   type_2?: boolean;
+  type_3?: boolean;
   isLoading?: boolean;
 }
 
@@ -17,6 +18,7 @@ const SubmitButton: FC<Props> = ({
   className,
   type_1,
   type_2,
+  type_3,
   isLoading,
   ...props
 }): JSX.Element => {
@@ -37,6 +39,7 @@ const SubmitButton: FC<Props> = ({
         isHovered && 'after:animate-shine',
         type_1 && 'bg-[linear-gradient(to_right,#ee4207_0%,#ff9173_100%)]',
         type_2 && 'bg-[linear-gradient(to_right,#035980_0%,#00788a_100%)]',
+        type_3 && 'bg-[linear-gradient(to_right,#767a7e_0%,#666666_100%)]',
         className
       )}
       onMouseEnter={handleMouseEnter}

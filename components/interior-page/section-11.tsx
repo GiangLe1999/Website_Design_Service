@@ -72,7 +72,7 @@ const Section11: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('interior_page.section_11');
 
   return (
-    <section id={t('id')} className="relative md:pt-[80px] border-t pt-5 md:pb-[300px] pb-1">
+    <section id={t('id')} className="relative pt-[80px] border-t md:pb-[300px] pb-[100px]">
       <ContentContainer maxWidth="max-w-[900px]">
         <Reveal>
           <p className="bds-sub-heading">{t('sub_heading')}</p>

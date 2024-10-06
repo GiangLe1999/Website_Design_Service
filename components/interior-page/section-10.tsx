@@ -2,7 +2,6 @@ import { useTranslations } from 'next-intl';
 import { FC } from 'react';
 import ContentContainer from '../content-container';
 import Image from 'next/image';
-import { cn } from '@/lib/utils';
 import step_1_img from '@/public/interior-page/step-1.png';
 import step_2_img from '@/public/interior-page/step-2.png';
 import step_3_img from '@/public/interior-page/step-3.png';
