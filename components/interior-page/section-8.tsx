@@ -132,7 +132,7 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ img, title, number }) => {
   return (
-    <Reveal customClassname="shadow-md h-[260px] p-[25px] @apply bg-[linear-gradient(to_top,rgba(255,250,236,0.4)_0,#fffbf3_100%)] text-center h-[calc(100%_-_50px)] mx-[5px] p-[25px] rounded-[32px]">
+    <Reveal customClassname="shadow-md h-[240px] p-[25px] @apply bg-white text-center mx-[5px] p-[25px] rounded-[32px]">
       <div className="min-h-[100px]">
         {img ? (
           <Image src={img} alt={title} className="mx-auto" />

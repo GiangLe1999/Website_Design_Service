@@ -144,7 +144,7 @@ const SectionSwiper: FC<SwiperProps> = ({ t }) => {
       <button
         type="button"
         ref={prevRef}
-        className="bg-[#00000038] hover:bg-[#8d5520bd] transition md:w-11 md:h-11 w-9 h-9 grid place-items-center rounded-full absolute sm:right-[49%] right-[48%] -translate-x-1/2 md:bottom-0 bottom-10 z-[10]"
+        className="bg-[#00000038] hover:bg-[#8d5520bd] transition md:w-11 md:h-11 w-9 h-9 grid place-items-center rounded-full absolute sm:right-[49%] right-[48%] -translate-x-1/2 md:bottom-0 sm:bottom-10 -bottom-12 z-[10]"
         aria-label="Previous slide"
       >
         <Reveal>
@@ -155,7 +155,7 @@ const SectionSwiper: FC<SwiperProps> = ({ t }) => {
       <button
         type="button"
         ref={nextRef}
-        className="bg-[#00000038] hover:bg-[#8d5520bd] transition md:w-11 md:h-11 w-9 h-9 grid place-items-center rounded-full absolute sm:left-[52%] left-[53%] -translate-x-1/2 md:bottom-0 bottom-10 z-[10]"
+        className="bg-[#00000038] hover:bg-[#8d5520bd] transition md:w-11 md:h-11 w-9 h-9 grid place-items-center rounded-full absolute sm:left-[52%] left-[53%] -translate-x-1/2 md:bottom-0 sm:bottom-10 -bottom-12 z-[10]"
         aria-label="Next slide"
       >
         <Reveal>
@@ -184,7 +184,7 @@ const SwiperCard: FC<SwiperCardProps> = memo(function SwiperCard({ name, image, 
         )}
       />
       {isMiddle && (
-        <p className="text-[#8D5520] lg:text-2xl md:text-lg text-base lg:leading-10 md:leading-8 leading-7 font-extrabold lg:mt-20 mt-16">
+        <p className="text-[#8D5520] lg:text-2xl md:text-lg text-base lg:leading-10 md:leading-8 leading-7 font-extrabold lg:mt-20 mt-16 sm:block hidden">
           {name}
         </p>
       )}
