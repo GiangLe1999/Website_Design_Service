@@ -1,6 +1,16 @@
 import type { Config } from 'tailwindcss';
 
 const config = {
+  purge: {
+    content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+    options: {
+      safelist: [
+        // Safelist gradient classes dynamically generated
+        /^from-/,
+        /^to-/,
+      ],
+    },
+  },
   darkMode: ['class'],
   content: [
     './pages/**/*.{ts,tsx}',
