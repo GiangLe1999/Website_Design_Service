@@ -15,13 +15,10 @@ interface Props {
   t: any;
   accordionData: { question: string; answer: string }[];
   heading: ReactNode;
-  color: {
-    from: string;
-    to: string;
-  };
+  type: 'type_1' | 'type_2' | 'type_3';
 }
 
-const FaqSection: FC<Props> = ({ t, accordionData, heading, color }): JSX.Element => {
+const FaqSection: FC<Props> = ({ t, accordionData, heading, type }): JSX.Element => {
   const [accordionValue, setAccordionValue] = useState('item-0');
 
   return (
@@ -50,7 +47,13 @@ const FaqSection: FC<Props> = ({ t, accordionData, heading, color }): JSX.Elemen
                   className={cn(
                     'bg-white rounded-xl hover:no-underline md:text-lg md:leading-8 text-base leading-8 text-left shadow-[0_0_40px_rgba(0,50,82,0.09)] mb-4 px-4 border-none',
                     accordionValue === `item-${index}` &&
-                      `bg-gradient-to-r from-[${color.from}] to-[${color.to}] !text-white !no-underline`
+                      `bg-gradient-to-r ${
+                        type === 'type_1'
+                          ? 'from-[#024C7C] to-[#007287]'
+                          : type === 'type_2'
+                          ? 'from-[#A57038] to-[#DAAA60]'
+                          : ''
+                      }] !text-white !no-underline`
                   )}
                   onClick={() =>
                     setAccordionValue((prev) => (prev === `item-${index}` ? '' : `item-${index}`))

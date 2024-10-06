@@ -41,7 +41,7 @@ const Section13: FC<Props> = (props): JSX.Element => {
       }
       t={t}
       accordionData={accordionData}
-      color={{ from: '#A57038', to: '#DAAA60' }}
+      type="type_2"
     />
   );
 };

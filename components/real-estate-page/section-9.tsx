@@ -35,7 +35,7 @@ const Section9: FC<Props> = (props): JSX.Element => {
       heading={<CustomHeading2 t={t} type_2 customClassname="text-center mb-2" />}
       t={t}
       accordionData={accordionData}
-      color={{ from: '#024C7C', to: '#007287' }}
+      type="type_1"
     />
   );
 };
