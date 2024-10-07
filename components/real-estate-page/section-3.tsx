@@ -20,8 +20,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Autoplay, Navigation } from 'swiper/modules';
 import Reveal from '../reveal';
-import ConsultButtton from '../consult-button';
-import CallButton from '../call-button';
 import CallToActions from './call-to-actions';
 
 interface Props {}

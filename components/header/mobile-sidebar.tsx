@@ -48,6 +48,7 @@ const icons = [
 
 export const MobileSidebar: FC<Props> = ({ showSidebar, setShowSidebar, items, currentHref }) => {
   const t = useTranslations('common');
+  const t2 = useTranslations('header');
   const sidebarItems = useMemo(
     () => items.map((item, index) => ({ ...item, icon: icons[index] })),
     [items]
@@ -84,7 +85,7 @@ export const MobileSidebar: FC<Props> = ({ showSidebar, setShowSidebar, items, c
                   )}
                 >
                   {item.icon}
-                  {item.title}
+                  {t2(item.title)}
                 </Link>
               </li>
             ))}

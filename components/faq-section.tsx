@@ -45,15 +45,15 @@ const FaqSection: FC<Props> = ({ t, accordionData, heading, type }): JSX.Element
               <AccordionItem value={`item-${index}`} className="border-none">
                 <AccordionTrigger
                   className={cn(
-                    'bg-white rounded-xl hover:no-underline md:text-lg md:leading-8 text-base leading-8 text-left shadow-[0_0_40px_rgba(0,50,82,0.09)] mb-4 px-4 border-none',
+                    'rounded-xl hover:no-underline md:text-lg md:leading-8 text-base leading-8 text-left shadow-[0_0_40px_rgba(0,50,82,0.09)] mb-4 px-4 border-none',
                     accordionValue === `item-${index}` &&
-                      `bg-gradient-to-r ${
+                      `${
                         type === 'type_1'
-                          ? 'from-[#024C7C] to-[#007287]'
+                          ? 'bg-gradient-to-r from-[#024C7C] to-[#007287] !text-white !no-underline'
                           : type === 'type_2'
-                          ? 'from-[#A57038] to-[#DAAA60]'
+                          ? 'bg-gradient-to-r from-[#A57038] to-[#DAAA60] !text-white !no-underline'
                           : ''
-                      }] !text-white !no-underline`
+                      }`
                   )}
                   onClick={() =>
                     setAccordionValue((prev) => (prev === `item-${index}` ? '' : `item-${index}`))

@@ -3,8 +3,6 @@ import ContentContainer from '../content-container';
 import Reveal from '../reveal';
 import { useTranslations } from 'next-intl';
 import CustomHeading2 from '../custom-heading-2';
-import ConsultButtton from '../consult-button';
-import CallButton from '../call-button';
 import CallToActions from './call-to-actions';
 
 interface Props {}

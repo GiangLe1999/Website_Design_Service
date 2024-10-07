@@ -943,5 +943,12 @@
         "answer": "Tất cả các website RiverLee thiết kế đều được bảo hành trong suốt thời gian hoạt động. Bao gồm việc khắc phục mọi sự cố (ngoại trừ các sự cố bất khả kháng).Tuy nhiên các yêu cầu mở rộng và nâng cấp sẽ sẽ cân nhắc và thương lượng theo như cam kết trong hợp đồng. Đặc biệt, với khách hàng thân thiết sẽ có mức ưu đãi tuyệt vời cho việc nâng cấp sau này."
       }
     }
+  },
+  "ecommerce_page": {
+    "section_1": {
+      "id": "website_ban_hang",
+      "heading": "Thiết kế website bán hàng trực tuyến chuyên nghiệp",
+      "description": "Cùng RiverLee chinh phục thị trường kinh doanh online - bán hàng trực tuyến"
+    }
   }
 }

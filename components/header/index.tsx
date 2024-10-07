@@ -12,6 +12,41 @@ import { cn } from '@/lib/utils';
 
 interface Props {}
 
+const headerItems = [
+  {
+    title: 'website_design',
+    href: '',
+  },
+  {
+    title: 'property_website',
+    href: 'thiet-ke-website-bat-dong-san',
+  },
+  {
+    title: 'furniture_website',
+    href: 'thiet-ke-website-noi-that',
+  },
+  {
+    title: 'ecommerce_website',
+    href: 'thiet-ke-website-ban-hang',
+  },
+  {
+    title: 'travel_website',
+    href: 'thiet-ke-website-du-lich',
+  },
+  {
+    title: 'business_website',
+    href: 'thiet-ke-website-doanh-nghiep',
+  },
+  {
+    title: 'blog',
+    href: 'blog',
+  },
+  {
+    title: 'contact',
+    href: 'lien-he',
+  },
+];
+
 const Header: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('header');
   const [showSidebar, setShowSidebar] = useState(false);
@@ -42,44 +77,6 @@ const Header: FC<Props> = (props): JSX.Element => {
     }
   }, [location]);
 
-  const headerItems = useMemo(
-    () => [
-      {
-        title: t('website_design'),
-        href: '',
-      },
-      {
-        title: t('property_website'),
-        href: 'thiet-ke-website-bat-dong-san',
-      },
-      {
-        title: t('furniture_website'),
-        href: 'thiet-ke-website-noi-that',
-      },
-      {
-        title: t('ecommerce_website'),
-        href: 'thiet-ke-website-ban-hang',
-      },
-      {
-        title: t('travel_website'),
-        href: 'thiet-ke-website-du-lich',
-      },
-      {
-        title: t('business_website'),
-        href: 'thiet-ke-website-doanh-nghiep',
-      },
-      {
-        title: t('blog'),
-        href: 'blog',
-      },
-      {
-        title: t('contact'),
-        href: 'lien-he',
-      },
-    ],
-    [t]
-  );
-
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 0);
@@ -108,7 +105,12 @@ const Header: FC<Props> = (props): JSX.Element => {
               onClick={() => setShowSidebar(!showSidebar)}
               aria-label="Open sidebar"
             >
-              <AlignLeftIcon className="w-6 h-6 text-primary" />
+              <AlignLeftIcon
+                className={cn(
+                  'w-6 h-6 text-primary',
+                  isScrolled || type === 'type_1' ? 'text-black' : 'text-white'
+                )}
+              />
             </button>
 
             <div className="flex items-center gap-[30px]">
@@ -125,7 +127,7 @@ const Header: FC<Props> = (props): JSX.Element => {
                           "flex items-center h-full relative transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-5 after:h-[2px] after:transition-all",
                           type === 'type_1'
                             ? 'text-typography after:bg-secondary hover:text-secondary'
-                            : type === 'type_2'
+                            : type === 'type_2' || 'type_4'
                             ? `${isScrolled ? 'text-typography' : 'text-white'} ${
                                 isScrolled
                                   ? 'after:bg-dark_blue hover:text-dark_blue'
@@ -138,7 +140,7 @@ const Header: FC<Props> = (props): JSX.Element => {
                             : 'text-white',
                           currentHref === item.href && type === 'type_1'
                             ? 'text-secondary after:w-full'
-                            : currentHref === item.href && type === 'type_2'
+                            : currentHref === item.href && (type === 'type_2' || type === 'type_4')
                             ? `${isScrolled ? 'text-dark_blue' : 'text-[#ffffff]'} after:w-full`
                             : currentHref === item.href && type === 'type_3'
                             ? 'text-[#dfa041] after:w-full'
@@ -146,7 +148,7 @@ const Header: FC<Props> = (props): JSX.Element => {
                         )}
                         href={('/' + item.href) as any}
                       >
-                        {item.title}
+                        {t(item.title)}
                       </Link>
                     </li>
                   ))}
