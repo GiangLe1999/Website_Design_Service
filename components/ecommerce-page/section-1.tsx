@@ -31,8 +31,8 @@ const Section1: FC<Props> = (props): JSX.Element => {
           </div>
 
           <Reveal customClassname="flex sm:flex-row flex-col items-center md:justify-start justify-center gap-[14px] mt-8">
-            <ConsultButtton type_2 />
-            <CallButton type_2 />
+            <ConsultButtton type_5 />
+            <CallButton type_5 />
           </Reveal>
         </ContentContainer>
       </div>

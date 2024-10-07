@@ -11,9 +11,17 @@ interface Props {
   type_1?: boolean;
   type_2?: boolean;
   type_4?: boolean;
+  type_5?: boolean;
 }
 
-const CallButton: FC<Props> = ({ className, type_1, type_2, type_4, ...props }): JSX.Element => {
+const CallButton: FC<Props> = ({
+  className,
+  type_1,
+  type_2,
+  type_4,
+  type_5,
+  ...props
+}): JSX.Element => {
   const t_btn = useTranslations('common.button');
   const [isHovered, setIsHovered] = useState(false);
 
@@ -38,6 +46,8 @@ const CallButton: FC<Props> = ({ className, type_1, type_2, type_4, ...props }):
           ? 'linear-gradient(to right,#035980 0%,#00788a 100%)'
           : type_4
           ? 'linear-gradient(to right, #767a7e 0%, #666666 100%)'
+          : type_5
+          ? 'linear-gradient(to right, #00CBF3 0%, #09B0EA 100%)'
           : '',
       }}
       onMouseEnter={handleMouseEnter}
