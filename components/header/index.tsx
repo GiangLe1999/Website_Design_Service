@@ -136,14 +136,14 @@ const Header: FC<Props> = (props): JSX.Element => {
                             : type === 'type_3'
                             ? `${
                                 isScrolled ? 'text-typography' : 'text-white'
-                              } after:bg-[#dfa041] hover:text-[#dfa041]`
+                              } hover:text-[#dfa041]`
                             : 'text-white',
                           currentHref === item.href && type === 'type_1'
                             ? 'text-secondary after:w-full'
                             : currentHref === item.href && (type === 'type_2' || type === 'type_4')
                             ? `${isScrolled ? 'text-dark_blue' : 'text-[#ffffff]'} after:w-full`
                             : currentHref === item.href && type === 'type_3'
-                            ? 'text-[#dfa041] after:w-full'
+                            ? 'text-[#dfa041] after:bg-[#dfa041] after:w-full hover:text-[#dfa041]'
                             : 'after:w-0 hover:after:!w-full'
                         )}
                         href={('/' + item.href) as any}
