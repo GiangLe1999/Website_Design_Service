@@ -17,10 +17,10 @@ const Section1: FC<Props> = (props): JSX.Element => {
         <Image
           src={background}
           alt={t('section_1_bg')}
-          className="w-full aspect-[1.46] 2xl:brightness-[1] brightness-[0.5]"
+          className="w-full sm:aspect-[1.46] aspect-[0.8] 2xl:brightness-[1] brightness-[0.5]"
           priority
         />
-        <div className="absolute 2xl:bottom-[3%] sm:bottom-1/2 bottom-[55%] translate-y-1/2 2xl:translate-y-0 left-0 right-0 z-[1]">
+        <div className="absolute 2xl:bottom-[3%] sm:bottom-1/2 bottom-[50%] translate-y-1/2 2xl:translate-y-0 left-0 right-0 z-[1]">
           <ContentContainer>
             <div className="flex items-center">
               <Reveal customClassname="text-white 2xl:w-1/2 w-full text-center xl:text-left md:max-w-[75%] md:mx-auto max-w-none">
