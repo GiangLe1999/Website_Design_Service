@@ -5,8 +5,6 @@ import Image from 'next/image';
 import { FC, useEffect, useState } from 'react';
 import ContentContainer from '../content-container';
 import Reveal from '../reveal';
-import ConsultButtton from '../consult-button';
-import CallButton from '../call-button';
 import CustomHeading2 from '../custom-heading-2';
 import img_1 from '@/public/ecommerce-page/reason-1.jpeg';
 import img_2 from '@/public/ecommerce-page/reason-2.jpeg';
@@ -135,22 +133,17 @@ const Section3: FC<Props> = (props): JSX.Element => {
               </Reveal>
 
               {index !== 7 && (
-                <Reveal>
-                  <div
-                    style={{ bottom: reason.bt }}
-                    className="xl:block hidden absolute left-1/3 w-[347px] aspect-[1.49]"
-                  >
-                    <Image
-                      src={arrow}
-                      alt="arrow"
-                      sizes="100vw"
-                      fill
-                      className={cn(
-                        'object-cover',
-                        index % 2 !== 0 && '[transform:rotateY(180deg)]'
-                      )}
-                    />
-                  </div>
+                <Reveal
+                  customClassname="xl:block hidden absolute left-1/3 w-[347px] aspect-[1.49]"
+                  style={{ bottom: reason.bt }}
+                >
+                  <Image
+                    src={arrow}
+                    alt="arrow"
+                    sizes="100vw"
+                    fill
+                    className={cn('object-cover', index % 2 !== 0 && '[transform:rotateY(180deg)]')}
+                  />
                 </Reveal>
               )}
             </div>

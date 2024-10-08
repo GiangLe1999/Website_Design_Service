@@ -1,7 +1,5 @@
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
 import { FC } from 'react';
-import background from '@/public/ecommerce-page/thiet-ke-website-ban-hang.jpeg';
 import ContentContainer from '../content-container';
 import Reveal from '../reveal';
 import ConsultButtton from '../consult-button';
