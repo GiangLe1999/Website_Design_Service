@@ -148,6 +148,9 @@ const config = {
         'accordion-up': 'accordion-up 0.2s ease-out',
         shine: 'shine 0.75s forwards',
       },
+      transitionDuration: {
+        '2000': '2000ms',
+      },
     },
   },
   plugins: [
