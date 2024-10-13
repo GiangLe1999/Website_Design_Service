@@ -127,7 +127,7 @@ const Header: FC<Props> = (props): JSX.Element => {
                           "flex items-center h-full relative transition-colors after:absolute after:contents-[''] after:left-0 after:bottom-5 after:h-[2px] after:transition-all",
                           type === 'type_1'
                             ? 'text-typography after:bg-secondary hover:text-secondary'
-                            : type === 'type_2' || 'type_4'
+                            : type === 'type_2'
                             ? `${isScrolled ? 'text-typography' : 'text-white'} ${
                                 isScrolled
                                   ? 'after:bg-dark_blue hover:text-dark_blue'
@@ -137,13 +137,21 @@ const Header: FC<Props> = (props): JSX.Element => {
                             ? `${
                                 isScrolled ? 'text-typography' : 'text-white'
                               } hover:text-[#dfa041]`
+                            : type === 'type_4'
+                            ? `${isScrolled ? 'text-typography' : 'text-white'} ${
+                                isScrolled
+                                  ? 'after:bg-[#e30e27] hover:text-[#e30e27]'
+                                  : 'after:bg-[#ffffff] hover:text-[#ffffff]'
+                              }`
                             : 'text-white',
                           currentHref === item.href && type === 'type_1'
                             ? 'text-secondary after:w-full'
-                            : currentHref === item.href && (type === 'type_2' || type === 'type_4')
+                            : currentHref === item.href && type === 'type_2'
                             ? `${isScrolled ? 'text-dark_blue' : 'text-[#ffffff]'} after:w-full`
                             : currentHref === item.href && type === 'type_3'
                             ? 'text-[#dfa041] after:bg-[#dfa041] after:w-full hover:text-[#dfa041]'
+                            : currentHref === item.href && type === 'type_4'
+                            ? `${isScrolled ? 'text-[#e30e27]' : 'text-[#ffffff]'} after:w-full`
                             : 'after:w-0 hover:after:!w-full'
                         )}
                         href={('/' + item.href) as any}
