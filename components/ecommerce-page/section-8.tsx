@@ -19,7 +19,7 @@ const Section8: FC<Props> = (props): JSX.Element => {
     <section id={t('id')} className="relative pb-[100px]">
       <ContentContainer>
         <div className="lg:flex items-center gap-20">
-          <div className="lg:w-1/2 md:w-[80%] w-full mx-auto relative aspect-[1.13] lg:mb-0 mb-10">
+          <Reveal customClassname="lg:w-1/2 md:w-[80%] w-full mx-auto relative aspect-[1.13] lg:mb-0 mb-10">
             <Image
               src={img}
               alt="Báo giá Thiết kế website bán hàng"
@@ -27,7 +27,7 @@ const Section8: FC<Props> = (props): JSX.Element => {
               fill
               sizes="100vw"
             />
-          </div>
+          </Reveal>
           <div className="flex-1 shrink-0">
             <div className="mb-4">
               <CustomHeading2 t={t} type_5 customClassname="mb-1 lg:text-left text-center" />
