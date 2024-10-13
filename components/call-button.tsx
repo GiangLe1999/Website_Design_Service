@@ -54,7 +54,9 @@ const CallButton: FC<Props> = ({
       onMouseLeave={handleMouseLeave}
       {...props}
     >
-      {t_btn('call')} <MoveRightIcon className="w-5 h-5 ml-2" />
+      <a href="tel:0962334807" className="flex items-center">
+        {t_btn('call')} <MoveRightIcon className="w-5 h-5 ml-2" />
+      </a>
     </Button>
   );
 };
