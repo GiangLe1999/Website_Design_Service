@@ -53,7 +53,7 @@ const FaqSection: FC<Props> = ({ t, accordionData, heading, type }): JSX.Element
                           : type === 'type_2'
                           ? 'bg-gradient-to-r from-[#A57038] to-[#DAAA60] !text-white !no-underline'
                           : type === 'type_4'
-                          ? 'bg-gradient-to-r from-[#c73746] to-[#ff8465] !text-white !no-underline'
+                          ? 'bg-gradient-to-r from-[#E6273C] to-[#ff6868] !text-white !no-underline'
                           : ''
                       }`
                   )}
