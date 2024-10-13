@@ -15,16 +15,17 @@ import customer_4 from '@/public/home-page/customer-4.webp';
 import customer_5 from '@/public/home-page/customer-5.webp';
 import customer_6 from '@/public/home-page/customer-3.webp';
 
-import customer_logo_1 from '@/public/interior-page/customer-logo-1.png';
-import customer_logo_2 from '@/public/interior-page/customer-logo-2.png';
-import customer_logo_3 from '@/public/interior-page/customer-logo-3.png';
-import customer_logo_4 from '@/public/interior-page/customer-logo-4.png';
-import customer_logo_5 from '@/public/interior-page/customer-logo-5.png';
-import customer_logo_6 from '@/public/interior-page/customer-logo-6.png';
-import customer_logo_7 from '@/public/interior-page/customer-logo-7.png';
-import customer_logo_8 from '@/public/interior-page/customer-logo-8.png';
-import customer_logo_9 from '@/public/interior-page/customer-logo-9.webp';
+import customer_logo_1 from '@/public/ecommerce-page/customer_logo_1.png';
+import customer_logo_2 from '@/public/ecommerce-page/customer_logo_2.png';
+import customer_logo_3 from '@/public/ecommerce-page/customer_logo_3.png';
+import customer_logo_4 from '@/public/ecommerce-page/customer_logo_4.png';
+import customer_logo_5 from '@/public/ecommerce-page/customer_logo_5.png';
+import customer_logo_6 from '@/public/ecommerce-page/customer_logo_6.png';
+import customer_logo_7 from '@/public/ecommerce-page/customer_logo_7.png';
+import customer_logo_8 from '@/public/ecommerce-page/customer_logo_8.png';
+import customer_logo_9 from '@/public/ecommerce-page/customer_logo_9.png';
 import Reveal from '../reveal';
+import CustomHeading2 from '../custom-heading-2';
 
 interface Props {}
 
@@ -67,24 +68,17 @@ const swiperData = [
   },
 ];
 
-const Section11: FC<Props> = (props): JSX.Element => {
-  const t = useTranslations('interior_page.section_11');
+const Section7: FC<Props> = (props): JSX.Element => {
+  const t = useTranslations('ecommerce_page.section_7');
 
   return (
-    <section id={t('id')} className="relative pt-[80px] border-t md:pb-[300px] pb-[100px]">
-      <ContentContainer maxWidth="max-w-[900px]">
-        <Reveal>
-          <p className="bds-sub-heading">{t('sub_heading')}</p>
-        </Reveal>
-        <Reveal>
-          <h2 className="section-heading-2 font-bold mb-5 text-[#A57038] text-center">
-            {t('heading')}
-          </h2>
-        </Reveal>
+    <section id={t('id')} className="relative pt-[80px] md:pb-[300px] pb-[100px]">
+      <ContentContainer maxWidth="max-w-[800px]">
+        <CustomHeading2 t={t} type_5 customClassname="text-center" />
         <Reveal>
           <p className="text-center">
             {t.rich('description', {
-              bold: (chunks) => <strong className="text-primary">{chunks}</strong>,
+              bold: (chunks) => <strong>{chunks}</strong>,
             })}
           </p>
         </Reveal>
@@ -140,7 +134,7 @@ const SectionSwiper = () => {
   const swiperRef = useRef(null);
   const prevRef = useRef(null);
   const nextRef = useRef(null);
-  const t = useTranslations('interior_page.section_11');
+  const t = useTranslations('ecommerce_page.section_7');
   return (
     <Swiper
       direction="horizontal"
@@ -211,7 +205,7 @@ const SwiperCard: FC<SwiperCardProps> = ({ content, name, website, logo }) => {
       <Reveal>
         <div className="max-w-[85%] pt-[80px] pb-[50px] mx-auto">
           <p className="text-sm leading-6 text-center mb-4">{content}</p>
-          <p className="text-lg font-bold text-[#A57038] mb-1 text-center">{name}</p>
+          <p className="text-lg font-bold text-[#091421] mb-1 text-center">{name}</p>
           <p className="text-center text-sm font-semibold">{website}</p>
         </div>
       </Reveal>
@@ -219,4 +213,4 @@ const SwiperCard: FC<SwiperCardProps> = ({ content, name, website, logo }) => {
   );
 };
 
-export default Section11;
+export default Section7;

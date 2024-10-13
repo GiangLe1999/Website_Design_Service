@@ -5,7 +5,8 @@
       "call": "Gọi cho chúng tôi",
       "submit": "Gửi thông tin",
       "loading": "Đang xử lý",
-      "close": "Đóng"
+      "close": "Đóng",
+      "see_more": "Xem thêm"
     },
     "step": "Bước",
     "tel": "SĐT",
@@ -1171,6 +1172,67 @@
         "name": "CHUYEN TECHTICAL"
       },
       "button": "Xem tất cả demo website"
+    },
+    "section_7": {
+      "id": "cam_nhan_khach_hang_ve_dich_vu_thiet_ke_website_ban_hang",
+      "heading": "<bold>Cảm nhận</bold> từ khách hàng",
+      "description": "RiverLee Agency tự hào là <bold>đơn vị thiết kế website bán hàng</bold> được nhiều doanh nghiệp uy tín tin tưởng và lựa chọn đồng hành",
+      "feedback_1": {
+        "content": "Dịch vụ thiết kế website thương mại điện tử của công ty rất chuyên nghiệp, đáp ứng nhanh mọi yêu cầu của tôi. Website bán hàng của tôi hoạt động mượt mà, giao diện tinh tế và dễ sử dụng. Tôi rất hài lòng với kết quả nhận được. Ngoài ra, đội ngũ còn hỗ trợ sau khi hoàn thành dự án, giúp tôi dễ dàng quản lý và điều chỉnh trang web theo nhu cầu. Tôi thực sự đánh giá cao sự tận tâm và chuyên nghiệp của họ trong mọi khía cạnh của công việc.",
+        "name": "Anh Nguyễn Minh Đức",
+        "website": "www.minhducfashion.com"
+      },
+      "feedback_2": {
+        "content": "Đội ngũ thiết kế đã lắng nghe ý kiến của chúng tôi và hoàn thiện website theo đúng yêu cầu mà chúng tôi đưa ra. Chất lượng hình ảnh, bố cục và tốc độ tải trang đều rất tốt. Tôi đánh giá cao sự tận tâm và trách nhiệm của họ trong suốt quá trình hợp tác. Dịch vụ sau khi bàn giao cũng rất tuyệt, họ luôn sẵn sàng hỗ trợ bất cứ khi nào chúng tôi cần điều chỉnh hoặc cập nhật. Rất hài lòng với sự chuyên nghiệp của đội ngũ.",
+        "name": "Anh Trần Văn Hải",
+        "website": "www.haitechmart.com"
+      },
+      "feedback_3": {
+        "content": "Tôi rất ấn tượng với thiết kế website thương mại điện tử mà công ty mang lại. Họ đã giúp tôi xây dựng một trang web hiện đại, bắt mắt và thể hiện rõ phong cách của cửa hàng chúng tôi. Dịch vụ thực sự rất tuyệt vời, đội ngũ làm việc hiệu quả và luôn sẵn sàng tư vấn những giải pháp tốt nhất cho các vấn đề phát sinh. Nhờ sự tận tâm của họ, chúng tôi đã có được một công cụ truyền thông hữu hiệu, thu hút khách hàng và tăng doanh số.",
+        "name": "Chị Lê Thị Hương",
+        "website": "www.huongskincare.com"
+      },
+      "feedback_4": {
+        "content": "Website của tôi được hoàn thành nhanh chóng và đạt chất lượng cao hơn cả mong đợi. Giao diện đẹp, dễ dàng quản lý sản phẩm và tích hợp nhiều tính năng tiện ích. Nhờ trang web này, doanh số của chúng tôi đã tăng rõ rệt, thu hút nhiều khách hàng hơn. Cảm ơn đội ngũ thiết kế đã hỗ trợ nhiệt tình và liên tục cải tiến để đáp ứng nhu cầu phát triển của doanh nghiệp.",
+        "name": "Anh Phạm Văn Long",
+        "website": "www.longfurniture.com"
+      },
+      "feedback_5": {
+        "content": "Dịch vụ thiết kế website của công ty thực sự chuyên nghiệp, đội ngũ hỗ trợ rất nhiệt tình và chu đáo trong suốt quá trình làm việc. Website được tối ưu hóa rất tốt cho cả di động và máy tính, mang lại trải nghiệm người dùng tốt hơn. Tôi rất hài lòng với kết quả nhận được. Ngoài ra, họ còn tư vấn cho tôi nhiều chiến lược để tăng hiệu quả kinh doanh qua website, giúp trang web của tôi hoạt động một cách hiệu quả nhất.",
+        "name": "Chị Nguyễn Thị Lan",
+        "website": "www.lanshop.com"
+      },
+      "feedback_6": {
+        "content": "Công ty thiết kế đã cung cấp cho tôi một trang web thương mại điện tử hoàn hảo, từ giao diện cho đến tính năng đều rất tiện lợi và dễ sử dụng. Đội ngũ làm việc nhanh chóng, luôn sẵn sàng hỗ trợ bất cứ khi nào tôi cần, giúp tôi giải quyết mọi vấn đề phát sinh kịp thời. Dịch vụ bảo trì sau khi hoàn thành cũng rất tốt, tôi luôn cảm thấy yên tâm khi hợp tác với họ. Tôi chắc chắn sẽ tiếp tục sử dụng dịch vụ của công ty trong các dự án sắp tới.",
+        "name": "Anh Vũ Quốc Hưng",
+        "website": "www.hungtechstore.com"
+      }
+    },
+    "section_8": {
+      "id": "bao_gia_thiet_ke_website_ban_hang",
+      "heading": "<bold>Nhận báo giá</bold> thiết kế web bán hàng",
+      "description": "Mời bạn gửi thông tin để nhận được cuộc gọi lại / email báo giá từ chuyên viên tư vấn"
+    },
+    "section_9": {
+      "id": "cau_hoi_thuong_gap_khi_thiet_ke_website_ban_hang",
+      "heading": "<bold>Bạn hỏi</bold> - RiverLee trả lời",
+      "description": "Bạn đang băn khoăn về quy trình thiết kế website bán hàng tại RiverLee, chúng tôi luôn sẵn sàng giải đáp các thắc mắc của quý khách hàng",
+      "question_1": {
+        "question": "Tại sao phải cần có website bán hàng?",
+        "answer": "Website bán hàng giúp Doanh nghiệp quảng bá sản phẩm hiệu quả hơn, dễ dàng và nhanh chóng hơn. Website còn giúp việc tiếp cận thêm nguồn khách hàng, tư vấn bán hàng mọi lúc - mọi nơi."
+      },
+      "question_2": {
+        "question": "Vận hành website bán hàng có khó không?",
+        "answer": "Sử dụng rất đơn giản. RiverLee hỗ trợ, hướng dẫn tận tình trước khi vận hành. Giao diện quản trị website của chúng tôi cũng được thiết kế tỉ mỉ, rất dễ dàng thao tác."
+      },
+      "question_3": {
+        "question": "Thời gian tạo website bán hàng là bao lâu?",
+        "answer": "Quá trình thực hiện và thời gian dựa trên nhu cầu thực tế của khách hàng. RiverLee luôn tối ưu hoá thời sản xuất để website vận hành nhanh chóng."
+      },
+      "question_4": {
+        "question": "Giá làm website bán hàng là bao nhiêu?",
+        "answer": "Không có mức giá cố định hoặc chi phí cụ thể nào. Chi phí xây dựng website bán hàng dựa trên nhu cầu và mục đích sử dụng của khách hàng."
+      }
     }
   }
 }

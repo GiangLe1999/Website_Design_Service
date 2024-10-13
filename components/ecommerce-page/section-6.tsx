@@ -28,6 +28,7 @@ import img_21 from '@/public/ecommerce-page/website-21.jpg';
 import img_22 from '@/public/ecommerce-page/website-22.jpg';
 import img_23 from '@/public/ecommerce-page/website-23.jpg';
 import img_24 from '@/public/ecommerce-page/website-24.jpeg';
+import SeeMoreButtton from '../see-more-button';
 
 const websitesData = [
   { cate: 'website_1.cate', name: 'website_1.name', image: img_1 },
@@ -88,6 +89,10 @@ const Section3: FC<Props> = (props): JSX.Element => {
                   <p className="font-extrabold mt-2 text-2xl text-center">{t(item.name)}</p>
                 </Reveal>
               ))}
+            </div>
+
+            <div className="flex justify-center mt-16">
+              <SeeMoreButtton type_5 />
             </div>
           </ContentContainer>
         </div>

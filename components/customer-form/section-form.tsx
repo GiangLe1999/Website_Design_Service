@@ -22,7 +22,7 @@ const FailedDialog = dynamic(() => import('./failed-dialog'), { ssr: false });
 const SuccessfulDialog = dynamic(() => import('./successful-dialog'), { ssr: false });
 
 interface Props {
-  type: 'type_1' | 'type_2' | 'type_3';
+  type: 'type_1' | 'type_2' | 'type_3' | 'type_4';
 }
 
 const SectionForm: FC<Props> = ({ type }): JSX.Element => {
@@ -54,7 +54,7 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                           'h-[54px] rounded-[27px] px-[30px]',
                           type === 'type_2' &&
                             'border-[#006f8b69] focus-visible:border-[#006f8be5]',
-                          type === 'type_3' &&
+                          (type === 'type_3' || 'type_4') &&
                             'border-[#d4d4d469] focus-visible:border-[#888888e5] rounded-lg'
                         )}
                         placeholder={t('field_1.name')}
@@ -79,7 +79,7 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                           'h-[54px] rounded-[27px] px-[30px]',
                           type === 'type_2' &&
                             'border-[#006f8b69] focus-visible:border-[#006f8be5]',
-                          type === 'type_3' &&
+                          (type === 'type_3' || 'type_4') &&
                             'border-[#d4d4d469] focus-visible:border-[#888888e5] rounded-lg'
                         )}
                         type="email"
@@ -105,7 +105,7 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                           'h-[54px] rounded-[27px] px-[30px]',
                           type === 'type_2' &&
                             'border-[#006f8b69] focus-visible:border-[#006f8be5]',
-                          type === 'type_3' &&
+                          (type === 'type_3' || 'type_4') &&
                             'border-[#d4d4d469] focus-visible:border-[#888888e5] rounded-lg'
                         )}
                         type="tel"
@@ -133,7 +133,7 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                             'h-[54px] rounded-[27px] px-[30px] z-[10]',
                             type === 'type_2' &&
                               'border-[#006f8b69] focus:border-[#006f8be5] focus-visible:border-[#006f8be5]',
-                            type === 'type_3' &&
+                            (type === 'type_3' || 'type_4') &&
                               'border-[#d4d4d469] focus:border-[#888888e5] focus-visible:border-[#888888e5] rounded-lg'
                           )}
                         >
@@ -165,7 +165,7 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
                       className={cn(
                         'rounded-[27px] px-[30px] py-5',
                         type === 'type_2' && 'border-[#006f8b69] focus-visible:border-[#006f8be5]',
-                        type === 'type_3' &&
+                        (type === 'type_3' || 'type_4') &&
                           'border-[#d4d4d469] focus-visible:border-[#888888e5] rounded-lg'
                       )}
                       {...field}
@@ -184,6 +184,7 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
               type_1={type === 'type_1'}
               type_2={type === 'type_2'}
               type_3={type === 'type_3'}
+              type_4={type === 'type_4'}
             />
           </Reveal>
         </form>

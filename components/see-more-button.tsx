@@ -4,24 +4,22 @@ import { ButtonHTMLAttributes, FC, useState } from 'react';
 import { Button } from './ui/button';
 import { cn } from '@/lib/utils';
 import { useTranslations } from 'next-intl';
-import { MoveRightIcon, LoaderCircleIcon } from 'lucide-react';
+import { MoveRightIcon } from 'lucide-react';
 
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
   className?: string;
   type_1?: boolean;
   type_2?: boolean;
-  type_3?: boolean;
   type_4?: boolean;
-  isLoading?: boolean;
+  type_5?: boolean;
 }
 
-const SubmitButton: FC<Props> = ({
+const SeeMoreButtton: FC<Props> = ({
   className,
   type_1,
   type_2,
-  type_3,
   type_4,
-  isLoading,
+  type_5,
   ...props
 }): JSX.Element => {
   const t_btn = useTranslations('common.button');
@@ -39,28 +37,26 @@ const SubmitButton: FC<Props> = ({
       className={cn(
         'overflow-hidden relative rounded-[27px] px-[30px] sm:h-[54px] h-[48px] sm:text-lg text-base font-semibold text-white custom-btn sm:w-fit w-full',
         isHovered && 'after:animate-shine',
-        type_1 && 'bg-[linear-gradient(to_right,#ee4207_0%,#ff9173_100%)]',
-        type_2 && 'bg-[linear-gradient(to_right,#035980_0%,#00788a_100%)]',
-        type_3 && 'bg-[linear-gradient(to_right,#767a7e_0%,#666666_100%)]',
-        type_4 && 'bg-[linear-gradient(to_right,#FF283F_0%,#FF5226_100%)]',
         className
       )}
+      style={{
+        background: type_1
+          ? 'linear-gradient(to right,#ee4207 0%,#ff9173 100%)'
+          : type_2
+          ? 'linear-gradient(to right,#c30017 0%, #ff4646 100%)'
+          : type_4
+          ? 'linear-gradient(to right, #daaa60 0%, #8d5520 100%)'
+          : type_5
+          ? 'linear-gradient(to right, #FF283F 0%, #FF5226 100%)'
+          : '',
+      }}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      type="submit"
       {...props}
     >
-      {isLoading ? (
-        <>
-          {t_btn('loading')} <LoaderCircleIcon className="w-5 h-5 ml-2 animate-spin" />{' '}
-        </>
-      ) : (
-        <>
-          {t_btn('submit')} <MoveRightIcon className="w-5 h-5 ml-2" />
-        </>
-      )}
+      {t_btn('see_more')} <MoveRightIcon className="w-5 h-5 ml-2" />
     </Button>
   );
 };
 
-export default SubmitButton;
+export default SeeMoreButtton;
