@@ -64,17 +64,21 @@ const Section4: FC<Props> = (props): JSX.Element => {
               <div className="lg:w-[50%] w-full text-white">
                 <CustomHeading2 t={t} customClassname="text-white" />
 
-                <p className="text-sm text-white leading-7 mb-4">
-                  {t.rich('paragraph_1', {
-                    bold: (chunks: any) => <strong className="font-extrabold">{chunks}</strong>,
-                  })}
-                </p>
+                <Reveal>
+                  <p className="text-sm text-white leading-7 mb-4">
+                    {t.rich('paragraph_1', {
+                      bold: (chunks: any) => <strong className="font-extrabold">{chunks}</strong>,
+                    })}
+                  </p>
+                </Reveal>
 
-                <p className="text-sm text-white leading-7">
-                  {t.rich('paragraph_2', {
-                    bold: (chunks: any) => <strong className="font-extrabold">{chunks}</strong>,
-                  })}
-                </p>
+                <Reveal>
+                  <p className="text-sm text-white leading-7">
+                    {t.rich('paragraph_2', {
+                      bold: (chunks: any) => <strong className="font-extrabold">{chunks}</strong>,
+                    })}
+                  </p>
+                </Reveal>
               </div>
 
               <Reveal customClassname="lg:w-[50%] w-full">

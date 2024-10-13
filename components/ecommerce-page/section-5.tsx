@@ -170,12 +170,12 @@ const Section5: FC<Props> = (props): JSX.Element => {
               </Reveal>
             </div>
 
-            <div className="flex flex-1 shrink-0 flex-col items-center justify-center shadow-md border p-8 rounded-md">
+            <Reveal customClassname="flex flex-1 shrink-0 flex-col items-center justify-center shadow-md border p-8 rounded-md">
               <span className="font-bold text-[#E3172F] md:text-[70px] text-[45px]">10+</span>
               <p className="font-semibold md:text-base text-sm text-muted-foreground leading-7 text-center">
                 {t('reason_17')}
               </p>
-            </div>
+            </Reveal>
           </div>
         </div>
       </ContentContainer>
