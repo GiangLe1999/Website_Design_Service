@@ -1204,6 +1204,32 @@
           "name": "Mr. Kevin Pham",
           "website": "www.kevintechstore.com"
         }
+      },
+      "section_8": {
+        "id": "ecommerce_website_design_pricing",
+        "heading": "<bold>Get a Quote</bold> for E-commerce Website Design",
+        "description": "Please submit your information to receive a callback or a quote email from our consultants."
+      },
+      "section_9": {
+        "id": "frequently_asked_questions_about_ecommerce_website_design",
+        "heading": "<bold>You Ask</bold> - RiverLee Answers",
+        "description": "Are you wondering about the e-commerce website design process at RiverLee? We are always ready to answer all customer inquiries.",
+        "question_1": {
+          "question": "Why is it necessary to have an e-commerce website?",
+          "answer": "An e-commerce website helps businesses promote products more effectively, easily, and quickly. It also allows businesses to reach more customers and offer sales consultations anytime, anywhere."
+        },
+        "question_2": {
+          "question": "Is it difficult to operate an e-commerce website?",
+          "answer": "It’s very simple to use. RiverLee provides thorough support and guidance before operation. Our website management interface is carefully designed, making it very easy to navigate."
+        },
+        "question_3": {
+          "question": "How long does it take to create an e-commerce website?",
+          "answer": "The process and time depend on the actual needs of the customer. RiverLee always optimizes production time to ensure the website is up and running quickly."
+        },
+        "question_4": {
+          "question": "How much does it cost to build an e-commerce website?",
+          "answer": "There is no fixed price or specific cost. The cost of building an e-commerce website is based on the customer's needs and intended use."
+        }
       }
     }
   }
