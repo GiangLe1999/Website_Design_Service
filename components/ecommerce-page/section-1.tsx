@@ -16,11 +16,11 @@ const Section1: FC<Props> = (props): JSX.Element => {
         <ContentContainer>
           <div className="flex items-center">
             <Reveal customClassname="text-white xl:mt-[18%] lg:mt-[15%] md:mt-[25%] mt-[50%] md:max-w-[60%] md:text-left text-center md:mx-0 mx-auto">
-              <p className="text-2xl md:text-3xl xl:text-5xl xl:leading-[1.2] md:mb-5 sm:mb-1 mb-4 font-bold">
+              <h1 className="text-2xl md:text-3xl xl:text-5xl xl:leading-[1.2] md:mb-5 sm:mb-1 mb-4 font-bold">
                 {t.rich('heading', {
                   bold: (chunks: any) => <strong className="font-extrabold">{chunks}</strong>,
                 })}
-              </p>
+              </h1>
 
               <p className="text-base leading-7 md:text-lg md:leading-8 xl:text-xl xl:leading-9 md:max-w-[80%] md:text-left text-center md:mx-0 mx-auto">
                 {t('description')}

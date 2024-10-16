@@ -106,6 +106,8 @@ const LanguageSwitcher: FC<Props> = ({ type, isScrolled }): JSX.Element => {
                 ? 'text-[#dfa041]'
                 : type === 'type_4'
                 ? `${isScrolled ? 'text-[#E30E27]' : 'text-[#ffffff]'}`
+                : type === 'type_5'
+                ? `${isScrolled ? 'text-[#024C7D]' : 'text-[#ffffff]'}`
                 : ''
             )}
           >

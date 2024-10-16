@@ -1234,5 +1234,13 @@
         "answer": "Không có mức giá cố định hoặc chi phí cụ thể nào. Chi phí xây dựng website bán hàng dựa trên nhu cầu và mục đích sử dụng của khách hàng."
       }
     }
+  },
+  "travel_page": {
+    "section_1": {
+      "id": "website_du_lich",
+      "heading": "Thiết kế website du lịch <br></br>chuẩn SEO",
+      "paragraph_1": "Những thông tin dưới đây sẽ dẫn dắt bạn tìm ra đáp án cho câu trả lời <bold>“Thiết kế website du lịch”</bold> có thật sự là giải pháp kinh doanh tốt trong các lĩnh vực tham quan, nghỉ dưỡng và khám phá.",
+      "paragraph_2": "Sự phát triển và hoàn thiện mạnh mẽ về các phương tiện di chuyển và thuận tiện trong các thông tin kết nối đã rút ngắn khoảng cách giữa tất cả quốc gia. Du lịch giờ đây không còn là khái nghiệm quá xa xỉ, nó còn là phong cách sống và sở thích không thể thiếu với số đông. Đặc biệt là với các bạn trẻ thế hệ mới, đam mê khám phá và trải nghiệm."
+    }
   }
 }
