@@ -1232,5 +1232,67 @@
         "answer": "There is no fixed price or specific cost. The cost of building an e-commerce website is based on the customer's needs and intended use."
       }
     }
+  },
+  "travel_page": {
+    "section_1": {
+      "id": "website_du_lich",
+      "heading": "SEO-Optimized <br></br>Travel Website Design",
+      "paragraph_1": "The information below will guide you to the answer to the question <bold>“Is travel website design”</bold> truly a good business solution for tourism, leisure, and exploration sectors.",
+      "paragraph_2": "The rapid development and improvement of transportation and the convenience of information connectivity have shortened the distance between all countries. Travel is no longer a luxury concept; it has become a lifestyle and a passion for many. Especially for the younger generation, who are passionate about exploring and experiencing new things."
+    },
+    "section_2": {
+      "id": "dac_diem_website_du_lich",
+      "heading": "Essential Features of a Travel Website",
+      "description": "There are many ways to create a <bold>travel website</bold>, and there are many ways to develop it according to the owner’s wishes. However, we can find similarities in <a>professional website designs</a> that operate stably and effectively.",
+      "block_1": {
+        "heading": "SEO-Optimized Travel Website",
+        "description": "A <bold>SEO-optimized travel website</bold> has become a standard that is indispensable in building and developing a website in this field. This is not only a necessary criterion for marketing campaigns like SEO implementation, but a well-optimized website also ensures friendliness with search engines, thereby maximizing the reach to potential customers."
+      },
+      "block_2": {
+        "heading": "User-Friendly",
+        "description": "A smart and easy-to-use user experience (<bold><a2>UX/UI</a2></bold>) helps keep customers on the website longer and better engages them. Customers tend to trust and enjoy a travel website with a great experience, attracting them and eventually leading to important decisions like contacting, booking appointments to learn about tour packages, adding services to the cart, or directly getting in touch."
+      },
+      "block_3": {
+        "heading": "Logical and Engaging Content",
+        "description": "Images and content are the first factors that create a positive impression on customers from their first visit. This is especially true in fields where visuals play a significant role, like travel websites. Well-crafted content and appealing visuals will captivate and engage customers when they learn about your company."
+      },
+      "block_4": {
+        "heading": "Suitable Interface that Enhances the Brand",
+        "description": "Having a beautiful website is not enough; it needs to be truly aligned with the business sector and brand values. The message that the business wants to convey to customers will be more effective when accompanied by unique design elements."
+      },
+      "block_5": {
+        "heading": "Includes All Necessary Features",
+        "description": "Features like tour search, booking tours, contact, chat, etc., need to be well-structured and work smoothly and efficiently. Any customer should be able to easily interact when visiting the website."
+      },
+      "block_6": {
+        "heading": "Easy to Manage - Easy to Expand Later",
+        "description": "Maintaining, operating, and updating information is extremely important for a travel website. Therefore, after handing over any travel website, RiverLee focuses on ensuring that the management system is as simple as possible. At the same time, the potential for quick future expansion is also thoroughly considered."
+      },
+      "block_7": {
+        "heading": "Effective Support Tool for Marketing Campaigns",
+        "description": "A travel website acts as the face and voice of the brand in the online market. Additionally, a travel website serves as an excellent marketing tool for broad and effective brand promotion campaigns."
+      },
+      "block_8": {
+        "heading": "Custom Website Design",
+        "description": "In addition to the essential requirements when creating a travel website, additional requests based on specific customer needs should be addressed quickly and effectively. RiverLee currently offers a wide range of <bold><a1>website design</a1></bold> packages, such as design from existing templates, design based on pre-made interfaces, or completely custom designs (tailor-made website design)."
+      }
+    },
+    "section_3": {
+      "id": "phan_loai_website_du_lich",
+      "heading": "Types of Travel Websites",
+      "description": "Depending on the nature of use, purpose, and owner’s preferences, travel websites can be built and developed in various forms.",
+      "type_1": {
+        "heading": "Tour and Hotel Booking Websites",
+        "description": "<bold>Tour booking websites</bold> serve the purpose of online business (selling tours) directly. Therefore, all elements of the interface should best support this activity. Most interfaces will prioritize displaying information about tours, itineraries, prices, and various options. However, information that supports and positively influences the decision to 'book a tour' should also be arranged flexibly and thoughtfully."
+      },
+      "type_2": {
+        "heading": "Travel Agency Introduction Websites",
+        "description": "Owning a <bold>professional introduction website</bold> equates to significantly enhancing the credibility and brand recognition of the travel agency. Potential partners can easily reach out and connect with you more proactively. Customers will also have a solid basis for choosing your services. Additionally, strong candidates will trust and select your company as a 'launch pad' to develop their careers."
+      },
+      "type_3": {
+        "heading": "Travel Review and News Websites",
+        "description": "This type of website demands a high capacity for storing vast amounts of data, frequently updated information, and consistently high user traffic. Therefore, the website needs to be technically robust to ensure page load speed, safety, and security during operation. Another essential aspect is allocating special areas for advertising purposes."
+      }
+    }
   }
 }

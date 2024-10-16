@@ -1278,6 +1278,23 @@
         "heading": "Website thiết kế theo đa dạng yêu cầu",
         "description": "Ngoài những yêu cầu nhất định không thể thiếu khi thực hiện website du lịch. Yêu cầu phát sinh dựa vào yêu cầu cụ thể của khách hàng cũng cần đáp ứng một cách nhanh chóng và hiệu quả nhất. RiverLee hiện đang sở hữu những gói <bold><a1>thiết kế website</a1></bold> rất đa dạng như: thiết kế theo mẫu hiện có, thiết kế theo giao diện có sẵn, hay thiết kế mới theo yêu cầu riêng (thiết kế website dạng may đo)."
       }
+    },
+    "section_3": {
+      "id": "phan_loai_website_du_lich",
+      "heading": "Phân loại website du lịch",
+      "description": "Tùy thuộc vào tính chất sử dụng, mục đích và mong muốn của chủ sở hữu. Website du lịch sẽ được xây dựng và phát triển theo nhiều loại hình khác nhau.",
+      "type_1": {
+        "heading": "Website đặt tour, đặt phòng",
+        "description": "<bold>Website đặt tour</bold> phục vụ mục đích kinh doanh online (bán tour) trực tuyến. Vì thế, tất cả những chi tiết trên giao diện phải hỗ trợ tốt nhất cho hoạt động này. Phần lớn giao diện sẽ ưu tiên cho việc xuất hiện các thông tin về tour, hành trình, giá cả và nhiều phương án lựa chọn. Tuy nhiên, các thông tin hỗ trợ và có tác động tích cực đến việc ra quyết định “chốt tour” cũng cần được sắp xếp linh hoạt và tinh tế."
+      },
+      "type_2": {
+        "heading": "Website giới thiệu công ty du lịch lữ hành",
+        "description": "Sở hữu <bold>website giới thiệu chuyên nghiệp</bold> đồng nghĩa với uy tín và độ nhận diện thương hiệu của công ty du lịch cũng được thăng hạng đáng kể. Đối tác tiềm năng có thể dễ dàng tiếp cận và liên hệ với bạn một cách chủ động hơn. Khách hàng cũng có cơ sở vững chắc để đưa ra sự lựa chọn sử dụng dịch vụ. Song song đó, các ứng viên nặng ký sẽ tin tưởng và lựa chọn công ty của bạn trở thành “bệ phóng” để phát triển sự nghiệp của họ."
+      },
+      "type_3": {
+        "heading": "Website review, tin tức du lịch",
+        "description": "Website dạng này luôn yêu cầu rất cao về việc lưu trữ lượng data cực khủng, thông tin cập nhật thường xuyên và truy cập của khách hàng luôn cao chót vót. Vì vậy, website cần được xử lý kỹ thuật chặt chẽ nhất để đảm bảo về tốc độ load trang, độ an toàn; tính bảo mật khi vận hành. Và 1 yếu tố không thể thiếu là những vị trí đặc biệt phục vụ cho mục tiêu bán quảng cáo."
+      }
     }
   }
 }

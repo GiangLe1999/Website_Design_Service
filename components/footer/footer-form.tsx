@@ -176,7 +176,7 @@ const FooterForm: FC<Props> = (props): JSX.Element => {
                   : type === 'type_4'
                   ? 'bg-[#FF293F] hover:bg-[#FF293F]/90'
                   : type === 'type_5'
-                  ? 'bg-[#154F94] hover:bg-[#154F94]/90'
+                  ? 'bg-[#136b9b] hover:bg-[#136b9b]/90'
                   : ''
               )}
             >
