@@ -2,7 +2,6 @@
 
 import { useTranslations } from 'next-intl';
 import { FC, useRef, useState } from 'react';
-import ContentContainer from '../content-container';
 import Image, { StaticImageData } from 'next/image';
 import MockImg from '@/public/home-page/nen-tang-thiet-ke-website-worpress-nextjs.webp';
 import { Swiper, SwiperSlide } from 'swiper/react';

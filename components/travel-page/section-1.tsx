@@ -13,7 +13,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
 
   return (
     <section id={t('id')}>
-      <div className="relative w-full bg-[url('/travel-page/section-1-bg.webp')] bg-no-repeat bg-center bg-cover pt-[10%]">
+      <div className="relative w-full bg-[url('/travel-page/section-1-bg.webp')] bg-no-repeat bg-center bg-cover lg:pt-[10%] md:pt-[20%] pt-[30%]">
         <ContentContainer>
           <Reveal customClassname="text-white text-center mx-auto">
             <h1 className="text-3xl md:text-4xl xl:text-[50px] sm:!leading-[1.2] font-bold">
@@ -24,12 +24,12 @@ const Section1: FC<Props> = (props): JSX.Element => {
             </h1>
           </Reveal>
 
-          <Reveal customClassname="mt-10 w-fit mx-auto">
+          <Reveal customClassname="mt-10 w-fit mx-auto sm:block hidden">
             <ChevronDownIcon className="w-10 h-10 text-white" />
           </Reveal>
         </ContentContainer>
 
-        <div className="relative aspect-[2.25] mt-12">
+        <Reveal customClassname="relative aspect-[2.25] mt-12">
           <Image
             src={img}
             alt="Thiết kế website du lịch"
@@ -37,11 +37,11 @@ const Section1: FC<Props> = (props): JSX.Element => {
             sizes="100vw"
             className="object-cover"
           />
-        </div>
+        </Reveal>
       </div>
 
       <ContentContainer>
-        <div className="text-sm leading-7 md:text-lg md:leading-9 text-center">
+        <Reveal customClassname="text-sm leading-7 md:text-lg md:leading-9 text-center">
           <p className="mb-4">
             {t.rich('paragraph_1', {
               bold: (chunks: any) => <strong>{chunks}</strong>,
@@ -49,7 +49,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
           </p>
 
           <p>{t('paragraph_2')}</p>
-        </div>
+        </Reveal>
       </ContentContainer>
     </section>
   );

@@ -33,7 +33,7 @@ const CustomHeading2: FC<Props> = ({
           type_4 && 'text-[#666666]',
           type_2 || type_3 ? 'font-light' : 'font-bold',
           type_5 && 'text-[#535353]',
-          type_6 && 'text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500',
+          type_6 && 'text-transparent bg-clip-text bg-gradient-to-r from-[#154F94] to-[#16a0be]',
           customClassname
         )}
       >
@@ -50,7 +50,7 @@ const CustomHeading2: FC<Props> = ({
                   : type_5
                   ? 'text-[#E30E27] font-extrabold'
                   : type_6
-                  ? 'text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500 font-extrabold'
+                  ? 'text-transparent bg-clip-text bg-gradient-to-r from-[#154F94] to-[#16a0be] font-extrabold'
                   : ''
               }
             >
