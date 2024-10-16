@@ -9,6 +9,7 @@ interface Props {
   type_3?: boolean;
   type_4?: boolean;
   type_5?: boolean;
+  type_6?: boolean;
   t: any;
 }
 
@@ -19,6 +20,7 @@ const CustomHeading2: FC<Props> = ({
   type_3,
   type_4,
   type_5,
+  type_6,
   t,
 }): JSX.Element => {
   return (
@@ -31,6 +33,7 @@ const CustomHeading2: FC<Props> = ({
           type_4 && 'text-[#666666]',
           type_2 || type_3 ? 'font-light' : 'font-bold',
           type_5 && 'text-[#535353]',
+          type_6 && 'text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500',
           customClassname
         )}
       >
@@ -46,6 +49,8 @@ const CustomHeading2: FC<Props> = ({
                   ? 'text-white font-extrabold'
                   : type_5
                   ? 'text-[#E30E27] font-extrabold'
+                  : type_6
+                  ? 'text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-yellow-500 font-extrabold'
                   : ''
               }
             >

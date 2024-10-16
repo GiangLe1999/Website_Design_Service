@@ -2,7 +2,6 @@ import { useTranslations } from 'next-intl';
 import { FC } from 'react';
 import ContentContainer from '../content-container';
 import Reveal from '../reveal';
-import CustomHeading2 from '../custom-heading-2';
 import Image from 'next/image';
 import img from '@/public/travel-page/section-1-img.webp';
 import { ChevronDownIcon } from 'lucide-react';
@@ -39,13 +38,19 @@ const Section1: FC<Props> = (props): JSX.Element => {
             className="object-cover"
           />
         </div>
-
-        <p className="text-sm leading-7 md:text-lg md:leading-9 xl:text-xl xl:leading-10 relative text-center">
-          {t.rich('paragraph_1', {
-            bold: (chunks: any) => <strong>{chunks}</strong>,
-          })}
-        </p>
       </div>
+
+      <ContentContainer>
+        <div className="text-sm leading-7 md:text-lg md:leading-9 text-center">
+          <p className="mb-4">
+            {t.rich('paragraph_1', {
+              bold: (chunks: any) => <strong>{chunks}</strong>,
+            })}
+          </p>
+
+          <p>{t('paragraph_2')}</p>
+        </div>
+      </ContentContainer>
     </section>
   );
 };
