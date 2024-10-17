@@ -1293,6 +1293,73 @@
         "heading": "Travel Review and News Websites",
         "description": "This type of website demands a high capacity for storing vast amounts of data, frequently updated information, and consistently high user traffic. Therefore, the website needs to be technically robust to ensure page load speed, safety, and security during operation. Another essential aspect is allocating special areas for advertising purposes."
       }
+    },
+    "section_4": {
+      "id": "website_features_for_travel",
+      "heading": "What Modules Are Included in a Travel Website?",
+      "description": "The modules of a travel website are the 'framework' that shapes the foundation of any website design and development strategy. From the very first steps, RiverLee will collaborate with you to plan and come up with the most optimized solution, creating a set of modules with full features that are unified, connected, and strongly support the successful operation of your website.",
+      "module_1": {
+        "heading": "Homepage Module",
+        "description": "Like the 'presidential suite' of a website, this is the first place visitors land, often where they stay the longest or visit most frequently. It's also the place that determines whether visitors stay or leave immediately. Every position and element on the homepage is precious and strategic. Therefore, the web designer must be deeply knowledgeable to make the right decisions. Common elements on the homepage include: <ul><li>Menu</li><li>Banner</li><li>Company introduction</li><li>Tour programs</li><li>Customer reviews</li><li>Engaging news</li></ul>"
+      },
+      "module_2": {
+        "heading": "Domestic and International Tour Module",
+        "description": "This feature-rich section allows the brand to showcase its outstanding tours, persuading potential customers to trust and use the service.<ul><li>General introduction</li><li>Tour list</li><li>Itineraries and pricing</li><li>Included services</li><li>Introduction images and videos</li></ul>"
+      },
+      "module_3": {
+        "heading": "Tour Booking Module",
+        "description": "This section will help the brand highlight the standout features of its tours to convince potential customers to book a service.<ul><li>Easy tour search for customers</li><li>Tracking the journey of each tour</li><li>Entering necessary information: number of guests, personal details, tour requirements, etc.</li><li>Choosing a payment method</li><li>Checking trip booking codes</li></ul>"
+      }
+    },
+    "section_5": {
+      "id": "why_choose_riverlee_for_travel_website_design",
+      "heading": "Why Choose RiverLee for Your Travel Website Design?",
+      "reason_1": {
+        "heading": "Professional Website Design Service",
+        "description": "RiverLee has directly designed many travel websites from the very 'seed' stage until they are fully operational and achieving success. We don’t just give you what we have; we deliver what you truly need."
+      },
+      "reason_2": {
+        "heading": "Comprehensive and Effective Service",
+        "description": "From project consultation, implementation, handover, and after-service support, your travel website will be managed with the utmost seriousness, responsibility, and enthusiasm by RiverLee's teams."
+      },
+      "reason_3": {
+        "heading": "Excellent Additional Services",
+        "description": "Supporting services such as hosting, domain names, and online marketing solutions from RiverLee create a comprehensive ecosystem that allows your website to be launched, operated, and 'soar' easily."
+      }
+    },
+    "section_6": {
+      "id": "top_beautiful_travel_websites_2024",
+      "heading": "Top Beautiful Travel Websites of 2024",
+      "website_1": "MM Travel website interface",
+      "website_2": "Con Dao Travel website interface",
+      "website_3": "MeKongViet Travel website interface",
+      "website_4": "Top Ten Travel website interface",
+      "website_5": "Viet Kim Travel website interface",
+      "website_6": "Vietmap Travel website interface",
+      "website_7": "Viet My Tourist website interface",
+      "website_8": "vnworldwidetravel website interface"
+    },
+    "section_7": {
+      "id": "get_travel_website_quote",
+      "heading": "Get a Travel Website Design Quote",
+      "description": "Please send your information to receive a call or email quote from a consulting specialist."
+    },
+    "section_9": {
+      "id": "frequently_asked_questions_travel_website",
+      "heading": "FAQ Section",
+      "description": "Are you wondering about the process of designing a travel #website at RiverLee? We are always ready to answer your questions.",
+      "question_1": {
+        "question": "What is the full-package cost for designing a travel website?",
+        "answer": "Currently, RiverLee offers many price levels to suit various budgets and business goals of a wide range of customers."
+      },
+      "question_2": {
+        "question": "How long will it take to receive the website?",
+        "answer": "Usually, it takes about a month for the entire process. However, there may be exceptions based on specific requirements."
+      },
+      "question_3": {
+        "question": "How long is the travel website's warranty period?",
+        "answer": "The warranty period lasts as per the agreement outlined in the contract. However, the relationship between us and the customer will last forever."
+      }
     }
   }
 }

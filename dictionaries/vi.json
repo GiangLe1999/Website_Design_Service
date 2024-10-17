@@ -1363,5 +1363,15 @@
         "answer": "Thời gian bảo hành kéo dài theo đúng thỏa thuận của hợp đồng ngay từ lúc ký kết. Tuy nhiên, mối thâm tình giữa chúng tôi và khách hàng sẽ là mãi mãi."
       }
     }
+  },
+  "company_introduction_page": {
+    "section_1": {
+      "id": "thiet_ke_website_doanh_nghiep",
+      "heading": "<small>Thiết kế website</small><br></br><big>Doanh nghiệp<br></br>giới thiệu công ty</big>",
+      "description": "Thiết kế website doanh nghiệp có thể giúp cho các công ty có thể xây dựng thương hiệu trên kênh Online, quảng bá sản phẩm đến với các khách hàng một cách nhanh chóng và dễ dàng.",
+      "paragraph_1": "Với xu hướng sử dụng internet để thực hiện các giao diện trực tuyến phổ biến như hiện nay, bạn không thể nào để doanh nghiệp mình vắng mặt trên thị trường Internet.",
+      "paragraph_2": "Đây là một trong những nhận định nổi bật của Báo cáo chỉ số Thương mại điện tử (EBI) năm 2022 do Hiệp hội Thương mại điện tử Việt Nam (VECOM) mới công bố. Báo cáo chỉ ra rằng, người tiêu dùng sử dụng mạng trực tuyến tăng mạnh về cả chất số lượng lẫn chất lượng.",
+      "paragraph_3": "Theo báo cáo của VECOM, trong khó khăn chung của nền kinh tế, lĩnh vực thương mại điện tử tiếp tục duy trì được đà phát triển nhanh và ổn định. Năm 2021, ngành thương mại điện tử Việt Nam đạt tốc độ tăng trưởng trên 20% và đạt quy mô trên 16 tỷ USD. Tốc độ này sẽ cao hơn nhiều trong năm 2022 nhờ kiểm soát tốt đại dịch Covid – 19 và những động lực tăng trưởng từ làn sóng thứ hai."
+    }
   }
 }
