@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Nunito } from 'next/font/google';
+import { Mulish } from 'next/font/google';
 import '@/app/css/prism.css';
 import '@/app/css/globals.css';
 import { cn } from '@/lib/utils';
@@ -9,10 +9,10 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import dynamic from 'next/dynamic';
 const CrispChat = dynamic(() => import('@/components/crisp-chat'), { ssr: false });
 
-const nunito = Nunito({
+const mulish = Mulish({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700', '800'],
-  variable: '--font-nunito',
+  variable: '--font-mulish',
   fallback: ['Helvetica', 'Arial', 'sans-serif'],
 });
 
@@ -40,7 +40,7 @@ export default function RootLayout({
       <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png" />
-      <body className={cn(nunito.className, 'antialiased')}>
+      <body className={cn(mulish.className, 'antialiased')}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="flex h-screen flex-col justify-between">
             <div className="mb-auto">{children}</div>

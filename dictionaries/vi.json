@@ -1299,7 +1299,7 @@
     "section_4": {
       "id": "chuc_nang_cua_website_du_lich",
       "heading": "Website du lịch bao gồm những Module nào?",
-      "description": "Module website du lịch chính là “bộ khung” định hình không thể thiếu trong các chiến lược thiết kế và xây dựng website. Ngay từ những bước đầu tiên, OnViet sẽ cần lên kế hoạch bàn bạc, đưa ra giải pháp tối ưu nhất cùng quý khách hàng để tạo ra Bộ Module đầy đủ các chức năng, có tính thống nhất, liên kết và hỗ trợ chặt chẽ để vận hành website thành công.",
+      "description": "Module website du lịch chính là “bộ khung” định hình không thể thiếu trong các chiến lược thiết kế và xây dựng website. Ngay từ những bước đầu tiên, RiverLee sẽ cần lên kế hoạch bàn bạc, đưa ra giải pháp tối ưu nhất cùng quý khách hàng để tạo ra Bộ Module đầy đủ các chức năng, có tính thống nhất, liên kết và hỗ trợ chặt chẽ để vận hành website thành công.",
       "module_1": {
         "heading": "Module trang chủ",
         "description": "Ví như “phòng tổng thống” trong ngôi nhà website. Đây là nơi khách hàng ghé thăm đầu tiên, có thể lưu lại lâu nhất và thường xuyên, cũng là nơi khiến khách hàng ở lại hay rời khi ngay lập tức. Từng vị trí, hạng mục xuất hiện ở trang chủ đều rất đắt địa và quý giá. Vì thế, người thực hiện website cần phải thật sự am hiểu để đưa ra quyết định chính xác. Những hạng mục thường có ở trang chủ: <ul><li>Menu</li><li>Banner</li><li>Giới thiệu công ty</li><li>Các chương trình tour</li><li>Ý kiến khách hàng</li><li>Tin tức hấp dẫn</li></ul>"
@@ -1311,6 +1311,22 @@
       "module_3": {
         "heading": "Module đặt tour",
         "description": "Gian hàng đặc sắc này sẽ giúp thương hiệu “phô diễn” những ưu điểm vượt trội về các tour mà mình đang sở hữu để có thể thuyết phục khách tin tưởng và sử dụng dịch vụ.<ul><li>Giúp khách hàng tìm kiếm tour dễ dàng</li><li>Theo dõi được hành trình của từng tour</li><li>Nhập các thông tin cần thiết: số lượng khách, thông tin cá nhân, yêu cầu về tour…</li><li>Lựa chọn hình thức thanh toán</li><li>Tra cứu mã book chuyến đi</li></ul>"
+      }
+    },
+    "section_5": {
+      "id": "tai_sao_nen_chon_thiet_ke_website_du_lich_tai_riverlee",
+      "heading": "Tại sao nên chọn dịch vụ thiết kế website du lịch tại RiverLee?",
+      "reason_1": {
+        "heading": "Đơn vị thực hiện website du lịch chuyên nghiệp",
+        "description": "RiverLee trực tiếp thực hiện rất nhiều site du lịch ngay từ “hạt giống đầu tiên cho đến khi website đã vận hành và gặt hái thành công nhất định. Chúng tôi không trao cho bạn cái chúng tôi có, tôi mang đến điều khách hàng thật sự cần."
+      },
+      "reason_2": {
+        "heading": "Dịch vụ toàn diện và hiệu quả",
+        "description": "Website du lịch của quý khách hàng bắt đầu từ lúc tiếp tự án, triển khai, bàn giao và bảo hành sau dự án thực hiện điều được các bộ phận thực thi của RiverLee thực hiện một cách nghiêm túc, trách nhiệm và nhiệt thành nhất."
+      },
+      "reason_3": {
+        "heading": "Dịch vụ đi kèm tuyệt vời",
+        "description": "Các dịch vụ hỗ trợ đi kèm như Hosting, Tên miền, giải pháp Marketing Online tại RiverLee góp phần mở ra 1 hệ sinh thái toàn diện cho website của bạn được ra đời, vận hành và “vươn cao” dễ dàng."
       }
     }
   }
