@@ -1284,16 +1284,33 @@
       "heading": "Phân loại website du lịch",
       "description": "Tùy thuộc vào tính chất sử dụng, mục đích và mong muốn của chủ sở hữu. Website du lịch sẽ được xây dựng và phát triển theo nhiều loại hình khác nhau.",
       "type_1": {
-        "heading": "Website đặt tour, đặt phòng",
+        "heading": "Website đặt tour du lịch và đặt phòng khách sạn",
         "description": "<bold>Website đặt tour</bold> phục vụ mục đích kinh doanh online (bán tour) trực tuyến. Vì thế, tất cả những chi tiết trên giao diện phải hỗ trợ tốt nhất cho hoạt động này. Phần lớn giao diện sẽ ưu tiên cho việc xuất hiện các thông tin về tour, hành trình, giá cả và nhiều phương án lựa chọn. Tuy nhiên, các thông tin hỗ trợ và có tác động tích cực đến việc ra quyết định “chốt tour” cũng cần được sắp xếp linh hoạt và tinh tế."
       },
       "type_2": {
-        "heading": "Website giới thiệu công ty du lịch lữ hành",
+        "heading": "Website giới thiệu về công ty du lịch lữ hành",
         "description": "Sở hữu <bold>website giới thiệu chuyên nghiệp</bold> đồng nghĩa với uy tín và độ nhận diện thương hiệu của công ty du lịch cũng được thăng hạng đáng kể. Đối tác tiềm năng có thể dễ dàng tiếp cận và liên hệ với bạn một cách chủ động hơn. Khách hàng cũng có cơ sở vững chắc để đưa ra sự lựa chọn sử dụng dịch vụ. Song song đó, các ứng viên nặng ký sẽ tin tưởng và lựa chọn công ty của bạn trở thành “bệ phóng” để phát triển sự nghiệp của họ."
       },
       "type_3": {
-        "heading": "Website review, tin tức du lịch",
+        "heading": "Website review trải nghiệm và cập nhật tin tức",
         "description": "Website dạng này luôn yêu cầu rất cao về việc lưu trữ lượng data cực khủng, thông tin cập nhật thường xuyên và truy cập của khách hàng luôn cao chót vót. Vì vậy, website cần được xử lý kỹ thuật chặt chẽ nhất để đảm bảo về tốc độ load trang, độ an toàn; tính bảo mật khi vận hành. Và 1 yếu tố không thể thiếu là những vị trí đặc biệt phục vụ cho mục tiêu bán quảng cáo."
+      }
+    },
+    "section_4": {
+      "id": "chuc_nang_cua_website_du_lich",
+      "heading": "Website du lịch bao gồm những Module nào?",
+      "description": "Module website du lịch chính là “bộ khung” định hình không thể thiếu trong các chiến lược thiết kế và xây dựng website. Ngay từ những bước đầu tiên, OnViet sẽ cần lên kế hoạch bàn bạc, đưa ra giải pháp tối ưu nhất cùng quý khách hàng để tạo ra Bộ Module đầy đủ các chức năng, có tính thống nhất, liên kết và hỗ trợ chặt chẽ để vận hành website thành công.",
+      "module_1": {
+        "heading": "Module trang chủ",
+        "description": "Ví như “phòng tổng thống” trong ngôi nhà website. Đây là nơi khách hàng ghé thăm đầu tiên, có thể lưu lại lâu nhất và thường xuyên, cũng là nơi khiến khách hàng ở lại hay rời khi ngay lập tức. Từng vị trí, hạng mục xuất hiện ở trang chủ đều rất đắt địa và quý giá. Vì thế, người thực hiện website cần phải thật sự am hiểu để đưa ra quyết định chính xác. Những hạng mục thường có ở trang chủ: <ul><li>Menu</li><li>Banner</li><li>Giới thiệu công ty</li><li>Các chương trình tour</li><li>Ý kiến khách hàng</li><li>Tin tức hấp dẫn</li></ul>"
+      },
+      "module_2": {
+        "heading": "Module tour trong nước - tour nước ngoài",
+        "description": "Gian hàng đặc sắc này sẽ giúp thương hiệu “phô diễn” những ưu điểm vượt trội về các tour mà mình đang sở hữu để có thể thuyết phục khách tin tưởng và sử dụng dịch vụ.<ul><li>Giới thiệu chung</li><li>Danh sách các tour</li><li>Lịch trình và Giá cả</li><li>Dịch vụ đi kèm</li><li>Hình ảnh và Video giới thiệu</li></ul>"
+      },
+      "module_3": {
+        "heading": "Module đặt tour",
+        "description": "Gian hàng đặc sắc này sẽ giúp thương hiệu “phô diễn” những ưu điểm vượt trội về các tour mà mình đang sở hữu để có thể thuyết phục khách tin tưởng và sử dụng dịch vụ.<ul><li>Giúp khách hàng tìm kiếm tour dễ dàng</li><li>Theo dõi được hành trình của từng tour</li><li>Nhập các thông tin cần thiết: số lượng khách, thông tin cá nhân, yêu cầu về tour…</li><li>Lựa chọn hình thức thanh toán</li><li>Tra cứu mã book chuyến đi</li></ul>"
       }
     }
   }

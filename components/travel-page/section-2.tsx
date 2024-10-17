@@ -79,7 +79,6 @@ const Section2: FC<Props> = (props): JSX.Element => {
       <ContentContainer>
         <Reveal>
           <CustomHeading2 t={t} type_6 customClassname="text-center" />
-
           <p className="text-sm leading-7 md:text-lg md:leading-9 text-center mb-10">
             {t.rich('description', {
               bold: (chunks: any) => <strong>{chunks}</strong>,
