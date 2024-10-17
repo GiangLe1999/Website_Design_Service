@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { FC, useEffect, useState } from 'react';
+import { FC } from 'react';
 import ContentContainer from '../content-container';
 import Reveal from '../reveal';
 import CustomHeading2 from '../custom-heading-2';

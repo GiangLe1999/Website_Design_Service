@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import React, { FC, useState } from 'react';
+import React, { FC } from 'react';
 import ContentContainer from '../content-container';
 import Reveal from '../reveal';
 import Image from 'next/image';
@@ -7,7 +7,6 @@ import CustomHeading2 from '../custom-heading-2';
 import icon from '@/public/travel-page/process-timeline-icon.png';
 import icon_2 from '@/public/travel-page/process-timeline-icon-2.png';
 import bg_top from '@/public/travel-page/section-3-bg-top.webp';
-import { cn } from '@/lib/utils';
 import SpecialConsultButtton from '../special-consult-button';
 import SpecialCallButton from '../special-call-button';
 
@@ -21,16 +20,6 @@ const Section5: FC<Props> = (props): JSX.Element => {
       id={t('id')}
       className="bg-[url('/travel-page/section-5-bg.webp')] bg-no-repeat bg-center pt-[15%] sm:pb-[15%] pb-[25%] bg-cover relative"
     >
-      <div className="absolute bottom-0 inset-x-0 aspect-[12]">
-        <Image
-          src={bg_top}
-          alt="Section 5 background bottom"
-          fill
-          sizes="100vw"
-          className="object-cover"
-        />
-      </div>
-
       <div className="absolute top-0 inset-x-0 aspect-[12]">
         <Image
           src={bg_top}
@@ -38,6 +27,16 @@ const Section5: FC<Props> = (props): JSX.Element => {
           fill
           sizes="100vw"
           className="object-cover rotate-180"
+        />
+      </div>
+
+      <div className="absolute bottom-0 inset-x-0 aspect-[12]">
+        <Image
+          src={bg_top}
+          alt="Section 5 background bottom"
+          fill
+          sizes="100vw"
+          className="object-cover"
         />
       </div>
 

@@ -15,7 +15,7 @@ interface Props {
   t: any;
   accordionData: { question: string; answer: string }[];
   heading: ReactNode;
-  type: 'type_1' | 'type_2' | 'type_3' | 'type_4';
+  type: 'type_1' | 'type_2' | 'type_3' | 'type_4' | 'type_5';
 }
 
 const FaqSection: FC<Props> = ({ t, accordionData, heading, type }): JSX.Element => {
@@ -54,6 +54,8 @@ const FaqSection: FC<Props> = ({ t, accordionData, heading, type }): JSX.Element
                           ? 'bg-gradient-to-r from-[#A57038] to-[#DAAA60] !text-white !no-underline'
                           : type === 'type_4'
                           ? 'bg-gradient-to-r from-[#E6273C] to-[#ff6868] !text-white !no-underline'
+                          : type === 'type_5'
+                          ? 'bg-gradient-to-r from-[#224781] to-[#0C8988] !text-white !no-underline'
                           : ''
                       }`
                   )}

@@ -20,20 +20,16 @@ const accordionData = [
     question: 'question_3.question',
     answer: 'question_3.answer',
   },
-  {
-    question: 'question_4.question',
-    answer: 'question_4.answer',
-  },
 ];
 
 const Section13: FC<Props> = (props): JSX.Element => {
-  const t = useTranslations('ecommerce_page.section_9');
+  const t = useTranslations('travel_page.section_9');
   return (
     <FaqSection
-      heading={<CustomHeading2 t={t} type_5 customClassname="text-center" />}
+      heading={<CustomHeading2 t={t} type_6 customClassname="text-center" />}
       t={t}
       accordionData={accordionData}
-      type="type_4"
+      type="type_5"
     />
   );
 };

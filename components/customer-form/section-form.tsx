@@ -18,11 +18,12 @@ import Reveal from '../reveal';
 
 import dynamic from 'next/dynamic';
 import { cn } from '@/lib/utils';
+import SpecialSubmitButton from '../special-submit-button';
 const FailedDialog = dynamic(() => import('./failed-dialog'), { ssr: false });
 const SuccessfulDialog = dynamic(() => import('./successful-dialog'), { ssr: false });
 
 interface Props {
-  type: 'type_1' | 'type_2' | 'type_3' | 'type_4';
+  type: 'type_1' | 'type_2' | 'type_3' | 'type_4' | 'type_5';
 }
 
 const SectionForm: FC<Props> = ({ type }): JSX.Element => {
@@ -178,14 +179,18 @@ const SectionForm: FC<Props> = ({ type }): JSX.Element => {
           </Reveal>
 
           <Reveal customClassname="text-center">
-            <SubmitButton
-              isLoading={isPending}
-              className="my-4"
-              type_1={type === 'type_1'}
-              type_2={type === 'type_2'}
-              type_3={type === 'type_3'}
-              type_4={type === 'type_4'}
-            />
+            {type === 'type_5' ? (
+              <SpecialSubmitButton isLoading={isPending} className="my-4" />
+            ) : (
+              <SubmitButton
+                isLoading={isPending}
+                className="my-4"
+                type_1={type === 'type_1'}
+                type_2={type === 'type_2'}
+                type_3={type === 'type_3'}
+                type_4={type === 'type_4'}
+              />
+            )}
           </Reveal>
         </form>
       </Form>
