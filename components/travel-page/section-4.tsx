@@ -1,15 +1,15 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import React, { FC, ReactNode, useRef, useState } from 'react';
+import React, { FC, useState } from 'react';
 import ContentContainer from '../content-container';
 import Reveal from '../reveal';
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import CustomHeading2 from '../custom-heading-2';
 import img1 from '@/public/travel-page/section-3-img-2.webp';
 import img2 from '@/public/travel-page/section-3-img-3.webp';
 import img3 from '@/public/travel-page/module-dat-tour.png';
-import bg_top from '@/public/travel-page/section-3-bg-top.png';
+import bg_top from '@/public/travel-page/section-3-bg-top.webp';
 import { cn } from '@/lib/utils';
 
 const typeData = [
@@ -43,7 +43,7 @@ const Section4: FC<Props> = (props): JSX.Element => {
     >
       <div className="absolute inset-0 bg-gradient-to-b from-[#244282] to-[#029789] opacity-90"></div>
 
-      <div className="absolute top-0 inset-x-0 aspect-[12]">
+      <div className="absolute top-[-1%] inset-x-0 aspect-[12]">
         <Image
           src={bg_top}
           alt="Section 3 background top"
@@ -75,10 +75,10 @@ const Section4: FC<Props> = (props): JSX.Element => {
         </ContentContainer>
 
         <ContentContainer customClassName="max-w-[900px] mt-7">
-          <Reveal customClassname="flex items-center gap-6">
+          <Reveal customClassname="sm:flex items-center gap-6">
             <button
               className={cn(
-                'uppercase py-3 px-4 text-sm font-bold rounded-[10px] transition',
+                'uppercase py-3 px-4 text-sm font-bold rounded-[10px] transition sm:mb-0 mb-6 sm:w-fit w-full',
                 activeModule === 0 ? 'bg-[#E40E26] text-white' : 'bg-[#CDDBE6]'
               )}
               onClick={() => setActiveModule(0)}
@@ -87,7 +87,7 @@ const Section4: FC<Props> = (props): JSX.Element => {
             </button>
             <button
               className={cn(
-                'uppercase py-3 px-4 text-sm font-bold rounded-[10px] transition',
+                'uppercase py-3 px-4 text-sm font-bold rounded-[10px] transition sm:mb-0 mb-6 sm:w-fit w-full',
                 activeModule === 1 ? 'bg-[#E40E26] text-white' : 'bg-[#CDDBE6]'
               )}
               onClick={() => setActiveModule(1)}
@@ -96,7 +96,7 @@ const Section4: FC<Props> = (props): JSX.Element => {
             </button>
             <button
               className={cn(
-                'uppercase py-3 px-4 text-sm font-bold rounded-[10px] transition',
+                'uppercase py-3 px-4 text-sm font-bold rounded-[10px] transition sm:w-fit w-full',
                 activeModule === 2 ? 'bg-[#E40E26] text-white' : 'bg-[#CDDBE6]'
               )}
               onClick={() => setActiveModule(2)}
@@ -106,9 +106,9 @@ const Section4: FC<Props> = (props): JSX.Element => {
           </Reveal>
         </ContentContainer>
 
-        <ContentContainer customClassName="mt-20 text-white text-sm leading-7">
-          <div className="flex gap-16">
-            <Reveal customClassname="w-[40%]">
+        <ContentContainer customClassName="lg:mt-20 mt-8 text-white text-sm leading-7">
+          <div className="lg:flex gap-16">
+            <Reveal customClassname="lg:w-[40%] w-full lg:mb-0 mb-8">
               {t.rich(typeData[activeModule].description, {
                 ul: (chunks: any) => <ul>{chunks}</ul>,
                 li: (chunks: any) => <li className="list-disc list-inside">{chunks}</li>,
