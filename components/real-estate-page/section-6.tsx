@@ -164,7 +164,7 @@ const Section6: FC<Props> = (props): JSX.Element => {
                 activeSwiperIndex === i
                   ? 'bg-[#12a5c2c8]'
                   : 'bg-[#006f8bc9] hover:bg-[#e5e5e52d] hover:scale-105',
-                'uppercase py-3 px-4 rounded-[25px] font-semibold transition duration-500'
+                'uppercase py-3 px-4 rounded-[10px] transition duration-500 text-sm font-bold'
               )}
             >
               {t(`type_${i + 1}.heading`)}
