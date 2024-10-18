@@ -74,3 +74,23 @@ body {
 .bds-sub-heading {
   @apply text-center uppercase text-sm md:text-lg xl:text-xl text-[#777777] lg:mb-5 mb-3 font-semibold;
 }
+
+/* Custom progress bar of swiper for company page */
+.custom-progressbar-container {
+  position: absolute;
+  bottom: -60px; /* Adjust this to position the progress bar */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust height (thickness) of the progress bar */
+  background-color: rgba(255, 255, 255, 0.2); /* Background of the progress bar */
+  border-radius: 2px; /* Rounded corners */
+}
+
+.custom-progressbar-fill {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background-color: #ffffff; /* Color of the filled part */
+  border-radius: 1px; /* Rounded corners for smooth edges */
+  transition: left 0.3s ease; /* Smooth transition when the width changes */
+}

@@ -17,9 +17,9 @@ const Section1: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('company_introduction_page.section_1');
 
   return (
-    <section id={t('id')} className="relative bg-[#0053d4] pt-[160px]">
+    <section id={t('id')} className="relative bg-[#0053d4] sm:pt-[160px] pt-[120px]">
       <video
-        className="absolute w-full aspect-video mix-blend-soft-light object-[top_-5.208rem_right_0px] pointer-events-none top-0"
+        className="lg:block hidden absolute w-full aspect-video mix-blend-soft-light object-[top_-5.208rem_right_0px] pointer-events-none top-0"
         src="/company-introduction-page/website-gioi-thieu-doanh-nghiep.mp4"
         playsInline
         autoPlay
@@ -32,9 +32,11 @@ const Section1: FC<Props> = (props): JSX.Element => {
           <h1 className="text-white">
             {t.rich('heading', {
               big: (chunks: any) => (
-                <span className="text-5xl font-extrabold leading-tight">{chunks}</span>
+                <span className="sm:text-5xl text-4xl font-extrabold leading-tight">{chunks}</span>
               ),
-              small: (chunks: any) => <span className="text-xl font-semibold">{chunks}</span>,
+              small: (chunks: any) => (
+                <span className="sm:text-xl text-base font-semibold">{chunks}</span>
+              ),
               br: () => <br />,
             })}
           </h1>
@@ -49,7 +51,7 @@ const Section1: FC<Props> = (props): JSX.Element => {
         </Reveal>
       </ContentContainer>
 
-      <Reveal customClassname="relative aspect-[1.385] after:bg-[linear-gradient(180deg,rgba(0,83,212,0)_0%,#0053d4_100%)] after:content-[''] after:absolute after:w-full after:h-[300px] after:top-0 after:z-0">
+      <Reveal customClassname="relative aspect-[1.385] after:lg:block after:hidden after:bg-[linear-gradient(180deg,rgba(0,83,212,0)_0%,#0053d4_100%)] after:content-[''] after:absolute after:w-full after:h-[350px] after:top-0 after:z-0">
         <Image
           src={img}
           alt="Thiết kế website giới thiệu doanh nghiệp"
@@ -58,26 +60,26 @@ const Section1: FC<Props> = (props): JSX.Element => {
           sizes="100vw"
         />
 
-        <div className="bg-[linear-gradient(360deg,#fff_0%,rgba(255,255,255,0)_100%)] z-[3] h-[20.46875rem] w-full absolute content-[''] left-0 top-[unset] bottom-0"></div>
+        <div className="bg-[linear-gradient(360deg,#fff_0%,rgba(255,255,255,0)_100%)] z-[3] lg:h-[20.46875rem] md:h-[10rem] h-[5rem] w-full absolute content-[''] left-0 top-[unset] bottom-0"></div>
 
-        <Reveal customClassname="w-[87px] aspect-square rounded-full grid place-items-center absolute top-[20%] left-[10%] bg-white z-[1] animate-bounce">
+        <Reveal customClassname="sm:grid hidden w-[87px] aspect-square rounded-full grid place-items-center absolute top-[20%] left-[10%] bg-white z-[1] animate-bounce">
           <Image src={company_1} alt="Công ty 1" width={70} height={25} />
         </Reveal>
 
-        <Reveal customClassname="w-[87px] aspect-square rounded-full grid place-items-center absolute top-[29%] left-[25%] bg-white z-[1] animate-bounce">
+        <Reveal customClassname="sm:grid hidden w-[87px] aspect-square rounded-full grid place-items-center absolute top-[29%] left-[25%] bg-white z-[1] animate-bounce">
           <Image src={company_2} alt="Công ty 2" width={55} height={25} />
         </Reveal>
 
-        <Reveal customClassname="w-[87px] aspect-square rounded-full grid place-items-center absolute top-[5%] right-[15%] bg-white z-[1] animate-bounce">
+        <Reveal customClassname="sm:grid hidden w-[87px] aspect-square rounded-full grid place-items-center absolute top-[5%] right-[15%] bg-white z-[1] animate-bounce">
           <Image src={company_3} alt="Công ty 3" width={60} height={25} />
         </Reveal>
 
-        <Reveal customClassname="w-[87px] aspect-square rounded-full grid place-items-center absolute bottom-[30%] right-[15%] bg-white z-[1] animate-bounce">
+        <Reveal customClassname="sm:grid hidden w-[87px] aspect-square rounded-full grid place-items-center absolute bottom-[30%] right-[15%] bg-white z-[1] animate-bounce">
           <Image src={company_4} alt="Công ty 4" width={67} height={25} />
         </Reveal>
       </Reveal>
 
-      <div className="bg-[#fff] py-[100px]">
+      <div className="bg-[#fff] pb-[140px]">
         <ContentContainer maxWidth="max-w-[900px] lg:!pl-[60px] lg:border-l relative">
           <div className="lg:block hidden absolute h-[66%] bottom-0 left-[-1px] bg-[#0053D4] w-[3px]"></div>
 
