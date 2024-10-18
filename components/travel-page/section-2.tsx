@@ -92,7 +92,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
         </Reveal>
 
         <div className="lg:flex items-center gap-10">
-          <div className="lg:hidden block relative aspect-[1.78] mb-16">
+          <Reveal customClassname="lg:hidden block relative aspect-[1.78] mb-16">
             <Image
               src={img1}
               alt="Web du lịch mobile"
@@ -100,13 +100,13 @@ const Section2: FC<Props> = (props): JSX.Element => {
               sizes="100vw"
               className="object-cover"
             />
-          </div>
+          </Reveal>
 
-          <div className="lg:w-[30%] w-full">
+          <Reveal customClassname="lg:w-[30%] w-full">
             <SectionSwiper />
-          </div>
+          </Reveal>
 
-          <div className="lg:block hidden relative flex-1 aspect-[1.78]">
+          <Reveal customClassname="lg:block hidden relative flex-1 aspect-[1.78]">
             <Image
               src={img1}
               alt="Web du lịch desktop"
@@ -114,7 +114,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
               sizes="100vw"
               className="object-cover"
             />
-          </div>
+          </Reveal>
         </div>
       </ContentContainer>
 
@@ -131,7 +131,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
           </Reveal>
         </ContentContainer>
 
-        <div className="absolute bottom-0 inset-x-0 aspect-[12] z-0">
+        <Reveal customClassname="absolute bottom-0 inset-x-0 aspect-[12] z-0">
           <Image
             src={bg_after}
             alt="Section 2 background after"
@@ -139,7 +139,7 @@ const Section2: FC<Props> = (props): JSX.Element => {
             sizes="100vw"
             className="object-cover"
           />
-        </div>
+        </Reveal>
       </div>
 
       <ContentContainer customClassName="sm:mt-16 mt-12">

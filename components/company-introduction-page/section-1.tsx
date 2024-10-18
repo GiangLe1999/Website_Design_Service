@@ -9,6 +9,7 @@ import company_2 from '@/public/company-introduction-page/company-2.svg';
 import company_3 from '@/public/company-introduction-page/company-3.webp';
 import company_4 from '@/public/company-introduction-page/company-4.webp';
 import Image from 'next/image';
+import CallButton from '../call-button';
 
 interface Props {}
 
@@ -57,6 +58,8 @@ const Section1: FC<Props> = (props): JSX.Element => {
           sizes="100vw"
         />
 
+        <div className="bg-[linear-gradient(360deg,#fff_0%,rgba(255,255,255,0)_100%)] z-[3] h-[20.46875rem] w-full absolute content-[''] left-0 top-[unset] bottom-0"></div>
+
         <Reveal customClassname="w-[87px] aspect-square rounded-full grid place-items-center absolute top-[20%] left-[10%] bg-white z-[1] animate-bounce">
           <Image src={company_1} alt="Công ty 1" width={70} height={25} />
         </Reveal>
@@ -73,6 +76,28 @@ const Section1: FC<Props> = (props): JSX.Element => {
           <Image src={company_4} alt="Công ty 4" width={67} height={25} />
         </Reveal>
       </Reveal>
+
+      <div className="bg-[#fff] py-[100px]">
+        <ContentContainer maxWidth="max-w-[900px] lg:!pl-[60px] lg:border-l relative">
+          <div className="lg:block hidden absolute h-[66%] bottom-0 left-[-1px] bg-[#0053D4] w-[3px]"></div>
+
+          <Reveal>
+            <p className="md:text-2xl md:leading-relaxed text-lg leading-8 mb-4 font-semibold">
+              {t('paragraph_1')}
+            </p>
+          </Reveal>
+
+          <Reveal>
+            <p className="text-sm leading-7 mb-4">{t('paragraph_2')}</p>
+          </Reveal>
+
+          <Reveal>
+            <p className="text-sm leading-7">{t('paragraph_3')}</p>
+          </Reveal>
+
+          <CallButton type_6 className="mt-6" />
+        </ContentContainer>
+      </div>
     </section>
   );
 };

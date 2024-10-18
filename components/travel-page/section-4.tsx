@@ -69,9 +69,11 @@ const Section4: FC<Props> = (props): JSX.Element => {
         </ContentContainer>
 
         <ContentContainer>
-          <p className="text-sm text-white leading-7 md:text-lg md:leading-9 text-center">
-            {t('description')}
-          </p>
+          <Reveal>
+            <p className="text-sm text-white leading-7 md:text-lg md:leading-9 text-center">
+              {t('description')}
+            </p>
+          </Reveal>
         </ContentContainer>
 
         <ContentContainer customClassName="max-w-[900px] mt-7">
