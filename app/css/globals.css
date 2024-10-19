@@ -94,3 +94,30 @@ body {
   border-radius: 1px; /* Rounded corners for smooth edges */
   transition: left 0.3s ease; /* Smooth transition when the width changes */
 }
+
+.company_introduction_swiper .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; /* Add space between bullets */
+}
+
+/* Style the default bullets */
+.company_introduction_swiper .swiper-pagination-bullet {
+  background-color: #fff; /* Light background */
+  opacity: 50%;
+  width: 6px; /* Adjust width */
+  height: 6px; /* Adjust height */
+  border-radius: 50%; /* Make bullets round */
+  border: 2px solid transparent; /* Border around bullets */
+  transition: all;
+}
+
+/* Style the active bullet */
+.company_introduction_swiper .swiper-pagination-bullet-active {
+  background-color: #fff; /* Same color as the background */
+  opacity: 100%;
+  outline: 1px solid #fff; /* Add outline around the active bullet */
+  outline-offset: 3px;
+  transition: all;
+}

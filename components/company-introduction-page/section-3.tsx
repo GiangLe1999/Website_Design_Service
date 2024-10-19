@@ -1,10 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { act, Dispatch, FC, SetStateAction, useCallback, useState } from 'react';
+import { Dispatch, FC, SetStateAction, useState } from 'react';
 import ContentContainer from '../content-container';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Swiper as SwiperType } from 'swiper';
 import 'swiper/css';
 
 import Reveal from '../reveal';
@@ -40,11 +39,11 @@ const Section3: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('company_introduction_page.section_3');
 
   return (
-    <section id={t('id')} className="relative pt-[100px]">
+    <section id={t('id')} className="relative py-[100px]">
       <ContentContainer>
-        <div className="max-w-[600px] mb-24">
+        <div className="max-w-[700px] md:mb-24 mb-14">
           <CustomHeading2 type_7 t={t} />
-          <p className="text-sm leading-7">{t('description')}</p>
+          <p className="sm:text-lg sm:leading-9 text-sm leading-7">{t('description')}</p>
         </div>
 
         <div className="flex lg:flex-row flex-col gap-16">

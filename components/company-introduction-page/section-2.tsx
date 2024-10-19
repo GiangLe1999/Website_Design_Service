@@ -62,9 +62,9 @@ const Section2: FC<Props> = (props): JSX.Element => {
   return (
     <section id={t('id')} className="relative bg-[#0053d4] pt-[120px] overflow-hidden">
       <ContentContainer>
-        <div className="sm:max-w-[600px] mb-14">
+        <div className="sm:max-w-[700px] mb-14">
           <CustomHeading2 t={t} customClassname="text-white" />
-          <p className="text-white text-sm leading-7">{t('description')}</p>
+          <p className="text-white sm:text-lg sm:leading-9 text-sm leading-7">{t('description')}</p>
         </div>
 
         <Reveal>

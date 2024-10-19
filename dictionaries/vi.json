@@ -1432,6 +1432,62 @@
         "heading": "Tương thích với đa thiết bị (Responsive Design)",
         "description": "Thiết kế web responsive sẽ giúp tăng khả năng tiếp cận với đông đảo người dùng hiện tại, và dù sử dụng bất kỳ giao diện nào, người dùng điều cảm nhận được sự hoàn thiện của mọi yếu tố trên website với trải nghiệm tốt."
       }
+    },
+    "section_4": {
+      "id": "top_website_gioi_thieu_doanh_nghiep_2024",
+      "heading": "Top 10+ website giới thiệu doanh nghiệp ấn tượng nhất 2024",
+      "description": "Dưới đây là 12 mẫu thiết kế website chúng tôi đề xuất để các bạn có thêm cái nhìn tổng thể nhất.",
+      "website_1": {
+        "name": "Trung Nguyên Legend",
+        "description": "Thiết kế website của Trung Nguyên Legend mang phong cách sang trọng và đậm chất văn hóa cà phê Việt Nam. Giao diện sử dụng màu sắc chủ đạo là nâu và đen, gợi nhớ đến hương vị cà phê đặc trưng."
+      },
+      "website_2": {
+        "name": "Thanh An Foods",
+        "description": "Website Thanh An mang phong cách thiết kế ấn tượng và thu hút cùng hiệu ứng trải nghiệm mượt mà, tinh tế có khả năng giữ chân và chinh phục khách hàng ngay lần đầu tiên."
+      },
+      "website_3": {
+        "name": "Carez",
+        "description": "Carez Việt Nam, nhãn hiệu hàng gia dụng cao cấp đạt tiêu chuẩn FDA – Tiêu chuẩn chất lượng an toàn thực phẩm và dược phẩm của Mỹ."
+      },
+      "website_4": {
+        "name": "DKRS",
+        "description": "DKRS ghi dấu ấn mạnh mẽ trong lòng khách hàng, định vị một thương hiệu phân phối bất động sản uy tín và chuyên nghiệp."
+      },
+      "website_5": {
+        "name": "Thaco Industries",
+        "description": "Thaco Industries đã vươn mình sang thị trường quốc tế và nhận được sự tin cậy bởi hàng loạt những thương hiệu danh tiếng."
+      },
+      "website_6": {
+        "name": "Portico",
+        "description": "“Siêu phẩm” mới trong giới định cư – di trú tại Việt Nam, kế thừa xuất sắc website đã thực hiện trước đó nhưng cũng đầy đột phá."
+      },
+      "website_7": {
+        "name": "Kosmos VN",
+        "description": "Kosmos - Chinh phục khách hàng bằng hàng loạt sản phẩm sàn gỗ chất lượng với chứng chỉ chất lượng trong nước lẫn quốc tế."
+      },
+      "website_8": {
+        "name": "Phú Cường Seafood",
+        "description": "Phú Cường Seafood – Tập đoàn chế biến và xuất khẩu thủy sản hàng đầu tại Việt Nam. Thương hiệu uy tín trong lĩnh vực của miền Tây Nam Bộ."
+      },
+      "website_9": {
+        "name": "Vinacontrol",
+        "description": "Vinacontrol Hồ Chí Minh rất chú trọng việc xây dựng hình ảnh chất thân thiện, chuyên nghiệp trong lòng khách hàng trong và ngoài nước."
+      },
+      "website_10": {
+        "name": "Honda Tiền Giang",
+        "description": "“Showroom xe online” cho thương hiệu uy tín và chuyên nghiệp gắn liền với ký ức khách hàng Việt Nam qua nhiều năm tháng."
+      },
+      "website_11": {
+        "name": "Savills",
+        "description": "Website chính là điểm cộng đặc biệt giúp Industrial Property VN mở rộng khả năng tiếp cận với tất cả khách hàng và tạo ra cơ hội hợp tác thành công."
+      },
+      "website_12": {
+        "name": "Greenworld",
+        "description": "Greenworld – Sự kết tinh của giao diện nội thất hoàn hảo và công nghệ thiết kế hiện đại."
+      },
+      "company_name": "Tên thương hiệu",
+      "complete_year": "Hoàn thành",
+      "view_website": "Xem website"
     }
   }
 }
