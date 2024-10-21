@@ -214,13 +214,13 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ slideData, t }) => {
   return (
-    <Reveal customClassname="relative rounded-xl bg-[#0053D4] p-[92px]">
+    <Reveal customClassname="h-[550px] sm:h-auto relative rounded-xl bg-[#0053D4] p-[92px]">
       <div className="absolute -top-12 left-[92px] bg-white rounded-full w-[97px] aspect-square grid place-items-center custom_filter">
         <Image src={slideData.logo} alt={t(slideData.name)} className="h-[50px] w-auto" />
       </div>
 
-      <div className="flex items-center gap-10">
-        <div className="w-1/2">
+      <div className="md:flex items-center gap-10">
+        <div className="md:w-1/2 w-full">
           <p className="text-white leading-7 mb-[53px]">{t(slideData.description)}</p>
           <div className="flex justify-between gap-2">
             <div className="border-l-2 border-white text-white pl-4">
@@ -237,7 +237,7 @@ const SwiperCard: FC<SwiperCardProps> = ({ slideData, t }) => {
         </div>
       </div>
 
-      <div className="absolute right-[13%] -top-14 w-[260px] aspect-[0.527]">
+      <div className="md:block hidden absolute right-[13%] -top-14 w-[260px] aspect-[0.527]">
         <Image
           src={slideData.img}
           alt={t(slideData.name)}
