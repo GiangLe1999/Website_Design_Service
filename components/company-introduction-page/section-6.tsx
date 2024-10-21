@@ -11,6 +11,7 @@ import logo_2 from '@/public/company-introduction-page/section-6-logo-2.svg';
 import logo_3 from '@/public/company-introduction-page/section-6-logo-3.svg';
 import logo_4 from '@/public/company-introduction-page/section-6-logo-4.svg';
 import logo_5 from '@/public/company-introduction-page/section-6-logo-5.svg';
+import ceo from '@/public/company-introduction-page/section-6-ceo.png';
 import Image from 'next/image';
 
 interface Props {}
@@ -75,7 +76,22 @@ const Section6: FC<Props> = (props): JSX.Element => {
         </div>
       </ContentContainer>
 
-      <div className="pl-[10%] bg-[#0053D4] text-white rounded-l-full"></div>
+      <Reveal customClassname="ml-[10%] relative bg-[#0053D4] text-white rounded-l-full p-[90px] mt-[100px]">
+        <div className="absolute -top-[119px] left-4">
+          <Image src={ceo} alt="Co-Founder" width={575} height={482} />
+        </div>
+        <div className="flex items-center">
+          <div className="w-[55%]"></div>
+          <div className="flex-1">
+            <p className="mb-[26px] leading-7">{t('qoute.description')}</p>
+
+            <div className="border-l-2 border-white text-white pl-4">
+              <p className="font-bold mb-1">{t('qoute.name')}</p>
+              <p className="text-xs">{t('qoute.position')}</p>
+            </div>
+          </div>
+        </div>
+      </Reveal>
     </section>
   );
 };
