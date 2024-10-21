@@ -1537,6 +1537,21 @@
         "description": "RiverLee đã đáp ứng mọi yêu cầu của chúng tôi một cách nhanh chóng và chuyên nghiệp, chúng tôi rất hài lòng với kết quả nhận được. Thiết kế mang tính sáng tạo cao, giúp chúng tôi nổi bật trong lĩnh vực cạnh tranh khốc liệt. Giao diện trang web vừa tinh tế, vừa đảm bảo hiệu quả trong trải nghiệm người dùng. Chúng tôi sẽ tiếp tục hợp tác với RiverLee trong tương lai."
       },
       "view_website": "Xem website"
+    },
+    "section_6": {
+      "id": "bao_chi_noi_gi_ve_riverlee",
+      "heading": "Báo chí nói gì về RiverLee",
+      "description": "Đoán xem những thông tin mới, hay, bổ ích cùng RiverLee nhé.",
+      "news": {
+        "heading": "Bật cá tính thương hiệu với website “may đo”",
+        "description": "Yếu tố sáng tạo gần như không có “biên giới” với một sản phẩm website được thiết kế mới. Tôi cho rằng, nhiệm vụ của các đơn vị kinh doanh trong lĩnh vực thiết kế website như RiverLee là hỗ trợ và tư vấn khách hàng tìm được “chất riêng” phù hợp, và thể hiện chúng một cách sống động qua từng đường nét bên trong website."
+      },
+      "see_detail": "Xem chi tiết",
+      "qoute": {
+        "description": "Từ trước đến nay, phạm trù thiết kế website vốn không mới. Thế nhưng, thiết kế website đối với thương hiệu và doanh nghiệp luôn quan trọng. Trong thời đại số, website tốt - hiệu quả - chuyên nghiệp đã “thay lời muốn nói” cho vị thế doanh nghiệp của bạn.",
+        "name": "Mr. Thanh Giang",
+        "position": "Co-Founder & Account Director"
+      }
     }
   }
 }

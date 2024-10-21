@@ -62,58 +62,58 @@ const Section5: FC<Props> = (props): JSX.Element => {
         className="relative py-[100px] bg-[url('/company-introduction-page/section-5-bg.svg')] bg-no-repeat bg-[top_center] bg-[55rem_auto] z-[1]"
       >
         <ContentContainer>
-          <div className="max-w-[700px] mb-24">
+          <div className="max-w-[700px] lg:mb-24 mb-10">
             <CustomHeading2 type_7 t={t} />
             <Reveal>
               <p className="sm:text-lg sm:leading-9 text-sm leading-7">{t('description')}</p>
             </Reveal>
           </div>
 
-          <div className="grid grid-cols-4 gap-12">
+          <div className="grid lg:grid-cols-4 grid-cols-1 gap-12">
             <Reveal customClassname="relative">
               <p className="text-[#0053D4] text-4xl font-extrabold mb-2">02+</p>
-              <p className="bg-[#fff] shadow-[0px_4px_1.5625rem_0px_rgba(201,209,234,0.3)] text-[#2351d6] font-bold leading-[2.448rem] inline-flex mb-[0.78125rem] px-[1.198rem] py-0 w-fit rounded-full">
+              <p className="bg-[#fff] shadow-[0px_4px_1.5625rem_0px_rgba(201,209,234,0.3)] text-[#2351d6] font-bold inline-flex mb-[0.78125rem] px-[1.198rem] py-2 w-fit rounded-full">
                 {t('reason_1.heading')}
               </p>
               <p className="text-[13px] leading-6">{t('reason_1.description')}</p>
 
-              <div className="w-[0.46875rem] h-[0.46875rem] bg-[#2351d6] absolute rounded-[50%] -left-8 top-16">
+              <div className="w-[0.46875rem] h-[0.46875rem] bg-[#2351d6] absolute rounded-[50%] sm:-left-8 -left-4 top-16">
                 <span className="bg-[linear-gradient(134deg,#2351d6_0%,rgba(85,177,236,0.00)_100%)] w-[2px] h-[12.854rem] absolute left-1/2 -translate-x-1/2"></span>
               </div>
             </Reveal>
 
-            <Reveal customClassname="relative mt-40">
+            <Reveal customClassname="relative lg:mt-40 mt-0">
               <p className="text-[#55B1EC] text-4xl font-extrabold mb-2">100+</p>
-              <p className="bg-[#fff] shadow-[0px_4px_1.5625rem_0px_rgba(201,209,234,0.3)] text-[#55B1EC] font-bold leading-[2.448rem] inline-flex mb-[0.78125rem] px-[1.198rem] py-0 w-fit rounded-full">
+              <p className="bg-[#fff] shadow-[0px_4px_1.5625rem_0px_rgba(201,209,234,0.3)] text-[#55B1EC] font-bold inline-flex mb-[0.78125rem] px-[1.198rem] py-2 w-fit rounded-full">
                 {t('reason_2.heading')}
               </p>
               <p className="text-[13px] leading-6">{t('reason_2.description')}</p>
 
-              <div className="w-[0.46875rem] h-[0.46875rem] bg-[#55B1EC] absolute rounded-[50%] -left-8 top-16">
+              <div className="w-[0.46875rem] h-[0.46875rem] bg-[#55B1EC] absolute rounded-[50%] sm:-left-8 -left-4 top-16">
                 <span className="bg-[linear-gradient(134deg,#55B1EC_0%,rgba(85,177,236,0.00)_100%)] w-[2px] h-[12.854rem] absolute left-1/2 -translate-x-1/2"></span>
               </div>
             </Reveal>
 
             <Reveal customClassname="relative">
               <p className="text-[#0053D4] text-4xl font-extrabold mb-2">10+</p>
-              <p className="bg-[#fff] shadow-[0px_4px_1.5625rem_0px_rgba(201,209,234,0.3)] text-[#2351d6] font-bold leading-[2.448rem] inline-flex mb-[0.78125rem] px-[1.198rem] py-0 w-fit rounded-full">
+              <p className="bg-[#fff] shadow-[0px_4px_1.5625rem_0px_rgba(201,209,234,0.3)] text-[#2351d6] font-bold inline-flex mb-[0.78125rem] px-[1.198rem] py-2 w-fit rounded-full">
                 {t('reason_3.heading')}
               </p>
               <p className="text-[13px] leading-6">{t('reason_3.description')}</p>
 
-              <div className="w-[0.46875rem] h-[0.46875rem] bg-[#2351d6] absolute rounded-[50%] -left-8 top-16">
+              <div className="w-[0.46875rem] h-[0.46875rem] bg-[#2351d6] absolute rounded-[50%] sm:-left-8 -left-4 top-16">
                 <span className="bg-[linear-gradient(134deg,#2351d6_0%,rgba(85,177,236,0.00)_100%)] w-[2px] h-[12.854rem] absolute left-1/2 -translate-x-1/2"></span>
               </div>
             </Reveal>
 
-            <Reveal customClassname="relative mt-40">
+            <Reveal customClassname="relative lg:mt-40 mt-0">
               <Image src={wordpress_img} alt="Wordpress" className="h-10 w-auto mb-2" />
-              <p className="bg-[#fff] shadow-[0px_4px_1.5625rem_0px_rgba(201,209,234,0.3)] text-[#55B1EC] font-bold leading-[2.448rem] inline-flex mb-[0.78125rem] px-[1.198rem] py-0 w-fit rounded-full">
+              <p className="bg-[#fff] shadow-[0px_4px_1.5625rem_0px_rgba(201,209,234,0.3)] text-[#55B1EC] font-bold inline-flex mb-[0.78125rem] px-[1.198rem] py-2 w-fit rounded-full">
                 {t('reason_4.heading')}
               </p>
               <p className="text-[13px] leading-6">{t('reason_4.description')}</p>
 
-              <div className="w-[0.46875rem] h-[0.46875rem] bg-[#55B1EC] absolute rounded-[50%] -left-8 top-16">
+              <div className="w-[0.46875rem] h-[0.46875rem] bg-[#55B1EC] absolute rounded-[50%] sm:-left-8 -left-4 top-16">
                 <span className="bg-[linear-gradient(134deg,#55B1EC_0%,rgba(85,177,236,0.00)_100%)] w-[2px] h-[12.854rem] absolute left-1/2 -translate-x-1/2"></span>
               </div>
             </Reveal>
@@ -125,7 +125,7 @@ const Section5: FC<Props> = (props): JSX.Element => {
 
       <section>
         <ContentContainer maxWidth="max-w-[1000px]">
-          <div className="grid grid-cols-3 gap-16 relative z-[1]">
+          <div className="grid lg:grid-cols-3 grid-cols-1 lg:gap-16 gap-8 relative z-[1]">
             <Reveal>
               <div className="w-[60px] aspect-square rounded-full bg-[#0053D4] grid place-items-center mb-2 mx-8">
                 <Image src={icon_1} alt="Icon 1" />
