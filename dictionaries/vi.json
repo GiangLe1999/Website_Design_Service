@@ -1488,6 +1488,55 @@
       "company_name": "Tên thương hiệu",
       "complete_year": "Hoàn thành",
       "view_website": "Xem website"
+    },
+    "section_5": {
+      "id": "tai_sao_nen_chon_thiet_ke_website_doanh_nghiep_tai_riverlee",
+      "heading": "Tại sao nên chọn RiverLee?",
+      "description": "RiverLee Agency tự hào đứng vai trò là một chuyên gia với nhiều năm kinh nghiệm thực chiến trong lĩnh vực thiết kế website, 100+ website đã ra đời và vận hành ổn định.",
+      "reason_1": {
+        "heading": "Năm kinh nghiệm “ra khơi”",
+        "description": "Chúng tôi có 2 năm kinh nghiệm trong thiết kế website giới thiệu công ty"
+      },
+      "reason_2": {
+        "heading": "Sản phẩm thiết kế",
+        "description": "Sản phẩm thiết kế được vận hành ổn định tại RiverLee"
+      },
+      "reason_3": {
+        "heading": "Ngành nghề thấu hiểu",
+        "description": "Ngành nghề thấu hiểu, song hành và chinh phục thành công"
+      },
+      "reason_4": {
+        "heading": "Nền tảng Wordpress",
+        "description": "Sử dụng nền tảng WordPress mang tính xu hướng toàn cầu"
+      },
+      "reason_5": {
+        "heading": "Cam kết đối với khách hàng",
+        "description": "Cam kết về bảo mật thông tin và quyền riêng tư khách hàng"
+      },
+      "reason_6": {
+        "heading": "Dịch vụ chăm sóc khách hàng",
+        "description": "Dịch vụ chăm sóc khách hàng chuyên nghiệp, tư vấn nhiệt thành"
+      },
+      "reason_7": {
+        "heading": "Cập nhật xu hướng thiết kế mới",
+        "description": "Cập nhật và áp dụng những xu hướng thiết kế website bất động sản mới nhất."
+      },
+      "company_1": {
+        "name": "Đại diện Trung Nguyên Legend",
+        "person": "Mr. Khanh Hoang",
+        "description": "Chúng tôi rất hài lòng với dịch vụ thiết kế từ RiverLee. Đội ngũ làm việc tận tâm và chuyên nghiệp, mang đến kết quả vượt ngoài mong đợi. Giao diện trang web được thiết kế hiện đại, thân thiện với người dùng và phù hợp với hình ảnh thương hiệu của chúng tôi. RiverLee luôn sẵn sàng hỗ trợ và đáp ứng nhanh chóng mọi yêu cầu của chúng tôi."
+      },
+      "company_2": {
+        "name": "Website Gạo Foods",
+        "person": "Mr. Lê An",
+        "description": "Dịch vụ của RiverLee thật sự xuất sắc. Họ đã lắng nghe và hiện thực hóa ý tưởng của chúng tôi một cách hoàn hảo, rất ấn tượng. Website sau khi hoàn thiện giúp chúng tôi thu hút nhiều khách hàng mới và nâng cao uy tín trên thị trường. Chúng tôi đánh giá cao sự chuyên nghiệp và tinh thần trách nhiệm của đội ngũ thiết kế."
+      },
+      "company_3": {
+        "name": "Đại diện Selegend",
+        "person": "Ms. NTTH",
+        "description": "RiverLee đã đáp ứng mọi yêu cầu của chúng tôi một cách nhanh chóng và chuyên nghiệp, chúng tôi rất hài lòng với kết quả nhận được. Thiết kế mang tính sáng tạo cao, giúp chúng tôi nổi bật trong lĩnh vực cạnh tranh khốc liệt. Giao diện trang web vừa tinh tế, vừa đảm bảo hiệu quả trong trải nghiệm người dùng. Chúng tôi sẽ tiếp tục hợp tác với RiverLee trong tương lai."
+      },
+      "view_website": "Xem website"
     }
   }
 }

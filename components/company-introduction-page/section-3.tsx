@@ -43,14 +43,16 @@ const Section3: FC<Props> = (props): JSX.Element => {
       <ContentContainer>
         <div className="max-w-[700px] md:mb-24 mb-14">
           <CustomHeading2 type_7 t={t} />
-          <p className="sm:text-lg sm:leading-9 text-sm leading-7">{t('description')}</p>
+          <Reveal>
+            <p className="sm:text-lg sm:leading-9 text-sm leading-7">{t('description')}</p>
+          </Reveal>
         </div>
 
         <div className="flex lg:flex-row flex-col gap-16">
           <SectionSwiper t={t} activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
-          <div className="flex-1">
+          <Reveal customClassname="flex-1">
             <Image src={featuresData[activeImgIndex].img} alt={`Tính năng ${activeIndex + 1}`} />
-          </div>
+          </Reveal>
         </div>
       </ContentContainer>
     </section>

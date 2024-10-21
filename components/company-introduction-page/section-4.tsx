@@ -154,7 +154,7 @@ const swiperData = [
 
 interface Props {}
 
-const Section3: FC<Props> = (props): JSX.Element => {
+const Section4: FC<Props> = (props): JSX.Element => {
   const t = useTranslations('company_introduction_page.section_4');
 
   return (
@@ -170,7 +170,9 @@ const Section3: FC<Props> = (props): JSX.Element => {
         </div>
       </ContentContainer>
 
-      <SectionSwiper t={t} />
+      <Reveal>
+        <SectionSwiper t={t} />
+      </Reveal>
     </section>
   );
 };
@@ -222,7 +224,7 @@ interface SwiperCardProps {
 
 const SwiperCard: FC<SwiperCardProps> = ({ slideData, t }) => {
   return (
-    <Reveal customClassname="lg:h-[700px] md:h-[1000px] sm:h-[800px] h-[850px] flex lg:flex-row flex-col gap-16 bg-[rgba(255,255,255,0.15)] stroke-[1px] border backdrop-blur-[2px] box-border mx-[0.99rem] my-0 md:pt-[4.6875rem] pt-[3rem] md:pb-[3.125rem] pb-[2.5rem] md:px-[5.208rem] px-[2.5rem] rounded-[1.042rem] border-solid border-[rgba(255,255,255,0.4)]">
+    <Reveal customClassname="lg:h-[700px] md:h-[1000px] sm:h-[800px] h-[800px] flex lg:flex-row flex-col gap-16 bg-[rgba(255,255,255,0.15)] stroke-[1px] border backdrop-blur-[2px] box-border mx-[0.99rem] my-0 md:pt-[4.6875rem] pt-[3rem] md:pb-[3.125rem] pb-[2.5rem] md:px-[5.208rem] px-[2.5rem] rounded-[1.042rem] border-solid border-[rgba(255,255,255,0.4)]">
       <div className="lg:w-[28%] w-full text-white">
         <Image
           src={slideData.logo}
@@ -256,4 +258,4 @@ const SwiperCard: FC<SwiperCardProps> = ({ slideData, t }) => {
   );
 };
 
-export default Section3;
+export default Section4;

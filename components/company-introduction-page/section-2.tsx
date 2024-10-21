@@ -64,7 +64,11 @@ const Section2: FC<Props> = (props): JSX.Element => {
       <ContentContainer>
         <div className="sm:max-w-[700px] mb-14">
           <CustomHeading2 t={t} customClassname="text-white" />
-          <p className="text-white sm:text-lg sm:leading-9 text-sm leading-7">{t('description')}</p>
+          <Reveal>
+            <p className="text-white sm:text-lg sm:leading-9 text-sm leading-7">
+              {t('description')}
+            </p>
+          </Reveal>
         </div>
 
         <Reveal>
