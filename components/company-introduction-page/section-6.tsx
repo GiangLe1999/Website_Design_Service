@@ -74,6 +74,8 @@ const Section6: FC<Props> = (props): JSX.Element => {
           </Reveal>
         </div>
       </ContentContainer>
+
+      <div className="pl-[10%] bg-[#0053D4] text-white rounded-l-full"></div>
     </section>
   );
 };

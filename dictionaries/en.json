@@ -1361,5 +1361,195 @@
         "answer": "The warranty period lasts as per the agreement outlined in the contract. However, the relationship between us and the customer will last forever."
       }
     }
+  },
+  "company_introduction_page": {
+    "section_1": {
+      "id": "business_website_design",
+      "heading": "<small>Website Design</small><br></br><big>Business<br></br>Company Introduction</big>",
+      "description": "Business website design can help companies build their brand online and promote products to customers quickly and easily.",
+      "paragraph_1": "With the current trend of using the internet for various online interfaces, your business cannot afford to be absent from the internet market.",
+      "paragraph_2": "This is one of the key insights from the 2022 E-Commerce Index (EBI) Report recently published by the Vietnam E-commerce Association (VECOM). The report highlights a significant increase in both the quantity and quality of online consumers.",
+      "paragraph_3": "According to the VECOM report, despite the overall economic challenges, the e-commerce sector continues to maintain rapid and stable growth. In 2021, Vietnam's e-commerce industry grew by over 20% and reached a scale of over 16 billion USD. This growth is expected to be even higher in 2022, thanks to effective COVID-19 control and growth drivers from the second wave."
+    },
+    "section_2": {
+      "id": "why_businesses_need_an_introduction_website",
+      "heading": "Why Should Businesses Have an Introduction Website?",
+      "description": "RiverLee understands that creating a professional, effective business website that can become a “magnet” attracting customers involves a close combination of many “NEEDED - SUFFICIENT - EXCEPTIONAL” elements.",
+      "reason_1": {
+        "heading": "Expand Market, Increase Sales",
+        "description": "Having a website means expanding your business from offline to online, providing you with a new sales channel and access to a vibrant market with millions of customers who prefer online shopping."
+      },
+      "reason_2": {
+        "heading": "Enhance Business Credibility",
+        "description": "Nowadays, a website represents the face of a business. Without a website, people might question the legitimacy of the company. Having a website is an opportunity to make a great first impression and build trust with customers."
+      },
+      "reason_3": {
+        "heading": "Build Brand Identity",
+        "description": "A website is a tool to introduce your brand to potential customers. By defining who you are, what products or services you offer, and the benefits you bring to customers, you increase the chance of making sales."
+      },
+      "reason_4": {
+        "heading": "A Website is the Second Office of the Business",
+        "description": "Just as a physical office is where a company conducts its transactions and showcases its image, a website is like a second office on the internet."
+      },
+      "reason_5": {
+        "heading": "A Tool for Marketing Activities",
+        "description": "With the continuous growth of the internet, online marketing has become a powerful tool for businesses to attract customers alongside traditional marketing methods. To achieve this, a website is essential."
+      },
+      "sub_heading": "RiverLee Agency Always Focuses on User Experience",
+      "sub_description": "Each website is the most impressive “introduction” of the owner to their customers and partners."
+    },
+    "section_3": {
+      "id": "essential_features_of_a_business_website",
+      "heading": "Features of a Business Website",
+      "description": "RiverLee understands that creating a professional, effective business website that can become a “magnet” for customers involves a combination of many “NEEDED - SUFFICIENT - EXCEPTIONAL” elements.",
+      "feature_1": {
+        "heading": "Focus on Content",
+        "description": "Content is king in the realm of premium web design. The content of a website should not only be refined but also help customers quickly understand who you are, what you do, and what products you sell."
+      },
+      "feature_2": {
+        "heading": "Access Speed or Loading Time",
+        "description": "A slow website will certainly discourage users and reduce the likelihood of them returning. Many factors can slow down your website. An effective and professional website must pay close attention to this."
+      },
+      "feature_3": {
+        "heading": "Simple Management",
+        "description": "RiverLee aims to remove limitations on website management for clients. The internal management software is designed to be simple and user-friendly, supporting the input, addition, and modification of data."
+      },
+      "feature_4": {
+        "heading": "Smooth Functionality",
+        "description": "Depending on the specifics of each website, additional tools and support features may be required. Effective website design must balance all factors to ensure the overall operational quality of the website."
+      },
+      "feature_5": {
+        "heading": "SEO-friendly Business Website Design",
+        "description": "SEO-friendly or search engine optimized website design means optimizing technical aspects such as web code, interface design, and fast loading speed. This also helps your website rank better on SERPs."
+      },
+      "feature_6": {
+        "heading": "Attractive Business Website Interface",
+        "description": "A professionally designed, aesthetically pleasing website with well-curated images and creative fonts is crucial for retaining customers and enhancing their experience."
+      },
+      "feature_7": {
+        "heading": "Responsive Design",
+        "description": "Responsive web design enhances accessibility for a wide range of users, ensuring a seamless experience on any device they use to access the website."
+      }
+    },
+    "section_4": {
+      "id": "top_introduction_websites_2024",
+      "heading": "Top 10+ Impressive Business Introduction Websites 2024",
+      "description": "Here are 12 recommended website designs to give you a comprehensive overview.",
+      "website_1": {
+        "name": "Trung Nguyên Legend",
+        "description": "The website design of Trung Nguyên Legend embodies a luxurious style deeply rooted in Vietnamese coffee culture, featuring a color scheme dominated by brown and black that evokes the unique flavor of coffee."
+      },
+      "website_2": {
+        "name": "Thanh An Foods",
+        "description": "Thanh An's website boasts an impressive and appealing design with smooth, sophisticated user experience effects, capturing and retaining customers from the first visit."
+      },
+      "website_3": {
+        "name": "Carez",
+        "description": "Carez Vietnam, a high-end household brand that meets FDA standards for food and drug safety in the USA."
+      },
+      "website_4": {
+        "name": "DKRS",
+        "description": "DKRS makes a strong impression on customers, positioning itself as a reliable and professional real estate distributor."
+      },
+      "website_5": {
+        "name": "Thaco Industries",
+        "description": "Thaco Industries has expanded internationally, earning trust from many prestigious brands."
+      },
+      "website_6": {
+        "name": "Portico",
+        "description": "A new “masterpiece” in the field of immigration and settlement in Vietnam, building on the success of previous websites while offering fresh innovations."
+      },
+      "website_7": {
+        "name": "Kosmos VN",
+        "description": "Kosmos conquers customers with a range of high-quality flooring products certified both locally and internationally."
+      },
+      "website_8": {
+        "name": "Phú Cường Seafood",
+        "description": "Phú Cường Seafood – A leading seafood processing and exporting company in Vietnam, renowned in the Southwest region."
+      },
+      "website_9": {
+        "name": "Vinacontrol",
+        "description": "Vinacontrol Ho Chi Minh focuses on building a friendly and professional image for both domestic and international customers."
+      },
+      "website_10": {
+        "name": "Honda Tiền Giang",
+        "description": "An “online showroom” for a trusted and professional brand, deeply embedded in the memories of Vietnamese customers over the years."
+      },
+      "website_11": {
+        "name": "Savills",
+        "description": "The website provides a significant advantage for Industrial Property VN, enhancing accessibility to all customers and creating successful collaboration opportunities."
+      },
+      "website_12": {
+        "name": "Greenworld",
+        "description": "Greenworld – The perfect fusion of interior design and modern technology."
+      },
+      "company_name": "Brand Name",
+      "complete_year": "Completion Year",
+      "view_website": "View Website"
+    },
+    "section_5": {
+      "id": "why_choose_riverlee",
+      "heading": "Why Choose RiverLee?",
+      "description": "RiverLee Agency is proud to be an expert with years of hands-on experience in website design, with over 100+ websites launched and running smoothly.",
+      "reason_1": {
+        "heading": "Years of Experience",
+        "description": "We have 2 years of experience in company introduction website design."
+      },
+      "reason_2": {
+        "heading": "Reliable Design Products",
+        "description": "Design products operate reliably at RiverLee."
+      },
+      "reason_3": {
+        "heading": "Industry Understanding",
+        "description": "With deep industry understanding, we accompany and achieve success."
+      },
+      "reason_4": {
+        "heading": "WordPress Platform",
+        "description": "Using the WordPress platform, which follows global trends."
+      },
+      "reason_5": {
+        "heading": "Customer Commitment",
+        "description": "Commitment to information security and customer privacy."
+      },
+      "reason_6": {
+        "heading": "Professional Customer Support",
+        "description": "Professional customer service and enthusiastic consulting."
+      },
+      "reason_7": {
+        "heading": "Stay Updated with New Design Trends",
+        "description": "We stay updated and apply the latest trends in real estate website design."
+      },
+      "company_1": {
+        "name": "Representative of Trung Nguyên Legend",
+        "person": "Mr. Khanh Hoang",
+        "description": "We are very satisfied with the design services from RiverLee. The team is dedicated and professional, delivering results beyond expectations. The website interface is modern, user-friendly, and aligns well with our brand image. RiverLee is always ready to support and respond quickly to all our requests."
+      },
+      "company_2": {
+        "name": "Gạo Foods Website",
+        "person": "Mr. Lê An",
+        "description": "RiverLee's service is truly outstanding. They listened and brought our ideas to life perfectly, which was very impressive. The completed website has helped us attract new customers and enhance our reputation in the market. We highly appreciate the professionalism and sense of responsibility of the design team."
+      },
+      "company_3": {
+        "name": "Representative of Selegend",
+        "person": "Ms. NTTH",
+        "description": "RiverLee met all our requirements quickly and professionally, and we are very pleased with the results. The design is highly creative, helping us stand out in a competitive field. The website interface is both refined and effective in user experience. We will continue to work with RiverLee in the future."
+      },
+      "view_website": "View Website"
+    },
+    "section_6": {
+      "id": "what_the_media_says_about_riverlee",
+      "heading": "What Does the Media Say About RiverLee?",
+      "description": "Recent articles describe RiverLee as a professional website design service, known for its ability to create visually appealing websites optimized for user experience.",
+      "news": {
+        "heading": "Enhance Brand Identity with Custom-Made Websites",
+        "description": "Creativity is almost limitless when it comes to a newly designed website. I believe the role of businesses in the website design industry, like RiverLee, is to assist and advise clients in finding their unique identity and bringing it to life through every detail of the website."
+      },
+      "see_detail": "See Details",
+      "qoute": {
+        "description": "Website design has never been a new concept. However, website design for brands and businesses remains crucial. In the digital age, a good - effective - professional website has become the 'voice' of your company's position.",
+        "name": "Mr. Thanh Giang",
+        "position": "Co-Founder & Account Director"
+      }
+    }
   }
 }
